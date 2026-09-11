@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="coursecontent"><title>Content</title>
+        <subsubsection xml:id="course_intro">
+                <title>Course Description</title>
+<p>
+        Math<nbsp/>201 is about understanding instantaneous rates of change: calculating rates of change numerically and analytically; understanding relationships between a function and its rate of change function; interpreting rates of change graphically, numerically, and practically; using rates of change to solve problems. Toward this end, we also introduce the concepts of limit and convergence, and use them to elucidate the concept of continuity.
+</p>
+        </subsubsection>
+        <subsubsection xml:id="topics">
+                <title>Topics</title>
+                <p>
+                        Topics for this course include:
+                        <ul>
+<li><p>Limits and continuity</p></li>
+<li><p>The concept of a derivative including the derivative at a point, the derivative of a function, the second derivative, interpretations of the derivative and second derivative, and linear approximations using derivatives</p></li>
+<li><p>Derivatives of basic functions including polynomial functions, exponential and logarithmic functions, trigonometric and inverse trigonometric functions</p></li>
+<li><p>Rules for differentiation including the product rule, the quotient rule, the chain rule, and implicit differentiation.</p></li>
+<li><p>Use first and second derivatives to help solve optimization problems, to study families of functions, to solve related rates problems, and to use L'Hopital's rule for evaluating limits</p></li>
+<li><p>The definite integral, the Fundamental Theorem of Calculus, and theorems about definite integrals</p></li>
+                        </ul>
+                </p>
+        </subsubsection>
+        <subsubsection xml:id="additional_content">
+                <title>Additional Content</title>
+<p>
+        In addition to developing mathematical tools, techniques, and skills, we will seek to further our understanding of the role and importance of mathematics as a not only a tool, but as a way of making sense of patterns.</p>
+</subsubsection>
+</subsection>

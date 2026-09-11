@@ -1,0 +1,5 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+ERROR   : Error loading /home/wellsc/classes/201/Course/source/activities/FunctionsAndModeling/frontmatter.ptx: Error reading file '/home/wellsc/classes/201/Course/source/activities/FunctionsAndModeling/frontmatter.ptx': failed to load "/home/wellsc/classes/201/Course/source/activities/FunctionsAndModeling/frontmatter.ptx": No such file or directory
+ERROR   : Could not assemble source for validation: Error reading file '/home/wellsc/classes/201/Course/source/activities/FunctionsAndModeling/frontmatter.ptx': failed to load "/home/wellsc/classes/201/Course/source/activities/FunctionsAndModeling/frontmatter.ptx": No such file or directory

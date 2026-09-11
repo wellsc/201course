@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="gen_ed_insert" xmlns:xi="http://www.w3.org/2001/XInclude">
+	    <title>GVSU General Education Cover Page</title>
+        <introduction>
+            <!--
+            <image source='GenEdInsert' width='95%'/>
+            -->
+            <image source='GVSU_logo_url_marktop.jpg' decorative="yes">
+                    <shortdescription>GVSU logo and Web Address</shortdescription>
+            </image>
+<blockquote>
+<p>
+The General Education Program prepares students for informed citizenship, leading to responsible participation in
+local, national, and global, communities.
+</p>
+</blockquote>
+        </introduction>
+<subsection>
+        <title>
+MTH 123 Trigonometry
+        </title>
+        <p>
+        </p>
+</subsection>            
+<conclusion>
+            <p>
+<em>
+The General Education Program prepares students for informed citizenship, leading to responsible participation in
+local, national, and global, communities.
+</em>
+            </p>
+</conclusion>
+</section>

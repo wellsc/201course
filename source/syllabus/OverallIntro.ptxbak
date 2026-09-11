@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <subsection xml:id="overallIntro" xmlns:xi="http://www.w3.org/2001/XInclude">
+	    <title>Introduction and Teaching Philosophy</title>
+	<xi:include href="./201intro.ptx" />
+	<xi:include href="./philosophy.ptx" />
+</subsection>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<publication>
+
+    <common>
+        <!-- 0 is an entire book in one file   -->
+        <!-- 1 is each chapter is its own file -->
+        <chunking level="1"/>
+        <exercise-inline solution="no" answer="no"/>
+        <exercise-divisional answer="no" />
+        <exercise-divisional solution="no" />
+        <exercise-inline solution="no" />
+    </common>
+
+    <html print='no'>
+            <css theme='default-modern'/>
+    </html>
+<latex print="yes">
+  <page>
+    <geometry>letterpaper,margin=0.75in,headheight=0.25in,includefoot</geometry>
+  </page>
+</latex>
+</publication>

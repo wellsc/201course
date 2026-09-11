@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="tldr" xmlns:xi="http://www.w3.org/2001/XInclude">
+	    <title>TL;DR</title>
+            <p>
+                    <ul>
+                            <li>
+                                    <p>
+                                            <alert>This course is not graded the way you are used to!</alert> Read <xref ref='assessment' text='title'/>, particularly <xref ref='assess_intro' text='title'/> and <xref ref='culmination' text='title'/>. Also check the <xref ref='important_dates' text='title'/>!
+                                    </p>
+                            </li>
+                            <li>
+                                    <p>
+                                            Make sure to read <xref ref='policies' text='title'/>, in particular pay attention to <xref ref='gettingmore' text='title'/>.
+                                    </p>
+                            </li>
+                            <li>
+                                    <p>
+                                            Review <xref ref='safety-information' text='title'/> and <xref ref='safety_info_sites' text='title'/>.
+                                    </p>
+                            </li>
+                    </ul>
+            </p>
+		    <p>
+                            This document is intended to give you the basics of what you need to
+                            know to succeed in this course, including not only details of <xref ref="coursecontent"  text='title' />, and <xref ref="policies"  text='title' />, but also the guiding principles behind how I approach teaching, and teaching this course in particular.
+ 	    </p>
+            <p>
+                I reserve the right to adjust this document as needed and will notify you of any changes through Blackboard.
+	    </p>
+</section>

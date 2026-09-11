@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xml:id="table_timeline">
+<title>
+Tentative Timeline
+</title>
+<tabular halign="left" top="major">
+        <row header="yes" bottom="major" ><cell>Topic</cell                                            ><cell>Approximate Time</cell ></row>
+        <row header="no"  bottom="medium"><cell>Introduction to graphs and graph theory.</cell         ><cell>Two Weeks</cell        ></row>
+        <row header="no"  bottom="medium"><cell>Logic, conjectures, proof, and methods of proof.</cell ><cell>Two Weeks</cell        ></row>
+        <row header="no"  bottom="medium"><cell>Eulerian and Hamiltonian paths and cycles.</cell       ><cell>One Week</cell         ></row>
+        <row header="no"  bottom="medium"><cell>Vertex and edge coloring.</cell                        ><cell>One Week</cell         ></row>
+        <row header="no"  bottom="medium"><cell>Bipartite graphs and matchings.</cell                  ><cell>One Week</cell         ></row>
+        <row header="no"  bottom="medium"><cell>Spanning trees, depth vs breadth first searches.</cell ><cell>Three Weeks</cell      ></row>
+        <row header="no"  bottom="major" ><cell>Relations, equivalence relations, partial orders.</cell><cell>Two Weeks</cell        ></row>
+</tabular>
+</table>

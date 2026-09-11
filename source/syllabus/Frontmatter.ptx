@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude">
+        <bibinfo>
+                <author>
+                        <personname>Clark Wells</personname>
+                        <department>Department of Mathematics</department>
+                        <institution>Grand Valley State University</institution>
+                        <email>wellsc@gvsu.edu</email>
+                </author>
+                <date>Fall 2026</date>
+        </bibinfo>
+        <titlepage>
+                <titlepage-items/>
+        </titlepage>
+</frontmatter>

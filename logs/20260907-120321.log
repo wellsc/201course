@@ -1,0 +1,18 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Validating source of target web (method: local, report form: full, engine: jing).
+INFO    : converting /tmp/ptx-i8qqag29/merged.xml to enhanced (pre-processed) PreTeXt source as /tmp/ptx-i8qqag29/assembled-attributed.xml
+INFO    : XSL conversion of /tmp/ptx-i8qqag29/merged.xml by /home/wellsc/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : the source validates with no schema errors
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/logs/course-assembled.xml by /home/wellsc/.ptx/2.52.3/core/schema/pretext-validation-plus.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.3/core/schema/pretext-validation-plus.xsl
+INFO    : no experimental constructs are in use
+INFO    : validation-plus stylesheet raised no messages
+INFO    : consolidated validation report in /home/wellsc/classes/201/Course/logs/course-validation.txt
+INFO    : locations refer to the assembled source in /home/wellsc/classes/201/Course/logs/course-assembled.xml
+INFO    : PreTeXt source passed validation with no messages.
+INFO    : Report: /home/wellsc/classes/201/Course/logs/course-validation.txt
+INFO    : 

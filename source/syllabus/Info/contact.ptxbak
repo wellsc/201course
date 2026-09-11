@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsubsection xml:id="contact">
+    <title>Contact Information</title>
+    <table xml:id="instructor_information">
+            <title>Instructor and Department Information</title>
+            <tabular halign="left" top="major">
+            <row header="yes" bottom="major"><cell>Item</cell><cell>Value</cell></row>
+	    <row header="no"><cell>Instructor</cell><cell>Dr.<nbsp />Clark Wells </cell></row>
+	    <row header="no"><cell>Office Location</cell><cell>MAK<nbsp/>Room A2-110 MAK</cell></row>
+	    <row header="no"><cell>Office Phone Number</cell><cell>(616)<nbsp/>331-2444</cell></row>
+	    <row header="no"><cell>Email</cell><cell><email>wellsc@gvsu.edu</email></cell></row>
+	    <row header="no"><cell>Department Office Location</cell><cell>Room A2-178 MAK</cell></row>
+	    <row header="no"><cell>Department Phone Number</cell><cell>(616)<nbsp/>331-2040</cell></row>
+            <!--
+	    <row header="no"><cell>Peer Collab. Space (PCS)</cell><cell>Room A2-160 MAK</cell></row>
+            -->
+	    <row header="no"><cell>Math Tutoring Center</cell><cell>Room A2-601 MAK</cell></row>
+            </tabular>
+    </table>
+    <table xml:id="student_hours">
+            <title>Student Hours</title>
+                <tabular halign="left" top="major">
+                    <row header="yes" bottom="major"><cell>      Day </cell><cell> Time        </cell><cell>Location</cell></row>
+                    <row header="no"                ><cell>Tuesday </cell><cell>   2:00<ndash/>2:50</cell><cell>MAK A2-110</cell></row>
+                    <row header="no"                ><cell>Thursday </cell><cell>  2:00<ndash/>2:50</cell><cell>MAK A2-601 (Math Tutoring Center)</cell></row>
+            </tabular>
+</table>
+<p>
+                    Student Hours are subject to change upon discussion with class members.
+</p>
+    </subsubsection>

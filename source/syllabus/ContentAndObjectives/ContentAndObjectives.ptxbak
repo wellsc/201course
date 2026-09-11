@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+    <subsection xml:id='objectives_and_content' xmlns:xi='http://www.w3.org/2001/XInclude'><title>Objectives and Content</title>
+            <xi:include href='./201content.ptx' />
+	    <xi:include href='./201objectives.ptx' />
+	    <xi:include href='./201materials.ptx' />
+    </subsection>

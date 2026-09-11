@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="technology"><title>Communication and Technology Use</title>
+	<subsubsection xml:id="online_requirements"><title>Technology Requirements for Online/Hybrid Courses</title>
+	    <p>
+                    Although this class face-to-face, there is always the possibility that we may have to move online (synchronous). Thus, GVSU's <url href="https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm" visual='gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm'>Technology Requirements for Online/Hybrid Courses</url>  apply.
+	    </p>
+    </subsubsection>
+    <subsubsection xml:id="blackboard"><title>BlackBoard</title>
+<p>
+    Materials and information for this course will be posted to the course
+        <url href="http://lms.gvsu.edu/" visual='lms.gvsu.edu'>BlackBoard</url> page. If you do not have access to the student network or
+    need help in using BlackBoard, please let me know as soon as possible.
+
+        </p>
+    </subsubsection>
+    <subsubsection xml:id="email"><title>E-mail</title>
+<p> Please check that the e-mail associated with your BlackBoard account is one that
+    you check, as I will use that e-mail to send messages to the entire class. 
+    </p>
+    </subsubsection>
+    <subsubsection xml:id="webwork"><title>WeBWorK</title>
+            <p>
+                    Practice problems will be available to you via the <url href="https://webwork-math.gvsu.edu/webwork2" visual='webwork-math.gvsu.edu/webwork2'>WeBWorK</url> homework system. You are encouraged to make use of WeBWorK to practice and check your understanding. Although the feedback from WeBWorK is not as detailed as that from the instructor, it has the advantage of being essentially instantaneous!
+            </p>
+    </subsubsection>
+    <subsubsection xml:id="demos"><title>Computer Algebra Systems</title>
+            <p>
+                            We will often make use of <url href='https://www.desmos.com/calculator' visual='desmos.com'>Desmos Graphing Calculator</url> and <url href='https://student.amplify.com/join/' visual='student.amplify.com'>Amplify</url>.
+            </p>
+		    <p>
+                            We will also sometimes use iPython interactive notebooks (such as <url href="https://colab.research.google.com" visual='colab.research.google.com'>Google Colaboratory</url>).  It is an interface to the python programming language, but <alert>you are not expected to learn to program</alert>. 
+	    </p>
+    </subsubsection>
+    <subsubsection xml:id="mathematical-typesetting"><title>Mathematical Typesetting</title>
+<p>
+    All material submitted for your portfolio
+        is expected to be written using using the software capable of high-quality mathematical
+        typesetting.
+</p>
+    <p>
+            Options for mathematical typesetting include markdown notebooks, such as <url href="https://colab.research.google.com" visual='colab.research.google.com'>Google Colab</url> or <url href="https://jupyter.org" visual='jupyter.org' >Jupyter</url> Notebooks, or <url href="https://docs.google.com" visual='docs.google.com'>Google Docs</url>.
+    </p>
+    </subsubsection>
+    <subsubsection xml:id="recording_of_classes"><title>Recording of Classes</title>
+	    <p>
+	    In the event that we meet virtually via Zoom, class meetings will be recorded and will be available to students enrolled in this course as a study aid. 
+	    Students who do not want their likeness during class participation included in the recorded class session may elect to turn off the camera and change their name in the Zoom window. 
+	    Recordings will be available for viewing subject to the following:
+        <ul>
+                <li><p> Only students enrolled in the class may view the recording.  </p></li>
+                <li><p> Students may not post or use the recordings in any other setting (e.g., social media) for any purpose. Students who violate this will be subject to student discipline, up to and including expulsion.  </p></li>
+                <li><p> If faculty have any plan to use the recording for a different class in the future, the faculty member will need written FERPA consent from those students in the current class who are identifiable in any of the recordings. A FERPA consent form signed by all students in the course will also be needed if the recordings are made available to others beyond the classroom on a non-secure digital platform.  </p></li>
+	    </ul>
+    </p>
+    </subsubsection>
+</subsection>

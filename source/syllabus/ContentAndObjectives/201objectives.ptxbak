@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsubsection xml:id="objectives"><title>Objectives</title>
+	<p>
+		The syllabus of record for MTH<nbsp />201 states:
+	</p>
+        <blockquote><p>After successful completion of the course, students will be able to</p>
+        <p>
+<ol>
+<li><p><alert>Application/Apply<mdash/>Apply:</alert> Students will be able to apply the definite integral to compute the total change of a function from the rate of change and to compute area.</p></li>
+<li><p><alert>Knowledge/State<mdash/>State:</alert> Students will know the Fundamental Theorem of Calculus.</p></li>
+<li><p><alert>Knowledge/Describe<mdash/>Describe:</alert> Students will be able to describe the relation between the definite integral of a function and areas between the graph of that function and the horizontal axis.</p></li>
+<li><p><alert>Knowledge/Define<mdash/>Define:</alert> Students will understand the definition of the definite integral as the limit of a Riemann sum.</p></li>
+<li><p><alert>Application/Compute<mdash/>Compute:</alert> Students will be able to compute derivatives using the product rule, quotient rule, and chain rule.</p></li>
+<li><p><alert>Evaluation/Evaluate<mdash/>Evaluate:</alert> Students will be able to conceptually understand and evaluate limits, including L'Hopital's Rule.</p></li>
+<li><p><alert>Knowledge/State<mdash/>State:</alert> Students will be able to state the formal definition of the derivative of a function and the purpose of each symbol in that definition.</p></li>
+<li><p><alert>Comprehension/Discuss<mdash/>Discuss:</alert> Students will be able to discuss the interpretations of the derivative as the slope of a tangent line and an instantaneous rate of change of a function.</p></li>
+<li><p><alert>Guided Response/Determine<mdash/>Determine:</alert> Students will be able to determine the tangent line to a function at a specific point on the graph of the function.</p></li>
+<li><p><alert>Guided Response/Determine<mdash/>Determine:</alert> Students will be fluent with the concept of function and be able to determine information about a function through the processes of differentiation and integration.</p></li>
+</ol>
+        </p>
+</blockquote>
+<p>Furthermore,
+	Grand Valley State University's mission statement is: <q>At Grand Valley State University, we empower learners in their pursuits, professions, and purpose. The university enriches society through excellent teaching, active scholarship, advancement of equity, and public service.
+</q></p>
+<p>
+This course is a step along the way to you achieving your own professional and personal goals.  In light of this, some of my goals for this course are for you 
+</p>
+<p>
+<ul>
+	<li><p>   to develop the skill of thinking mathematically,</p></li>
+	<li><p>   to have a stronger idea of how discrete mathematics relates to computer science, and</p></li>
+	<li><p>   to have an idea of what mathematics.</p></li>
+</ul>
+</p>
+	</subsubsection>

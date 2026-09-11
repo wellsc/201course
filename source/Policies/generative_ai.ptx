@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="genrative_ai"><title>Use of Generative AI</title>
+        <introduction>
+        <p>
+                Use of Generative AI Large Language Models [LLMs] (such as ChatGPT, Gemini, Copilot, etc.) in this class is subject to a few conditions, namely <xref ref='ai_awareness' text='title'/>, <xref ref='ai_transparency' text='title'/>, and <xref ref='ai_accountability' text='title'/>. Transparency and accountability are fairly straight-forward, and are closely related to  <xref ref='integrity' text='title'/>, but awareness is both more subtle and arguably more important.
+        </p>
+        </introduction>
+        <subsubsection xml:id='ai_awareness'>
+                <title>Awareness</title>
+                <p>
+                        If you plan to use generative AI in this class, be aware of what you are using it for and whether it helps you toward your goals or just wastes your time. I find a useful analogy to be the idea of <alert>taking a forklift to the gym</alert>.
+                </p>
+                <p>
+                                If your goal in going to the gym is to strengthen your muscles by lifting weights, using a forklift to lift the weights defeats the purpose. Sure, you can get in your reps, you can <q>lift</q> more than you could without the forklift, and you can do more reps and not get tired, but it doesn't work toward your goal of strengthening your muscles. It is a waste of your time. Worse, it gets in other people's way as they try to reach their strength training goals.
+                        </p>
+                        <p>
+                                On the other hand, maybe you went to the gym because you work there and the boss wants you to move several large, heavy machines from one part of the building to another. If that's the case, using the forklift makes a lot of sense, because it is in fact helping with your goal of moving the machines.
+                        </p>
+                        <p>
+                                Education is about strengthening your mental muscles. Be aware of how the use of heavy machinery either helps or hinders your progress.
+                        </p>
+                        <p>
+                                Awareness also includes awareness of the ethical and practical pitfalls involved in using generative AI. You should be aware that
+                                <ul>
+                                        <li>AI is trained on the works of other people</li>
+                                        <li>Plausibility, not objective truth, is the training goal of AI. It often makes things up that sound plausible.</li>
+                                        <li>AI is resource intensive. For example, according to <url href='https://what-uses-more.com/' visual='what-uses-more.com'/>, a paragraph of AI generated text uses more than 23 times as much electricity and water than a Google search without AI.</li>
+                                </ul>
+                        </p>
+        </subsubsection>
+
+        <subsubsection xml:id='ai_transparency'>
+                <title>Transparency</title>
+                <p>
+                        When you use generative AI, be transparent: make note of exactly what you asked the AI to do (your prompts), and exactly what part of the AI results you used in your materials.
+                        For example, you might include something like the following in your portfolio.
+                </p>
+                <blockquote>
+                        <p>
+                                <q>
+                                                In this problem, we were asked to model the number of hours of daylight as a function of the date. I knew this would be either sine or cosine, but I still didn't understand how to make the right days line up with the peaks and valleys, so I asked Copilot to explain. My prompt was <sq>Explain how to shift a sine function so that the peaks and valleys line up with data.</sq>
+                                </q>
+                        </p>
+                        <p>
+                                <q>
+                                                Copilot started by giving a formula for a sine function as <m>y=A\sin\big(B(x-C)\big)+D</m> and then gave step-by-step alignment guide. The important part for me was how to adjust the <sq>phase shift</sq>, <m>C</m>. It said to <sq>Find where a peak (or valley) occurs in your data, and shift the sine wave so its peak matches that point: <m> C = x\text{-value of desired peak}.</m></sq> I was then able to align the peak amount of sunlight with June 21 by using <m>C=172</m> days since the beginning of the year.
+                                </q>
+                        </p>
+                </blockquote>
+        </subsubsection>
+        <subsubsection xml:id='ai_accountability'>
+                <title>Accountability</title>
+                <p>
+                                When you use generative AI, you are accountable. What that means is that you must be able to explain all of your work and understand the power and the limitations of using LLMs.
+                </p>
+                <p>
+                                Using the example of fitting a sine wave, a student submitting this should have noticed that <alert>Copilot got it wrong</alert>. Setting <m>C=172</m> places the <em>midline</em> of the sine function at <m>x=172</m> days. Using <m>C=172</m> in the formula <m>y=A\cos\big(B(x-C)\big)+D</m> would place the peak at <m>x=172</m>, or you could find the date of the spring equinox and set <m>C</m> to that value in <m>y=A\sin\big(B(x-C)\big)+D</m>.
+                </p>
+        </subsubsection>
+</subsection>

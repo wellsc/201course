@@ -1,0 +1,17 @@
+INFO    : Since no target was supplied, we will use "course".
+
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Validating source of target course (method: local, report form: full, engine: jing).
+INFO    : converting /tmp/ptx-xp2q_vjh/merged.xml to enhanced (pre-processed) PreTeXt source as /tmp/ptx-xp2q_vjh/assembled-attributed.xml
+INFO    : XSL conversion of /tmp/ptx-xp2q_vjh/merged.xml by /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/logs/course-assembled.xml by /home/wellsc/.ptx/2.52.0/core/schema/pretext-validation-plus.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/schema/pretext-validation-plus.xsl
+INFO    : schema validation raised 4 messages
+INFO    : no experimental constructs are in use
+INFO    : validation-plus stylesheet raised no messages
+INFO    : consolidated validation report in /home/wellsc/classes/201/Course/logs/course-validation.txt
+INFO    : locations refer to the assembled source in /home/wellsc/classes/201/Course/logs/course-assembled.xml
+ERROR   : PreTeXt source did NOT pass validation (4 messages).
+ERROR   : See /home/wellsc/classes/201/Course/logs/course-validation.txt for the full report.

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<subsection xml:id='sec_ill_posed_prob' xmlns:xi="http://www.w3.org/2001/XInclude" >
+        <title>Activity</title>
+        <p>
+Each of the questions below is deliberately ill-posed. That is, there is not enough information to
+answer the question. Your goal, then, is to determine what information you would need, and based on
+that information, make a plan to find the answer. (Note: you cannot say the information
+you need is the answer!)
+                <ol>
+                        <li> How deep is the water?</li> 
+                        <li> How much water is in the tank (as in, how many glasses of water you could fill)?</li> 
+                        <li> How long would it take for the water level to rise <m>3\text{cm}</m>?</li> 
+                        <li> How much would the water level change if you added <m>{3}\text{L}</m> of water?</li> 
+                        <li> How long would it take to fill the tank?</li> 
+                </ol>
+        </p>
+        <figure xml:id='fig_conical_tank'>
+                <caption>A Conical Tank Partially Filled with Water.</caption>
+                <image width="50%">
+                        <description><p>An Image of a Partially Filled Conical Tank.</p></description>
+                        <xi:include href='./tank.ptx'/>
+                </image>
+        </figure>
+</subsection>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<section xml:id="functions_and_modeling" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Functions and Modeling</title>
+        <xi:include href='./intro.ptx'/>
+        <xi:include href='./ill_posed_problem.ptx'/>
+</section>

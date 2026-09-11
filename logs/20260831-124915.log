@@ -1,0 +1,35 @@
+INFO    : Building target web
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: /home/wellsc/classes/201/Course/source
+INFO    : verifying and expanding input directory: /home/wellsc/classes/201/Course/source/../assets
+INFO    : input directory expanded to absolute path: /home/wellsc/classes/201/Course/assets
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /home/wellsc/classes/201/Course/output/web.
+INFO    : discovering source file's directory name: /home/wellsc/classes/201/Course/source
+INFO    : verifying and expanding input directory: /home/wellsc/classes/201/Course/source/../assets
+INFO    : input directory expanded to absolute path: /home/wellsc/classes/201/Course/assets
+INFO    : discovering source file's directory name: /home/wellsc/classes/201/Course/source
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.2.10
+INFO    : Downloading Runestone Services, version 8.2.10
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-denver
+INFO    : converting /home/wellsc/classes/201/Course/source/course.ptx to HTML in /tmp/ptx-vagbph9i
+INFO    : XSL conversion of /home/wellsc/classes/201/Course/source/course.ptx by /home/wellsc/.ptx/2.52.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /home/wellsc/.ptx/2.52.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-vagbph9i
+INFO    : Removing temporary directory /tmp/ptx-pf5jzs10
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

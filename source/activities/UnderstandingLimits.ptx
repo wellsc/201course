@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="understanding_limits">
+	<title>Understanding Limits</title>
+	<introduction xml:id="Introduction">
+                <p>
+                        <alert>Goal: </alert> The learner will use graphical, numerical, and/or analytical means to calculate and understand the process of calculating the value of a limit and will write a careful explanation of their thinking and calculations.
+		</p>
+	</introduction>
+        <subsection>
+                <title>Activity</title>
+                <p>
+                        <alert>Instructions: </alert> The questions below are intended to guide your understanding as you investigate two very similar functions. Work together to answer the questions. Then
+                        <ul>
+                                <li>Create a drawing, graph, or visual representation that helps explain your findings.</li>
+                                <li>Write a brief guide for your process, results, and understanding of the results.</li>
+                                <li>For the studied functions and points, either write ``the function has a limit at the point'' or ``the function does not have a limit at the point''.</li>
+                                <li>For each point, decide if you think <m>f</m> or <m>g</m> is ``nicer'' at the point (or if they are equally nice), and write an explanation of your decision.</li>
+                        </ul>
+                </p>
+                <p>
+<ol>
+        <li><p>
+                        Let the function <m>f</m> be given by 
+    <md>
+      f(x) = \begin{cases}
+	\frac{{x}^{3}-8 {x}^{2}+17 x-10}{x-2},\amp  x\lt 2\\
+	4,\amp 	x=2\\
+	\frac{-2x^{3}+22x^{2}-76x+80}{x-2},\amp  x>2.
+      \end{cases}
+    </md>
+    <ol>
+      <li>Find <m>f(3)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 3}f(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>f(2)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 2}f(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>f(4)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 4}f(x)</m> or explain why it is not defined.</li>
+    </ol>
+                        </p></li>
+
+                        <li><p>
+    Let the function <m>g</m> be given by 
+    <md>
+      g(x) = \begin{cases}
+	\frac{{x}^{3}-8 {x}^{2}+17 x-10}{x-2},\amp  x\lt  2\\
+	\frac{x+2}{x-3},\amp x=2\\
+	\frac{-2x^{3}+22x^{2}-67x+62}{x-2},\amp 	x>2.
+      \end{cases}
+    </md>
+    <ol>
+      <li>Find <m>g(3)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 3}g(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>g(2)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 2}g(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>g(4)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 4}g(x)</m> or explain why it is not defined.</li>
+    </ol>
+                        </p></li>
+                        <li><p>
+    Let the function <m>k</m> be given by 
+    <md>
+      k(x) = \begin{cases}
+	\frac{{x}^{3}-8 {x}^{2}+17 x-10}{x-2},\amp  x\lt  2\\
+	-3,\amp x=2\\
+	\frac{-2x^{3}+22x^{2}-67x+62}{x-2},\amp 	x>2.
+      \end{cases}
+    </md>
+    <ol>
+      <li>Find <m>k(3)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 3}k(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>k(2)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 2}k(x)</m> or explain why it is not defined.</li>
+      <li>Find <m>k(4)</m> or explain why it is not defined.</li>
+      <li>Find <m>\lim\limits_{x\rightarrow 4}k(x)</m> or explain why it is not defined.</li>
+    </ol>
+                        </p></li>
+</ol>
+                </p>
+        </subsection>
+  </section>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <subsection xml:id="untimed"><title>Submitting Un-Timed Work for Feedback</title>
+            <subsubsection xml:id="feedback_format">
+                    <title>Format of Submissions</title>
+         <p>
+    All drafts of work done in settings without prescribed time constraints, such as exercises, proofs, expository writing, and so forth,
+     <ul>
+	    <li><p>must be written using the software capable of high-quality mathematical typesetting or neatly hand-written and scanned; </p></li>
+       <li><p>must be spell-checked and proofread for grammatical correctness;</p></li>
+       <li><p>must be submitted electronically, via BlackBoard or shared link; and</p></li>
+      <li><p>must be available in a form suitable for commenting and editing.</p></li>
+     </ul>
+     </p>
+    <p>See <xref ref="mathematical-typesetting" text="title" />, for more information about options for mathematical typesetting software.</p>
+            </subsubsection>
+            <subsubsection xml:id="FERPA_and_email">
+                    <title>FERPA and Email</title>
+     <p>
+     Please note that due to security issues and based on guidance from the Department of Education
+     regarding FERPA, the Family Educational Rights and Privacy Act of 1974, I cannot use e-mail or any
+    unsecured platform to discuss grades.
+     </p>
+            </subsubsection>
+    </subsection>

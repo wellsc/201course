@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docinfo>
+    <!-- directories are relative to the main source PreTeXt file -->
+        <directories external="../assets" />
+        <defaults>
+                <xrefs text="title"/>
+        </defaults>
+</docinfo>

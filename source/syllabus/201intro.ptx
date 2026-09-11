@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="intro_201">
+	<title>Introduction to Math 201</title>
+        <subsubsection>
+                <title>Introduction</title>
+		    <p>
+			    Calculus, Math<nbsp />201 is designed to give you tools to succeed
+                            in fields where deep understanding of relationships among changing quantities is needed.
+		    </p>
+        </subsubsection>
+        <subsubsection xml:id="course_description">
+                <title>Course Description</title>
+                <blockquote>
+                <p>
+                        Math<nbsp/>201 is a study of how changing quantities interact, and how quantifying these relationships can be applied. In order to understand these ideas, it is important to see where they arise. This means analyzing data or situations, choosing among appropriate models, and solving applied problems. Of course, we can't predict every situation you will encounter in your future, so it is also important to develop flexibility and resilience.
+                </p>
+                </blockquote>
+                <p>
+                        More information can be found in <xref ref='coursecontent' text='title' /> and <xref ref='objectives' text='title' />.
+                </p>
+        </subsubsection>
+    </subsection>

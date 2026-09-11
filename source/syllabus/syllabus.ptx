@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<chapter xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Course Syllabus</title>
+        <!--
+        <xi:include href='./Frontmatter.ptx'/>
+        -->
+        <xi:include href='./TLDR.ptx'/>
+        <xi:include href='./Info/Info.ptx'/>
+        <xi:include href='./OverallIntro.ptx'/>
+        <xi:include href='./ContentAndObjectives/ContentAndObjectives.ptx'/>
+        <xi:include href='./Info/dates.ptx' />
+</chapter>

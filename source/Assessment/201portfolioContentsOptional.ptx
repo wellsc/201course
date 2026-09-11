@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="portfolio_contents_optional">
+        <title>
+                Optional Elements of the Portfolio
+        </title>
+        <introduction>
+                <p>
+You can (and are encouraged to) include any items in your portfolio that demonstrate progress toward your individual goals. The following items are some things that previous students have chosen to include.
+                </p>
+        </introduction>
+        <subsubsection xml:id="investigations">
+                <title>
+                        Details of Activities and Investigations
+                </title>
+                <p>
+                       In addition to the basics for an activity, you may choose to include more. 
+                </p>
+                <p>
+                        For instance, you might include work to show that you have:
+                <ul>
+                <li><p> gained additional depth of understanding of important concepts </p></li>
+                <li><p> understood the historical or philosophical importance of a topic (existence of solutions versus calculation of solutions), or </p></li>
+                <li><p> made connections to other topics in this course, in other courses, your major, or to everyday life. </p></li>
+        </ul>
+</p>
+</subsubsection>
+<subsubsection xml:id="experimentation">
+                <title>
+                        Experiments and Explorations
+                </title>
+		<p>
+			If there is a topic from class that you feel does not go far enough, you are free to investigate more deeply. For example, if you particularly enjoy global optimization, you might look at a more complex optimization, such as minimizing the construction cost for an oil barrel.
+		</p>
+</subsubsection>
+<subsubsection xml:id="summaries">
+                <title>
+                        Summaries of Outside Reading
+                </title>
+	<p>
+		If you use outside sources to guide your learning, you may want to include more than just citations. You can summarize what you learned from those sources and include the summaries.
+	</p>
+</subsubsection>
+<subsubsection xml:id="other">
+        <title>
+                Other Items
+        </title>
+        <p>
+                Other items may be included in your Portfolio if you they demonstrate your progress in meeting your course goals.  Some examples of what you may choose to include are practice problems, conjectures, or expository papers.
+        </p>
+</subsubsection>
+</subsection>
