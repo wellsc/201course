@@ -6,9 +6,29 @@
     <!-- Main course for html or pdf -->
           <target name="course" source="course.ptx" format="html"
                   publication="publication.ptx" deploy-dir="course" />
-    <target name="print" source="course.ptx" format="pdf"
-            output-filename="course.pdf"  publication='publication-print.ptx' />
-    <target name="epdf" source='course.ptx' format="pdf" />
+    <target name="web" format="html" source='course.ptx'>
+                        <stringparams author.tools="no" />
+                </target>
+                <target name="print" format="pdf" source="course.ptx" 
+                        publication="publication-print.ptx"  output-filename="course.pdf"/>
+
+                <target name="draft-web" format="html" source='course.ptx'>
+                        <stringparams author.tools="yes" />
+                </target>
+                <target name="epdf" format="pdf" source='course.ptx' >
+                </target>
+    <!--
+    <target name="slides" source="slides/slides.ptx" format="revealjs"
+            publication="publication-slides.ptx" deploy-dir="slides"
+            output-filename="index.html"/>
+    -->
+    <!-- 
+    <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
+            publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"
+            output-filename="index.html"/>
+    -->
+
+
 
   <!-- The following targets are used to create stand-alone documents, which could be additional slide decks, pdfs, or SCORM archives. Run with `pretext build slides -i source/slides/[filename.ptx]`, for example. -->
     <target name="pdf" standalone="yes" format="pdf" 
