@@ -291,9 +291,13 @@
     <!-- Legacy stylesheets remain available through @style, but without  -->
     <!-- the full range of configuration.  See                            -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
+    <!--
+                primary-color="#386F94"
+                primary-color-dark="#5192BD"
+              -->
     <css
         theme="denver"
-        primary-color="#386F94"
+        primary-color="#0077D1"
         primary-color-dark="#5192BD"
         provide-dark-mode="yes"
     />
