@@ -244,65 +244,11 @@ var ptx_lunr_docs = [
   "body": "Communication and Technology Use  Technology Requirements for Online\/Hybrid Courses  Although this class face-to-face, there is always the possibility that we may have to move online (synchronous). Thus, GVSU's Technology Requirements for Online\/Hybrid Courses apply.   BlackBoard  Materials and information for this course will be posted to the course BlackBoard page. If you do not have access to the student network or need help in using BlackBoard, please let me know as soon as possible.   E-mail  Please check that the e-mail associated with your BlackBoard account is one that you check, as I will use that e-mail to send messages to the entire class.   WeBWorK  Practice problems will be available to you via the WeBWorK homework system. You are encouraged to make use of WeBWorK to practice and check your understanding. Although the feedback from WeBWorK is not as detailed as that from the instructor, it has the advantage of being essentially instantaneous!   Computer Algebra Systems  We will often make use of Desmos Graphing Calculator and Amplify .  We will also sometimes use iPython interactive notebooks (such as Google Colaboratory ). It is an interface to the python programming language, but you are not expected to learn to program .   Mathematical Typesetting  All material submitted for your portfolio is expected to be written using using the software capable of high-quality mathematical typesetting.  Options for mathematical typesetting include markdown notebooks, such as Google Colab or Jupyter Notebooks, or Google Docs .   Recording of Classes  In the event that we meet virtually via Zoom, class meetings will be recorded and will be available to students enrolled in this course as a study aid. Students who do not want their likeness during class participation included in the recorded class session may elect to turn off the camera and change their name in the Zoom window. Recordings will be available for viewing subject to the following:  Only students enrolled in the class may view the recording.  Students may not post or use the recordings in any other setting (e.g., social media) for any purpose. Students who violate this will be subject to student discipline, up to and including expulsion.  If faculty have any plan to use the recording for a different class in the future, the faculty member will need written FERPA consent from those students in the current class who are identifiable in any of the recordings. A FERPA consent form signed by all students in the course will also be needed if the recordings are made available to others beyond the classroom on a non-secure digital platform.     "
 },
 {
-  "id": "notes-week-01-3",
-  "level": "1",
-  "url": "notes-week-01-3.html",
-  "type": "Subsection",
-  "number": "3.1.1",
-  "title": "Monday 8\/22",
-  "body": " Monday 8\/22    "
-},
-{
-  "id": "notes-week-01-4",
-  "level": "1",
-  "url": "notes-week-01-4.html",
-  "type": "Subsection",
-  "number": "3.1.2",
-  "title": "Wednesday 8\/24",
-  "body": " Wednesday 8\/24    "
-},
-{
-  "id": "notes-week-01-5",
-  "level": "1",
-  "url": "notes-week-01-5.html",
-  "type": "Subsection",
-  "number": "3.1.3",
-  "title": "Friday 8\/26",
-  "body": " Friday 8\/26    "
-},
-{
-  "id": "notes-week-02-2",
-  "level": "1",
-  "url": "notes-week-02-2.html",
-  "type": "Subsection",
-  "number": "3.2.1",
-  "title": "Monday",
-  "body": " Monday    "
-},
-{
-  "id": "notes-week-02-3",
-  "level": "1",
-  "url": "notes-week-02-3.html",
-  "type": "Subsection",
-  "number": "3.2.2",
-  "title": "Wednesday",
-  "body": " Wednesday    "
-},
-{
-  "id": "notes-week-02-4",
-  "level": "1",
-  "url": "notes-week-02-4.html",
-  "type": "Subsection",
-  "number": "3.2.3",
-  "title": "Friday",
-  "body": " Friday    "
-},
-{
   "id": "sec_intro",
   "level": "1",
   "url": "sec_intro.html",
   "type": "Subsection",
-  "number": "4.1.1",
+  "number": "3.1.1",
   "title": "Objective",
   "body": " Objective  The learner will practice problem solving and modeling skills, discuss strategies and approaches, and begin to appreciate the importance of modeling and functions in problem solving.  We will begin by considering the questions on our own, then move to small group discussion and finally whole class discussion.  "
 },
@@ -311,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_ill_posed_prob.html",
   "type": "Subsection",
-  "number": "4.1.2",
+  "number": "3.1.2",
   "title": "Activity",
   "body": " Activity  Each of the questions below is deliberately ill-posed. That is, there is not enough information to answer the question. Your goal, then, is to determine what information you would need, and based on that information, make a plan to find the answer. (Note: you cannot say the information you need is the answer!)  How deep is the water?  How much water is in the tank (as in, how many glasses of water you could fill)?  How long would it take for the water level to rise ?  How much would the water level change if you added of water?  How long would it take to fill the tank?     A Conical Tank Partially Filled with Water.   An Image of a Partially Filled Conical Tank.    f(x)=sqrt(9-x^2)\/3  g(x)=-sqrt(9-x^2)\/3  h(x)=sqrt(9\/4-x^2)\/2-2  k(x)=-sqrt(9\/4-x^2)\/2-2  x1=-3*sqrt(15)\/4  x2=3*sqrt(15)\/4.007               "
 },
@@ -329,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "understanding_limits-3.html",
   "type": "Subsection",
-  "number": "4.2.1",
+  "number": "3.2.1",
   "title": "Activity",
   "body": " Activity   Instructions: The questions below are intended to guide your understanding as you investigate two very similar functions. Work together to answer the questions. Then  Create a drawing, graph, or visual representation that helps explain your findings.  Write a brief guide for your process, results, and understanding of the results.  For the studied functions and points, either write ``the function has a limit at the point'' or ``the function does not have a limit at the point''.  For each point, decide if you think or is ``nicer'' at the point (or if they are equally nice), and write an explanation of your decision.      Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.      "
 },
@@ -338,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "activities-5.html",
   "type": "Worksheet",
-  "number": "4.3",
+  "number": "3.3",
   "title": "Interpretations of the Derivative",
   "body": " Interpretations of the Derivative      The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.      Recall that for a function , the derivative at the point is defined by Noting that is the change in output and is the change in the input variable, we can think of the derivative as and the units of the derivative will be the units of the output of the function divided by the units of the input to the function.  For example, with the function that takes time in seconds as input and gives height in feet as its output, we have   We also know that we can use numerical approximations, so for a given (small, finite) value of , But, because , we also have . In other words, we can approximate the change in from the change in along with the derivative! In the following scenarios, use the context and the units to help you interpret the meaning of the derivative of the appropriate functions, and use the derivative to estimate the value of the original function at nearby points, as appropriate.     Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?         Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?        Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.      "
 },
@@ -347,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-5.html#activities-5-2",
   "type": "Objectives",
-  "number": "4.3",
+  "number": "3.3",
   "title": "",
   "body": "   The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.    "
 },
@@ -356,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-5.html#activities-5-4-1",
   "type": "Worksheet Exercise",
-  "number": "4.3.1",
+  "number": "3.3.1",
   "title": "Production Costs.",
   "body": " Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?     "
 },
@@ -365,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-5.html#activities-5-5-1",
   "type": "Worksheet Exercise",
-  "number": "4.3.2",
+  "number": "3.3.2",
   "title": "Snowfall.",
   "body": " Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?    "
 },
@@ -374,9 +320,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-5.html#activities-5-6-1",
   "type": "Worksheet Exercise",
-  "number": "4.3.3",
+  "number": "3.3.3",
   "title": "Energy Storage.",
   "body": " Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.    "
+},
+{
+  "id": "notes-week-01-3",
+  "level": "1",
+  "url": "notes-week-01-3.html",
+  "type": "Subsection",
+  "number": "4.1.1",
+  "title": "Monday 8\/22",
+  "body": " Monday 8\/22    "
+},
+{
+  "id": "notes-week-01-4",
+  "level": "1",
+  "url": "notes-week-01-4.html",
+  "type": "Subsection",
+  "number": "4.1.2",
+  "title": "Wednesday 8\/24",
+  "body": " Wednesday 8\/24    "
+},
+{
+  "id": "notes-week-01-5",
+  "level": "1",
+  "url": "notes-week-01-5.html",
+  "type": "Subsection",
+  "number": "4.1.3",
+  "title": "Friday 8\/26",
+  "body": " Friday 8\/26    "
+},
+{
+  "id": "notes-week-02-2",
+  "level": "1",
+  "url": "notes-week-02-2.html",
+  "type": "Subsection",
+  "number": "4.2.1",
+  "title": "Monday",
+  "body": " Monday    "
+},
+{
+  "id": "notes-week-02-3",
+  "level": "1",
+  "url": "notes-week-02-3.html",
+  "type": "Subsection",
+  "number": "4.2.2",
+  "title": "Wednesday",
+  "body": " Wednesday    "
+},
+{
+  "id": "notes-week-02-4",
+  "level": "1",
+  "url": "notes-week-02-4.html",
+  "type": "Subsection",
+  "number": "4.2.3",
+  "title": "Friday",
+  "body": " Friday    "
 },
 {
   "id": "handouts",

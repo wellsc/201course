@@ -23,6 +23,21 @@
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 
+    <chapter xml:id="activities">
+      <title>In-Class Activities</title>
+
+      <introduction>
+        <p>
+          These are copies of the in-class activities distributed during the semester.
+        </p>
+      </introduction>
+
+      <xi:include href="./activities/FunctionsAndModeling/FunctionsAndModeling.ptx"/>
+      <xi:include href="./activities/UnderstandingLimits.ptx"/>
+      <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
+
+    </chapter>
+
     <chapter xml:id="course-notes">
       <title>Course Notes</title>
 
@@ -39,21 +54,6 @@
 
     </chapter>
 
-
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
-
-      <introduction>
-        <p>
-          These are copies of the in-class activities distributed during the semester.
-        </p>
-      </introduction>
-
-      <xi:include href="./activities/FunctionsAndModeling/FunctionsAndModeling.ptx"/>
-      <xi:include href="./activities/UnderstandingLimits.ptx"/>
-      <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
-
-    </chapter>
 
     <chapter xml:id="handouts">
       <title>Handouts</title>
