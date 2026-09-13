@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercise workspace="1in">
+  <title>Snowfall</title>
+  <introduction>
+    <p>
+      On one particular morning, consider the function <m>S</m> which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time.  Assign appropriate units to each of the quantities listed and answer the question.
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+          What is the practical meaning of <m>S(3)=8</m>?
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+          What is the practical meaning of <m>S'(3)=2</m>?
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+          Assuming <m>S(3)=8</m> and <m>S'(3)=2</m>, make a prediction for the value of <m>S(3.25)</m>?
+      </p>
+    </statement>
+  </task>
+</exercise>

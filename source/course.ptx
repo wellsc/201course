@@ -51,6 +51,7 @@
 
       <xi:include href="./activities/FunctionsAndModeling/FunctionsAndModeling.ptx"/>
       <xi:include href="./activities/UnderstandingLimits.ptx"/>
+      <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
 
     </chapter>
 

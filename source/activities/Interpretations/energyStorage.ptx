@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise workspace="1in">
+  <title>Energy Storage</title>
+  <introduction>
+    <p>
+An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function <m>E(h)</m> gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), <m>h</m>, of water in the tank (in meters).
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+          Including appropriate units, explain the practical meaning of <m>E(3.00)=5.935</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+          Including appropriate units, explain the practical meaning of <m>E'(3.00)=4.320</m>.
+      </p>
+    </statement>
+  </task>
+  <task xml:id="task_tang_line_approx_energy">
+    <introduction>
+      <p>
+          Assuming <m>E(3.00)=5.935</m> and <m>E'(3.00)=4.320</m>, estimate and interpret
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>E(3.04)</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>E(3.08)</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>E(2.97)</m>
+        </p>
+      </statement>
+    </task>
+  </task>
+  <task>
+    <statement>
+      <p>
+          Find an expression that would allow you to approximate <m>E(h)</m> for any value of <m>h</m> that is close to <m>3.00</m>.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Take note of the steps you use to answer the questions in <xref ref="task_tang_line_approx_energy"/> and use that algorithm to develop a function that records those calculation steps.
+      </p>
+    </hint>
+  </task>
+</exercise>

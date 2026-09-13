@@ -334,6 +334,51 @@ var ptx_lunr_docs = [
   "body": " Activity   Instructions: The questions below are intended to guide your understanding as you investigate two very similar functions. Work together to answer the questions. Then  Create a drawing, graph, or visual representation that helps explain your findings.  Write a brief guide for your process, results, and understanding of the results.  For the studied functions and points, either write ``the function has a limit at the point'' or ``the function does not have a limit at the point''.  For each point, decide if you think or is ``nicer'' at the point (or if they are equally nice), and write an explanation of your decision.      Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.      "
 },
 {
+  "id": "activities-5",
+  "level": "1",
+  "url": "activities-5.html",
+  "type": "Worksheet",
+  "number": "4.3",
+  "title": "Interpretations of the Derivative",
+  "body": " Interpretations of the Derivative      The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.      Recall that for a function , the derivative at the point is defined by Noting that is the change in output and is the change in the input variable, we can think of the derivative as and the units of the derivative will be the units of the output of the function divided by the units of the input to the function.  For example, with the function that takes time in seconds as input and gives height in feet as its output, we have   We also know that we can use numerical approximations, so for a given (small, finite) value of , But, because , we also have . In other words, we can approximate the change in from the change in along with the derivative! In the following scenarios, use the context and the units to help you interpret the meaning of the derivative of the appropriate functions, and use the derivative to estimate the value of the original function at nearby points, as appropriate.     Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?         Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?        Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.      "
+},
+{
+  "id": "activities-5-2",
+  "level": "2",
+  "url": "activities-5.html#activities-5-2",
+  "type": "Objectives",
+  "number": "4.3",
+  "title": "",
+  "body": "   The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.    "
+},
+{
+  "id": "activities-5-4-1",
+  "level": "2",
+  "url": "activities-5.html#activities-5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.1",
+  "title": "Production Costs.",
+  "body": " Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?     "
+},
+{
+  "id": "activities-5-5-1",
+  "level": "2",
+  "url": "activities-5.html#activities-5-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.2",
+  "title": "Snowfall.",
+  "body": " Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?    "
+},
+{
+  "id": "activities-5-6-1",
+  "level": "2",
+  "url": "activities-5.html#activities-5-6-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.3",
+  "title": "Energy Storage.",
+  "body": " Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.    "
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",

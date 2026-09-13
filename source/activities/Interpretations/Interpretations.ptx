@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Interpretations of the Derivative</title>
+  <!-- Optional introduction -->
+  <objectives>
+          <ul>
+                  <li>
+          <p>
+                  The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.
+          </p>
+                  </li>
+          </ul>
+  </objectives>
+  <introduction>
+    <p>
+Recall that for a function <m>f(t)</m>, the derivative at the point <m>t=a</m> is defined by 
+            <md>
+                    <mrow>f'(a) \amp =\lim_{b\to{}a}\frac{f(b)-f(a)}{b-a}</mrow>
+                    <mrow>  \text{or equivalently}</mrow>
+                    <mrow>f'(a) \amp=\lim_{h\to{}0}\frac{f(a+h)-f(a)}{(a+h)-a}</mrow>
+                    <mrow>\amp=\lim_{h\to{}0}\frac{f(a+h)-f(a)}{h}.</mrow>
+            </md>
+Noting that <m>f(b)-f(a)=\Delta{}f</m> is the change in output and <m>b-a=\Delta{}t</m> is the change in
+the input variable, we can think of the derivative as 
+<md>
+        <mrow>f'(a)\amp=\lim_{\Delta{}t\to{}0}\frac{\Delta{}f}{\Delta{}t}</mrow>
+        <mrow>\amp=\frac{\di{f}}{\di{t}},</mrow>
+</md>
+and the <em>units</em> of the derivative will be the units of the output of the function divided by the units
+of the input to the function.
+</p>
+<p>
+For example, with the function <m>s(t)=\left(64-16(t-1)^{2}  \right)\text{ ft}</m> that takes time
+<m>t</m> in seconds as input and gives height in feet as its output, we have
+<md>
+        <mrow>s'(a) \amp=\lim_{b\to{}a}\frac{\left(s(b)-s(a) \right)\text{ ft}}{\left(b-a \right)\text{ s}}</mrow>
+        <mrow>\amp=\left(-32a+32 \right)\text{ ft}/\text{s}.</mrow>
+</md>
+</p>
+<p>
+We also know that we can use numerical approximations, so for a given (small, finite) value of
+<m>\Delta{}t</m>, 
+<md>
+        <mrow>f'(a)\amp\approx \frac{\Delta{}f}{\Delta{}t}</mrow>
+        <mrow>\amp=\frac{f(a+\Delta{}t)-f(a)}{\Delta{}t}</mrow>
+        <mrow>\amp=\frac{f(b)-f(a)}{b-a}.</mrow>
+</md>
+But, because <m>f'(a)\approx{}\frac{f(b)-f(a)}{b-a}</m>, we also have <m>f(b)-f(a)\approx{}f'(a)(b-a)</m>.
+In other words, we can approximate the change in <m>f</m> from the change in <m>t</m> along with the
+derivative!
+</p><p>
+In the following scenarios, use the context and the units to help you interpret the meaning of the
+derivative of the appropriate functions, and use the derivative to estimate the value of the
+original function at nearby points, as appropriate.
+    </p>
+  </introduction>
+  <page>
+  <xi:include href="./productionCosts.ptx"/>
+  </page>
+  <page>
+  <xi:include href="./snowfall.ptx"/>
+  </page>
+  <page>
+  <xi:include href="./energyStorage.ptx"/>
+  </page>
+
+</worksheet>

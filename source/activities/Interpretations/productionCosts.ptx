@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <exercise workspace="1in">
+          <title>Production Costs</title>
+          <introduction>
+                  <p>
+                  The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs.  As a first step, the company uses information on past production to model monthly production costs.  They develop a function, <m>C</m>, which gives the total monthly production cost (in dollars) as a function of the number of tons, <m>T</m>, of gravel produced.
+                  </p>
+                  <p>
+Below are some questions about some numerical findings.  For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, <em>including appropriate units.</em>
+                  </p>
+                  </introduction>
+                  <task>
+    <introduction>
+      <p>
+                      Consider the equation <m>C(324) = 15,770</m>.
+      </p>
+    </introduction>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>324</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>15,770</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What is the economic interpretation of <m>C(324) = 15,770</m>?
+                    </p>
+            </statement>
+    </task>
+                  </task>
+                  <task>
+    <introduction>
+      <p>
+                      Now consider the equation <m>\displaystyle\frac{C(225)}{225} = 59.89</m>.
+      </p>
+    </introduction>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>225</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>C(225)</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What is the economic interpretation of <m>\displaystyle\frac{C(225)}{225} = 59.89</m>?
+                    </p>
+            </statement>
+    </task>
+                  </task>
+                  <task>
+    <introduction>
+      <p>
+                      Next, consider the equation <m>\displaystyle\frac{C(324)-C(225)}{324-225} = 23.18</m>.
+      </p>
+    </introduction>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>C(324)-C(225)</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>324-225</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What is the economic interpretation of <m>\displaystyle\frac{C(324)-C(225)}{324-225} = 23.18</m>?
+                    </p>
+            </statement>
+    </task>
+                  </task>
+                  <task>
+    <introduction>
+      <p>
+                      Recall that <m>C'(324)=\lim_{b\to 324}\displaystyle\frac{C(b)-C(324)}{b-324}</m>.
+      </p>
+    </introduction>
+    <task>
+            <statement>
+                    <p>
+                                    What are the units of <m>C'(324)</m>?
+                    </p>
+            </statement>
+    </task>
+    <task>
+            <statement>
+                    <p>
+                                    What is the economic interpretation of <m>C'(324)=21.25</m>?
+                    </p>
+            </statement>
+    </task>
+                  </task>
+  </exercise>
