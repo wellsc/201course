@@ -280,49 +280,121 @@ var ptx_lunr_docs = [
   "body": " Activity   Instructions: The questions below are intended to guide your understanding as you investigate two very similar functions. Work together to answer the questions. Then  Create a drawing, graph, or visual representation that helps explain your findings.  Write a brief guide for your process, results, and understanding of the results.  For the studied functions and points, either write ``the function has a limit at the point'' or ``the function does not have a limit at the point''.  For each point, decide if you think or is ``nicer'' at the point (or if they are equally nice), and write an explanation of your decision.      Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.    Let the function be given by   Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.  Find or explain why it is not defined.      "
 },
 {
-  "id": "activities-5",
+  "id": "act_interp_deriv",
   "level": "1",
-  "url": "activities-5.html",
+  "url": "act_interp_deriv.html",
   "type": "Worksheet",
   "number": "3.3",
   "title": "Interpretations of the Derivative",
   "body": " Interpretations of the Derivative      The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.      Recall that for a function , the derivative at the point is defined by Noting that is the change in output and is the change in the input variable, we can think of the derivative as and the units of the derivative will be the units of the output of the function divided by the units of the input to the function.  For example, with the function that takes time in seconds as input and gives height in feet as its output, we have   We also know that we can use numerical approximations, so for a given (small, finite) value of , But, because , we also have . In other words, we can approximate the change in from the change in along with the derivative! In the following scenarios, use the context and the units to help you interpret the meaning of the derivative of the appropriate functions, and use the derivative to estimate the value of the original function at nearby points, as appropriate.     Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?         Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?        Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.      "
 },
 {
-  "id": "activities-5-2",
+  "id": "act_interp_deriv-2",
   "level": "2",
-  "url": "activities-5.html#activities-5-2",
+  "url": "act_interp_deriv.html#act_interp_deriv-2",
   "type": "Objectives",
   "number": "3.3",
   "title": "",
   "body": "   The learner will use context and units to interpret the meaning of the derivative in practical settings and use the derivative at a point to estimate the value of the (original) function at nearby points.    "
 },
 {
-  "id": "activities-5-4-1",
+  "id": "act_interp_deriv-4-1",
   "level": "2",
-  "url": "activities-5.html#activities-5-4-1",
+  "url": "act_interp_deriv.html#act_interp_deriv-4-1",
   "type": "Worksheet Exercise",
   "number": "3.3.1",
   "title": "Production Costs.",
   "body": " Production Costs   The Bedrock Gravel Company has hired a consulting firm to help them manage gravel production costs. As a first step, the company uses information on past production to model monthly production costs. They develop a function, , which gives the total monthly production cost (in dollars) as a function of the number of tons, , of gravel produced.  Below are some questions about some numerical findings. For each, pay attention to units, and keep in mind the practical (that is, economic) interpretations, including appropriate units.      Consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Now consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Next, consider the equation .     What are the units of ?      What are the units of ?      What is the economic interpretation of ?       Recall that .     What are the units of ?      What is the economic interpretation of ?     "
 },
 {
-  "id": "activities-5-5-1",
+  "id": "act_interp_deriv-5-1",
   "level": "2",
-  "url": "activities-5.html#activities-5-5-1",
+  "url": "act_interp_deriv.html#act_interp_deriv-5-1",
   "type": "Worksheet Exercise",
   "number": "3.3.2",
   "title": "Snowfall.",
   "body": " Snowfall   On one particular morning, consider the function which takes as input the number of hours since midnight and give as its output the number of inches of snow that have fallen between midnight and the given time. Assign appropriate units to each of the quantities listed and answer the question.     What is the practical meaning of ?      What is the practical meaning of ?      Assuming and , make a prediction for the value of ?    "
 },
 {
-  "id": "activities-5-6-1",
+  "id": "act_interp_deriv-6-1",
   "level": "2",
-  "url": "activities-5.html#activities-5-6-1",
+  "url": "act_interp_deriv.html#act_interp_deriv-6-1",
   "type": "Worksheet Exercise",
   "number": "3.3.3",
   "title": "Energy Storage.",
   "body": " Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.    "
+},
+{
+  "id": "act_depth_of_water",
+  "level": "1",
+  "url": "act_depth_of_water.html",
+  "type": "Worksheet",
+  "number": "3.4",
+  "title": "Rate of Change of Depth",
+  "body": " Rate of Change of Depth     In this activity, we will revisit the conical water tank with extra information and seek to find out how quickly the water in the tank is rising at various times.  (Technically, the shape of the tank is a right circular cone , which means that cross-sections are perpendicular to the vertical axis and are circles.)      We are considering a (hypothetical) conical water tank, oriented with the point downward. We also have the following information.   The tank has a height\/depth of .    The radius of the tank at the top is .    Water is running into the tank at a steady rate of .    The tank has been filling before we begin measuring.    At the time we start measuring, the tank is filled with water to a depth of .        Recall that the volume of a right circular cone is given by , where is the radius and is the vertical height.     Find the total volume of the tank (in cubic meters).      Express the volume of the cone in liters.       We will now find a formula for the volume of water in the tank as a function of time.     Recall that we can use similar triangles to find the relationships of the total height of the tank, the radius at the top of the tank, any depth of water, and the radius of the water at that depth.  Find the amount of water in the tank when we begin measuring. That is, when the height\/depth of the water is . This is the volume at time  .      Use the volume at time and the rate at which water is running into the tank to express the volume as a function of the time  (in seconds) since beginning to measure.  Your expression should have the form , where is expressed in liters and is expressed in seconds.      Given the initial volume of water, the total volume of the tank, and the fill rate, determine how long (after time ) it will take for the tank to be completely full.       Sketch a graph showing the depth of water over time. To do this, you will want to consider:   how deep the water is at time ;    how deep the water is when the tank is full;    how long it takes for the tank to be completely full; and    whether the depth rises at a steady rate, rises quickly at first and then more slowly, or rises more slowly at first and then more quickly.         We will now express the volume as a function of depth .     Let represent the depth of water as measured from the bottom of the tank. Use similar triangles to express the radius at a given depth in terms of .      Use the formula for the volume of a cone and your expression for the radius at a given depth to find the volume of (the cone of) water in the tank as a function of .  Your expression should have the form where is expressed in liters (convert it if your formula is for cubic meters!) (in meters) is the only variable on the right hand side.       Now we will combine our results to obtain a function for the depth, , as a function of time .     Set the volumes from and equal to each other. That is, write .      Solve your equation for . This gives you a function so that .      Use appropriate technology (such as Desmos or a graphing calculator) to graph your function. How does it compare to your sketch in ?       Our goal now is to approximate the rate at which the water is rising at various times. We will use average rates over small intervals to approximate instantaneous rates . Then, we will investigate a useful algebraic identity and use it to calculate the instantaneous rates exactly based on our function.  Note: for the rate at , we will use the fact that the tank was filling before we started measuring , and thus (small) negative times are valid.   Note the approximations in this exercise use what is called a central difference quotient because we are using times an equal amount before\/left of the point of interest and after\/right of the point of interest.  More generally, a central difference quotient for a function about a point of interest will have the form   For numerical approximations of the instantaneous rate, using central difference quotients turns out to be more accurate than using difference quotients between the point of interest and another point. In the limit as the differences approach zero, they yield the same result.      We will approximate the average rate of change of depth at .     Use your function to calculate the average rate of change in depth between and . (This calculation is the central difference quotient about with .)      Use your function to calculate the average rate of change in depth between and . (This calculation is the central difference quotient about with .)      Use your function to calculate the average rate of change in depth using central difference quotient about with .       Repeat with central differences around .      Repeat with central differences around . Note that this uses negative values for , which is completely valid.      "
+},
+{
+  "id": "act_depth_of_water-2",
+  "level": "2",
+  "url": "act_depth_of_water.html#act_depth_of_water-2",
+  "type": "Objectives",
+  "number": "3.4",
+  "title": "",
+  "body": "   In this activity, we will revisit the conical water tank with extra information and seek to find out how quickly the water in the tank is rising at various times.  (Technically, the shape of the tank is a right circular cone , which means that cross-sections are perpendicular to the vertical axis and are circles.)    "
+},
+{
+  "id": "act_depth_of_water-4",
+  "level": "2",
+  "url": "act_depth_of_water.html#act_depth_of_water-4",
+  "type": "Worksheet Exercise",
+  "number": "3.4.1",
+  "title": "",
+  "body": "  Recall that the volume of a right circular cone is given by , where is the radius and is the vertical height.     Find the total volume of the tank (in cubic meters).      Express the volume of the cone in liters.    "
+},
+{
+  "id": "exer_water_as_func_time",
+  "level": "2",
+  "url": "act_depth_of_water.html#exer_water_as_func_time",
+  "type": "Worksheet Exercise",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  We will now find a formula for the volume of water in the tank as a function of time.     Recall that we can use similar triangles to find the relationships of the total height of the tank, the radius at the top of the tank, any depth of water, and the radius of the water at that depth.  Find the amount of water in the tank when we begin measuring. That is, when the height\/depth of the water is . This is the volume at time  .      Use the volume at time and the rate at which water is running into the tank to express the volume as a function of the time  (in seconds) since beginning to measure.  Your expression should have the form , where is expressed in liters and is expressed in seconds.      Given the initial volume of water, the total volume of the tank, and the fill rate, determine how long (after time ) it will take for the tank to be completely full.    "
+},
+{
+  "id": "exer_sketch_depth",
+  "level": "2",
+  "url": "act_depth_of_water.html#exer_sketch_depth",
+  "type": "Worksheet Exercise",
+  "number": "3.4.3",
+  "title": "",
+  "body": "  Sketch a graph showing the depth of water over time. To do this, you will want to consider:   how deep the water is at time ;    how deep the water is when the tank is full;    how long it takes for the tank to be completely full; and    whether the depth rises at a steady rate, rises quickly at first and then more slowly, or rises more slowly at first and then more quickly.      "
+},
+{
+  "id": "exer_water_as_func_depth",
+  "level": "2",
+  "url": "act_depth_of_water.html#exer_water_as_func_depth",
+  "type": "Worksheet Exercise",
+  "number": "3.4.4",
+  "title": "",
+  "body": "  We will now express the volume as a function of depth .     Let represent the depth of water as measured from the bottom of the tank. Use similar triangles to express the radius at a given depth in terms of .      Use the formula for the volume of a cone and your expression for the radius at a given depth to find the volume of (the cone of) water in the tank as a function of .  Your expression should have the form where is expressed in liters (convert it if your formula is for cubic meters!) (in meters) is the only variable on the right hand side.    "
+},
+{
+  "id": "act_depth_of_water-8",
+  "level": "2",
+  "url": "act_depth_of_water.html#act_depth_of_water-8",
+  "type": "Worksheet Exercise",
+  "number": "3.4.5",
+  "title": "",
+  "body": "  Now we will combine our results to obtain a function for the depth, , as a function of time .     Set the volumes from and equal to each other. That is, write .      Solve your equation for . This gives you a function so that .      Use appropriate technology (such as Desmos or a graphing calculator) to graph your function. How does it compare to your sketch in ?    "
+},
+{
+  "id": "exer_water_depth_rate",
+  "level": "2",
+  "url": "act_depth_of_water.html#exer_water_depth_rate",
+  "type": "Worksheet Exercise",
+  "number": "3.4.6",
+  "title": "",
+  "body": "  Our goal now is to approximate the rate at which the water is rising at various times. We will use average rates over small intervals to approximate instantaneous rates . Then, we will investigate a useful algebraic identity and use it to calculate the instantaneous rates exactly based on our function.  Note: for the rate at , we will use the fact that the tank was filling before we started measuring , and thus (small) negative times are valid.   Note the approximations in this exercise use what is called a central difference quotient because we are using times an equal amount before\/left of the point of interest and after\/right of the point of interest.  More generally, a central difference quotient for a function about a point of interest will have the form   For numerical approximations of the instantaneous rate, using central difference quotients turns out to be more accurate than using difference quotients between the point of interest and another point. In the limit as the differences approach zero, they yield the same result.      We will approximate the average rate of change of depth at .     Use your function to calculate the average rate of change in depth between and . (This calculation is the central difference quotient about with .)      Use your function to calculate the average rate of change in depth between and . (This calculation is the central difference quotient about with .)      Use your function to calculate the average rate of change in depth using central difference quotient about with .       Repeat with central differences around .      Repeat with central differences around . Note that this uses negative values for , which is completely valid.     "
 },
 {
   "id": "notes-week-01-3",
