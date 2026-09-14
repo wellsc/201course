@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- When creating a new activity, make a copy of this file with appropriate name -->
-<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act_interp_deriv">
   <title>Interpretations of the Derivative</title>
   <!-- Optional introduction -->
   <objectives>

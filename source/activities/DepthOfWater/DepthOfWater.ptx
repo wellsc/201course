@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act_depth_of_water">
+        <title>Rate of Change of Depth</title>
+        <objectives>
+                <ul>
+                        <li>
+                                <p>
+                                        In this activity, we will revisit the conical water tank
+                                        with extra information and seek to find out how quickly the
+                                        water in the tank is rising at various times.
+                                </p>
+                                <p>
+                                                (Technically, the shape of the tank is a <em>right circular cone</em>, which means that cross-sections are perpendicular to the vertical axis and are circles.)
+                                </p>
+                        </li>
+                </ul>
+        </objectives>
+        <introduction>
+                <p>
+                                We are considering a (hypothetical) conical water tank, oriented with the point downward. We also have the following information.
+                        <ul>
+                                <li>
+                                        <p>
+                                                        The tank has a height/depth of <m>6\text{m}</m>.
+                                        </p>
+                                </li>
+                                <li>
+                                        <p>
+                                                        The radius of the tank at the top is <m>2\text{m}</m>.
+                                        </p>
+                                </li>
+                                <li>
+                                        <p>
+                                                        Water is running into the tank at a steady rate of <m>20\pi\text{l/s}</m>.
+                                        </p>
+                                </li>
+                                <li>
+                                        <p>
+                                                The tank has been filling before we begin measuring. 
+                                        </p>
+                                </li>
+                                <li>
+                                        <p>
+                                                        At the time we start measuring, the tank is filled with water to a depth of <m>2\text{m}</m>.
+                                        </p>
+                                </li>
+                        </ul>
+                </p>
+        </introduction>
+
+        <exercise workspace="1in">
+                <introduction>
+                        <p>
+                                        Recall that the volume of a right circular cone is given by <m>V=\frac{1}{3}\pi{}r^{2}h</m>, where <m>r</m> is the radius and <m>h</m> is the vertical height.
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                        <p>
+                                Find the total volume of the tank (in cubic meters).
+                        </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                        <p>
+                                Express the volume of the cone in liters.
+                        </p>
+                        </statement>
+                </task>
+        </exercise>
+        <exercise workspace="1in" xml:id="exer_water_as_func_time">
+                <introduction>
+                        <p>
+                                We will now find a formula for the volume of water in the tank as a function of time.
+                        </p>
+                </introduction>
+                <task>
+                <statement>
+                        <p>
+                                Recall that we can use similar triangles to find the relationships of the total height of the tank, the radius at the top of the tank, any depth of water, and the radius of the water at that depth.
+                        </p>
+                        <p>
+                                        Find the amount of water in the tank when we begin measuring. That is, when the height/depth of the water is <m>2\text{m}</m>. This is the volume at <em>time</em> <m>t=0</m>.
+                        </p>
+                </statement>
+                </task>
+                <task>
+                <statement>
+                        <p>
+                                        Use the volume at time <m>t=0</m> and the rate at which water is running into the tank to express the volume <em>as a function of the time</em> <m>t</m> (in seconds) since beginning to measure.
+                        </p>
+                        <p>
+                                        Your expression should have the form <m>V=F(t)</m>, where <m>V</m> is expressed in liters and <m>t</m> is expressed in seconds.
+                        </p>
+                </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                                Given the initial volume of water, the total volume of the tank, and the fill rate, determine how long (after time <m>t=0</m>) it will take for the tank to be completely full.
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        <exercise xml:id="exer_sketch_depth" workspace="3in">
+                <statement>
+                        <p>
+                                Sketch a graph showing the depth of water over time. To do this, you will want to consider:
+                                <ul>
+                                        <li>
+                                                <p>
+                                                                how deep the water is at time <m>t=0</m>;
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>
+                                                                how deep the water is when the tank is full;
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>
+                                                                how long it takes for the tank to be completely full; and
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>
+                                                        whether the depth rises at a steady rate, rises quickly at first and then more slowly, or rises more slowly at first and then more quickly.
+                                                </p>
+                                        </li>
+                                </ul>
+                        </p>
+                </statement>
+        </exercise>
+        <exercise workspace="1in" xml:id="exer_water_as_func_depth">
+                <introduction>
+                        <p>
+                                        We will now express the volume <em>as a function of depth</em>.
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                                Let <m>d</m> represent the depth of water as measured from the bottom of the tank. Use similar triangles to express the radius at a given depth in terms of <m>d</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                                Use the formula for the volume of a cone and your expression for the radius at a given depth to find the volume of (the cone of) water in the tank as a function of <m>d</m>. 
+                                </p>
+                                <p>
+                                        Your expression should have the form <m>V=G(d)</m> where <m>V</m> is expressed in liters (convert it if your formula is for cubic meters!) <m>d</m> (in meters) is the only variable on the right hand side.
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        <exercise>
+                <introduction>
+                        <p>
+                                Now we will combine our results to obtain a function for the depth, <m>d</m>, as a function of time <m>t</m>.
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                        Set the volumes from 
+                                        <xref ref="exer_water_as_func_time" />
+                                        and
+                                        <xref ref="exer_water_as_func_depth" />
+                                                equal to each other. That is, write <m>F(t)=G(d)</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                                Solve your equation for <m>d</m>. This gives you a function <m>f(t)</m> so that <m>d=f(t)</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task >
+                        <statement>
+                                <p>
+                                                Use appropriate technology (such as <url href="https://desmos.com">Desmos</url> or a graphing calculator) to graph your function. How does it compare to your sketch in <xref ref="exer_sketch_depth" />?
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        <exercise workspace="1in" xml:id="exer_water_depth_rate">
+                <introduction>
+                        <p>
+                                        Our goal now is to approximate the rate at which the water is rising at various times. We will use <em>average rates</em> over small intervals to approximate <em>instantaneous rates</em>.  Then, we will investigate a useful algebraic identity and use it to calculate the instantaneous rates <em>exactly</em> based on our function.
+                        </p>
+                        <p>
+                                        Note: for the rate at <m>t=0</m>, we will use the fact that <em>the tank was filling before we started measuring</em>, and thus (small) <em>negative times</em> are valid.
+                        </p>
+                                <aside>
+                                <p>
+                                        Note the approximations in this exercise use what is called a <em>central difference quotient</em> because we are using times an equal amount before/left of the point of interest and after/right of the point of interest. 
+                                </p>
+                                <p>
+                                                More generally, a central difference quotient for a function <m>f</m> about a point of interest <m>t=a</m> will have the form <m>\frac{f(a+h)-f(a-h)}{(a+h)-(a-h)}=\frac{f(a+h)-f(a-h)}{2h}</m>
+                                </p>
+                                        <p>
+                                        For numerical approximations of the instantaneous rate, using central difference quotients turns out to be more accurate than using difference quotients between the point of interest and another point. In the limit as the differences approach zero, they yield the same result.
+                                        </p>
+                                </aside>
+                </introduction>
+                <task>
+                        <introduction>
+                                <p>
+                                                We will approximate the average rate of change of depth at <m>t=5</m>.
+                                </p>
+                        </introduction>
+                <task xml:id="task_water_central_diff">
+                        <statement>
+                                <p>
+                                        Use your function to calculate the average rate of change in depth between <m>t=4.5=5-0.5</m> and <m>t=5.5=5+0.5</m>. (This calculation is the <em>central difference quotient</em> about <m>t=5</m> with <m>h=0.5</m>.)
+                                </p>
+                        </statement>
+                </task>
+                <task >
+                        <statement>
+                                <p>
+                                        Use your function to calculate the average rate of change in depth between <m>t=4.9=5-0.1</m> and <m>t=5.1=5+0.1</m>. (This calculation is the <em>central difference quotient</em> about <m>t=5</m> with <m>h=0.1</m>.)
+                                </p>
+                        </statement>
+                </task>
+                <task >
+                        <statement>
+                                <p>
+                                        Use your function to calculate the average rate of change in depth using central difference quotient about <m>t=5</m> with <m>h=0.01</m>.
+                                </p>
+                        </statement>
+                </task>
+                </task>
+                <task>
+                        <statement>
+                                <p> 
+                                                Repeat <xref ref="task_water_central_diff"/> with central differences around <m>t=2</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p> 
+                                                Repeat <xref ref="task_water_central_diff"/> with central differences around <m>t=0</m>. <alert>Note that this uses negative values for <m>t</m>, which is completely valid.</alert>
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+</worksheet>
