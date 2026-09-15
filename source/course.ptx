@@ -34,8 +34,8 @@
 
       <xi:include href="./activities/FunctionsAndModeling/FunctionsAndModeling.ptx"/>
       <xi:include href="./activities/UnderstandingLimits.ptx"/>
-      <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
       <xi:include href="./activities/DepthOfWater/DepthOfWater.ptx"/>
+      <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
 
     </chapter>
 
