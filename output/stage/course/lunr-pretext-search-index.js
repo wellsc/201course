@@ -451,13 +451,13 @@ var ptx_lunr_docs = [
   "body": " Friday    "
 },
 {
-  "id": "handouts",
+  "id": "handouts-3",
   "level": "1",
-  "url": "handouts.html",
-  "type": "Chapter",
+  "url": "handouts-3.html",
+  "type": "Handout",
   "number": "5",
-  "title": "Handouts",
-  "body": " Handouts     "
+  "title": "An Introduction to Problem Solving",
+  "body": " An Introduction to Problem Solving   In his book, How To Solve It , mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are Understand the Problem , Make a Plan , Carry Out the Plan , and Look Back .  Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors give students the plan rather than asking them to work on understanding and formulating a plan for themselves, and almost no time is given to looking back .  This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.    Understanding the Problem   First. you have to understand the problem.   What is the unknown? What are the data? What is the condition? Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory?  Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?      Devising a Plan   Second. Find the connection between the data and the unknown.  You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution.  Have you seen it before? Or have you seen the same problem in a slightly different form?   Do you know a related problem? Do you know a theorem that could be useful? Look at the unknown! And try to think of a familiar problem having the same or a similar unknown.   Here is a problem related to yours and solved before. Could you use it? Could you use its result? Could you use its method? Should you introduce some auxiliary element in order to make its use possible?  Could you restate the problem? Could you restate it still differently? Go back to definitions.    If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other?  Did you use all the data? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?    Carrying Out the Plan   Third.  Carry out your plan.  Carrying out your plan of the solution, check each step . Can you see clearly that the step is correct? Can you prove that it is correct?    Looking Back   Fourth.  Examine the solution obtained.  Can you check the result? Can you check the argument?  Can you derive the result differently? Can you see it at a glance?  Can you use the result, or the method, for some other problem?   "
 },
 {
   "id": "homework",
