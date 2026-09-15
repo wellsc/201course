@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paragraphs xml:id="understanding" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<title>Understanding the Problem</title>
+                <p>
+                        <alert>First.</alert> you have to <em>understand</em> the problem.
+                </p>
+		<p>
+                        <em>What is the unknown? What are the data? What is the condition?</em> Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory? 
+                        </p>
+                        <p>
+                                Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?   </p>
+	</paragraphs>

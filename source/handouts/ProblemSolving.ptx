@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xmlns:xi="http://www.w3.org/2001/XInclude" >
+<title>An Introduction to Problem Solving</title>
+<introduction>
+        <p>
+                        In his book, <em>How To Solve It</em>, mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are <em>Understand the Problem</em>, <em>Make a Plan</em>, <em>Carry Out the Plan</em>, and <em>Look Back</em>.
+        </p>
+        <p>
+                Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors <em>give</em> students the plan rather than asking them to work on <em>understanding</em> and <em>formulating</em> a plan for themselves, and almost no time is given to <em>looking back</em>.
+        </p>
+        <p>
+                This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.
+        </p>
+</introduction>
+<xi:include href="./ProblemSolving/understanding.ptx"/>
+<xi:include href="./ProblemSolving/plan.ptx"/>
+<xi:include href="./ProblemSolving/carrying.ptx"/>
+<xi:include href="./ProblemSolving/lookback.ptx"/>
+</handout>

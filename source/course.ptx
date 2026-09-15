@@ -61,6 +61,7 @@
       <p></p>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <xi:include href="./handouts/ProblemSolving.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
