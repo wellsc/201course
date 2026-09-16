@@ -61,6 +61,20 @@
                                 Find the total volume of the tank (in cubic meters).
                         </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>8\pi\text{m}^3.</m>
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                        <md>
+                                                <mrow>V_{\text{total}}\amp=\frac{1}{3}\pi{}r^{2}h</mrow>
+                                                <mrow> \amp=\frac{1}{3}\pi{}(2\text{m})^{2}(6\text{m})</mrow>
+                                                <mrow> \amp=8\pi\text{m}^{3}.</mrow>
+                                        </md>
+                                </p>
+                        </solution>
                 </task>
                 <task>
                         <statement>
@@ -68,6 +82,16 @@
                                 Express the volume of the cone in liters.
                         </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>8000\pi\ell.</m>
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                        <m>8\pi\text{m}^3 \frac{1000\ell}{1\text{m}^{3}}=8000\pi\ell.</m>
+                                </p>
+                        </solution>
                 </task>
         </exercise>
         <exercise workspace="1in" xml:id="exer_water_as_func_time">
@@ -85,6 +109,22 @@
                                         Find the amount of water in the tank when we begin measuring. That is, when the height/depth of the water is <m>2\text{m}</m>. This is the volume at <em>time</em> <m>t=0</m>.
                         </p>
                 </statement>
+                <answer>
+                        <p>
+                                <m> V_{0}=\frac{8000\pi}{27}\ell.</m>
+                        </p>
+                </answer>
+                <solution>
+                        <p>
+                                        From similar triangles, if <m>r</m> is the radius of the water when the depth is 2m, then <m>\frac{r}{2\text{m}}=\frac{2\text{m}}{6\text{m}}</m>, and so <m>r=\frac{2}{3}\text{m}</m>, and thus we have
+                                        <md>
+                                                <mrow>V\amp=\frac{1}{3}\pi{}r^{2}h</mrow>
+                                                <mrow> \amp=\frac{1}{3}\pi{}\left(\frac{2}{3}\text{m}\right)^{2}(2\text{m})</mrow>
+                                                <mrow> \amp=\frac{8\pi}{27}\text{m}^{3}</mrow>
+                                                <mrow> \amp=\frac{8000\pi}{27}\ell.</mrow>
+                                        </md>
+                        </p>
+                </solution>
                 </task>
                 <task>
                 <statement>
@@ -95,6 +135,11 @@
                                         Your expression should have the form <m>V=F(t)</m>, where <m>V</m> is expressed in liters and <m>t</m> is expressed in seconds.
                         </p>
                 </statement>
+                <answer>
+                        <p>
+                                <m>V(t)=\left(\frac{8000\pi}{27}+20\pi{}t\right)\ell.</m>
+                        </p>
+                </answer>
                 </task>
                 <task>
                         <statement>
@@ -102,6 +147,47 @@
                                                 Given the initial volume of water, the total volume of the tank, and the fill rate, determine how long (after time <m>t=0</m>) it will take for the tank to be completely full.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>t\approx 385.185\text{s}</m>
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                                We need to solve <m>V(t)=V_{\text{total}}</m>, or <m>\left(\frac{8000\pi}{27}+20\pi{}t\right)\ell=8000\pi\ell</m>. Thus,
+                                        <md>
+                                                <mrow>
+                                                        \left(\frac{8000\pi}{27}+20\pi{}t\right)=8000\pi
+                                                        \amp\longrightarrow
+                                                        \frac{1}{27}\cdot 8000\pi+20\pi{}t=8000\pi
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        \frac{1}{27}\cdot 8000\pi+20\pi{}t=\frac{27}{27}\cdot 8000\pi
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        20\pi{}t=\frac{26}{27}\cdot 8000\pi
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        t=\frac{26}{27}\cdot \frac{8000}{20}
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        t=\frac{26}{27}\cdot 400
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        t=\frac{10400}{27}
+                                                </mrow>
+                                                <mrow>
+                                                        \amp\longrightarrow
+                                                        t\approx 385.185\text{s}
+                                                </mrow>
+                                        </md>
+                                </p>
+                        </solution>
                 </task>
         </exercise>
         <exercise xml:id="exer_sketch_depth" workspace="3in">
@@ -145,6 +231,16 @@
                                                 Let <m>d</m> represent the depth of water as measured from the bottom of the tank. Use similar triangles to express the radius at a given depth in terms of <m>d</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>r=\frac{1}{3}d</m>
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                        By similar triangles, <m>\frac{r}{d}=\frac{2\text{m}}{6\text{m}}</m>, so <m>r=\frac{1}{3}d</m>.
+                                </p>
+                        </solution>
                 </task>
                 <task>
                         <statement>
@@ -155,6 +251,36 @@
                                         Your expression should have the form <m>V=G(d)</m> where <m>V</m> is expressed in liters (convert it if your formula is for cubic meters!) <m>d</m> (in meters) is the only variable on the right hand side.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        Note that we are using a script V, <m>\mathcal{V}(d)</m> to differentiate it from <m>V(t)</m>.
+                                </p>
+                                <p>
+                                        <m>\mathcal{V}(d)=\frac{1000\pi}{27}d^{3}\ell</m>.
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                        <md>
+                                                <mrow>
+                                                        \mathcal{V}(d)
+                                                        \amp = \frac{1}{3}\pi{}r^{2} h
+                                                </mrow>
+                                                <mrow>
+                                                        \amp = \frac{1}{3}\pi{}\left(\frac{d}{3}\right)^{2} d\text{m}^{3}
+                                                </mrow>
+                                                <mrow>
+                                                        \amp = \frac{1}{3}\pi{}\frac{d^{2}}{9} d\text{m}^{3}
+                                                </mrow>
+                                                <mrow>
+                                                        \amp = \frac{1}{27}\pi{}d^{3}\text{m}^{3}
+                                                </mrow>
+                                                <mrow>
+                                                        \amp = \frac{1000}{27}\pi{}d^{3}\ell.
+                                                </mrow>
+                                        </md>
+                                </p>
+                        </solution>
                 </task>
         </exercise>
         <exercise>
@@ -172,7 +298,13 @@
                                         <xref ref="exer_water_as_func_depth" />
                                                 equal to each other. That is, write <m>F(t)=G(d)</m>.
                                 </p>
-                        </statement>
+                                </statement>
+                                <answer>
+                                        <p>
+                                                <m>\left(\frac{8000\pi}{27}+20\pi{}t\right)=\frac{1000}{27}\pi{}d^{3}</m>
+                                        </p>
+                                </answer>
+                                
                 </task>
                 <task>
                         <statement>
@@ -180,6 +312,11 @@
                                                 Solve your equation for <m>d</m>. This gives you a function <m>f(t)</m> so that <m>d=f(t)</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                                We have <m>d=\sqrt[3]{0.54t+8}=\left({0.54t+8}\right)^{1/3}</m>.
+                                </p>
+                        </answer>
                 </task>
                 <task >
                         <statement>
@@ -187,12 +324,21 @@
                                                 Use appropriate technology (such as <url href="https://desmos.com">Desmos</url> or a graphing calculator) to graph your function. How does it compare to your sketch in <xref ref="exer_sketch_depth" />?
                                 </p>
                         </statement>
+                        <answer>
+                                        <figure>
+                                                <caption>The Depth of Water as a Function of Time</caption>
+                                                <image width="70%">
+                                                        <description><p>Graph of the depth as a function of time.</p></description>
+                                                <xi:include href="./depth.ptx" />
+                                                </image>
+                                        </figure>
+                        </answer>
                 </task>
         </exercise>
         <exercise workspace="1in" xml:id="exer_water_depth_rate">
                 <introduction>
                         <p>
-                                        Our goal now is to approximate the rate at which the water is rising at various times. We will use <em>average rates</em> over small intervals to approximate <em>instantaneous rates</em>.  Then, we will investigate a useful algebraic identity and use it to calculate the instantaneous rates <em>exactly</em> based on our function.
+                                        Our goal now is to approximate the rate at which the water is rising at various times. We will use <em>average rates</em> over small intervals to approximate <em>instantaneous rates</em>.  Then, in our next activity, we will investigate a useful algebraic identity and use it to calculate the instantaneous rates <em>exactly</em> based on our function.
                         </p>
                         <p>
                                         Note: for the rate at <m>t=0</m>, we will use the fact that <em>the tank was filling before we started measuring</em>, and thus (small) <em>negative times</em> are valid.
@@ -221,6 +367,13 @@
                                         Use your function to calculate the average rate of change in depth between <m>t=4.5=5-0.5</m> and <m>t=5.5=5+0.5</m>. (This calculation is the <em>central difference quotient</em> about <m>t=5</m> with <m>h=0.5</m>.)
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>
+                                                \frac{f(5.5)-f(4.5)}{5.5-4.5}\approx 0.0370738659875465 \frac{\text{m}}{\text{s}}
+                                        </m>
+                                </p>
+                        </answer>
                 </task>
                 <task >
                         <statement>
@@ -228,6 +381,13 @@
                                         Use your function to calculate the average rate of change in depth between <m>t=4.9=5-0.1</m> and <m>t=5.1=5+0.1</m>. (This calculation is the <em>central difference quotient</em> about <m>t=5</m> with <m>h=0.1</m>.)
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>
+                                                \frac{f(5.1)-f(4.9)}{5.1-4.9}\approx 0.0370696684486038 \frac{\text{m}}{\text{s}}
+                                        </m>
+                                </p>
+                        </answer>
                 </task>
                 <task >
                         <statement>
@@ -235,6 +395,13 @@
                                         Use your function to calculate the average rate of change in depth using central difference quotient about <m>t=5</m> with <m>h=0.01</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>
+                                                \frac{f(5.01)-f(4.99)}{5.01-4.99}\approx 0.0370694953540029 \frac{\text{m}}{\text{s}}
+                                        </m>
+                                </p>
+                        </answer>
                 </task>
                 </task>
                 <task>
@@ -243,6 +410,16 @@
                                                 Repeat <xref ref="task_water_central_diff"/> with central differences around <m>t=2</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <md>
+                                                <mrow>\frac{f(2.5)-f(1.5)}{2.5-1.5}        \amp \approx  0.0413637346636881</mrow>
+                                                <mrow>\frac{f(2.1)-f(1.9)}{2.1-1.9}        \amp \approx  0.0413572307132615</mrow>
+                                                <mrow>\frac{f(2.01)-f(1.99)}{2.01-1.99}    \amp \approx  0.0413569625412391</mrow>
+                                                <mrow>\frac{f(2.001)-f(1.999)}{2.001-1.999}\amp \approx  0.0413569598594066</mrow>
+                                        </md>
+                                </p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -250,6 +427,16 @@
                                                 Repeat <xref ref="task_water_central_diff"/> with central differences around <m>t=0</m>. <alert>Note that this uses negative values for <m>t</m>, which is completely valid.</alert>
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <md>
+                                                <mrow>\frac{f(0.5)-f(-0.5)}{2.5-1.5}        \amp \approx 0.0450094974772557 </mrow>
+                                                <mrow>\frac{f(0.1)-f(-0.1)}{2.1-1.9}        \amp \approx 0.0450003796959586 </mrow>
+                                                <mrow>\frac{f(0.01)-f(-0.01)}{2.01-1.99}    \amp \approx 0.0450000037968801 </mrow>
+                                                <mrow>\frac{f(0.001)-f(-0.001)}{2.001-1.999}\amp \approx 0.0450000000380424 </mrow>
+                                        </md>
+                                </p>
+                        </answer>
                 </task>
         </exercise>
 </worksheet>

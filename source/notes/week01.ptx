@@ -11,25 +11,20 @@
 
   <!-- Can also be <handout> instead of <subsection> to get a printable version -->
   <subsection>
-    <title>Monday 8/22</title>
+          <title>Tuesday, 09/01</title>
 
     <p>
+                    We introduced class with <xref ref="functions_and_modeling" /> where we focused on determining what information we needed to solve an ill-posed problem rather than on solving the problem.
     </p>
   </subsection>
 
 
   <subsection>
-    <title>Wednesday 8/24</title>
+          <title>Thursday, 09/03</title>
 
     <p>
     </p>
   </subsection>
 
 
-  <subsection>
-    <title>Friday 8/26</title>
-
-    <p>
-    </p>
-  </subsection>
 </section>

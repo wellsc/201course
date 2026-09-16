@@ -15,6 +15,7 @@
     \newcommand{\Z}{\mathbb Z}
     \newcommand{\Q}{\mathbb Q}
     \newcommand{\R}{\mathbb R}
+          \newcommand{\php}{\phantom{+}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->

@@ -9,6 +9,11 @@
         <exercise-divisional answer="no" />
         <exercise-divisional solution="no" />
         <exercise-inline solution="no" />
+      <!--<exercise-inline statement="yes" hint="yes" answer="no" solution="no" />-->
+      <!--<exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />-->
+      <exercise-worksheet statement="yes" hint="yes" answer="no" solution="no" />
+      <!--<exercise-reading statement="yes" hint="yes" answer="no" solution="no" />-->
+      <!--<exercise-project statement="yes" hint="yes" answer="yes" solution="yes" />-->
     </common>
 
     <html print='no'>
