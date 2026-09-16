@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="prefigure_water_depth_over_time" >
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>f(x)=(0.54*x+8)^(1/3)</definition>
+
+          <coordinates bbox="[-20,-1,400,7]">
+                <grid-axes xlabel="t" ylabel="d"/>
+            <graph function="f" domain="(0,385.18)" stroke="black"/>
+          </coordinates>
+</diagram>
+</prefigure>
+
