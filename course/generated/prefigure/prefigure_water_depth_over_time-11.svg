@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure_water_depth_over_time-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="prefigure_water_depth_over_time-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure_water_depth_over_time-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure_water_depth_over_time-grid-axes">
+    <g id="prefigure_water_depth_over_time-grid" stroke="#ccc" stroke-width="1">
+      <line x1="19.3" y1="305.0" x2="19.3" y2="5.0"/>
+      <line x1="55.0" y1="305.0" x2="55.0" y2="5.0"/>
+      <line x1="90.7" y1="305.0" x2="90.7" y2="5.0"/>
+      <line x1="126.4" y1="305.0" x2="126.4" y2="5.0"/>
+      <line x1="162.1" y1="305.0" x2="162.1" y2="5.0"/>
+      <line x1="197.9" y1="305.0" x2="197.9" y2="5.0"/>
+      <line x1="233.6" y1="305.0" x2="233.6" y2="5.0"/>
+      <line x1="269.3" y1="305.0" x2="269.3" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="267.5" x2="305.0" y2="267.5"/>
+      <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+      <line x1="5.0" y1="192.5" x2="305.0" y2="192.5"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="117.5" x2="305.0" y2="117.5"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="42.5" x2="305.0" y2="42.5"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="prefigure_water_depth_over_time-axes" stroke="black" stroke-width="2">
+      <line id="prefigure_water_depth_over_time-__line-18" x1="5.0" y1="267.5" x2="305.0" y2="267.5" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure_water_depth_over_time-__line-19" x1="90.7" y1="270.5" x2="90.7" y2="264.5"/>
+        <line id="prefigure_water_depth_over_time-__line-20" x1="162.1" y1="270.5" x2="162.1" y2="264.5"/>
+        <line id="prefigure_water_depth_over_time-__line-21" x1="233.6" y1="270.5" x2="233.6" y2="264.5"/>
+      </g>
+      <line id="prefigure_water_depth_over_time-__line-22" x1="19.3" y1="305.0" x2="19.3" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure_water_depth_over_time-__line-23" x1="16.3" y1="192.5" x2="22.3" y2="192.5"/>
+        <line id="prefigure_water_depth_over_time-__line-24" x1="16.3" y1="117.5" x2="22.3" y2="117.5"/>
+        <line id="prefigure_water_depth_over_time-__line-25" x1="16.3" y1="42.5" x2="22.3" y2="42.5"/>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-0" transform="translate(301.0,263.5) translate(-6.5,-11.5)">
+      <g id="prefigure_water_depth_over_time-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure_water_depth_over_time-MJX-2-TEX-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-1" transform="translate(23.3,9.0) translate(0.0,-0.0)">
+      <g id="prefigure_water_depth_over_time-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="9.408px" height="12.744px" role="img" focusable="false" viewBox="0 -694 520 704" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-3-TEX-I-1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="d">
+                <use data-c="1D451" xlink:href="#prefigure_water_depth_over_time-MJX-3-TEX-I-1D451"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-2" transform="translate(90.7,278.5) translate(-13.6,-0.0)">
+      <g id="prefigure_water_depth_over_time-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefigure_water_depth_over_time-MJX-4-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#prefigure_water_depth_over_time-MJX-4-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-4-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-4-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-3" transform="translate(162.1,278.5) translate(-13.6,-0.0)">
+      <g id="prefigure_water_depth_over_time-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="prefigure_water_depth_over_time-MJX-5-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="200">
+                <use data-c="32" xlink:href="#prefigure_water_depth_over_time-MJX-5-TEX-N-32"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-5-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-5-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-4" transform="translate(233.6,278.5) translate(-13.6,-0.0)">
+      <g id="prefigure_water_depth_over_time-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-6-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+            <path id="prefigure_water_depth_over_time-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="300">
+                <use data-c="33" xlink:href="#prefigure_water_depth_over_time-MJX-6-TEX-N-33"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-6-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure_water_depth_over_time-MJX-6-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-5" transform="translate(8.3,192.5) translate(-9.0,-6.0)">
+      <g id="prefigure_water_depth_over_time-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefigure_water_depth_over_time-MJX-7-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-6" transform="translate(8.3,117.5) translate(-9.0,-6.1)">
+      <g id="prefigure_water_depth_over_time-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-8-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefigure_water_depth_over_time-MJX-8-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure_water_depth_over_time-__label-7" transform="translate(8.3,42.5) translate(-9.0,-6.2)">
+      <g id="prefigure_water_depth_over_time-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure_water_depth_over_time-MJX-9-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#prefigure_water_depth_over_time-MJX-9-TEX-N-36"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefigure_water_depth_over_time-__path-0" stroke="black" stroke-width="2" fill="none" d="M 19.3 192.5 L 22.0 186.5 L 24.8 181.3 L 27.5 176.6 L 30.3 172.4 L 33.0 168.5 L 35.8 164.9 L 38.5 161.5 L 41.3 158.4 L 44.0 155.4 L 46.8 152.6 L 49.5 149.9 L 52.3 147.3 L 55.1 144.8 L 57.8 142.4 L 60.6 140.1 L 63.3 137.9 L 66.1 135.8 L 68.8 133.7 L 71.6 131.7 L 74.3 129.7 L 77.1 127.8 L 79.8 126.0 L 82.6 124.2 L 85.3 122.4 L 88.1 120.7 L 90.8 119.0 L 93.6 117.4 L 96.3 115.8 L 99.1 114.2 L 101.8 112.7 L 104.6 111.1 L 107.3 109.7 L 110.1 108.2 L 112.8 106.8 L 115.6 105.4 L 118.3 104.0 L 121.1 102.6 L 123.8 101.3 L 126.6 100.0 L 129.3 98.7 L 132.1 97.4 L 134.8 96.2 L 137.6 94.9 L 140.3 93.7 L 143.1 92.5 L 145.8 91.3 L 148.6 90.2 L 151.3 89.0 L 154.1 87.9 L 156.8 86.7 L 159.6 85.6 L 162.4 84.5 L 165.1 83.4 L 167.9 82.4 L 170.6 81.3 L 173.4 80.3 L 176.1 79.2 L 178.9 78.2 L 181.6 77.2 L 184.4 76.2 L 187.1 75.2 L 189.9 74.2 L 192.6 73.2 L 195.4 72.3 L 198.1 71.3 L 200.9 70.4 L 203.6 69.4 L 206.4 68.5 L 209.1 67.6 L 211.9 66.7 L 214.6 65.8 L 217.4 64.9 L 220.1 64.0 L 222.9 63.1 L 225.6 62.2 L 228.4 61.4 L 231.1 60.5 L 233.9 59.7 L 236.6 58.8 L 239.4 58.0 L 242.1 57.2 L 244.9 56.3 L 247.6 55.5 L 250.4 54.7 L 253.1 53.9 L 255.9 53.1 L 258.6 52.3 L 261.4 51.5 L 264.2 50.7 L 266.9 50.0 L 269.7 49.2 L 272.4 48.4 L 275.2 47.7 L 277.9 46.9 L 280.7 46.2 L 283.4 45.4 L 286.2 44.7 L 288.9 44.0 L 291.7 43.2 L 294.4 42.5" clip-path="url(#prefigure_water_depth_over_time-__clipPath-1)"/>
+</svg>
