@@ -1,0 +1,31 @@
+<prefigure xmlns="https://prefigure.org" label='prefigure-sketch-graph-2'>
+<diagram dimensions="(500,600)" margins="50">
+  <definition>f(x)=(1/2949120)*x^8-(1/64512)*x^7+(101/552960)*x^6+(7/5120)*x^5-(2873/69120)*x^4+(65/288)*x^3+x-6</definition>
+  <definition>a = 10</definition>
+  <derivative name="fp" function="f"/>
+  <definition>l(x)=fp(a)*(x-a)+f(a)</definition>
+  <coordinates bbox="(-5,-10,20,20)">
+    <grid />         
+    <axes hticks="(-5,5,20)"  hlabels="(-5,10,15)"/>
+    <graph at="graph" function="f" stroke="blue" />
+    <graph at="deriv" function="fp" stroke="green" />
+    <tangent-line at="tangent" function="f" point="a" stroke="green" />
+    <point at="point" p="(a,f(a))" />
+    <point at="fprime" p="(a,fp(a))" />
+    <point at="l1" p="( 5,l( 5))" size="3" fill="green" />
+  <point at="l2" p="(15,l(15))" size="3" fill="green" />
+  </coordinates>
+
+  <annotations text="The graph of a function comma its tangent line at the point a equals 10 and a point at a comma f prime of a" >
+      <annotation ref="graph-group" text="The graph and its tangent line">
+      <annotation ref="graph"       text="The graph of the function f" />
+      <annotation ref="point"       text="The point a comma f of a"/>
+      <annotation ref="tangent"     text="The tangent line to the graph of f at the point"/>
+      <annotation ref="fprime"      text="The point a comma f prime of a approximately 10 comma -0.98" />
+      <annotation ref="l1"      text="The point 5 comma 17.2 on the tangent line" />
+      <annotation ref="l2"      text="The point 15 comma 7.4 on the tangent line" />
+    </annotation>
+  </annotations>
+</diagram>
+</prefigure>
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sketching the Derivative Function</title>
+  <objectives>
+          <ul>
+                  <li>
+                          The Learner will develop graphical understanding of the instantaneous rate of change of a function.
+                  </li>
+                  <li>
+                          The Learner will develop numerical understanding of the instantaneous rate of change of a function.
+                  </li>
+          </ul>
+  </objectives>
+  <introduction>
+    <p>
+            <xref ref="fig_sketch_deriv"/> shows the graph <m>y=f(x)</m>, along with the tangent line to the graph at <m>(a,f(a))</m> for <m>a=10</m>.  
+    </p>
+    <p>
+        The goal of this activity is to sketch the graph of the <em>instantaneous rate of change</em> of <m>f</m> by plotting points.
+    </p>
+    <p>
+        Notice that the tangent line at <m>\big(10,f(10)\big)</m> goes through points at approximately
+<m>(5, 17.2)</m> and <m> (15, 7.4)</m>.  Thus, we can estimate the slope of the tangent line
+by <m>\frac{17.2-2.4}{5-15}\approx -0.98</m>.  
+    </p>
+    <p>
+        Remember that graphically we can interpret the instantaneous rate of change of a function at a point as the slope of the tangent line at that point.  This means that we know that a point on the graph of the instantaneous rate of change is approximately <m>(10, -0.98)</m>.
+    </p>
+    <p>
+                    We have plotted the point <m>\left(10,f'(10\right)\approx(10, -0.98)</m>, one point on the graph of <m>f'(x)</m>.
+    </p>
+    <figure xml:id="fig_sketch_deriv">
+            <caption>The graph of <m>f(x)</m> and the tangent line at <m>a=10</m>.</caption>
+            <image width="60%">
+                    <description><p>The graph of <m>f(x)</m> and the tangent line at <m>a=10</m>.</p></description>
+                    <xi:include href="./sketch.xml"/>
+            </image>
+    </figure>
+  </introduction>
+    <exercise>
+            <statement>
+                    <p>
+            Find at least six more points on the graph of the
+instantaneous rate of change
+of <m>f</m> by following this procedure:
+<ol marker="(a)">
+        <li>  Pick a point on the graph of <m>f</m> and sketch in a tangent line to the
+graph at that point.</li>
+        <li>  Find two points on the tangent line that are relatively easy to
+approximate and use them to estimate the slope of the tangent line.</li>
+        <li>  Plot the point determined by the <m>x</m>-coordinate of the point you chose,
+and use the slope of the tangent line as the <m>y</m>-coordinate.</li>
+</ol>
+                    </p>
+            </statement>
+            </exercise>
+            <exercise>
+                    <introduction>
+                            <p>
+Now, let's look for connections between the graph of the instantaneous rate of change
+                            and the graph of the original function.  <em>Be careful in the following
+questions to pay attention to whether we are talking about <m>f</m> or its
+instantaneous rate of change!</em>
+                            </p>
+                    </introduction>
+                    <task workspace="0.5in">
+                            <statement>
+                                    <p>
+Where is the graph of <m>f</m> increasing most rapidly?  What do you notice
+about the value of the instantaneous rate of change there?
+                                    </p>
+                            </statement>
+                    </task>
+                    <task workspace="0.5in">
+                            <statement>
+                                    <p>
+Where is the graph of <m>f</m> (essentially) horizontal? What do you notice
+about the value of the instantaneous rate of change there?
+                                    </p>
+                            </statement>
+                    </task>
+                    <task workspace="0.5in">
+                            <statement>
+                                    <p>
+Over what range(s) of <m>x</m> values do the values of the instantaneous rate of change appear to be
+increasing, and over what range(s) of <m>x</m> values do the values of the
+instantaneous rate of change
+appear to be decreasing?  What do you notice about the difference in the shape
+of the graph of <m>f</m> over those regions?
+                                    </p>
+                            </statement>
+                    </task>
+                    <task workspace="0.5in">
+                            <statement>
+                                    <p>
+What other relationships between the graphs of <m>f</m> and the instantaneous rate of change do you
+notice?
+                                    </p>
+                            </statement>
+                    </task>
+            </exercise>
+  <exercise>
+    <statement>
+      <p>
+Use the information you have found and we have discussed to sketch the rest of the graph of the instantaneous rate of change (that is, connect the dots).
+      </p>
+    </statement>
+    <answer>
+    <figure xml:id="fig_sketch_deriv_2">
+            <caption>The graph of <m>f(x)</m> and the tangent line at <m>a=10</m>.</caption>
+            <image width="60%">
+                    <description><p>The graph of <m>f(x)</m> and the tangent line at <m>a=10</m>.</p></description>
+                    <xi:include href="./sketch2.xml"/>
+            </image>
+    </figure>
+    </answer>
+  </exercise>
+</worksheet>

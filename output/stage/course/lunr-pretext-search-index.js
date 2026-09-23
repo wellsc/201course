@@ -460,6 +460,60 @@ var ptx_lunr_docs = [
   "body": " Energy Storage   An energy company pumps water into large holding tanks during times of low demand to store energy to use for electricity generation in times of high demand. The function gives amount of energy stored (in Watt-hours) as a function of the height of the water column (that is, the depth), , of water in the tank (in meters).     Including appropriate units, explain the practical meaning of .      Including appropriate units, explain the practical meaning of .      Assuming and , estimate and interpret                           Find an expression that would allow you to approximate for any value of that is close to .    Take note of the steps you use to answer the questions in and use that algorithm to develop a function that records those calculation steps.    "
 },
 {
+  "id": "activities-8",
+  "level": "1",
+  "url": "activities-8.html",
+  "type": "Worksheet",
+  "number": "3.6",
+  "title": "Sketching the Derivative Function",
+  "body": " Sketching the Derivative Function    The Learner will develop graphical understanding of the instantaneous rate of change of a function.  The Learner will develop numerical understanding of the instantaneous rate of change of a function.      shows the graph , along with the tangent line to the graph at for .  The goal of this activity is to sketch the graph of the instantaneous rate of change of by plotting points.  Notice that the tangent line at goes through points at approximately and . Thus, we can estimate the slope of the tangent line by .  Remember that graphically we can interpret the instantaneous rate of change of a function at a point as the slope of the tangent line at that point. This means that we know that a point on the graph of the instantaneous rate of change is approximately .  We have plotted the point , one point on the graph of .   The graph of and the tangent line at .   The graph of and the tangent line at .    f(x)=(1\/2949120)*x^8-(1\/64512)*x^7+(101\/552960)*x^6+(7\/5120)*x^5-(2873\/69120)*x^4+(65\/288)*x^3+x-6  a = 10   l(x)=fp(a)*(x-a)+f(a)         \\big(${a},f(${a})\\big)    \\big(${a},f'(${a})\\big)\\approx\\big(${a},${round(fp(a),2)}\\big)   (5,${round(l(5),1)})  (15,${round(l(15),1)})                    Find at least six more points on the graph of the instantaneous rate of change of by following this procedure:  Pick a point on the graph of and sketch in a tangent line to the graph at that point.  Find two points on the tangent line that are relatively easy to approximate and use them to estimate the slope of the tangent line.  Plot the point determined by the -coordinate of the point you chose, and use the slope of the tangent line as the -coordinate.        Now, let's look for connections between the graph of the instantaneous rate of change and the graph of the original function. Be careful in the following questions to pay attention to whether we are talking about or its instantaneous rate of change!      Where is the graph of increasing most rapidly? What do you notice about the value of the instantaneous rate of change there?      Where is the graph of (essentially) horizontal? What do you notice about the value of the instantaneous rate of change there?      Over what range(s) of values do the values of the instantaneous rate of change appear to be increasing, and over what range(s) of values do the values of the instantaneous rate of change appear to be decreasing? What do you notice about the difference in the shape of the graph of over those regions?      What other relationships between the graphs of and the instantaneous rate of change do you notice?       Use the information you have found and we have discussed to sketch the rest of the graph of the instantaneous rate of change (that is, connect the dots).     The graph of and the tangent line at .   The graph of and the tangent line at .    f(x)=(1\/2949120)*x^8-(1\/64512)*x^7+(101\/552960)*x^6+(7\/5120)*x^5-(2873\/69120)*x^4+(65\/288)*x^3+x-6  a = 10   l(x)=fp(a)*(x-a)+f(a)                             "
+},
+{
+  "id": "activities-8-2",
+  "level": "2",
+  "url": "activities-8.html#activities-8-2",
+  "type": "Objectives",
+  "number": "3.6",
+  "title": "",
+  "body": "  The Learner will develop graphical understanding of the instantaneous rate of change of a function.  The Learner will develop numerical understanding of the instantaneous rate of change of a function.   "
+},
+{
+  "id": "fig_sketch_deriv",
+  "level": "2",
+  "url": "activities-8.html#fig_sketch_deriv",
+  "type": "Figure",
+  "number": "6",
+  "title": "",
+  "body": " The graph of and the tangent line at .   The graph of and the tangent line at .    f(x)=(1\/2949120)*x^8-(1\/64512)*x^7+(101\/552960)*x^6+(7\/5120)*x^5-(2873\/69120)*x^4+(65\/288)*x^3+x-6  a = 10   l(x)=fp(a)*(x-a)+f(a)         \\big(${a},f(${a})\\big)    \\big(${a},f'(${a})\\big)\\approx\\big(${a},${round(fp(a),2)}\\big)   (5,${round(l(5),1)})  (15,${round(l(15),1)})                "
+},
+{
+  "id": "activities-8-4",
+  "level": "2",
+  "url": "activities-8.html#activities-8-4",
+  "type": "Worksheet Exercise",
+  "number": "3.6.1",
+  "title": "",
+  "body": "  Find at least six more points on the graph of the instantaneous rate of change of by following this procedure:  Pick a point on the graph of and sketch in a tangent line to the graph at that point.  Find two points on the tangent line that are relatively easy to approximate and use them to estimate the slope of the tangent line.  Plot the point determined by the -coordinate of the point you chose, and use the slope of the tangent line as the -coordinate.     "
+},
+{
+  "id": "activities-8-5",
+  "level": "2",
+  "url": "activities-8.html#activities-8-5",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2",
+  "title": "",
+  "body": "  Now, let's look for connections between the graph of the instantaneous rate of change and the graph of the original function. Be careful in the following questions to pay attention to whether we are talking about or its instantaneous rate of change!      Where is the graph of increasing most rapidly? What do you notice about the value of the instantaneous rate of change there?      Where is the graph of (essentially) horizontal? What do you notice about the value of the instantaneous rate of change there?      Over what range(s) of values do the values of the instantaneous rate of change appear to be increasing, and over what range(s) of values do the values of the instantaneous rate of change appear to be decreasing? What do you notice about the difference in the shape of the graph of over those regions?      What other relationships between the graphs of and the instantaneous rate of change do you notice?    "
+},
+{
+  "id": "activities-8-6",
+  "level": "2",
+  "url": "activities-8.html#activities-8-6",
+  "type": "Worksheet Exercise",
+  "number": "3.6.3",
+  "title": "",
+  "body": "  Use the information you have found and we have discussed to sketch the rest of the graph of the instantaneous rate of change (that is, connect the dots).     The graph of and the tangent line at .   The graph of and the tangent line at .    f(x)=(1\/2949120)*x^8-(1\/64512)*x^7+(101\/552960)*x^6+(7\/5120)*x^5-(2873\/69120)*x^4+(65\/288)*x^3+x-6  a = 10   l(x)=fp(a)*(x-a)+f(a)                            "
+},
+{
   "id": "notes-week-01-3",
   "level": "1",
   "url": "notes-week-01-3.html",
