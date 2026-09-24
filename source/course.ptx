@@ -38,9 +38,10 @@
       <xi:include href="./activities/DepthOfWater/DepthOfWaterInst.ptx"/>
       <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
       <xi:include href="./activities/SketchDerivative/SketchDerivative.ptx"/>
+      <xi:include href="./activities/DerivPatterns01/DerivPatterns01.ptx"/>
 
     </chapter>
-
+    <!--
     <chapter xml:id="course-notes">
       <title>Course Notes</title>
 
@@ -53,9 +54,9 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
-      <!-- etc. -->
 
     </chapter>
+    -->
 
 
     <chapter xml:id="handouts">

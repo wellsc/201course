@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+        <title>Derivative Patterns 1: Powers of <m>x</m></title>
+
+  <introduction>
+    <p>
+                    In this activity, we will explore derivatives for functions of the form <m>f(x)=x^{r}</m> where <m>r</m> is any real number. We will start with some examples and then give exercises designed to help us see a pattern.
+    </p>
+    <example xml:id="example_patterns_x5">
+      <statement>
+        <p>
+            We will find the derivative of <m>f(x)=x^{5}</m> using the definition of the derivative.
+        </p>
+        <p>
+          We know that for any point <m>x</m>, we can find the derivative (the instantaneous rate of change) of a function <m>f(x)</m> by calculating <m>f'(x)=\lim_{u\to x}\frac{f(u)-f(x)}{u-x}</m>. Thus, for our function, we have
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{f(u)-f(x)}{u-x}</mrow>
+            <mrow>&amp;=\lim_{u\to x}\frac{u^{5}-x^{5}}{u-x}.</mrow>
+          </md>
+            Using the algebraic identity <m>u^{5}-x^{5}=\left(u-x\right)\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)</m>, we have
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{u^{5}-x^{5}}{u-x}.</mrow>
+            <mrow>     &amp;=\lim_{u\to x}\frac{\left(u-x\right)\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)}{u-x}.</mrow>
+          </md>
+          For every value of <m>u\neq{}x</m>, <m>u-x\neq{}0</m>, which means <m>\frac{u-x}{u-x}=1</m>. Therefore, for every <m>u\neq{}x</m>,
+          <md>\frac{\left(u-x\right)\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)}{u-x}={\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)}</md>. Thus,
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{\left(u-x\right)\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)}{u-x}</mrow>
+            <mrow>     &amp;=\lim_{u\to x}{\left(u^{4}+u^{3}x+u^{2}x^{2}+ux^{3}+x^{4}\right)}</mrow>
+            <mrow>     &amp;={x^{4}+x^{3}x+x^{2}x^{2}+xx^{3}+x^{4}}</mrow>
+            <mrow>     &amp;={x^{4}+x^{4}+x^{4}+x^{4}+x^{4}}</mrow>
+            <mrow>     &amp;={5x^{4}}.</mrow>
+          </md>
+        </p>
+        <p>
+            And so, we have found that if <m>f(x)=x^{5}</m>, then <m>f'(x)=5x^{4}</m>.
+        </p>
+      </statement>
+    </example>
+    <example xml:id="example_patterns_x3_5">
+      <statement>
+        <p>
+          We will find the derivative of <m>f(x)=x^{3/5}</m> using the definition of the derivative.
+        </p>
+        <p>
+          For this function, we have
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{f(u)-f(x)}{u-x}</mrow>
+            <mrow>&amp;=\lim_{u\to x}\frac{u^{3/5}-x^{3/5}}{u-x}.</mrow>
+          </md>
+            We know that <m>u^{3/5}=\left(u^{1/5}\right)^{3}</m>, and so, we know that we can factor <m>u^{3/5}-x^{3/5}</m> as <m>u^{3/5}-x^{3/5}=\left(\left(u^{1/3}\right)-\left(x^{1/3}\right)\right)\left(\left(u^{1/3}\right)^{2}+\left(u^{1/3}\right)\left(x^{1/3}\right)+\left(x^{1/3}\right)^{2}\right)</m>, so
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{u^{3/5}-x^{3/5}}{u-x}</mrow>
+            <mrow>     &amp;=\lim_{u\to x}\frac{\left(\left(u^{1/5}\right)-\left(x^{1/5}\right)\right)\left(\left(u^{1/5}\right)^{2}+\left(u^{1/5}\right)\left(x^{1/5}\right)+\left(x^{1/5}\right)^{2}\right)}{u-x}</mrow>
+            <mrow>     &amp;=\lim_{u\to x}\frac{\left(\left(u^{1/5}\right)-\left(x^{1/5}\right)\right)\left(\left(u^{2/5}\right)+\left(u^{1/5}\right)\left(x^{1/5}\right)+\left(x^{2/5}\right)\right)}{u-x}</mrow>
+          </md>
+        </p>
+        <p>
+                        Based on previous work, we know that 
+                <md>
+                        <mrow>
+                                \left(\left(u^{1/5}\right)-\left(x^{1/5}\right)\right)\left(\left(u^{1/5}\right)^{4}+\left(u^{1/5}\right)^{3}\left(x^{1/5}\right)+\left(u^{1/5}\right)^{2}\left(x^{1/5}\right)^{2}+\left(u^{1/5}\right)\left(x^{1/5}\right)^{3}+\left(x^{1/5}\right)^{4}\right)&amp;=\left(u^{1/5}\right)^{5}-\left(x^{1/5}\right)^{5}
+                        </mrow>
+                        <mrow>
+                        &amp;=\left(u-x\right),
+                        </mrow>
+                </md>
+                so,
+          <md>
+            <mrow>f'(x)&amp;=\lim_{u\to x}\frac{\left(u^{1/5}-x^{1/5}\right)\left(u^{2/5}+u^{1/5}x^{1/5}+x^{2/5}\right)}{u-x}</mrow>
+            <mrow>     &amp;=\lim_{u\to{}x}\frac{\left(u-x\right)\left(u^{2/5}+u^{1/5}x^{1/5}+x^{2/5}\right)}{(u-x)\left(u^{4/5}+u^{3/5}x^{1/5}+u^{2/5}x^{2/5}+u^{1/5}x^{3/5}+x^{4/5}\right)}</mrow>
+            <mrow>     &amp;=\lim_{u\to{}x}\frac{\left(u^{2/5}+u^{1/5}x^{1/5}+x^{2/5}\right)}{\left(u^{4/5}+u^{3/5}x^{1/5}+u^{2/5}x^{2/5}+u^{1/5}x^{3/5}+x^{4/5}\right)}</mrow>
+            <mrow>     &amp;=\frac{\left(x^{2/5}+x^{1/5}x^{1/5}+x^{2/5}\right)}{\left(x^{4/5}+x^{3/5}x^{1/5}+x^{2/5}x^{2/5}+x^{1/5}x^{3/5}+x^{4/5}\right)}</mrow>
+            <mrow>     &amp;=\frac{\left(x^{2/5}+x^{1/5}x^{1/5}+x^{2/5}\right)}{\left(x^{4/5}+x^{3/5}x^{1/5}+x^{2/5}x^{2/5}+x^{1/5}x^{3/5}+x^{4/5}\right)}</mrow>
+            <mrow>     &amp;=\frac{\left(x^{2/5}+x^{2/5}+x^{2/5}\right)}{\left(x^{4/5}+x^{4/5}+x^{4/5}+x^{4/5}+x^{4/5}\right)}</mrow>
+            <mrow>     &amp;=\frac{3x^{2/5}}{5x^{4/5}}</mrow>
+            <mrow>     &amp;=\frac{3}{5}x^{-2/5}</mrow>
+          </md>
+        </p>
+        <p>
+                        So, if <m>f(x)=x^{3/5}</m>, we have found that <m>f'(x)=\frac{3}{5}x^{-2/5}</m>.
+        </p>
+      </statement>
+    </example>
+  </introduction>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      Let <m>f(x)=4</m>. Use the definition of derivative to find <m>f'(x)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      Let <m>f(x)=x</m>. Use the definition of derivative to find <m>f'(x)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1.75in">
+    <statement>
+      <p>
+                      Use the definition of the derivative to find <m>f'(x)</m> when <m>f(x)=x^{3}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      Let <m>f(x)=x^{-1}=1/x</m>. Use the definition of derivative to find <m>f'(x)</m>.
+                      Write your answer as <m>f'(x)=c x^{r}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="2in">
+    <statement>
+      <p>
+                      Use the definition of the derivative to find <m>f'(x)</m> when <m>f(x)=x^{2/3}</m>.
+                      Write your answer as <m>f'(x)=c x^{r}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="2in">
+    <statement>
+      <p>
+                      Let <m>f(x)=x^{8/3}</m>. Predict the value of <m>f'(x)</m>. Justify your answer.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
