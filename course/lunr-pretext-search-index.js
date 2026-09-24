@@ -514,56 +514,92 @@ var ptx_lunr_docs = [
   "body": "  Use the information you have found and we have discussed to sketch the rest of the graph of the instantaneous rate of change (that is, connect the dots).     The graph of and the tangent line at .   The graph of and the tangent line at .    f(x)=(1\/2949120)*x^8-(1\/64512)*x^7+(101\/552960)*x^6+(7\/5120)*x^5-(2873\/69120)*x^4+(65\/288)*x^3+x-6  a = 10   l(x)=fp(a)*(x-a)+f(a)                            "
 },
 {
-  "id": "notes-week-01-3",
+  "id": "activities-9",
   "level": "1",
-  "url": "notes-week-01-3.html",
-  "type": "Subsection",
-  "number": "4.1.1",
-  "title": "Tuesday, 09\/01",
-  "body": " Tuesday, 09\/01  We introduced class with where we focused on determining what information we needed to solve an ill-posed problem rather than on solving the problem.  "
+  "url": "activities-9.html",
+  "type": "Worksheet",
+  "number": "3.7",
+  "title": "Derivative Patterns 1: Powers of <span class=\"process-math\">\\(x\\)<\/span>",
+  "body": " Derivative Patterns 1: Powers of   In this activity, we will explore derivatives for functions of the form where is any real number. We will start with some examples and then give exercises designed to help us see a pattern.    We will find the derivative of using the definition of the derivative.  We know that for any point , we can find the derivative (the instantaneous rate of change) of a function by calculating . Thus, for our function, we have Using the algebraic identity , we have For every value of , , which means . Therefore, for every , . Thus,   And so, we have found that if , then .      We will find the derivative of using the definition of the derivative.  For this function, we have We know that , and so, we know that we can factor as , so   Based on previous work, we know that so,   So, if , we have found that .       Let . Use the definition of derivative to find .      Let . Use the definition of derivative to find .      Use the definition of the derivative to find when .      Let . Use the definition of derivative to find . Write your answer as .      Use the definition of the derivative to find when . Write your answer as .      Let . Predict the value of . Justify your answer.    "
 },
 {
-  "id": "notes-week-01-4",
-  "level": "1",
-  "url": "notes-week-01-4.html",
-  "type": "Subsection",
-  "number": "4.1.2",
-  "title": "Thursday, 09\/03",
-  "body": " Thursday, 09\/03    "
+  "id": "example_patterns_x5",
+  "level": "2",
+  "url": "activities-9.html#example_patterns_x5",
+  "type": "Example",
+  "number": "8",
+  "title": "",
+  "body": "  We will find the derivative of using the definition of the derivative.  We know that for any point , we can find the derivative (the instantaneous rate of change) of a function by calculating . Thus, for our function, we have Using the algebraic identity , we have For every value of , , which means . Therefore, for every , . Thus,   And so, we have found that if , then .   "
 },
 {
-  "id": "notes-week-02-2",
-  "level": "1",
-  "url": "notes-week-02-2.html",
-  "type": "Subsection",
-  "number": "4.2.1",
-  "title": "Monday",
-  "body": " Monday    "
+  "id": "example_patterns_x3_5",
+  "level": "2",
+  "url": "activities-9.html#example_patterns_x3_5",
+  "type": "Example",
+  "number": "9",
+  "title": "",
+  "body": "  We will find the derivative of using the definition of the derivative.  For this function, we have We know that , and so, we know that we can factor as , so   Based on previous work, we know that so,   So, if , we have found that .   "
 },
 {
-  "id": "notes-week-02-3",
-  "level": "1",
-  "url": "notes-week-02-3.html",
-  "type": "Subsection",
-  "number": "4.2.2",
-  "title": "Wednesday",
-  "body": " Wednesday    "
+  "id": "activities-9-3",
+  "level": "2",
+  "url": "activities-9.html#activities-9-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "",
+  "body": "  Let . Use the definition of derivative to find .   "
 },
 {
-  "id": "notes-week-02-4",
-  "level": "1",
-  "url": "notes-week-02-4.html",
-  "type": "Subsection",
-  "number": "4.2.3",
-  "title": "Friday",
-  "body": " Friday    "
+  "id": "activities-9-4",
+  "level": "2",
+  "url": "activities-9.html#activities-9-4",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "",
+  "body": "  Let . Use the definition of derivative to find .   "
+},
+{
+  "id": "activities-9-5",
+  "level": "2",
+  "url": "activities-9.html#activities-9-5",
+  "type": "Worksheet Exercise",
+  "number": "3.7.3",
+  "title": "",
+  "body": "  Use the definition of the derivative to find when .   "
+},
+{
+  "id": "activities-9-6",
+  "level": "2",
+  "url": "activities-9.html#activities-9-6",
+  "type": "Worksheet Exercise",
+  "number": "3.7.4",
+  "title": "",
+  "body": "  Let . Use the definition of derivative to find . Write your answer as .   "
+},
+{
+  "id": "activities-9-7",
+  "level": "2",
+  "url": "activities-9.html#activities-9-7",
+  "type": "Worksheet Exercise",
+  "number": "3.7.5",
+  "title": "",
+  "body": "  Use the definition of the derivative to find when . Write your answer as .   "
+},
+{
+  "id": "activities-9-8",
+  "level": "2",
+  "url": "activities-9.html#activities-9-8",
+  "type": "Worksheet Exercise",
+  "number": "3.7.6",
+  "title": "",
+  "body": "  Let . Predict the value of . Justify your answer.   "
 },
 {
   "id": "handouts-3",
   "level": "1",
   "url": "handouts-3.html",
   "type": "Handout",
-  "number": "5",
+  "number": "4",
   "title": "An Introduction to Problem Solving",
   "body": " An Introduction to Problem Solving   In his book, How To Solve It , mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are Understand the Problem , Make a Plan , Carry Out the Plan , and Look Back .  Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors give students the plan rather than asking them to work on understanding and formulating a plan for themselves, and almost no time is given to looking back .  This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.    Understanding the Problem   First. you have to understand the problem.   What is the unknown? What are the data? What is the condition? Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory?  Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?      Devising a Plan   Second. Find the connection between the data and the unknown.  You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution.  Have you seen it before? Or have you seen the same problem in a slightly different form?   Do you know a related problem? Do you know a theorem that could be useful? Look at the unknown! And try to think of a familiar problem having the same or a similar unknown.   Here is a problem related to yours and solved before. Could you use it? Could you use its result? Could you use its method? Should you introduce some auxiliary element in order to make its use possible?  Could you restate the problem? Could you restate it still differently? Go back to definitions.    If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other?  Did you use all the data? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?    Carrying Out the Plan   Third.  Carry out your plan.  Carrying out your plan of the solution, check each step . Can you see clearly that the step is correct? Can you prove that it is correct?    Looking Back   Fourth.  Examine the solution obtained.  Can you check the result? Can you check the argument?  Can you derive the result differently? Can you see it at a glance?  Can you use the result, or the method, for some other problem?   "
 },
@@ -572,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "homework.html",
   "type": "Chapter",
-  "number": "6",
+  "number": "5",
   "title": "Homework",
   "body": " Homework     "
 }
