@@ -75,7 +75,10 @@
       <!--<xi:include href="./homework/homework01.ptx"/>-->
 
     </chapter>
-
+    <chapter xml:id="progress_checks">
+            <title>Progress Checks</title>
+            <xi:include href="./progress_checks/progress_check01.ptx" />
+    </chapter>
     <!-- Include additional chapters for other categories -->
 
     </book>

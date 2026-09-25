@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="wide_bottom_cone">
+<diagram dimensions="(400,600)" margins="5">
+  <definition>H=24</definition>
+  <definition>R1=6</definition>
+  <definition>R2=R1/3</definition>
+  <definition>Ft(x)=sqrt(R2^(2)-(R2*x/R1)^(2))</definition>
+  <definition>Fb(x)=-sqrt(R2^(2)-(R2*x/R1)^(2))</definition>
+  <definition>pFb(t)=(t,-sqrt(R2^(2)-(R2*t/R1)^(2)))</definition>
+  <definition>h=H/4</definition>
+  <definition>r1=6-h/4</definition>
+  <definition>r2=r1/3</definition>
+  <definition>ft(x)=sqrt(r2^(2)-(r2*x/r1)^(2))+h</definition>
+   <definition>pft(t)=(t,sqrt(r2^(2)-(-r2*t/r1)^(2))+h)</definition>
+  <definition>fb(x)=-sqrt(r2^(2)-(r2*x/r1)^(2))+h</definition>
+  <coordinates bbox="(-1.3*R1,-H/6,1.3*R1,7*H/6)">
+    <path start="(-R1,0)" fill="blue" opacity="0.3">
+      <graph function="Fb" domain="(-R1,R1)" />
+      <lineto point="(r1,h)" />
+      <graph function="ft" domain="(r1,-r1)" />
+      <moveto point="(R1,0)" />
+    </path >
+    <graph function="Ft" stroke="black" opacity="0.5" dash="4 4" />
+    <graph function="Fb" stroke="black" />
+    <graph function="ft"  opacity="0.5" dash="4 4" />
+    <graph function="fb" />
+    <line endpoints="((0,0),(0,H))" stroke="gray" dash="4 4" opacity="0.5">
+      <m>${H}</m>ft
+     </line>
+    <line endpoints="((-R1,0),(0,H))" stroke="black" />
+    <line endpoints="((R1,0),(0,H))" stroke="black" />
+    <line endpoints="((0,0),(4*R1/5,Fb(4*R1/5)))" stroke="gray" dash="4 4" ><m>${R1}</m>ft</line>
+  </coordinates>
+</diagram>
+</prefigure>

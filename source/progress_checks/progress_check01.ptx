@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="progress_check_1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Progress Check 1</title>
+  <page>
+          <exercise workspace="1.5in" xml:id="pc1_limit">
+                  <introduction>
+                          <p>
+                                  An object is moving in such a way that its position <m>s</m> (in meters) at time <m>t</m> (in seconds) is given by the function  <m>s\left(t\right)=8{t}^{2}-10t+100</m>.  
+                          </p>
+                  </introduction>
+                  <task xml:id="pc1_limit_setup">
+                          <statement>
+                                  <p>
+Set up, <em>but do not evaluate</em>, the limit
+definition of the derivative that would find the derivative of the function at <m>t=1</m>.
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Clearly explain why the limit you set up in <xref ref='pc1_limit_setup' text='type-local'/> will find the derivative of <m>s(t)</m> at <m>t=1</m>.
+                                  </p>
+                          </statement>
+                                                  <!--
+                                  <solution>
+                                          <p>
+                                                  Using the two different ways we have defined the derivative, the limit to find <m>s'(1)</m>, the derivative of <m>s</m> at <m>t=1</m>, is
+                                                  <md>
+                                                          <mrow>
+                                                                          s'(t) &amp;= \lim_{t\rightarrow 1}\frac{s(t)-s(1)}{t-1}
+                                                          </mrow>
+                                                          <mrow>\text{or}&amp;</mrow>
+                                                          <mrow>
+                                                                          s'(t) &amp;= \lim_{h\rightarrow 0}\frac{s(1+h)-s(1)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;= \lim_{h\rightarrow 0}\frac{s(1+h)-s(1)}{(1+h)-1}.
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                          <p>
+                                                          The expressions <m>\frac{s(t)-s(1)}{t-1}</m> for any value of <m>t</m> other than <m>1</m>, and <m>\frac{s(1+h)-s(1)}{(1+h)-1}</m>, for any non-zero value of <m>h</m>, are the average rate of change between the points <m> (1,s(1))</m> and <m> (t,s(t))</m>, or between <m> (1,s(1))</m> and <m> (1+h,s(1+h))</m>, respectively, so the closer <m>t</m> is to <m>1</m> or the closer <m>h</m> is to zero, the closer the average rate of change is to being an instantaneous rate of change.
+                                         </p>
+                                  </solution>
+                                                  -->
+                  </task>
+          </exercise>
+          <exercise workspace="2in">
+                  <statement>
+                          <p>
+                                  Evaluate the limit you found in <xref ref='pc1_limit_setup' text='type-global'/>.
+                          </p>
+                  </statement>
+          </exercise>
+          <exercise workspace="2in">
+                  <statement>
+                          <p>
+                                          Find an equation for the tangent line to the graph of <m>s(t)</m> from <xref ref='pc1_limit' text='type-local'/> at the point <m>t=1</m>.
+                          </p>
+                  </statement>
+          </exercise>
+  </page>
+  <page>
+          <exercise xml:id="pc1_interpret" workspace="0.5in">
+                  <introduction>
+                          <p>
+A company's monthly revenue (money taken in) from car sales, <m>R</m> (in thousands of dollars), is a function of monthly advertising spending, <m>a</m> (in thousands of dollars). That is, for some function <m>f</m>, <m>R=f(a)</m>.
+                          </p>
+                  </introduction>
+                  <task>
+                          <statement>
+                                  <p>
+                                          Interpret the following in practical terms, paying close attention to units. 
+<md>
+  f(80)=250.
+</md>
+                                  </p>
+                          </statement>
+                          <!--
+<solution>
+                                <p>
+                                        When monthly advertising spending is <m>80</m><nbsp/>thousand dollars, monthly revenue is <m>250</m><nbsp/>thousand
+                        dollars.
+                                </p>
+</solution>
+                          -->
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+What does the company expect is true about the sign of <m>f'</m>? Why?
+                                  </p>
+                          </statement>
+                          <!--
+<solution>
+        <p>
+  The sign should be positive, because you expect more spending on advertising to bring in more
+  revenue.
+        </p>
+</solution>
+                          -->
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                        What does the statement <m> f'(100)=2 </m> mean in practical terms?
+                                  </p>
+                          </statement>
+                          <!--
+                        <solution>
+                                <p>
+                                When monthly advertising spending is <m>100</m><nbsp/>thousand dollars, monthly revenue increases by <m>2</m><nbsp/>thousand dollars per additional thousand dollars spent on advertising.
+                                </p>
+                        </solution>
+                          -->
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  What does the statement <m>f'(100)=0.5</m> mean in practical terms?
+                                  </p>
+                          </statement>
+                          <!--
+                                <solution>
+                                        <p>
+                                                When monthly advertising spending is <m>100</m><nbsp/> thousand dollars, monthly revenue increases by <m>0.5</m><nbsp/> thousand dollars per additional thousand dollars spent on advertising. That is, revenue increases by <m>500</m><nbsp/> dollars per additional thousand dollars spent on advertising.
+                        </p>
+                </solution>
+                                  -->
+                  </task>
+                  <task>
+                                  <introduction>
+                                          <p>
+                                                  Suppose the company currently spends about $100,000 per month on advertising.
+                                          </p>
+                                  </introduction>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                  If <m>f'(100)=2</m>, should the company spend more or less than $100,000 on advertising?
+
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                          If <m>f'(100)=0.5</m>, should the company spend more or less than $100,000 on advertising?
+                                          </p>
+                                  </statement>
+                                  <!--
+ <solution>
+                  <p>
+   If <m>f'(100)=2</m>, each $1,000 spent brings in an additional $2,000 in revenue, so additional
+   spending makes sense. On the other hand, 
+   if <m>f'(100)=0.5</m>, each $1,000 spent brings in only an additional $500 in revenue, which means
+   they are spending more on advertising than they bring in, so additional advertising is not
+   advisable. The company should spend less on advertising.
+                  </p>
+ </solution>
+                                  -->
+                          </task>
+                  </task>
+          </exercise>
+  </page>
+  <page>
+          <exercise xml:id="pc1_cone_water_tank" workspace="0.5in">
+                  <introduction>
+                          <p>
+                                  A water tank in the shape of a cone with the point upward with a base radius of <m>6</m><nbsp/>ft and a height of <m>24</m><nbsp/>ft, as shown in <xref ref="fig_wide_bot_cone"/>, is filling at a constant rate of <m>0.12~\text{ft}^{3}/\text{min}</m>. The goal of this problem is to construct a model for the depth of water as a function of time.
+                          </p>
+                          <figure xml:id="fig_wide_bot_cone">
+                                  <caption>A Conical Tank with Base Radius 6<nbsp/>ft and Height 24<nbsp/>ft.
+</caption>
+                                  <image width="30%">
+                                          <description>
+                                                  <p>
+                                                                  A conical tank, point upward, with base radius 6<nbsp/>ft and height 24<nbsp/>ft.
+                                                  </p>
+                                          </description>
+                                          <xi:include href="./wide_bottom_cone.xml" />
+                                  </image>
+                          </figure>
+                  </introduction>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                  Find the total volume of the tank in cubic feet.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Find the volume of water in the tank (in cubic feet) when the tank is filled to a depth of <m>2</m><nbsp/>ft and when the tank is filled to a depth of <m>4</m><nbsp/>ft.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Find a formula for the volume of water in the tank (in cubic feet) when the tank is filled to a depth of <m>d</m><nbsp/>ft.
+                                          </p>
+                                  </statement>
+                                  <hint>
+                                          <p>
+                                                          The volume of water is the volume of the whole tank minus the volume of the empty cone (from the surface of the water to the top of the tank).
+                                          </p>
+                                  </hint>
+                          </task>
+                          <task >
+                                  <statement>
+                                          <p>
+                                                  Sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
+                                                  </p>
+                                                  <p>
+                                                  You may assume the tank is empty to begin.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Find an expression for the volume of water in the tank as a function of time, <m>t</m>, in minutes. (You may assume the tank is empty to begin.)
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                  Equate the volume in terms of time with the volume in terms of depth and solve for depth. This yields a formula for the depth as a function of time.
+                                          </p>
+                                  </statement>
+                          </task>
+          </exercise>
+  </page>
+  <page>
+          <exercise xml:id="pc1_cylinder_water_tank" workspace="0.5in">
+                  <introduction>
+                          <p>
+                                  A water tank in the shape of a horizontal cylinder with a radius of <m>3</m><nbsp/>m and a length of <m>8</m><nbsp/>m, as shown in <xref ref="fig_horiz_cyl"/>, is filling at a constant rate of <m>1.1\text{m}^{3}/\text{min}</m>. The goal of this problem is to approximate instantaneous rates of change numerically.
+                          </p>
+                          <figure xml:id="fig_horiz_cyl">
+                                  <caption>A Cylindrical Tank with Radius 3<nbsp/>m and Length 8<nbsp/>m.
+</caption>
+                                  <image width="40%">
+                                          <description>
+                                                  <p>
+                                  A Cylindrical Tank with Radius 3<nbsp/>m and Length 8<nbsp/>m.
+                                                  </p>
+                                          </description>
+                                          <xi:include href="./cylindrical_tank.xml" />
+                                  </image>
+                          </figure>
+                  </introduction>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                  Find the total volume of the tank in cubic meters.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Find the volume of water in the tank (in cubic meters) when the tank is filled to a depth of <m>3</m><nbsp/>m.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          How long will it take for the tank to fill to a depth of <m>3</m><nbsp/>m if it starts empty?
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                  How long will it take for the tank to fill completely if it starts empty?
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task workspace="2in">
+                                  <statement>
+                                          <p>
+                                                  Sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
+                                                  </p>
+                                                  <p>
+                                                  You may assume the tank is empty to begin.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <introduction>
+                                          <p>
+                                                          The volume of the tank, in cubic meters, as a function of depth, <m>h</m>, in meters, is given by <md>V(h)=8\left(h-3\right)\sqrt{9-\left(h-3\right)^2}+72\arcsin\left(\frac{h-3}{3}\right)+36\pi</md>.
+                                          </p>
+                                  </introduction>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                          Use the volume function, <m>V(h)</m>, to find the volume of water in the tank at a depth of <m>1.0</m><nbsp/>m and at a depth of <m>1.1</m><nbsp/>m.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                          Use the fill rate to find how long it would take for the tank to fill from a depth of <m>1.0</m><nbsp/>m to a depth of <m>1.1</m><nbsp/>m.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                          Calculate the average rate of change of depth as a function of time between the times when the depth is <m>1.0</m><nbsp/>m when the depth is <m>1.1</m><nbsp/>m.
+                                                  </p>
+                                                  <p>
+                                                          Be careful! Your result should have units meters per minute!
+                                                  </p>
+                                          </statement>
+                                  </task>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Repeat the previous problem with depths of <m>1.0</m>
+                                                                  and <m>1.01</m> meters.                                         </p>
+                                  </statement>
+                          </task>
+          </exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="cylindrical_cone">
+<diagram dimensions="(300, 220)" margins="5">
+<definition>R=3</definition>
+<definition>l=8</definition>
+<definition>O=(0,0)</definition>
+<definition>shift_dir=(12/13,5/13)</definition>
+<definition>perp_dir=(-5/13,12/13)</definition>
+<coordinates bbox="(-4,-4,4+8*12/13,4+8*5/13)">
+<circle center="O" radius="3" />
+<circle center="O+8*shift_dir" radius="3" />
+<line endpoints="(O+3*perp_dir,O+3*perp_dir+8*shift_dir)" ><m>8</m>m</line>
+<line endpoints="(O-3*perp_dir,O-3*perp_dir+8*shift_dir)" />
+<line endpoints="(O+(3,0),O+(3,0)+8*shift_dir)" dash="4 4" opacity="0.4"/>
+<line endpoints="(O,O+(3,0))" dash="4 4"><m>3</m>m</line>
+</coordinates>
+</diagram>
+</prefigure>
