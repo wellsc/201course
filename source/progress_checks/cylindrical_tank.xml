@@ -6,13 +6,31 @@
 <definition>O=(0,0)</definition>
 <definition>shift_dir=(12/13,5/13)</definition>
 <definition>perp_dir=(-5/13,12/13)</definition>
+<definition>radial=3*(cos(-pi/6),sin(-pi/6))</definition>
+<definition>opposite=3*(-cos(-pi/6),sin(-pi/6))</definition>
 <coordinates bbox="(-4,-4,4+8*12/13,4+8*5/13)">
+<path start="O+opposite" fill="blue" thickness="5" opacity="0.5">
+        <arc center="O" radius="3" range="(-150,-60)" />
+        <lineto point="O-3*perp_dir+8*shift_dir" />
+        <arc center="O+8*shift_dir" radius="3" range="(-60,-30)" />
+        <lineto point="O+opposite+8*shift_dir" />
+        <lineto point="O+opposite" />
+</path>
 <circle center="O" radius="3" />
 <circle center="O+8*shift_dir" radius="3" />
 <line endpoints="(O+3*perp_dir,O+3*perp_dir+8*shift_dir)" ><m>8</m>m</line>
 <line endpoints="(O-3*perp_dir,O-3*perp_dir+8*shift_dir)" />
-<line endpoints="(O+(3,0),O+(3,0)+8*shift_dir)" dash="4 4" opacity="0.4"/>
-<line endpoints="(O,O+(3,0))" dash="4 4"><m>3</m>m</line>
+<line endpoints="(O,O+radial)" dash="4 4"><m>3</m>m</line>
+
+<line endpoints="(O+opposite,O+radial)" dash="4 4" stroke="black" opacity="0.5"/>
+<line endpoints="(O+radial,O+radial+8*shift_dir)" dash="4 4" stroke="black" opacity="0.5"/>
+<line endpoints="(O+radial+8*shift_dir,O+opposite+8*shift_dir)" dash="4 4" stroke="black" opacity="0.5"/>
+<line endpoints="(O+opposite+8*shift_dir,O+opposite)" dash="4 4" stroke="black" opacity="0.5"/>
 </coordinates>
 </diagram>
 </prefigure>
+        <!--
+        <lineto point="O-3*perp_dir+8*shift_dir" />
+        <arc center="O+8*shift_dir", radius="3" range="(-30,atan(-12/5))" />
+        <lineto point="O+8*shift_dir+opposite" />
+        -->

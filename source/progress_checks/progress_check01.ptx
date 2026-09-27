@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="progress_check_1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet margin="0.5in" bottom="0.75in" xml:id="progress_check_1" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Progress Check 1</title>
   <page>
           <exercise workspace="1.5in" xml:id="pc1_limit">
@@ -10,17 +10,18 @@
                           </p>
                   </introduction>
                   <task xml:id="pc1_limit_setup">
+                          <task>
                           <statement>
                                   <p>
 Set up, <em>but do not evaluate</em>, the limit
 definition of the derivative that would find the derivative of the function at <m>t=1</m>.
                                   </p>
                           </statement>
-                  </task>
-                  <task>
+                          </task>
+                          <task>
                           <statement>
                                   <p>
-                                                  Clearly explain why the limit you set up in <xref ref='pc1_limit_setup' text='type-local'/> will find the derivative of <m>s(t)</m> at <m>t=1</m>.
+                                                  Clearly explain why the limit you set up in <xref ref='pc1_limit_setup' text='type-hybrid'>Part</xref> will find the derivative of <m>s(t)</m> at <m>t=1</m>.
                                   </p>
                           </statement>
                                                   <!--
@@ -45,21 +46,22 @@ definition of the derivative that would find the derivative of the function at <
                                          </p>
                                   </solution>
                                                   -->
+                          </task>
                   </task>
-          </exercise>
-          <exercise workspace="2in">
+          <task workspace="2in">
                   <statement>
                           <p>
-                                  Evaluate the limit you found in <xref ref='pc1_limit_setup' text='type-global'/>.
+                                          Evaluate the limit you found in <xref ref='pc1_limit_setup' text='type-hybrid'>Part</xref>.
                           </p>
                   </statement>
-          </exercise>
-          <exercise workspace="2in">
+          </task>
+          <task workspace="2in">
                   <statement>
                           <p>
-                                          Find an equation for the tangent line to the graph of <m>s(t)</m> from <xref ref='pc1_limit' text='type-local'/> at the point <m>t=1</m>.
+                                          Find an equation for the tangent line to the graph of <m>s(t)</m> from <xref ref='pc1_limit' text='type-local'>Question</xref> at the point <m>t=1</m>.
                           </p>
                   </statement>
+          </task>
           </exercise>
   </page>
   <page>
@@ -166,15 +168,15 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
           </exercise>
   </page>
   <page>
-          <exercise xml:id="pc1_cone_water_tank" workspace="0.5in">
+          <exercise xml:id="pc1_cone_water_tank" workspace="1.0in">
                   <introduction>
                           <p>
-                                  A water tank in the shape of a cone with the point upward with a base radius of <m>6</m><nbsp/>ft and a height of <m>24</m><nbsp/>ft, as shown in <xref ref="fig_wide_bot_cone"/>, is filling at a constant rate of <m>0.12~\text{ft}^{3}/\text{min}</m>. The goal of this problem is to construct a model for the depth of water as a function of time.
+                                  A water tank in the shape of a cone with the point upward with a base radius of <m>6</m><nbsp/>ft and a height of <m>24</m><nbsp/>ft, as shown in <xref ref="fig_wide_bot_cone" text="type-global"/>, is filling at a constant rate of <m>0.12~\text{ft}^{3}/\text{min}</m>. The goal of this problem is to construct a model for the depth of water as a function of time.
                           </p>
                           <figure xml:id="fig_wide_bot_cone">
                                   <caption>A Conical Tank with Base Radius 6<nbsp/>ft and Height 24<nbsp/>ft.
 </caption>
-                                  <image width="30%">
+                                  <image width="25%">
                                           <description>
                                                   <p>
                                                                   A conical tank, point upward, with base radius 6<nbsp/>ft and height 24<nbsp/>ft.
@@ -184,7 +186,7 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                   </image>
                           </figure>
                   </introduction>
-                          <task>
+                          <task workspace="0.5in">
                                   <statement>
                                           <p>
                                                   Find the total volume of the tank in cubic feet.
@@ -198,7 +200,7 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           </p>
                                   </statement>
                           </task>
-                          <task>
+                          <task workspace="1.5in">
                                   <statement>
                                           <p>
                                                           Find a formula for the volume of water in the tank (in cubic feet) when the tank is filled to a depth of <m>d</m><nbsp/>ft.
@@ -210,14 +212,27 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           </p>
                                   </hint>
                           </task>
-                          <task >
+                          <task  workspace="0in">
                                   <statement>
                                           <p>
-                                                  Sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
+                                                  On the blank grid in <xref ref="pc1_blank_grid1" text="type-global"/>, sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
                                                   </p>
                                                   <p>
                                                   You may assume the tank is empty to begin.
                                           </p>
+                                  <figure xml:id="pc1_blank_grid1">
+                                          <caption>A Blank Grid for Sketching the Graph of Depth as a Function of Time</caption>
+                                          <image width="50%">
+                                                  <description><p>A Blank Grid for Sketching the Graph of Depth as a Function of Time</p></description>
+                                        <prefigure xmlns="https://prefigure.org" label="pc1_blank_grid1">
+                                        <diagram dimensions="(300, 300)" margins="5">
+                                        <coordinates bbox="(0,0,1200,50)">
+                                                <grid />
+                                        </coordinates>
+                                        </diagram>
+                                        </prefigure>
+                                          </image>
+                                  </figure>
                                   </statement>
                           </task>
                           <task>
@@ -227,20 +242,24 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           </p>
                                   </statement>
                           </task>
-                          <task>
+                          <task workspace="1.5in">
                                   <statement>
                                           <p>
                                                   Equate the volume in terms of time with the volume in terms of depth and solve for depth. This yields a formula for the depth as a function of time.
                                           </p>
                                   </statement>
                           </task>
+                          <conclusion>
+                                  <p>
+                                  </p>
+                          </conclusion>
           </exercise>
   </page>
   <page>
-          <exercise xml:id="pc1_cylinder_water_tank" workspace="0.5in">
+          <exercise xml:id="pc1_cylinder_water_tank" workspace="0.75in">
                   <introduction>
                           <p>
-                                  A water tank in the shape of a horizontal cylinder with a radius of <m>3</m><nbsp/>m and a length of <m>8</m><nbsp/>m, as shown in <xref ref="fig_horiz_cyl"/>, is filling at a constant rate of <m>1.1\text{m}^{3}/\text{min}</m>. The goal of this problem is to approximate instantaneous rates of change numerically.
+                                          A water tank in the shape of a horizontal cylinder with a radius of <m>3</m><nbsp/>m and a length of <m>8</m><nbsp/>m, as shown in <xref ref="fig_horiz_cyl" text="type-global"/>, is filling at a constant rate of <m>1.1\text{m}^{3}/\text{min}</m>. The goal of this problem is to approximate instantaneous rate of change numerically when the water is <m>2</m>m deep.
                           </p>
                           <figure xml:id="fig_horiz_cyl">
                                   <caption>A Cylindrical Tank with Radius 3<nbsp/>m and Length 8<nbsp/>m.
@@ -283,40 +302,53 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           </p>
                                   </statement>
                           </task>
-                          <task workspace="2in">
+                          <task workspace="0in">
                                   <statement>
                                           <p>
-                                                  Sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
+                                                  On the blank grid in <xref ref="pc1_blank_grid2" text="type-global"/>, sketch a graph of the depth of water <em>as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.
                                                   </p>
                                                   <p>
                                                   You may assume the tank is empty to begin.
                                           </p>
+                                  <figure xml:id="pc1_blank_grid2">
+                                          <caption>A Blank Grid for Sketching the Graph of Depth as a Function of Time</caption>
+                                          <image width="50%">
+                                                  <description><p>A Blank Grid for Sketching the Graph of Depth as a Function of Time</p></description>
+                                        <prefigure xmlns="https://prefigure.org" label="pc1_blank_grid2">
+                                        <diagram dimensions="(300, 300)" margins="5">
+                                        <coordinates bbox="(0,0,1200,50)">
+                                                <grid />
+                                        </coordinates>
+                                        </diagram>
+                                        </prefigure>
+                                          </image>
+                                  </figure>
                                   </statement>
                           </task>
                           <task>
                                   <introduction>
                                           <p>
-                                                          The volume of the tank, in cubic meters, as a function of depth, <m>h</m>, in meters, is given by <md>V(h)=8\left(h-3\right)\sqrt{9-\left(h-3\right)^2}+72\arcsin\left(\frac{h-3}{3}\right)+36\pi</md>.
+                                                          The volume of water in the tank, in cubic meters, as a function of depth, <m>h</m>, in meters, is given by <md>V(h)=8\left(h-3\right)\sqrt{9-\left(h-3\right)^2}+72\arcsin\left(\frac{h-3}{3}\right)+36\pi</md>.
                                           </p>
                                   </introduction>
                                   <task>
                                           <statement>
                                                   <p>
-                                                          Use the volume function, <m>V(h)</m>, to find the volume of water in the tank at a depth of <m>1.0</m><nbsp/>m and at a depth of <m>1.1</m><nbsp/>m.
+                                                          Use the volume function, <m>V(h)</m>, to find the volume of water in the tank at a depth of <m>1.9</m><nbsp/>m and at a depth of <m>2.1</m><nbsp/>m.
                                                   </p>
                                           </statement>
                                   </task>
                                   <task>
                                           <statement>
                                                   <p>
-                                                          Use the fill rate to find how long it would take for the tank to fill from a depth of <m>1.0</m><nbsp/>m to a depth of <m>1.1</m><nbsp/>m.
+                                                          Use the fill rate to find how long it would take for the tank to fill from a depth of <m>1.9</m><nbsp/>m to a depth of <m>2.1</m><nbsp/>m.
                                                   </p>
                                           </statement>
                                   </task>
                                   <task>
                                           <statement>
                                                   <p>
-                                                          Calculate the average rate of change of depth as a function of time between the times when the depth is <m>1.0</m><nbsp/>m when the depth is <m>1.1</m><nbsp/>m.
+                                                          Calculate the average rate of change of depth as a function of time between the times when the depth is <m>1.9</m><nbsp/>m when the depth is <m>2.1</m><nbsp/>m.
                                                   </p>
                                                   <p>
                                                           Be careful! Your result should have units meters per minute!
@@ -327,8 +359,8 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                           <task>
                                   <statement>
                                           <p>
-                                                          Repeat the previous problem with depths of <m>1.0</m>
-                                                                  and <m>1.01</m> meters.                                         </p>
+                                                          Repeat the previous problem with depths of <m>1.99</m>
+                                                                  and <m>2.01</m> meters.                                         </p>
                                   </statement>
                           </task>
           </exercise>
