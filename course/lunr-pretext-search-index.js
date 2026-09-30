@@ -829,13 +829,76 @@ var ptx_lunr_docs = [
   "body": "   The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
 },
 {
+  "id": "handouts-2",
+  "level": "1",
+  "url": "handouts-2.html",
+  "type": "Handout",
+  "number": "4.1",
+  "title": "An Introduction to Problem Solving",
+  "body": " An Introduction to Problem Solving   In his book, How To Solve It , mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are Understand the Problem , Make a Plan , Carry Out the Plan , and Look Back .  Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors give students the plan rather than asking them to work on understanding and formulating a plan for themselves, and almost no time is given to looking back .  This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.    Understanding the Problem   First. you have to understand the problem.   What is the unknown? What are the data? What is the condition? Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory?  Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?      Devising a Plan   Second. Find the connection between the data and the unknown.  You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution.  Have you seen it before? Or have you seen the same problem in a slightly different form?   Do you know a related problem? Do you know a theorem that could be useful? Look at the unknown! And try to think of a familiar problem having the same or a similar unknown.   Here is a problem related to yours and solved before. Could you use it? Could you use its result? Could you use its method? Should you introduce some auxiliary element in order to make its use possible?  Could you restate the problem? Could you restate it still differently? Go back to definitions.    If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other?  Did you use all the data? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?    Carrying Out the Plan   Third.  Carry out your plan.  Carrying out your plan of the solution, check each step . Can you see clearly that the step is correct? Can you prove that it is correct?    Looking Back   Fourth.  Examine the solution obtained.  Can you check the result? Can you check the argument?  Can you derive the result differently? Can you see it at a glance?  Can you use the result, or the method, for some other problem?   "
+},
+{
   "id": "handouts-3",
   "level": "1",
   "url": "handouts-3.html",
   "type": "Handout",
-  "number": "4",
-  "title": "An Introduction to Problem Solving",
-  "body": " An Introduction to Problem Solving   In his book, How To Solve It , mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are Understand the Problem , Make a Plan , Carry Out the Plan , and Look Back .  Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors give students the plan rather than asking them to work on understanding and formulating a plan for themselves, and almost no time is given to looking back .  This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.    Understanding the Problem   First. you have to understand the problem.   What is the unknown? What are the data? What is the condition? Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory?  Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?      Devising a Plan   Second. Find the connection between the data and the unknown.  You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a plan of the solution.  Have you seen it before? Or have you seen the same problem in a slightly different form?   Do you know a related problem? Do you know a theorem that could be useful? Look at the unknown! And try to think of a familiar problem having the same or a similar unknown.   Here is a problem related to yours and solved before. Could you use it? Could you use its result? Could you use its method? Should you introduce some auxiliary element in order to make its use possible?  Could you restate the problem? Could you restate it still differently? Go back to definitions.    If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other?  Did you use all the data? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?    Carrying Out the Plan   Third.  Carry out your plan.  Carrying out your plan of the solution, check each step . Can you see clearly that the step is correct? Can you prove that it is correct?    Looking Back   Fourth.  Examine the solution obtained.  Can you check the result? Can you check the argument?  Can you derive the result differently? Can you see it at a glance?  Can you use the result, or the method, for some other problem?   "
+  "number": "4.2",
+  "title": "Simple Patterns in Derivatives",
+  "body": " Simple Patterns in Derivatives  We will look at some simple functions, and patters that occur in their derivatives.    Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,     There is nothing particularly special about in this example. The same result holds for any function whose output is constant. This kind of universal pattern (it holds for all constant functions) is a theorem .   Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .     Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,       Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then       Find the derivative of .     .    "
+},
+{
+  "id": "example_deriv_const_four",
+  "level": "2",
+  "url": "handouts-3.html#example_deriv_const_four",
+  "type": "Example",
+  "number": "24",
+  "title": "",
+  "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
+},
+{
+  "id": "handouts-3-4",
+  "level": "2",
+  "url": "handouts-3.html#handouts-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "theorem "
+},
+{
+  "id": "thm_derivs_of_constants",
+  "level": "2",
+  "url": "handouts-3.html#thm_derivs_of_constants",
+  "type": "Theorem",
+  "number": "25",
+  "title": "Derivatives of Constant Functions.",
+  "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
+},
+{
+  "id": "thm_derivs_powers_of_x",
+  "level": "2",
+  "url": "handouts-3.html#thm_derivs_powers_of_x",
+  "type": "Theorem",
+  "number": "26",
+  "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
+  "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
+},
+{
+  "id": "thm_deriv_sums_and_constant_multiples",
+  "level": "2",
+  "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
+  "type": "Theorem",
+  "number": "27",
+  "title": "Sums and Constant Multiples of Derivatives.",
+  "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
+},
+{
+  "id": "handouts-3-8",
+  "level": "2",
+  "url": "handouts-3.html#handouts-3-8",
+  "type": "Checkpoint",
+  "number": "28",
+  "title": "",
+  "body": "  Find the derivative of .     .   "
 },
 {
   "id": "homework",

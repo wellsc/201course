@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>An Introduction to Problem Solving</title>
+<title>Simple Patterns in Derivatives</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -122,7 +122,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="handouts.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="handouts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="handouts-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="handouts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\di}[1]{{\mathrm{d}}{#1}}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -335,7 +335,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="handouts.html" class="internal"><span class="codenumber">4</span> <span class="title">Handouts</span></a></div>
-<ul class="structural toc-item-list contains-active" id="ptx-toc-group-handouts"><li class="toc-item toc-handout active"><div class="toc-title-box"><a href="handouts-3.html" class="internal"><span class="codenumber">4</span> <span class="title">An Introduction to Problem Solving</span></a></div></li></ul>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-handouts">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="handouts-2.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Problem Solving</span></a></div></li>
+<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="handouts-3.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple Patterns in Derivatives</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="codenumber">5</span> <span class="title">Homework</span></a></div></li>
 </ul></nav></div>
@@ -349,7 +352,10 @@ eBookConfig.enable_chatcodes =  false;
         </label><label><input type="radio" name="papersize" value="letter">Letter
         </label>
 </form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-answer-checkbox">Hide answers</label><input type="checkbox" id="hide-answer-checkbox">
+</div></div>
+<div class="header-footer-options">
 <div class="header-option">
 <span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
 </div>
@@ -366,72 +372,178 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <section class="handout" id="handouts-3" data-margins="0.75in 0.75in 0.75in 0.75in">
 <h1 class="heading hide-type">
-<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">An Introduction to Problem Solving</span><div class="print-links"><a href="?printpreview=handouts-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Simple Patterns in Derivatives</span><div class="print-links"><a href="?printpreview=handouts-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h1>
-<section class="introduction" id="handouts-3-2">
-<div class="para" id="handouts-3-2-1">In his book, <em class="emphasis">How To Solve It</em>, mathematician George Polya formulated four steps that apply to any type of problem solving. These steps are <em class="emphasis">Understand the Problem</em>, <em class="emphasis">Make a Plan</em>, <em class="emphasis">Carry Out the Plan</em>, and <em class="emphasis">Look Back</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="handouts-3-2">We will look at some simple functions, and patters that occur in their derivatives.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="handouts-3-2-2">Sometimes it feels like math classes give almost all their attention to carrying out a plan with little attention paid to the other three steps. Often, instructors <em class="emphasis">give</em> students the plan rather than asking them to work on <em class="emphasis">understanding</em> and <em class="emphasis">formulating</em> a plan for themselves, and almost no time is given to <em class="emphasis">looking back</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<details id="example_deriv_const_four" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="example_deriv_const_four-1-1">
+<div class="para">Let <span class="process-math">\(f(x)=4\text{.}\)</span> That is, no matter what value of <span class="process-math">\(x\)</span>we input into <span class="process-math">\(f(x)\text{,}\)</span> the output will be <span class="process-math">\(4\text{.}\)</span> Then the derivative of <span class="process-math">\(f(x)\)</span> is given by</div>
+<div class="displaymath process-math" id="example_deriv_const_four-1-1-6">
+\begin{align*}
+f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x}\\
+&amp;=\lim_{u\to{}x}\frac{4-4}{u-x}\\
+&amp;=\lim_{u\to{}x}\frac{0}{u-x}.
+\end{align*}
 </div>
-<div class="para" id="handouts-3-2-3">This handout gives more information on each of the four steps, and in future problems we will attempt to apply all four.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section>
-<section class="paragraphs" id="understanding"><h2 class="heading"><span class="title">Understanding the Problem.</span></h2>
-<div class="para" id="understanding-2">
-<em class="alert">First.</em> you have to <em class="emphasis">understand</em> the problem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#understanding-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">For every value of <span class="process-math">\(u\neq{}x\text{,}\)</span> <span class="process-math">\(\frac{0}{u-x}=0\text{.}\)</span><details class="ptx-footnote" aria-live="polite" id="example_deriv_const_four-1-1-9"><summary class="ptx-footnote__number" title="Footnote 2"><sup> 2 </sup></summary>
+<div class="ptx-footnote__contents" id="example_deriv_const_four-1-1-9">One way to think about this is that in the limit <span class="process-math">\(\lim_{u\to{}x}\frac{0}{u-x}\text{,}\)</span> the numerator <em class="emphasis">is</em> <span class="process-math">\(0\text{,}\)</span> while the denominator is <em class="emphasis">approaching</em> <span class="process-math">\(0\text{.}\)</span>
+</div></details> This means that the expression <span class="process-math">\(\frac{0}{u-x}\)</span> is identical with <span class="process-math">\(0\)</span> except when <span class="process-math">\(u=x\text{.}\)</span> Thus,</div>
+<div class="displaymath process-math" id="example_deriv_const_four-1-1-13">
+\begin{align*}
+f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x}\\
+&amp;=\lim_{u\to{}x}\frac{0}{u-x}\\
+&amp;=\lim_{u\to{}x}0\\
+&amp;=0.
+\end{align*}
 </div>
-<div class="para" id="understanding-3">
-<em class="emphasis">What is the unknown? What are the data? What is the condition?</em> Is it possible to satisfy the condition? Is the condition sufficient to determine the unknown? Or is it insufficient? Or redundant? Or contradictory?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#understanding-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example_deriv_const_four-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="understanding-4">Draw a figure. Introduce suitable notation. Separate the various parts of the condition. Can you write them down?  <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#understanding-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 24"><a tabindex="-1" href="#example_deriv_const_four" title="Copy heading and permalink for Example 24" aria-label="Copy heading and permalink for Example 24">🔗</a></div>
+</article></details>
+<div class="para" id="handouts-3-4">There is nothing particularly special about <span class="process-math">\(4\)</span> in this example. The same result holds for any function whose output is constant. This kind of universal pattern (it holds for all constant functions) is a <dfn class="terminology">theorem</dfn>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Understanding the Problem"><a tabindex="-1" href="#understanding" title="Copy heading and permalink for Paragraphs: Understanding the Problem" aria-label="Copy heading and permalink for Paragraphs: Understanding the Problem">🔗</a></div>
-</section>
-<section class="paragraphs" id="plan"><h2 class="heading"><span class="title">Devising a Plan.</span></h2>
-<div class="para" id="plan-2">
-<em class="alert">Second.</em> Find the connection between the data and the unknown.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="theorem theorem-like" id="thm_derivs_of_constants"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">25</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Derivatives of Constant Functions.</span>
+</h2>
+<div class="para" id="thm_derivs_of_constants-2-1">For any constant value <span class="process-math">\(c\text{,}\)</span> if <span class="process-math">\(f(x)=c\)</span> (for all values of <span class="process-math">\(x\)</span>), then <span class="process-math">\(f'(x)=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_of_constants-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="plan-3">You may be obliged to consider auxiliary problems if an immediate connection cannot be found. You should obtain eventually a <em class="emphasis">plan</em> of the solution.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 25: Derivatives of Constant Functions"><a tabindex="-1" href="#thm_derivs_of_constants" title="Copy heading and permalink for Theorem 25: Derivatives of Constant Functions" aria-label="Copy heading and permalink for Theorem 25: Derivatives of Constant Functions">🔗</a></div>
+</article>
+<details id="thm_derivs_of_constants-3" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
+<article class="hiddenproof knowl__content">
+<div class="para" id="thm_derivs_of_constants-3-1">The proof is identical to <a href="handouts-3.html#example_deriv_const_four" class="xref" data-knowl="./knowl/xref/example_deriv_const_four.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 24">Example 24</a> with <span class="process-math">\(4\)</span> replaced by <span class="process-math">\(c\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_of_constants-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="plan-4">Have you seen it before? Or have you seen the same problem in a slightly different form?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Proof 25.1"><a tabindex="-1" href="#thm_derivs_of_constants-3" title="Copy heading and permalink for Proof 25.1" aria-label="Copy heading and permalink for Proof 25.1">🔗</a></div>
+</article></details>
+<article class="theorem theorem-like" id="thm_derivs_powers_of_x"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">26</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Derivatives of Powers of <span class="process-math">\(x\)</span>.</span>
+</h2>
+<div class="para" id="thm_derivs_powers_of_x-2-1">For any non-zero real number <span class="process-math">\(r\text{,}\)</span> if <span class="process-math">\(f(x)=x^{r}\text{,}\)</span> then <span class="process-math">\(f'(x)=r x^{r-1}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="plan-5">
-<em class="emphasis">Do you know a related problem?</em> Do you know a theorem that could be useful? <em class="emphasis">Look at the unknown!</em> And try to think of a familiar problem having the same or a similar unknown.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 26: Derivatives of Powers of x"><a tabindex="-1" href="#thm_derivs_powers_of_x" title="Copy heading and permalink for Theorem 26: Derivatives of Powers of x" aria-label="Copy heading and permalink for Theorem 26: Derivatives of Powers of x">🔗</a></div>
+</article>
+<details id="thm_derivs_powers_of_x-3" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h2 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2></summary>
+<article class="hiddenproof knowl__content">
+<div class="para" id="thm_derivs_powers_of_x-3-1">We will examine three cases: when <span class="process-math">\(r\)</span> is a positive rational number, when <span class="process-math">\(r\)</span> is a negative rational number, and when <span class="process-math">\(r\)</span> is irrational.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="plan-6">
-<em class="emphasis">Here is a problem related to yours and solved before.</em> Could you use it? Could you use its result? Could you use its method? Should you introduce some auxiliary element in order to make its use possible?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="case" id="thm_derivs_powers_of_x-3-2"><h3 class="heading">Positive Rational <span class="process-math">\(r\)</span>.</h3>
+<div class="para logical" id="thm_derivs_powers_of_x-3-2-2">
+<div class="para">Let <span class="process-math">\(f(x)=x^{r}\)</span> where <span class="process-math">\(r\)</span> is positive and rational, then there are positive integers, <span class="process-math">\(p\)</span> and <span class="process-math">\(q\)</span> so that <span class="process-math">\(r=\frac{p}{q}\text{,}\)</span> and thus <span class="process-math">\(f(x)=x^{\frac{p}{q}}\text{.}\)</span> Then</div>
+<div class="displaymath process-math" id="thm_derivs_powers_of_x-3-2-2-7">
+\begin{align*}
+f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{u^{r}-x^{r}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{u^{p/q}-x^{p/q}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{\left(u^{p/q}-x^{p/q}\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{\left(u^{p/q}\right)^{q}-\left(x^{p/q}\right)^{q}}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{u^{p}-x^{p}}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{\left(u-x\right)\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\frac{\left(x^{p-1}+x^{p-2}x+x^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(x^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(x^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\frac{\overbrace{x^{p-1}+x^{p-1}+x^{p-1}+\cdots+x^{p-1}}^{p\text{ copies}}}{\underbrace{\left(\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}+\cdots+\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}\right)}_{q\text{ copies}}} \\
+&amp;=\frac{px^{p-1}}{q\left(x^{p/q}\right)^{q-1}} \\
+&amp;=\frac{p}{q}\frac{x^{p-1}}{x^{p-\frac{p}{q}}} \\
+&amp;=\frac{p}{q}{x^{p-1-p+\frac{p}{q}}} \\
+&amp;=\frac{p}{q}{x^{\frac{p}{q}-1}} \\
+&amp;=r{x^{r-1}}.
+\end{align*}
 </div>
-<div class="para" id="plan-7">Could you restate the problem? Could you restate it still differently? Go back to definitions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="plan-8">  If you cannot solve the proposed problem try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Case: Positive Rational r"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-2" title="Copy heading and permalink for Case: Positive Rational r" aria-label="Copy heading and permalink for Case: Positive Rational r">🔗</a></div>
+</article>
+<article class="case" id="thm_derivs_powers_of_x-3-3"><h3 class="heading">Negative Rational <span class="process-math">\(r\)</span>.</h3>
+<div class="para logical" id="thm_derivs_powers_of_x-3-3-2">
+<div class="para">Let <span class="process-math">\(f(x)=x^{r}\)</span> where <span class="process-math">\(r\)</span> is negative and rational, then there are positive integers, <span class="process-math">\(p\)</span> and <span class="process-math">\(q\)</span> so that <span class="process-math">\(r=\frac{-p}{q}\text{,}\)</span> and thus <span class="process-math">\(f(x)=x^{\frac{-p}{q}}\text{.}\)</span> Then</div>
+<div class="displaymath process-math" id="thm_derivs_powers_of_x-3-3-2-7">
+\begin{align*}
+f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{u^{r}-x^{r}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{u^{-p/q}-x^{-p/q}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{\frac{1}{u^{p/q}}-\frac{1}{x^{p/q}}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{\frac{x^{p/q}}{u^{p/q}x^{p/q}}-\frac{u^{p/q}}{u^{p/q}x^{p/q}}}{u-x} \\
+&amp;=\lim_{u\to{}x}\frac{{x^{p/q}}-{u^{p/q}}}{\left(u-x\right)\left({u^{p/q}x^{p/q}}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{-1\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)\left({u^{p/q}x^{p/q}}\right)} \\
+&amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)}.
+\end{align*}
 </div>
-<div class="para" id="plan-9">Did you use all the data? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#plan-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Devising a Plan"><a tabindex="-1" href="#plan" title="Copy heading and permalink for Paragraphs: Devising a Plan" aria-label="Copy heading and permalink for Paragraphs: Devising a Plan">🔗</a></div>
-</section>
-<section class="paragraphs" id="carrying_out"><h2 class="heading"><span class="title">Carrying Out the Plan.</span></h2>
-<div class="para" id="carrying_out-2">
-<em class="alert">Third.</em> <em class="emphasis">Carry out</em> your plan.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#carrying_out-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="thm_derivs_powers_of_x-3-3-3">
+<div class="para">At this point, our limit is the same as in the positive rational case except for the factor <span class="process-math">\(\frac{-1}{u^{p/q}x^{p/q}}\text{,}\)</span> and so making the same algebraic manipulations, we have</div>
+<div class="displaymath process-math" id="thm_derivs_powers_of_x-3-3-3-2">
+\begin{align*}
+f'(x) &amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)} \\
+&amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} \\
+&amp;=\frac{-1}{\left({x^{p/q}x^{p/q}}\right)}\frac{px^{p-1}}{q\left(x^{p/q}\right)^{q-1}} \\
+&amp;=\frac{-p}{q}\frac{1}{{x^{2p/q}}}\frac{x^{p-1}}{x^{p-p/q}} \\
+&amp;=\frac{-p}{q}{x^{p-1-p+p/q-2p/q}} \\
+&amp;=\frac{-p}{q}{x^{-p/q-1}} \\
+&amp;=r{x^{r-1}}.
+\end{align*}
 </div>
-<div class="para" id="carrying_out-3">Carrying out your plan of the solution, <em class="emphasis">check each step</em>. Can you see clearly that the step is correct? Can you prove that it is correct?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#carrying_out-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Carrying Out the Plan"><a tabindex="-1" href="#carrying_out" title="Copy heading and permalink for Paragraphs: Carrying Out the Plan" aria-label="Copy heading and permalink for Paragraphs: Carrying Out the Plan">🔗</a></div>
-</section>
-<section class="paragraphs" id="look_back"><h2 class="heading"><span class="title">Looking Back.</span></h2>
-<div class="para" id="look_back-2">
-<em class="alert">Fourth.</em> <em class="emphasis">Examine</em> the solution obtained.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#look_back-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Case: Negative Rational r"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-3" title="Copy heading and permalink for Case: Negative Rational r" aria-label="Copy heading and permalink for Case: Negative Rational r">🔗</a></div>
+</article>
+<article class="case" id="thm_derivs_powers_of_x-3-4"><h3 class="heading">Irrational <span class="process-math">\(r\)</span>.</h3>
+<div class="para" id="thm_derivs_powers_of_x-3-4-2">We now examine the case where <span class="process-math">\(r\)</span> is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are <dfn class="terminology">dense</dfn> in the real numbers. Essentially, this means that there must be a sequence or rational numbers, <span class="process-math">\(r_{1}, r_{2}, r_{3}, \ldots\)</span> so that <span class="process-math">\(r_{k}\xrightarrow{k\to{}\infty}{r}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="look_back-3">Can you <em class="emphasis">check the result?</em> Can you check the argument?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#look_back-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="thm_derivs_powers_of_x-3-4-3">
+<div class="para">We can then define function <span class="process-math">\(f_{k}(x)=x^{r_{k}}\text{,}\)</span> and note that <span class="process-math">\(x^{r_{k}}\xrightarrow{k\to{}\infty}x^{r}\text{,}\)</span> and by continuity,</div>
+<div class="displaymath process-math" id="thm_derivs_powers_of_x-3-4-3-3">
+\begin{align*}
+f'(x)&amp;=\lim_{k\to\infty}f_{k}'(x) \\
+&amp;=\lim_{k\to\infty}r_{k}x^{r_{k}-1} \\
+&amp;=rx^{r-1}.
+\end{align*}
 </div>
-<div class="para" id="look_back-4">Can you derive the result differently? Can you see it at a glance?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#look_back-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="look_back-5">Can you use the result, or the method, for some other problem?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#look_back-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Case: Irrational r"><a tabindex="-1" href="#thm_derivs_powers_of_x-3-4" title="Copy heading and permalink for Case: Irrational r" aria-label="Copy heading and permalink for Case: Irrational r">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Proof 26.1"><a tabindex="-1" href="#thm_derivs_powers_of_x-3" title="Copy heading and permalink for Proof 26.1" aria-label="Copy heading and permalink for Proof 26.1">🔗</a></div>
+</article></details>
+<article class="theorem theorem-like" id="thm_deriv_sums_and_constant_multiples"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">27</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sums and Constant Multiples of Derivatives.</span>
+</h2>
+<div class="para logical" id="thm_deriv_sums_and_constant_multiples-2-1">
+<div class="para">Let <span class="process-math">\(f_{1}(x)\)</span> and <span class="process-math">\(f_{2}(x)\)</span> be any functions that have derivatives on a shared domain, and let <span class="process-math">\(k_{1}\)</span> and <span class="process-math">\(k_{2}\)</span> be any (constant) real numbers.  Then</div>
+<div class="displaymath process-math" id="thm_deriv_sums_and_constant_multiples-2-1-5">
+\begin{equation*}
+\left(k_{1}f_{1}(x)+k_{2}f_{2}(x)\right)'
+=
+k_{1}f_{1}'(x)+k_{2}f_{2}'(x).
+\end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Looking Back"><a tabindex="-1" href="#look_back" title="Copy heading and permalink for Paragraphs: Looking Back" aria-label="Copy heading and permalink for Paragraphs: Looking Back">🔗</a></div>
-</section><div class="autopermalink" aria-hidden="true" data-description="Handout 4: An Introduction to Problem Solving"><a tabindex="-1" href="#handouts-3" title="Copy heading and permalink for Handout 4: An Introduction to Problem Solving" aria-label="Copy heading and permalink for Handout 4: An Introduction to Problem Solving">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#thm_deriv_sums_and_constant_multiples-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 27: Sums and Constant Multiples of Derivatives"><a tabindex="-1" href="#thm_deriv_sums_and_constant_multiples" title="Copy heading and permalink for Theorem 27: Sums and Constant Multiples of Derivatives" aria-label="Copy heading and permalink for Theorem 27: Sums and Constant Multiples of Derivatives">🔗</a></div>
+</article>
+<details id="handouts-3-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="exercise exercise-like knowl__content">
+<div class="para" id="handouts-3-8-1-1">Find the derivative of <span class="process-math">\(f(x)=4x^{30}-5x^{17}+15x^{2}+45\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="handouts-3-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="handouts-3-8-2-1">
+<span class="process-math">\(f'(x)=120x^{29}-85x^{16}+30x+0=120x^{29}-85x^{16}+30x\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handouts-3-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 28.1"><a tabindex="-1" href="#handouts-3-8-2" title="Copy heading and permalink for Answer 28.1" aria-label="Copy heading and permalink for Answer 28.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 28"><a tabindex="-1" href="#handouts-3-8" title="Copy heading and permalink for Checkpoint 28" aria-label="Copy heading and permalink for Checkpoint 28">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Handout 4.2: Simple Patterns in Derivatives"><a tabindex="-1" href="#handouts-3" title="Copy heading and permalink for Handout 4.2: Simple Patterns in Derivatives" aria-label="Copy heading and permalink for Handout 4.2: Simple Patterns in Derivatives">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="handouts.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="handouts-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
