@@ -18,7 +18,7 @@
   <title>A Function that is its Own Derivative</title>
   <introduction>
   <p>
-    In calculus we saw that sometimes the derivative of a function is
+    We have seen that sometimes the derivative of a function is
     <em>simpler</em> than the function itself (for example, if
     <m>h(x)=5x^{2}</m>, its derivative, <m>h'(x)=10x</m> is arguably simpler
     because linear functions are simpler than quadratics), and sometimes the
