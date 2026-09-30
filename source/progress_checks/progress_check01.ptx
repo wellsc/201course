@@ -17,6 +17,16 @@ Set up, <em>but do not evaluate</em>, the limit
 definition of the derivative that would find the derivative of the function at <m>t=1</m>.
                                   </p>
                           </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow>
+                                                                  \lim_{t\to{}1}\frac{s(t)-s(1)}{t-1}&amp;=
+                                                                        \lim_{t\to{}1}\frac{8{t}^{2}-10t+100-98}{t-1}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                           <statement>
@@ -24,7 +34,6 @@ definition of the derivative that would find the derivative of the function at <
                                                   Clearly explain why the limit you set up in <xref ref='pc1_limit_setup' text='type-hybrid'>Part</xref> will find the derivative of <m>s(t)</m> at <m>t=1</m>.
                                   </p>
                           </statement>
-                                                  <!--
                                   <solution>
                                           <p>
                                                   Using the two different ways we have defined the derivative, the limit to find <m>s'(1)</m>, the derivative of <m>s</m> at <m>t=1</m>, is
@@ -45,7 +54,6 @@ definition of the derivative that would find the derivative of the function at <
                                                           The expressions <m>\frac{s(t)-s(1)}{t-1}</m> for any value of <m>t</m> other than <m>1</m>, and <m>\frac{s(1+h)-s(1)}{(1+h)-1}</m>, for any non-zero value of <m>h</m>, are the average rate of change between the points <m> (1,s(1))</m> and <m> (t,s(t))</m>, or between <m> (1,s(1))</m> and <m> (1+h,s(1+h))</m>, respectively, so the closer <m>t</m> is to <m>1</m> or the closer <m>h</m> is to zero, the closer the average rate of change is to being an instantaneous rate of change.
                                          </p>
                                   </solution>
-                                                  -->
                           </task>
                   </task>
           <task workspace="2in">
@@ -54,6 +62,58 @@ definition of the derivative that would find the derivative of the function at <
                                           Evaluate the limit you found in <xref ref='pc1_limit_setup' text='type-hybrid'>Part</xref>.
                           </p>
                   </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow> \lim_{t\to{}1}\frac{s(t)-s(1)}{t-1}
+                                                          &amp;=\lim_{t\to{}1}\frac{8{t}^{2}-10t+100-98}{t-1}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{t\to{}1}\frac{8{t}^{2}-10t+2}{t-1}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{t\to{}1}\frac{(8{t}-2)(t-1)}{t-1}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{t\to{}1}(8{t}-2)
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=(8\cdot 1{t}-2)
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=6.
+                                                  </mrow>
+                                          </md>
+                                          or,
+                                          <md>
+                                                  <mrow> \lim_{h\to{}0}\frac{s(1+h)-s(1)}{t-1}
+                                                          &amp;=\lim_{h\to{}0}\frac{8(1+h)^{2}-10(1+h)t+100-98}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}\frac{8{(1+h)}^{2}-10(1+h)+2}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}\frac{8{(1+2h+h^2)}-8-10h}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}\frac{8+16h+8h^2-8-10h}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}\frac{6h+8h^2}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}\frac{h(6+8h)}{h}
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=\lim_{h\to{}0}(6+8h)
+                                                  </mrow>
+                                                  <mrow> 
+                                                          &amp;=6.
+                                                  </mrow>
+                                          </md>
+                                          
+                                  </p>
+                          </solution>
           </task>
           <task workspace="2in">
                   <statement>
@@ -61,6 +121,12 @@ definition of the derivative that would find the derivative of the function at <
                                           Find an equation for the tangent line to the graph of <m>s(t)</m> from <xref ref='pc1_limit' text='type-local'>Question</xref> at the point <m>t=1</m>.
                           </p>
                   </statement>
+                          <solution>
+                                  <p>
+                                          The tangent line goes through the point <m>(1,s(1))=(1,98)</m> and has slope <m>s'(1)=6</m>. Using the point slope form, an equation for the tangent line is
+                                          <md>y=6(t-1)+98.</md>
+                                  </p>
+                          </solution>
           </task>
           </exercise>
   </page>
@@ -80,14 +146,12 @@ A company's monthly revenue (money taken in) from car sales, <m>R</m> (in thousa
 </md>
                                   </p>
                           </statement>
-                          <!--
 <solution>
                                 <p>
                                         When monthly advertising spending is <m>80</m><nbsp/>thousand dollars, monthly revenue is <m>250</m><nbsp/>thousand
                         dollars.
                                 </p>
 </solution>
-                          -->
                   </task>
                   <task>
                           <statement>
@@ -95,14 +159,12 @@ A company's monthly revenue (money taken in) from car sales, <m>R</m> (in thousa
 What does the company expect is true about the sign of <m>f'</m>? Why?
                                   </p>
                           </statement>
-                          <!--
 <solution>
         <p>
   The sign should be positive, because you expect more spending on advertising to bring in more
   revenue.
         </p>
 </solution>
-                          -->
                   </task>
                   <task>
                           <statement>
@@ -110,13 +172,11 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                         What does the statement <m> f'(100)=2 </m> mean in practical terms?
                                   </p>
                           </statement>
-                          <!--
                         <solution>
                                 <p>
                                 When monthly advertising spending is <m>100</m><nbsp/>thousand dollars, monthly revenue increases by <m>2</m><nbsp/>thousand dollars per additional thousand dollars spent on advertising.
                                 </p>
                         </solution>
-                          -->
                   </task>
                   <task>
                           <statement>
@@ -124,13 +184,11 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                   What does the statement <m>f'(100)=0.5</m> mean in practical terms?
                                   </p>
                           </statement>
-                          <!--
                                 <solution>
                                         <p>
                                                 When monthly advertising spending is <m>100</m><nbsp/> thousand dollars, monthly revenue increases by <m>0.5</m><nbsp/> thousand dollars per additional thousand dollars spent on advertising. That is, revenue increases by <m>500</m><nbsp/> dollars per additional thousand dollars spent on advertising.
                         </p>
                 </solution>
-                                  -->
                   </task>
                   <task>
                                   <introduction>
@@ -145,6 +203,12 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
 
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                      If <m>f'(100)=2</m>, each $1,000 spent brings in an additional $2,000 in revenue, so additional
+   spending makes sense.       
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -152,17 +216,13 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           If <m>f'(100)=0.5</m>, should the company spend more or less than $100,000 on advertising?
                                           </p>
                                   </statement>
-                                  <!--
  <solution>
                   <p>
-   If <m>f'(100)=2</m>, each $1,000 spent brings in an additional $2,000 in revenue, so additional
-   spending makes sense. On the other hand, 
-   if <m>f'(100)=0.5</m>, each $1,000 spent brings in only an additional $500 in revenue, which means
+   If <m>f'(100)=0.5</m>, each $1,000 spent brings in only an additional $500 in revenue, which means
    they are spending more on advertising than they bring in, so additional advertising is not
    advisable. The company should spend less on advertising.
                   </p>
  </solution>
-                                  -->
                           </task>
                   </task>
           </exercise>
@@ -192,6 +252,29 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                   Find the total volume of the tank in cubic feet.
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          The total height is <m>24</m>ft and the radius of the base is <m>6</m>ft, so the total volume is given by
+                                          <md>
+                                                  <mrow>
+                                                          V_{T}=
+                                                          &amp;=\frac{\pi}{3}R^{2}H
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{\pi}{3}(6\text{ft})^{2}(24\text{ft})
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{\pi}{3}36\cdot24 \text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=288\pi\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}904.7787\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -199,6 +282,103 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Find the volume of water in the tank (in cubic feet) when the tank is filled to a depth of <m>2</m><nbsp/>ft and when the tank is filled to a depth of <m>4</m><nbsp/>ft.
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          When the tank is filled to a depth of <m>2\text{ft}</m>, the empty space above the water is a cone with height <m>(24-2)\text{ft}</m>, and the radius of its base is in the same proportion to the radius of the whole tank as <m>(24-2)\text{ft}</m> is to the full height of the tank. That is,
+                                          <md>
+                                                  \frac{r}{6\text{ft}}=\frac{(24-2)\text{ft}}{24\text{ft}}
+                                          </md>
+                                          so,
+                                          <md>
+                                                  <mrow>
+                                                  r&amp;=\frac{(24-2)\text{ft}{6\text{ft}}}{24\text{ft}}
+                                                  </mrow>
+                                                  <mrow>
+                                                  &amp;=\frac{(24-2)\text{ft}}{4}
+                                                  </mrow>
+                                                  <mrow>
+                                                  &amp;=\frac{22}{4}\text{ft}
+                                                  </mrow>
+                                          </md>
+                                          So the empty volume is
+                                          <md>
+                                                  <mrow>
+                                                          V_{\varnothing}
+                                                                  &amp;=\frac{\pi}{3}\left(\frac{22}{4}\text{ft}\right)^{2}(22\text{ft})
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{\pi}{48}\left(22\text{ft}\right)^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{\pi}{6}\left(11\text{ft}\right)^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{1331\pi}{6}\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                          and so, the volume of water is 
+                                          <md>
+                                                  <mrow>
+                                                          V_{w}&amp;=V_{T}-V_{\varnothing}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\pi\left(288 -\frac{1331}{6}\right)\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\frac{397\pi}{6}\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}207.8687\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                                  <p>
+                                          When the tank is filled to a depth of <m>4\text{ft}</m>, the empty space above the water is a cone with height <m>(24-4)\text{ft}</m>, and the radius of its base is in the same proportion to the radius of the whole tank as <m>(24-4)\text{ft}</m> is to the full height of the tank. That is,
+                                          <md>
+                                                  \frac{r}{6\text{ft}}=\frac{(24-4)\text{ft}}{24\text{ft}}
+                                          </md>
+                                          so,
+                                          <md>
+                                                  <mrow>
+                                                  r&amp;=\frac{(24-4)\text{ft}{6\text{ft}}}{24\text{ft}}
+                                                  </mrow>
+                                                  <mrow>
+                                                  &amp;=\frac{(24-4)\text{ft}}{4}
+                                                  </mrow>
+                                                  <mrow>
+                                                  &amp;=5\text{ft}
+                                                  </mrow>
+                                          </md>
+                                          So the empty volume is
+                                          <md>
+                                                  <mrow>
+                                                          V_{\varnothing}
+                                                                  &amp;=\frac{\pi}{3}\left(5\text{ft}\right)^{2}(20\text{ft})
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{\pi}{3}500\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{500\pi}{3}\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                          and so, the volume of water is 
+                                          <md>
+                                                  <mrow>
+                                                          V_{w}&amp;=V_{T}-V_{\varnothing}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\pi\left(288 -\frac{500}{3}\right)\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\frac{364\pi}{3}\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}381.1799\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                           </task>
                           <task workspace="1.5in">
                                   <statement>
@@ -211,6 +391,48 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           The volume of water is the volume of the whole tank minus the volume of the empty cone (from the surface of the water to the top of the tank).
                                           </p>
                                   </hint>
+                          <solution>
+                                  <p>
+                                          When the tank is filled to a depth of <m>d\text{ft}</m>, the empty space above the water is a cone with height <m>(24-d)\text{ft}</m>, and the radius of its base is in the same proportion to the radius of the whole tank as <m>(24-d)\text{ft}</m> is to the full height of the tank. That is,
+                                          <md>
+                                                  \frac{r}{6\text{ft}}=\frac{(24-d)\text{ft}}{24\text{ft}}
+                                          </md>
+                                          so,
+                                          <md>
+                                                  <mrow>
+                                                  r&amp;=\frac{(24-d)\text{ft}{6\text{ft}}}{24\text{ft}}
+                                                  </mrow>
+                                                  <mrow>
+                                                  &amp;=\frac{24-d}{4}\text{ft}
+                                                  </mrow>
+                                          </md>
+                                          So the empty volume is
+                                          <md>
+                                                  <mrow>
+                                                          V_{\varnothing}
+                                                                  &amp;=\frac{\pi}{3}\left(\frac{24-d}{4}\text{ft}\right)^{2}(24-d)\text{ft}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\pi\frac{(24-d)^{3}}{48}\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                          and so, the volume of water is 
+                                          <md>
+                                                  <mrow>
+                                                          V_{w}&amp;=V_{T}-V_{\varnothing}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\pi\left(288 -\frac{(24-d)^3}{48}\right)\text{ft}^{3}
+                                                  </mrow>
+                                                  <mrow>
+                                                               &amp;=\pi\left(\frac{13824-(24-d)^3}{48}\right)\text{ft}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                                  <p>
+                                          
+                                  </p>
+                          </solution>
                           </task>
                           <task  workspace="0in">
                                   <statement>
@@ -234,6 +456,20 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           </image>
                                   </figure>
                                   </statement>
+                          <solution>
+                                          <image width="50%">
+                                                  <description><p>Depth as a Function of Time</p></description>
+                                        <prefigure xmlns="https://prefigure.org" label="pc1_depth_func_of_time_cone">
+                                        <diagram dimensions="(300, 300)" margins="5">
+                                                <definition>f(x)=24-(13824-x*144/25/pi)^(1/3)</definition>
+                                        <coordinates bbox="(0,0,7500,24)">
+                                                <grid spacings="((0,625,7500),(0,2.4,24))"/>
+                                                <graph function="f" stroke="black" />
+                                        </coordinates>
+                                        </diagram>
+                                        </prefigure>
+                                          </image>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -241,6 +477,10 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Find an expression for the volume of water in the tank as a function of time, <m>t</m>, in minutes. (You may assume the tank is empty to begin.)
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          The volume of water as a function of time is given by <m>v(t)=(0.12t)\text{ft}^{3}</m>.                                   </p>
+                          </solution>
                           </task>
                           <task workspace="1.5in">
                                   <statement>
@@ -248,6 +488,42 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                   Equate the volume in terms of time with the volume in terms of depth and solve for depth. This yields a formula for the depth as a function of time.
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                         Equating volume as a function of time with the volume as a function of depth, we have
+                                          <md>
+                                                  <mrow>
+                                                                  \pi\left(\frac{13824-(24-d)^3}{48}\right)\text{ft}^{3}
+                                                          &amp;=0.12t
+                                                  </mrow>
+                                          </md>
+                                          Solving this for <m>d</m>, we have
+                                          <md>
+                                                  <mrow>
+                                                                  \pi\left(\frac{13824-(24-d)^3}{48}\right)=0.12t
+                                                                  &amp;\longrightarrow
+                                                          \left({13824-(24-d)^3}\right) =(0.12t)\frac{48}{\pi}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\longrightarrow
+                                                          -(24-d)^3=1.8335t-13824
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\longrightarrow
+                                                          (24-d)^3=13824-1.8335t
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\longrightarrow
+                                                          24-d=\sqrt[3]{13824-1.8335t}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\longrightarrow
+                                                          d=24-\sqrt[3]{13824-1.8335t}
+                                                  </mrow>
+                                          </md>
+ 
+                                  </p>
+                          </solution>
                           </task>
                           <conclusion>
                                   <p>
@@ -280,6 +556,22 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                   Find the total volume of the tank in cubic meters.
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow>
+                                                          V
+                                                                  &amp;=\pi r^{2}h
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\pi (3\text{m})^{2}(8\text{m})
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=72\pi\text{m}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -287,6 +579,11 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Find the volume of water in the tank (in cubic meters) when the tank is filled to a depth of <m>3</m><nbsp/>m.
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          <m>V=\frac{1}{2}(72\pi\text{m}^{3})=36\pi\text{m}^{3}</m>
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -294,6 +591,11 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           How long will it take for the tank to fill to a depth of <m>3</m><nbsp/>m if it starts empty?
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          <m>\frac{36\pi\text{m}^{3}}{1.1\text{m}^{3}/\text{min}}\approx{}102.815\text{min} </m>
+                                  </p>
+                          </solution>
                           </task>
                           <task>
                                   <statement>
@@ -301,6 +603,11 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                   How long will it take for the tank to fill completely if it starts empty?
                                           </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          <m>\frac{72\pi\text{m}^{3}}{1.1\text{m}^{3}/\text{min}}\approx{}205.632\text{min} </m>
+                                  </p>
+                          </solution>
                           </task>
                           <task workspace="0in">
                                   <statement>
@@ -314,16 +621,30 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                           <caption>A Blank Grid for Sketching the Graph of Depth as a Function of Time</caption>
                                           <image width="50%">
                                                   <description><p>A Blank Grid for Sketching the Graph of Depth as a Function of Time</p></description>
-                                        <prefigure xmlns="https://prefigure.org" label="pc1_blank_grid2">
-                                        <diagram dimensions="(300, 300)" margins="5">
-                                        <coordinates bbox="(0,0,1200,50)">
-                                                <grid />
-                                        </coordinates>
-                                        </diagram>
-                                        </prefigure>
+                                                  <prefigure xmlns="https://prefigure.org" label="pc1_blank_grid2">
+                                                  <diagram dimensions="(300, 300)" margins="5">
+                                                          <coordinates bbox="(0,0,1200,50)">
+                                                                  <grid />
+                                                          </coordinates>
+                                                  </diagram>
+                                                  </prefigure>
                                           </image>
                                   </figure>
                                   </statement>
+                          <solution>
+                                         <image width="50%">
+                                                <description><p>Depth as a Function of Time</p></description>
+                                                <prefigure xmlns="https://prefigure.org" label="pc1_depth_func_time_cyl">
+                                                        <diagram dimensions="(300, 300)" margins="5">
+                                                                <definition>f(t)=(8*(t-3)*sqrt(9-(t-3)^2)+72*asin((t-3)/3)+36*pi,t)</definition>
+                                                                <coordinates bbox="(0,0,72*pi,6)">
+                                                                        <grid spacings="((0,6*pi,72*pi),(0,0.6,6))"/>
+                                                                        <parametric-curve function="f" domain="(0,6)" />
+                                                                </coordinates>
+                                                        </diagram>
+                                                </prefigure>
+                                          </image>
+                          </solution>
                           </task>
                           <task>
                                   <introduction>
@@ -337,6 +658,33 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Use the volume function, <m>V(h)</m>, to find the volume of water in the tank at a depth of <m>1.9</m><nbsp/>m and at a depth of <m>2.1</m><nbsp/>m.
                                                   </p>
                                           </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow>
+                                                          V(1.9)
+                                                                  &amp;=8\left(1.9-3\right)\sqrt{9-\left(1.9-3\right)^2}+72\arcsin\left(\frac{1.9-3}{3}\right)+36\pi
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=8\left(-1.1\right)\sqrt{9-\left(-1.1\right)^2}+72\arcsin\left(\frac{-1.1}{3}\right)+36\pi
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}61.5055\text{m}^{3}
+                                                  </mrow>
+                                          </md>
+                                          <md>
+                                                  <mrow>
+                                                  V(2.1)&amp;=8\left(2.1-3\right)\sqrt{9-\left(2.1-3\right)^2}+72\arcsin\left(\frac{2.1-3}{3}\right)+36\pi
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=8\left(-0.9\right)\sqrt{9-\left(-0.9\right)^2}+72\arcsin\left(\frac{-0.9}{3}\right)+36\pi
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}70.5544\text{m}^{3}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                                   </task>
                                   <task>
                                           <statement>
@@ -344,6 +692,17 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Use the fill rate to find how long it would take for the tank to fill from a depth of <m>1.9</m><nbsp/>m to a depth of <m>2.1</m><nbsp/>m.
                                                   </p>
                                           </statement>
+                          <solution>
+                                  <p>
+                                          The amount of water changed by <m>70.5544-61.5055=+9.0489\text{m}^{3}</m>, so it would take
+                                          <md>
+                                                  <mrow>
+                                                          \frac{9.0489\text{m}^{3}}{1.1\text{m}^{3}/\text{s}}
+                                                                  &amp;=8.2263\text{s}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                                   </task>
                                   <task>
                                           <statement>
@@ -354,6 +713,19 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Be careful! Your result should have units meters per minute!
                                                   </p>
                                           </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow>
+                                                          \frac{\Delta{}h}{\Delta{}t}
+                                                                  &amp;=\frac{2.1\text{m}-1.9\text{m}}{8.2263\text{s}}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}0.02431\text{m}/\text{s}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                                   </task>
                           </task>
                           <task>
@@ -362,6 +734,38 @@ What does the company expect is true about the sign of <m>f'</m>? Why?
                                                           Repeat the previous problem with depths of <m>1.99</m>
                                                                   and <m>2.01</m> meters.                                         </p>
                                   </statement>
+                          <solution>
+                                  <p>
+                                          <md>
+                                                  <mrow>
+                                                   V(2.01)&amp;\approx{}66.4545\text{m}^{3}
+                                                          &amp;
+                                                   V(1.99)&amp;\approx{}65.5494\text{m}^{3}
+                                                  </mrow>
+                                          </md>
+                                          so the amount of time it takes to fill from <m>1.99\text{m}</m> to <m>2.01\text{m}</m> is
+                                          <md>
+                                                  <mrow>
+                                                          \frac{(66.4545-65.5494)\text{m}^{3}}{1.1\text{m}^{3}/\text{s}}
+                                                          &amp;=\frac{0.9051\text{m}^{3}}{1.1\text{m}^{3}/\text{s}}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;\approx{}0.8228\text{s}
+                                                  </mrow>
+                                          </md>
+                                          which means the rate at which the depth is rising is
+                                          <md>
+                                                  <mrow>
+                                                  \frac{(2.01-1.99)\text{m}}{0.8228\text{s}}
+                                                  &amp;=
+                                                  \frac{0.02\text{m}}{0.8228\text{s}}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=0.0243\text{m}/\text{s}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </solution>
                           </task>
           </exercise>
   </page>

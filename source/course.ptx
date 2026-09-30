@@ -39,6 +39,7 @@
       <xi:include href="./activities/Interpretations/Interpretations.ptx"/>
       <xi:include href="./activities/SketchDerivative/SketchDerivative.ptx"/>
       <xi:include href="./activities/DerivPatterns01/DerivPatterns01.ptx"/>
+      <xi:include href="./activities/NaturalExponential/NaturalExponential.ptx"/>
 
     </chapter>
     <!--

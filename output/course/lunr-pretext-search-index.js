@@ -595,6 +595,204 @@ var ptx_lunr_docs = [
   "body": "  Let . Predict the value of . Justify your answer.   "
 },
 {
+  "id": "natural_exp_activity-3",
+  "level": "1",
+  "url": "natural_exp_activity-3.html",
+  "type": "Subsection",
+  "number": "3.8.1",
+  "title": "A Function that is its Own Derivative",
+  "body": " A Function that is its Own Derivative   In calculus we saw that sometimes the derivative of a function is simpler than the function itself (for example, if , its derivative, is arguably simpler because linear functions are simpler than quadratics), and sometimes the derivative of a function is more complicated than the original function (for example, if , then the derivative, is arguably more complicated).  It is reasonable, then, to ask if there are any functions, , that have the property that .    Preliminary Ideas  Before starting, we will review some notation and look at some important patterns in derivatives.   The Factorial Function   Given any positive integer (that is, a positive whole number), , the factorial of , written and read as factorial, is the product of with all smaller positive integers. That is, Here are some examples:       An Infinite Polynomial  In order to find a our function that is exactly the same as its own derivative, we are going make some assumptions.  First of all, a particularly clever calculus student might come up with the zero function as one such function, and it's also pretty easy to see that if , then for any constant , , so we are going to add an extra condition. So, our goal in this activity is to find a function so that   For every real , , and     .   Furthermore, we are going to further assume that our function is represented by a power series . We will ignore the issue of convergence for now. Thus, we assume that our function can be expressed as for some (constant, but as yet unspecified) real numbers , , , , and so forth.  These assumptions will allow us to find values of , , , , and so forth, and thus completely define the function  .  Let .     Evaluate for our function (defined in ). Since we stipulated that , what information do we now have about the values of the coefficients in the power series for ?      Calculate using , and evaluate . Because for all real , we know that . What information do we now have about the power series for ?      Calculate , and then evaluate at . What information do we now have about the power series for ?      Continue the process for higher and higher order derivatives. What pattern(s) do you see?      Put at least a degree 9 polynomial matching your pattern into an electronic device capable of graphing.   Graph your polynomial in the window .    Evaluate your polynomial at (in other words, find ). Does the number look familiar to you?    Compare the value of with the value of . Compare the value of with the value of .    Compare with .    Graph for .   What kind of function does appear to be?       Properties of Exponential Functions  In this part of our exploration, we will show that must be an exponential function.  What exactly does it mean to be an exponential function? In other words, aside from being able to write a function as , how can we tell if a function is an exponential function?  First, let's start by thinking about exponents more generally.    Write down as many properties of exponents as you can think of. (For example, .)      Use properties of exponents to simplify . Specifically, find an expression so that .      What is the value of so that ?      What is a number so that ? (Do not write this answer in exponential form: that's the next question! Besides, there is a more common notation.)      Since , , and , what must be the value of so that ?      What is another way to express ?      Does the expression make sense? How would you define this value?    Notice that if is an exponential function with base (that is, for every , ) we see a couple of important properties. In particular,    ,     , and    for all real and , .   Furthermore, we know we can evaluate things like , but based on our properties of exponents, the way we would do this is with limits, so must be a continuous function on the reals.  We already know, from the conditions we set when we found it, that our function satisfies the first condition. We will show that it satisfies the third condition. That is, we will show that . Then we will prove the following theorem.   Characterization of Exponential Functions   For any function , if    is continuous for all real numbers ,     ,    there is a positive real number so that , and    for all real and , ,   then for any real , .     Outline of Proof  We are given that there is a positive real number so that . Define . Then, in order to prove the theorem, we need to show that for every real , .     It is clear from our hypotheses that and .    Next, prove that for any positive integer , .    Then, prove that for any real , , and thus if , then .    Prove that for any positive integer , .    Prove that for any rational number , .    Prove that for any real , using the following two facts:   Continuous functions preserve limits. That is, is a continuous function if and only if for any sequence , if then .    The rational numbers are dense in the reals. That is, for any real number , there is a sequence of rational numbers so that .           A Power Series that Acts Like an Exponential  Based on the ideas developed in subsection  , we define the function by and we will show that satisfies the hypotheses of Characterization of Exponential Functions, and thus is an exponential function.  First, we note that power series are continuous (infinitely differentiable, in fact) at any point for which they are defined. The fact that the power series is defined for any real number is a topic for Calculus 2, but we will take it as given, and so is therefore continuous for all real .  Next, we have   For the third condition, we need to explain why is a positive real. It should be clear that so satisfies the third condition.  To see that satisfies the fourth condition, that for all real and , , we will evaluate the power series at using the binomial theorem, and show that it is the same as if we multiplied the power series evaluated at times the power series evaluated at .   Product of Exponentials Property   The Arithmetic Triangle   For any non-negative integer , and any integer satisfying , the binomial coefficient, defined by satisfies    ;     ;    for any integer with ,         Let be any non-negative integer. Then Now, if is an integer with , then , so , and so and , so . Thus, and are defined. Then as was to be shown.    The Binomial Theorem   For any elements of a field , for any non-negative integer ,      Sketch of Proof  This is a proof by induction where we show that and as our basis steps. We then let be any non-negative integer, assume that our proposition holds for and show that because , by and our inductive hypothesis, our proposition holds for .      Start by evaluating the power series at . Expand each line:       Next, rearrange the terms in a grid with terms with each power of on a diagonal, from lower left to upper right. That is, in the upper left corner we have ( ), then on the first diagonal, we have and (from ). On the next diagonal, we put the terms from : , then , then .      Continue the pattern up to at least .       Now, compare the previous result to our result if we use an array to multiply the series expansion for by the series expansion for . (Fill in the following and compare it to the above.)      What do the preceding exercises suggest about and ? What do we now know (from ) about ?    "
+},
+{
+  "id": "definition_factorial",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#definition_factorial",
+  "type": "Definition",
+  "number": "10",
+  "title": "The Factorial Function.",
+  "body": " The Factorial Function   Given any positive integer (that is, a positive whole number), , the factorial of , written and read as factorial, is the product of with all smaller positive integers. That is, Here are some examples:    "
+},
+{
+  "id": "ssec-poly-6-1",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#ssec-poly-6-1",
+  "type": "Exercise",
+  "number": "3.8.1.2.1",
+  "title": "",
+  "body": "  Evaluate for our function (defined in ). Since we stipulated that , what information do we now have about the values of the coefficients in the power series for ?   "
+},
+{
+  "id": "ssec-poly-6-2",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#ssec-poly-6-2",
+  "type": "Exercise",
+  "number": "3.8.1.2.2",
+  "title": "",
+  "body": "  Calculate using , and evaluate . Because for all real , we know that . What information do we now have about the power series for ?   "
+},
+{
+  "id": "ssec-poly-6-3",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#ssec-poly-6-3",
+  "type": "Exercise",
+  "number": "3.8.1.2.3",
+  "title": "",
+  "body": "  Calculate , and then evaluate at . What information do we now have about the power series for ?   "
+},
+{
+  "id": "ssec-poly-6-4",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#ssec-poly-6-4",
+  "type": "Exercise",
+  "number": "3.8.1.2.4",
+  "title": "",
+  "body": "  Continue the process for higher and higher order derivatives. What pattern(s) do you see?   "
+},
+{
+  "id": "ssec-poly-6-5",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#ssec-poly-6-5",
+  "type": "Exercise",
+  "number": "3.8.1.2.5",
+  "title": "",
+  "body": "  Put at least a degree 9 polynomial matching your pattern into an electronic device capable of graphing.   Graph your polynomial in the window .    Evaluate your polynomial at (in other words, find ). Does the number look familiar to you?    Compare the value of with the value of . Compare the value of with the value of .    Compare with .    Graph for .   What kind of function does appear to be?   "
+},
+{
+  "id": "natural_exp_activity-3-5-5",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-5",
+  "type": "Checkpoint",
+  "number": "11",
+  "title": "",
+  "body": "  Write down as many properties of exponents as you can think of. (For example, .)   "
+},
+{
+  "id": "natural_exp_activity-3-5-6",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-6",
+  "type": "Checkpoint",
+  "number": "12",
+  "title": "",
+  "body": "  Use properties of exponents to simplify . Specifically, find an expression so that .   "
+},
+{
+  "id": "natural_exp_activity-3-5-7",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-7",
+  "type": "Checkpoint",
+  "number": "13",
+  "title": "",
+  "body": "  What is the value of so that ?   "
+},
+{
+  "id": "natural_exp_activity-3-5-8",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-8",
+  "type": "Checkpoint",
+  "number": "14",
+  "title": "",
+  "body": "  What is a number so that ? (Do not write this answer in exponential form: that's the next question! Besides, there is a more common notation.)   "
+},
+{
+  "id": "natural_exp_activity-3-5-9",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-9",
+  "type": "Checkpoint",
+  "number": "15",
+  "title": "",
+  "body": "  Since , , and , what must be the value of so that ?   "
+},
+{
+  "id": "natural_exp_activity-3-5-10",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-10",
+  "type": "Checkpoint",
+  "number": "16",
+  "title": "",
+  "body": "  What is another way to express ?   "
+},
+{
+  "id": "natural_exp_activity-3-5-11",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-11",
+  "type": "Checkpoint",
+  "number": "17",
+  "title": "",
+  "body": "  Does the expression make sense? How would you define this value?   "
+},
+{
+  "id": "thm_char_exp",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#thm_char_exp",
+  "type": "Theorem",
+  "number": "18",
+  "title": "Characterization of Exponential Functions.",
+  "body": " Characterization of Exponential Functions   For any function , if    is continuous for all real numbers ,     ,    there is a positive real number so that , and    for all real and , ,   then for any real , .   "
+},
+{
+  "id": "natural_exp_activity-3-5-15",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-5-15",
+  "type": "Proof",
+  "number": "3.8.1.3.1",
+  "title": "Outline of Proof.",
+  "body": " Outline of Proof  We are given that there is a positive real number so that . Define . Then, in order to prove the theorem, we need to show that for every real , .     It is clear from our hypotheses that and .    Next, prove that for any positive integer , .    Then, prove that for any real , , and thus if , then .    Prove that for any positive integer , .    Prove that for any rational number , .    Prove that for any real , using the following two facts:   Continuous functions preserve limits. That is, is a continuous function if and only if for any sequence , if then .    The rational numbers are dense in the reals. That is, for any real number , there is a sequence of rational numbers so that .        "
+},
+{
+  "id": "lemma_arithmetic_triangle",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#lemma_arithmetic_triangle",
+  "type": "Lemma",
+  "number": "19",
+  "title": "The Arithmetic Triangle.",
+  "body": " The Arithmetic Triangle   For any non-negative integer , and any integer satisfying , the binomial coefficient, defined by satisfies    ;     ;    for any integer with ,       "
+},
+{
+  "id": "natural_exp_activity-3-6-7-3",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-6-7-3",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Let be any non-negative integer. Then Now, if is an integer with , then , so , and so and , so . Thus, and are defined. Then as was to be shown.  "
+},
+{
+  "id": "binomialTheorem",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#binomialTheorem",
+  "type": "Theorem",
+  "number": "20",
+  "title": "The Binomial Theorem.",
+  "body": " The Binomial Theorem   For any elements of a field , for any non-negative integer ,    "
+},
+{
+  "id": "natural_exp_activity-3-6-7-5",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-6-7-5",
+  "type": "Proof",
+  "number": "2",
+  "title": "Sketch of Proof.",
+  "body": " Sketch of Proof  This is a proof by induction where we show that and as our basis steps. We then let be any non-negative integer, assume that our proposition holds for and show that because , by and our inductive hypothesis, our proposition holds for .  "
+},
+{
+  "id": "natural_exp_activity-3-6-7-6",
+  "level": "2",
+  "url": "natural_exp_activity-3.html#natural_exp_activity-3-6-7-6",
+  "type": "Checkpoint",
+  "number": "21",
+  "title": "",
+  "body": "   Start by evaluating the power series at . Expand each line:       Next, rearrange the terms in a grid with terms with each power of on a diagonal, from lower left to upper right. That is, in the upper left corner we have ( ), then on the first diagonal, we have and (from ). On the next diagonal, we put the terms from : , then , then .      Continue the pattern up to at least .       Now, compare the previous result to our result if we use an array to multiply the series expansion for by the series expansion for . (Fill in the following and compare it to the above.)     "
+},
+{
+  "id": "natural_exp_activity-4",
+  "level": "1",
+  "url": "natural_exp_activity-4.html",
+  "type": "Subsection",
+  "number": "3.8.2",
+  "title": "Synthesis",
+  "body": " Synthesis     What is something new you learned in this activity, or what is a new insight or way of looking at things that you have developed because of this activity?    How do you think Leonard Euler hit upon the idea of the natural exponential function and the natural logarithm?    How does the use of power series inform your understanding of the natural exponential function?    How could you demonstrate understanding of the material in this activity?    How does this activity inform your understanding of the nature of (modern) mathematics?     "
+},
+{
   "id": "handouts-3",
   "level": "1",
   "url": "handouts-3.html",

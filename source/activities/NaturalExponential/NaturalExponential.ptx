@@ -1,0 +1,687 @@
+<section xml:id="natural_exp_activity">
+<title>What's Natural about the Natural Exponential?</title>
+<introduction>
+  <p>
+    Ever wonder where the <q>natural</q> in the natural logarithm and the
+    natural exponential function come from?
+  </p>
+
+  <p>
+    In this activity we will explore how the natural exponential function arises
+    in a natural way from derivatives of polynomial functions combined with the
+    idea of an <q>infinite</q> polynomial, which is how we are going to think
+    about power series.
+  </p>
+</introduction>
+
+<subsection>
+  <title>A Function that is its Own Derivative</title>
+  <introduction>
+  <p>
+    In calculus we saw that sometimes the derivative of a function is
+    <em>simpler</em> than the function itself (for example, if
+    <m>h(x)=5x^{2}</m>, its derivative, <m>h'(x)=10x</m> is arguably simpler
+    because linear functions are simpler than quadratics), and sometimes the
+    derivative of a function is <em>more complicated</em> than the original
+    function (for example, if <m>g(x)=\sqrt{3x^{2}+1}</m>, then the derivative,
+    <m>g'(x)=\frac{3x}{\sqrt{3x^{2}+1}}</m> is arguably more complicated).
+  </p>
+
+  <p>
+    It is reasonable, then, to ask if there are any functions, <m>p</m>, that
+    have the property that <m>p'(x)=p(x)</m>.
+  </p>
+  </introduction>
+
+  <subsubsection>
+    <title>Preliminary Ideas</title>
+
+    <p>
+      Before starting, we will review some notation and look at some important
+      patterns in derivatives.
+    </p>
+
+    <definition xml:id="definition_factorial">
+            <title>The Factorial Function</title>
+      <statement>
+        <p>
+          Given any positive integer (that is, a positive whole
+          number), <m>n</m>, the <em>factorial</em> of <m>n</m>, written
+          <m>n!</m> and read as <q><m>n</m> factorial,</q> is the product of
+          <m>n</m> with all smaller positive integers. That is,
+          <md>
+            n! = n\cdot (n-1)\cdot (n-2)\cdot \cdots \cdot 2\cdot 1.
+          </md>
+          Here are some examples:
+          <md alignment="align">
+            <mrow>3!&amp;= 3\cdot 2\cdot 1&amp;6!&amp;= 6\cdot 5\cdot 4\cdot 3\cdot 2 \cdot 1</mrow>
+            <mrow>&amp;= 6&amp;&amp;= 720.</mrow>
+          </md>
+        </p>
+      </statement>
+    </definition>
+  </subsubsection>
+
+  <subsubsection xml:id="ssec-poly">
+    <title>An <q>Infinite</q> Polynomial</title>
+
+    <p>
+      In order to find a our function that is <em>exactly the same</em> as its
+      own derivative, we are going make some assumptions.
+    </p>
+
+    <p>
+      First of all, a particularly clever calculus student might come up with
+      the zero function as one such function, and it's also pretty easy to see
+      that if <m>p'(x)=p(x)</m>, then for any constant <m>c</m>,
+      <m>\left(c\cdot p(x)\right)'=c\cdot p'(x)=\left(c\cdot p(x)\right)</m>, so
+      we are going to add an extra condition. So, our goal in this activity is
+      to find a function <m>p</m> so that
+      <ol>
+        <li>
+          <p>
+            For every real <m>x</m>, <m>p'(x)=p(x)</m>, and
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>p(0)=1</m>.
+          </p>
+        </li>
+      </ol>
+      Furthermore, we are going to further assume that our function is
+      represented by a <em>power series</em>. We will ignore the issue of
+      convergence for now. Thus, we assume that our function <m>p</m> can be
+      expressed as
+      <md alignment="align" number="yes">
+        <mrow number="no">p(x)&amp;=\sum_{k=0}^{\infty}a_{k}x^{k}</mrow>
+        <mrow xml:id="defExp">&amp;=a_{0}+ a_{1}x + a_{2}x^{2}+ a_{3}x^{3}+\cdots </mrow>
+      </md>
+      for some (constant, but as yet unspecified) real numbers <m>a_{0}</m>,
+      <m>a_{1}</m>, <m>a_{2}</m>, <m>a_{3}</m>, and so forth.
+    </p>
+
+    <p>
+      These assumptions will allow us to find values of <m>a_{0}</m>,
+      <m>a_{1}</m>, <m>a_{2}</m>, <m>a_{3}</m>, and so forth, and thus
+      completely define the function <nbsp/> <m>p</m>.
+    </p>
+
+    <p>
+      Let
+      <m>p(x) =a_{0}+ a_{1}x + a_{2}x^{2}+ a_{3}x^{3}+ a_{4}x^{4}+ a_{5}x^{5}+\cdots</m>.
+    </p>
+    <exercises>
+            <exercise>
+                    <statement>
+                            <p>
+        Evaluate <m>p(0)</m> for our function <m>p</m> (defined in
+        <xref ref="defExp"/>). Since we stipulated that <m>p(0)=1</m>, what information do we
+        now have about the values of the coefficients in the power series for
+        <m>p</m>?
+                            </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+                            <p>
+        Calculate <m>p'(x)</m> using
+        <xref ref="defExp"/>, and evaluate <m>p'(0)</m>. Because <m>p'(x)=p(x)</m> for all
+        real <m>x</m>, we know that <m>p'(0)=p(0)=1</m>. What information do we
+        now have about the power series for <m>p</m>?
+                            </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+                            <p>
+        Calculate <m>p''(x)</m>, and then evaluate at <m>0</m>. What information
+        do we now have about the power series for <m>p</m>?
+                            </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+                            <p>
+        Continue the process for higher and higher order derivatives. What
+        pattern(s) do you see?
+                            </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+                            <p>
+        Put at least a degree 9 polynomial matching your pattern into an
+        electronic device capable of graphing.
+        <ol>
+          <li>
+            <p>
+              Graph your polynomial in the window
+              <m>-3\leq x\leq 3, -5 \leq y \leq 20</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Evaluate your polynomial at <m>x=1.0</m> (in other words, find
+              <m>p(1.0)</m> ). Does the number look familiar to you?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Compare the value of <m>p(2.0)</m> with the value of
+              <m>\left( p(1.0) \right)^{2}</m>. Compare the value of
+              <m>p(3.0)</m> with the value of <m>\left( p(1.0) \right)^{3}</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Compare <m>p(2.0)</m> with <m>p(0.5)\cdot p(1.5)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Graph <m>y=p(x)</m> for <m>-1\le x\le 2</m>.
+            </p>
+          </li>
+        </ol>
+        What kind of function does <m>p</m> appear to be?
+      </p>
+                    </statement>
+            </exercise>
+    </exercises>
+  </subsubsection>
+
+  <subsubsection>
+    <title>Properties of Exponential Functions</title>
+    <p>
+      In this part of our exploration, we will show that <m>p</m> must be an
+      <em>exponential</em> function.
+    </p>
+
+    <p>
+      What exactly does it mean to be an exponential function? In other words,
+      aside from being able to write a function as <m>f(x)=k^{x}</m>, how can we
+      tell if a function is an exponential function?
+    </p>
+
+    <p>
+      First, let's start by thinking about exponents more generally.
+    </p>
+            <exercise>
+                    <statement>
+      <p>
+        Write down as many properties of exponents as you can think of. (For
+        example, <m>a^{c}b^{c}=(ab)^{c}</m>.)
+      </p>
+
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+      <p>
+        Use properties of exponents to simplify <m>\left({3^{a}}\right)^{2}</m>.
+        Specifically, find an expression <m>s</m> so that
+        <m>\left({3^{a}}\right)^{2}=3^{s}</m>.
+      </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+
+      <p>
+        What is the value of <m>u</m> so that <m>3^{u}=3</m>?
+      </p>
+
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+      <p>
+        What is a number <m>r</m> so that <m>r^{2}=3</m>? (Do <em>not</em> write
+        this answer in exponential form: that's the next question! Besides,
+        there is a more common notation.)
+      </p>
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+
+      <p>
+        Since <m>\left({\sqrt{3}}\right)^{2}=3</m>,
+        <m>\left({3^{a}}\right)^{2}=3^{2a}</m>, and <m>3^{1}=3</m>, what must be
+        the value of <m>a</m> so that <m>\left({3^{a}}\right)^{2}=3</m>?
+      </p>
+
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+      <p>
+        What is another way to express <m>3^{\sfrac{3}{2}}</m>?
+      </p>
+
+                    </statement>
+            </exercise>
+            <exercise>
+                    <statement>
+      <p>
+        Does the expression <m>3^{\ln(2)}</m> make sense? How would you define
+        this value?
+      </p>
+                    </statement>
+            </exercise>
+    <p>
+      Notice that if <m>f</m> is an exponential function with base <m>k>0</m>
+      (that is, for every <m>x</m>, <m>f(x)=k^{x}</m> ) we see a couple of
+      important properties. In particular,
+      <ul>
+        <li>
+          <p>
+            <m>f(0)=k^{0}=1</m>,
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>f(1)=k^{1}=k</m>, and
+          </p>
+        </li>
+
+        <li>
+          <p>
+            for all real <m>a</m> and <m>b</m>,
+            <m>f(a)\cdot{}f(b)=k^{a}\cdot{}k^{b}=k^{a+b}=f(a+b)</m>.
+          </p>
+        </li>
+      </ul>
+      Furthermore, we know we can evaluate things like
+      <m>f\left({\ln(2)}\right)</m>, but based on our properties of exponents,
+      the way we would do this is with limits, so <m>f</m> must be a continuous
+      function on the reals.
+    </p>
+
+    <p>
+      We already know, from the conditions we set when we found it, that our
+      function <m>p</m> satisfies the first condition. We will show that it
+      satisfies the third condition. That is, we will show that
+      <m>p(a+b)=p(a)\cdot{}p(b)</m>. Then we will prove the following theorem.
+    </p>
+
+    <theorem xml:id="thm_char_exp">
+      <title>Characterization of Exponential Functions</title>
+
+      <statement>
+        <p>
+          For any function <m>f</m>, if
+          <ol>
+            <li>
+              <p>
+                <m>f</m> is continuous for all real numbers <m>x</m>,
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <m>f(0)=1</m>,
+              </p>
+            </li>
+
+            <li>
+              <p>
+                there is a positive real number <m>r</m> so that <m>f(1)=r</m>,
+                and
+              </p>
+            </li>
+
+            <li>
+              <p>
+                for all real <m>a</m> and <m>b</m>,
+                <m>f(a)\cdot{}f(b)=f(a+b)</m>,
+              </p>
+            </li>
+          </ol>
+          then for any real <m>x</m>, <m>f(x)=r^{x}</m>.
+        </p>
+      </statement>
+    </theorem>
+
+    <proof>
+      <title>Outline of Proof</title>
+
+      <p>
+        We are given that there is a positive real number <m>r</m> so that
+        <m>f(1)=r</m>. Define <m>g(x)=r^{x}</m>. Then, in order to prove the
+        theorem, we need to show that for every real <m>x</m>, <m>f(x)=g(x)</m>.
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              It is clear from our hypotheses that <m>f(0)=g(0)</m> and
+              <m>f(1)=g(1)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Next, prove that for any positive integer <m>n</m>,
+              <m>f(n)=g(n)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Then, prove that for any real <m>x</m>, <m>f(x)\cdot f(-x)=1</m>,
+              and thus if <m>f(x)=g(x)</m>, then <m>f(-x)=g(-x)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Prove that for any positive integer <m>n</m>,
+              <m>f\left( \frac{1}{n}\right)=g\left( \frac{1}{n}\right)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Prove that for any rational number <m>\frac{p}{q}</m>,
+              <m>f\left( \frac{p}{q}\right)=g\left( \frac{p}{q}\right)</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Prove that for any real <m>s</m>, <m>f(s)=g(s)</m> using the
+              following two facts:
+              <ol>
+                <li>
+                  <p>
+                    Continuous functions preserve limits. That is, <m>m</m> is a
+                    continuous function if and only if for any sequence
+                    <m>a_{n}</m>, if <m>\lim_{n\to\infty}a_{n}=a</m> then
+                    <m>\lim_{n\to\infty}m\left(a_{n}\right)=m(a)</m>.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    The rational numbers are <em>dense</em> in the reals. That
+                    is, for any real number <m>s</m>, there is a sequence of
+                    rational numbers <m>s_{k}</m> so that
+                    <m>\lim_{n\to\infty}s_{n}=s</m>.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </proof>
+  </subsubsection>
+
+  <subsubsection>
+    <title>A Power Series that Acts Like an Exponential</title>
+
+    <p>
+      Based on the ideas developed in subsection <nbsp/> <xref ref="ssec-poly"/>,
+      we define the function <m>p</m> by
+      <md alignment="align">
+        <mrow>p(x)&amp;=\sum_{k=0}^{\infty}\frac{1}{k!}x^{k}</mrow>
+        <mrow>&amp;=\frac{1}{0!}+\frac{1}{1!}x+\frac{1}{2!}x^{2}+\frac{1}{3!}x^{3}+\frac{1}{4!}x^{4}+\frac{1}{5!}x^{5}+\frac{1}{6!}x^{6}+\cdots{}</mrow>
+        <mrow>&amp;=1+x+\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+\frac{1}{24}x^{4}+\frac{1}{120}x^{5}+\frac{1}{720}x^{6}+\cdots{},</mrow>
+      </md>
+      and we will show that <m>p(x)</m> satisfies the hypotheses of
+      Characterization of Exponential Functions, and thus is an exponential
+      function.
+    </p>
+
+    <p>
+      First, we note that power series are continuous (infinitely
+      differentiable, in fact) at any point for which they are defined. The fact
+      that the power series <m>p(x)</m> is defined for any real number <m>x</m>
+      is a topic for Calculus <nbsp/> 2, but we will take it as given, and so
+      <m>p(x)</m> is therefore continuous for all real <m>x</m>.
+    </p>
+
+    <p>
+      Next, we have
+      <md alignment="align">
+        <mrow>p(0)&amp;=\frac{1}{0!}+\frac{1}{1!}0+\frac{1}{2!}0^{2}+\frac{1}{3!}0^{3}+\frac{1}{4!}0^{4}+\frac{1}{5!}0^{5}+\frac{1}{6!}0^{6}+\cdots{}</mrow>
+        <mrow>&amp;=1+0+0+0+0+0+0+\cdots{}</mrow>
+        <mrow>&amp;=1.</mrow>
+      </md>
+    </p>
+
+    <p>
+      For the third condition, we need to explain why <m>p(1)</m> is a positive
+      real. It should be clear that
+      <md alignment="align">
+        <mrow>p(1)&amp;=\sum_{k=0}^{\infty}\frac{1}{k!}1^{k}</mrow>
+        <mrow>&amp;=\frac{1}{0!}+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\frac{1}{5!}+\frac{1}{6!}+\cdots{}</mrow>
+        <mrow>&amp;=1+1+\frac{1}{2}+\frac{1}{6}+\frac{1}{24}+\frac{1}{120}+\frac{1}{720}+\cdots{}</mrow>
+        <mrow>&amp;>0,</mrow>
+      </md>
+      so <m>p</m> satisfies the third condition.
+    </p>
+
+    <p>
+      To see that <m>p(x)</m> satisfies the fourth condition, that for all real
+      <m>a</m> and <m>b</m>, <m>p(a)\cdot{}p(b)=p(a+b)</m>, we will evaluate the
+      power series at <m>a+b</m> using the binomial theorem, and show that it is
+      the same as if we multiplied the power series evaluated at <m>a</m> times
+      the power series evaluated at <m>b</m>.
+    </p>
+
+    <paragraphs>
+      <title>Product of Exponentials Property</title>
+
+      <lemma xml:id="lemma_arithmetic_triangle">
+        <title>The Arithmetic Triangle</title>
+
+        <statement>
+          <p>
+            For any non-negative integer <m>n</m>, and any integer
+            <m>k</m> satisfying <m>0\le k \le n</m>, the binomial coefficient,
+            defined by <m>\binom{n}{k}=\frac{n!}{(n-k)!k!}</m> satisfies
+            <ul>
+              <li>
+                <p>
+                  <m>\binom{n}{0}=1</m>;
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <m>\binom{n}{n}=1</m>;
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  for any integer <m>k</m> with <m>0&#x3C;k&#x3C;n</m>,
+                  <md alignment="align">
+                    <mrow>\binom{n}{k}&amp;= \binom{n-1}{k-1}+\binom{n-1}{k}.</mrow>
+                  </md>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </lemma>
+
+      <proof>
+        <p>
+          Let <m>n</m> be any non-negative integer. Then
+          <md alignment="align">
+            <mrow>\binom{n}{0}&amp;=\frac{n!}{0!n!}&amp;\binom{n}{1}&amp;=\frac{n!}{n!0!}</mrow>
+            <mrow>&amp;=\frac{n!}{n!}&amp;&amp;=\frac{n!}{n!}</mrow>
+            <mrow>&amp;= 1&amp;&amp;=1.</mrow>
+          </md>
+          Now, if <m>k</m> is an integer with <m>0&#x3C;k&#x3C;n</m>, then
+          <m>n>k\ge1</m>, so <m>n\ge2</m>, and so <m>k-1\ge 0</m> and
+          <m>n-k\ge 2</m>, so <m>(n-1)-k\ge0</m>. Thus, <m>(n-1-k)!</m> and
+          <m>(k-1)!</m> are defined. Then
+          <md alignment="align">
+            <mrow>\binom{n-1}{k-1}+ \binom{n-1}{k}&amp;=\frac{(n-1)!}{\left( (n-1)-(k-1) \right)!(k-1)!}+ \frac{(n-1)!}{\left( (n-1)-k \right)!k!}</mrow>
+            <mrow>&amp;=\frac{(n-1)!}{\left( n-k \right)!(k-1)!}+ \frac{(n-1)!}{\left( n-k-1 \right)!k!}</mrow>
+            <mrow>&amp;=\frac{k\cdot (n-1)!}{\left( n-k \right)!\cdot k\cdot (k-1)!}+ \frac{(n-k)\cdot (n-1)!}{(n-k)\left( n-k-1 \right)!k!}</mrow>
+            <mrow>&amp;=\frac{k\cdot (n-1)!}{\left( n-k \right)!k!}+ \frac{(n-k)\cdot (n-1)!}{(n-k)!k!}</mrow>
+            <mrow>&amp;=\frac{(k+n-k)\cdot (n-1)!}{\left( n-k \right)!k!}</mrow>
+            <mrow>&amp;=\frac{n\cdot (n-1)!}{\left( n-k \right)!k!}</mrow>
+            <mrow>&amp;=\frac{n!}{\left( n-k \right)!k!}</mrow>
+            <mrow>&amp;=\binom{n}{k},</mrow>
+          </md>
+          as was to be shown.
+        </p>
+      </proof>
+
+      <theorem xml:id="binomialTheorem">
+        <title>The Binomial Theorem</title>
+
+        <statement>
+          <p>
+            For any elements <m>a,b</m> of a field <m>\mathbb{F}</m>, for any
+            non-negative integer <m>n</m>,
+            <md alignment="align">
+              <mrow>{\left( a+b \right)}^{n}&amp;= \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^{k}</mrow>
+              <mrow>&amp;= \sum_{k=0}^{n}\left( \frac{n!}{(n-k)!k!}\right) a^{n-k}b^{k}</mrow>
+              <mrow>&amp;= \binom{n}{0}a^{n}+ \binom{n}{1}a^{n-1}b + \left( \frac{n!}{2\cdot(n-2)!}\right) a^{n-2}b^{2}+\cdots + \left( \frac{n!}{2\cdot(n-2)!}\right)a^{2}b^{n-2}+ \binom{n}{n-1}ab^{n-1}+ \binom{n}{n}b^{n}</mrow>
+              <mrow>&amp;= a^{n}+ n a^{n-1}b + \left( \frac{n!}{2\cdot(n-2)!}\right) a^{n-2}b^{2}+\cdots + \left( \frac{n!}{2\cdot(n-2)!}\right)a^{2}b^{n-2}+ n ab^{n-1}+ b^{n}.</mrow>
+            </md>
+          </p>
+        </statement>
+      </theorem>
+
+      <proof>
+        <title>Sketch of Proof</title>
+
+        <p>
+          This is a proof by induction where we show that <m>(a+b)^{0}=1</m> and
+          <m>(a+b)^{1}=a+b=1a+1b</m> as our basis steps. We then let <m>m-1</m>
+          be any non-negative integer, assume that our proposition holds for
+          <m>(a+b)^{m-1}</m> and show that because
+          <m>(a+b)^{m}=(a+b)(a+b)^{m-1}</m>, by
+          <xref ref="lemma_arithmetic_triangle"/> and our inductive hypothesis, our proposition holds for
+          <m>(a+b)^{m}</m>.
+        </p>
+      </proof>
+      <exercise>
+              <task>
+              <statement>
+        <p>
+          Start by evaluating the power series <m>p(x)</m> at <m>a+b</m>. Expand
+          each line:
+          <md alignment="align">
+            <mrow>p(a+b) =&amp;\phantom{{}+{}}1&amp;\hspace{6em}=&amp;\phantom{{}+{}}1</mrow>
+            <mrow>&amp;+ \left(a+b\right)&amp;&amp;+{a+b}</mrow>
+            <mrow>&amp;+\frac{1}{2}{\left(a+b\right)}^{2}&amp;&amp;+{\frac{1}{2}a^{2}+ab+\frac{1}{2}b^{2}}</mrow>
+            <mrow>&amp;+\frac{1}{6}{\left(a+b\right)}^{3}&amp;&amp;+~\rule{20em}{0.2pt}</mrow>
+            <mrow>&amp;+\frac{1}{24}{\left(a+b\right)}^{4}&amp;&amp;+~\rule{20em}{0.2pt}</mrow>
+            <mrow>&amp;+\frac{1}{120}{\left(a+b\right)}^{5}&amp;&amp;+~\rule{20em}{0.2pt}</mrow>
+            <mrow>&amp;+\frac{1}{720}{\left(a+b\right)}^{6}&amp;&amp;+~\rule{20em}{0.2pt}</mrow>
+            <mrow>&amp;+&amp;&amp;+~\phantom{1a^{6}+6a^{5}b+15a^{4}b^{2}+20a^{3}b^{3}+15a^{2}b^{4}+6ab^{5}+1b^{6}}</mrow>
+            <mrow>&amp;\vdots{}&amp;&amp;\vdots</mrow>
+          </md>
+        </p>
+              </statement>
+              </task>
+              <task>
+              <statement>
+        <p>
+          Next, rearrange the terms in a grid with terms with each power of
+          <m>(a+b)</m> on a diagonal, from lower left to upper right. That is,
+          in the upper left corner we have <m>1</m> ( <m>(a+b)^{0}</m> ), then
+          on the first diagonal, we have <m>+a</m> and <m>+b</m> (from
+          <m>(a+b)^{1}</m> ). On the next diagonal, we put the terms from
+          <m>\frac{1}{2}(a+b)^{2}</m>: <m>\frac{1}{2}a^{2}</m>, then <m>ab</m>,
+          then <m>\frac{1}{2}b^{2}</m>.
+        </p>
+              </statement>
+              </task>
+              <task>
+              <statement>
+
+        <p>
+          Continue the pattern up to at least
+          <m>+\frac{1}{720}{\left(a+b\right)}^{6}</m>.
+          <md>
+            p(a+b)= \begin{aligned}[t] \phantom{+}&amp; 1 &amp;+&amp;{b} &amp;&amp;&amp; +&amp;{\frac{1}{2}b^{2}}&amp;+ \\ + &amp; a &amp;+&amp;{ab} &amp;&amp;&amp; +&amp; \\ +&amp;{\frac{1}{2}a^{2}} &amp;+&amp; &amp;&amp;&amp; +&amp;\\ +&amp; &amp;+&amp; \\ +&amp; \\ +&amp; \\ +&amp; \\ +&amp; \\ +&amp; \\ \vdots\end{aligned}
+          </md>
+          </p>
+              </statement>
+              </task>
+              <task>
+              <statement>
+                      <p>
+          Now, compare the previous result to our result if we use an array to
+          multiply the series expansion for <m>p(a)</m> by the series expansion
+          for <m>p(b)</m>. (Fill in the following and compare it to the above.)
+          <md>
+            \begin{array}[t]{c||*{7}{c|}c}\rule[-2.5ex]{0pt}{6ex} \cdot &amp; 1 &amp; +b &amp; +\frac{1}{2}b^{2} &amp; +\frac{1}{6}b^{3}&amp; +\frac{1}{24}b^{4} &amp;+\frac{1}{120}b^{5}&amp; +\frac{1}{720}b^{6} &amp;+\cdots\\ \hline \hline \rule[-2.5ex]{0pt}{6ex} 1 &amp;1&amp;+b&amp;+\frac{1}{2}b^{2}&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +a &amp;+a&amp;+ab&amp;&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +\frac{1}{2}a^{2} &amp;+\frac{1}{2}a^{2}&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +\frac{1}{6}a^{3} &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +\frac{1}{24}a^{4} &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +\frac{1}{120}a^{5} &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\ \hline \rule[-2.5ex]{0pt}{6ex} +\frac{1}{720}a^{6} &amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}&amp;\phantom{\frac{1}{720}b^{6}}\\[2ex] \hline + &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp; \\ \vdots &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\end{array}
+          </md>
+                      </p>
+              </statement>
+      </task>
+      </exercise>
+      <p>
+          What do the preceding exercises suggest about <m>p(a)\cdot p(b)</m>
+          and <m>p(a+b)</m>?
+          What do we now know (from
+          <xref ref="thm_char_exp"/>) about <m>p(x)</m>?
+        </p>
+    </paragraphs>
+  </subsubsection>
+</subsection>
+
+<subsection>
+  <title>Synthesis</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          What is something new you learned in this activity, or what is a new
+          insight or way of looking at things that you have developed because of
+          this activity?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          How do you think Leonard Euler hit upon the idea of the natural
+          exponential function and the natural logarithm?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          How does the use of power series inform your understanding of the
+          natural exponential function?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          How could you demonstrate understanding of the material in this
+          activity?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          How does this activity inform your understanding of the nature of
+          (modern) mathematics?
+        </p>
+      </li>
+    </ol>
+  </p>
+</subsection>
+  </section>
+
