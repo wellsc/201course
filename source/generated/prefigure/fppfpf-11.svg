@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="fppfpf-figure" width="630" height="630" viewBox="0 0 630 630">
+  <defs>
+    <clipPath id="fppfpf-__clipPath-0">
+      <rect x="15.0" y="15.0" width="600.0" height="600.0"/>
+    </clipPath>
+    <clipPath id="fppfpf-__clipPath-1">
+      <rect x="15.0" y="15.0" width="600.0" height="600.0"/>
+    </clipPath>
+  </defs>
+  <g id="fppfpf-grid-axes">
+    <g id="fppfpf-grid" stroke="#ccc" stroke-width="1">
+      <line x1="15.0" y1="615.0" x2="15.0" y2="15.0"/>
+      <line x1="65.0" y1="615.0" x2="65.0" y2="15.0"/>
+      <line x1="115.0" y1="615.0" x2="115.0" y2="15.0"/>
+      <line x1="165.0" y1="615.0" x2="165.0" y2="15.0"/>
+      <line x1="215.0" y1="615.0" x2="215.0" y2="15.0"/>
+      <line x1="265.0" y1="615.0" x2="265.0" y2="15.0"/>
+      <line x1="315.0" y1="615.0" x2="315.0" y2="15.0"/>
+      <line x1="365.0" y1="615.0" x2="365.0" y2="15.0"/>
+      <line x1="415.0" y1="615.0" x2="415.0" y2="15.0"/>
+      <line x1="465.0" y1="615.0" x2="465.0" y2="15.0"/>
+      <line x1="515.0" y1="615.0" x2="515.0" y2="15.0"/>
+      <line x1="565.0" y1="615.0" x2="565.0" y2="15.0"/>
+      <line x1="615.0" y1="615.0" x2="615.0" y2="15.0"/>
+      <line x1="15.0" y1="615.0" x2="615.0" y2="615.0"/>
+      <line x1="15.0" y1="565.0" x2="615.0" y2="565.0"/>
+      <line x1="15.0" y1="515.0" x2="615.0" y2="515.0"/>
+      <line x1="15.0" y1="465.0" x2="615.0" y2="465.0"/>
+      <line x1="15.0" y1="415.0" x2="615.0" y2="415.0"/>
+      <line x1="15.0" y1="365.0" x2="615.0" y2="365.0"/>
+      <line x1="15.0" y1="315.0" x2="615.0" y2="315.0"/>
+      <line x1="15.0" y1="265.0" x2="615.0" y2="265.0"/>
+      <line x1="15.0" y1="215.0" x2="615.0" y2="215.0"/>
+      <line x1="15.0" y1="165.0" x2="615.0" y2="165.0"/>
+      <line x1="15.0" y1="115.0" x2="615.0" y2="115.0"/>
+      <line x1="15.0" y1="65.0" x2="615.0" y2="65.0"/>
+      <line x1="15.0" y1="15.0" x2="615.0" y2="15.0"/>
+    </g>
+    <g id="fppfpf-axes" stroke="black" stroke-width="2">
+      <line id="fppfpf-__line-26" x1="15.0" y1="315.0" x2="615.0" y2="315.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="fppfpf-__line-27" x1="115.0" y1="318.0" x2="115.0" y2="312.0"/>
+        <line id="fppfpf-__line-28" x1="515.0" y1="318.0" x2="515.0" y2="312.0"/>
+      </g>
+      <line id="fppfpf-__line-29" x1="315.0" y1="615.0" x2="315.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="fppfpf-__line-30" x1="312.0" y1="515.0" x2="318.0" y2="515.0"/>
+        <line id="fppfpf-__line-31" x1="312.0" y1="115.0" x2="318.0" y2="115.0"/>
+      </g>
+    </g>
+    <g id="fppfpf-__label-0" transform="translate(611.0,311.0) translate(-10.4,-8.2)">
+      <g id="fppfpf-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#fppfpf-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="fppfpf-__label-1" transform="translate(319.0,19.0) translate(0.0,-0.0)">
+      <g id="fppfpf-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#fppfpf-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="fppfpf-__label-2" transform="translate(115.0,326.0) translate(-7.5,-0.0)">
+      <g id="fppfpf-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="fppfpf-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#fppfpf-MJX-4-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#fppfpf-MJX-4-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="fppfpf-__label-3" transform="translate(515.0,326.0) translate(-4.5,-0.0)">
+      <g id="fppfpf-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#fppfpf-MJX-5-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="fppfpf-__label-4" transform="translate(304.0,515.0) translate(-15.1,-6.0)">
+      <g id="fppfpf-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="fppfpf-MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#fppfpf-MJX-6-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#fppfpf-MJX-6-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="fppfpf-__label-5" transform="translate(304.0,115.0) translate(-9.0,-6.0)">
+      <g id="fppfpf-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="fppfpf-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#fppfpf-MJX-7-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="fppfpf-graph" stroke="blue" stroke-width="4" stroke-dasharray="16 4 4 4" fill="none" d="M 15.0 58.2 L 21.0 67.9 L 27.0 77.6 L 33.0 87.2 L 39.0 96.8 L 45.0 106.4 L 51.0 115.9 L 57.0 125.4 L 63.0 134.9 L 69.0 144.3 L 75.0 153.7 L 81.0 163.0 L 87.0 172.3 L 93.0 181.6 L 99.0 190.8 L 105.0 199.9 L 111.0 209.0 L 117.0 218.0 L 123.0 226.9 L 129.0 235.8 L 135.0 244.6 L 141.0 253.3 L 147.0 261.9 L 153.0 270.4 L 159.0 278.8 L 165.0 287.1 L 171.0 295.3 L 177.0 303.3 L 183.0 311.2 L 189.0 319.0 L 195.0 326.6 L 201.0 334.0 L 207.0 341.2 L 213.0 348.1 L 219.0 354.9 L 225.0 361.4 L 231.0 367.7 L 237.0 373.6 L 243.0 379.3 L 249.0 384.6 L 255.0 389.6 L 261.0 394.2 L 267.0 398.4 L 273.0 402.2 L 279.0 405.5 L 285.0 408.4 L 291.0 410.7 L 297.0 412.6 L 303.0 413.9 L 309.0 414.7 L 315.0 415.0 L 321.0 414.7 L 327.0 413.9 L 333.0 412.6 L 339.0 410.7 L 345.0 408.4 L 351.0 405.5 L 357.0 402.2 L 363.0 398.4 L 369.0 394.2 L 375.0 389.6 L 381.0 384.6 L 387.0 379.3 L 393.0 373.6 L 399.0 367.7 L 405.0 361.4 L 411.0 354.9 L 417.0 348.1 L 423.0 341.2 L 429.0 334.0 L 435.0 326.6 L 441.0 319.0 L 447.0 311.2 L 453.0 303.3 L 459.0 295.3 L 465.0 287.1 L 471.0 278.8 L 477.0 270.4 L 483.0 261.9 L 489.0 253.3 L 495.0 244.6 L 501.0 235.8 L 507.0 226.9 L 513.0 218.0 L 519.0 209.0 L 525.0 199.9 L 531.0 190.8 L 537.0 181.6 L 543.0 172.3 L 549.0 163.0 L 555.0 153.7 L 561.0 144.3 L 567.0 134.9 L 573.0 125.4 L 579.0 115.9 L 585.0 106.4 L 591.0 96.8 L 597.0 87.2 L 603.0 77.6 L 609.0 67.9 L 615.0 58.2" clip-path="url(#fppfpf-__clipPath-1)"/>
+  <path id="fppfpf-deriv" stroke="black" stroke-width="4" stroke-dasharray="4 4" fill="none" d="M 15.0 476.6 L 21.0 476.2 L 27.0 475.8 L 33.0 475.3 L 39.0 474.8 L 45.0 474.3 L 51.0 473.7 L 57.0 473.1 L 63.0 472.5 L 69.0 471.8 L 75.0 471.1 L 81.0 470.3 L 87.0 469.5 L 93.0 468.7 L 99.0 467.7 L 105.0 466.8 L 111.0 465.7 L 117.0 464.6 L 123.0 463.4 L 129.0 462.2 L 135.0 460.8 L 141.0 459.3 L 147.0 457.7 L 153.0 456.0 L 159.0 454.2 L 165.0 452.2 L 171.0 450.1 L 177.0 447.8 L 183.0 445.4 L 189.0 442.7 L 195.0 439.8 L 201.0 436.7 L 207.0 433.3 L 213.0 429.7 L 219.0 425.7 L 225.0 421.5 L 231.0 416.9 L 237.0 412.0 L 243.0 406.6 L 249.0 401.0 L 255.0 394.9 L 261.0 388.4 L 267.0 381.5 L 273.0 374.2 L 279.0 366.6 L 285.0 358.6 L 291.0 350.2 L 297.0 341.7 L 303.0 332.9 L 309.0 324.0 L 315.0 315.0 L 321.0 306.0 L 327.0 297.1 L 333.0 288.3 L 339.0 279.8 L 345.0 271.4 L 351.0 263.4 L 357.0 255.8 L 363.0 248.5 L 369.0 241.6 L 375.0 235.1 L 381.0 229.0 L 387.0 223.4 L 393.0 218.0 L 399.0 213.1 L 405.0 208.5 L 411.0 204.3 L 417.0 200.3 L 423.0 196.7 L 429.0 193.3 L 435.0 190.2 L 441.0 187.3 L 447.0 184.6 L 453.0 182.2 L 459.0 179.9 L 465.0 177.8 L 471.0 175.8 L 477.0 174.0 L 483.0 172.3 L 489.0 170.7 L 495.0 169.2 L 501.0 167.8 L 507.0 166.6 L 513.0 165.4 L 519.0 164.3 L 525.0 163.2 L 531.0 162.3 L 537.0 161.3 L 543.0 160.5 L 549.0 159.7 L 555.0 158.9 L 561.0 158.2 L 567.0 157.5 L 573.0 156.9 L 579.0 156.3 L 585.0 155.7 L 591.0 155.2 L 597.0 154.7 L 603.0 154.2 L 609.0 153.8 L 615.0 153.4" clip-path="url(#fppfpf-__clipPath-1)"/>
+  <path id="fppfpf-deriv2" stroke="green" stroke-width="4" fill="none" d="M 15.0 308.0 L 21.0 307.7 L 27.0 307.3 L 33.0 306.8 L 39.0 306.4 L 45.0 305.9 L 51.0 305.3 L 57.0 304.8 L 63.0 304.2 L 69.0 303.5 L 75.0 302.8 L 81.0 302.0 L 87.0 301.2 L 93.0 300.3 L 99.0 299.3 L 105.0 298.2 L 111.0 297.1 L 117.0 295.8 L 123.0 294.5 L 129.0 293.0 L 135.0 291.4 L 141.0 289.6 L 147.0 287.7 L 153.0 285.7 L 159.0 283.4 L 165.0 281.0 L 171.0 278.3 L 177.0 275.4 L 183.0 272.2 L 189.0 268.7 L 195.0 265.0 L 201.0 260.9 L 207.0 256.6 L 213.0 251.9 L 219.0 246.8 L 225.0 241.4 L 231.0 235.7 L 237.0 229.6 L 243.0 223.4 L 249.0 216.8 L 255.0 210.2 L 261.0 203.5 L 267.0 196.9 L 273.0 190.5 L 279.0 184.5 L 285.0 179.0 L 291.0 174.2 L 297.0 170.3 L 303.0 167.4 L 309.0 165.6 L 315.0 165.0 L 321.0 165.6 L 327.0 167.4 L 333.0 170.3 L 339.0 174.2 L 345.0 179.0 L 351.0 184.5 L 357.0 190.5 L 363.0 196.9 L 369.0 203.5 L 375.0 210.2 L 381.0 216.8 L 387.0 223.4 L 393.0 229.6 L 399.0 235.7 L 405.0 241.4 L 411.0 246.8 L 417.0 251.9 L 423.0 256.6 L 429.0 260.9 L 435.0 265.0 L 441.0 268.7 L 447.0 272.2 L 453.0 275.4 L 459.0 278.3 L 465.0 281.0 L 471.0 283.4 L 477.0 285.7 L 483.0 287.7 L 489.0 289.6 L 495.0 291.4 L 501.0 293.0 L 507.0 294.5 L 513.0 295.8 L 519.0 297.1 L 525.0 298.2 L 531.0 299.3 L 537.0 300.3 L 543.0 301.2 L 549.0 302.0 L 555.0 302.8 L 561.0 303.5 L 567.0 304.2 L 573.0 304.8 L 579.0 305.3 L 585.0 305.9 L 591.0 306.4 L 597.0 306.8 L 603.0 307.3 L 609.0 307.7 L 615.0 308.0" clip-path="url(#fppfpf-__clipPath-1)"/>
+</svg>

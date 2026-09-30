@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="activity_identify_der_graphs">
+        <title>Identifying Graphs of Derivatives</title>
+        <objectives>
+                <ul>
+                        <li>The learner will use connections between the shape of the graph of a function
+and its derivative to discern which function could or could not be the
+derivative of which.
+                        </li>
+                </ul>
+        </objectives>
+        <page>
+        <exercise xml:id="fppfpf">
+                <statement>
+                        <figure xml:id="fig_fppfpf1">
+                                <caption>The graphs <m>y=\ell(x)</m>, <m>y=M(x)</m>, and <m>y=k(x)</m>.</caption>
+                                <image width="50%">
+                                        <description>
+                                                <p>
+                                                        The graphs of three functions, l, M, and k, which are also f, f prime, and f double prime.
+                                                </p>
+                                        </description>
+                                        <xi:include href="./fppfpf.xml"/>
+                                </image>
+                        </figure>
+                        <p>
+                                        The graphs of three functions are shown in <xref ref="fig_fppfpf1"/>. One of these graphs is <m>y=f(x)</m>, a second one is the graph of the derivative of <m>f(x)</m>, <m>y=f'(x)</m>. The third one is the graph of the derivative of <m>f'(x)</m>, <m>y=f''(x)</m>.
+                        </p>
+                        <p>
+                                        Identify which of the graphs, green solid, blue dashed, or black dotted, is <m>f(x)</m>, which is <m>f'(x)</m>, and which is <m>f''(x)</m>.
+                        </p>
+                        <p>
+                                Explain your choices clearly in terms of function values and rates of change or slopes!
+                        </p>
+                </statement>
+        </exercise>
+        </page>
+        <page>
+        <exercise xml:id="gppgpg">
+                <statement>
+                        <figure xml:id="fig_gppgpg1">
+                                <caption>The graphs <m>y=h(x)</m>, <m>y=T(x)</m>, and <m>y=s(x)</m>.</caption>
+                                <image width="50%">
+                                        <description>
+                                                <p>
+                                                        The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.
+                                                </p>
+                                        </description>
+                                        <xi:include href="./gppgpg.xml"/>
+                                </image>
+                        </figure>
+                        <p>
+                                        The graphs of three functions are shown in <xref ref="fig_fppfpf1"/>. One of these graphs is <m>y=g(x)</m>, a second one is the graph of the derivative of <m>g(x)</m>, <m>y=g'(x)</m>. The third one is the graph of the derivative of <m>g'(x)</m>, <m>y=g''(x)</m>.
+                        </p>
+                        <p>
+                                        Identify which of the graphs, green solid, blue dashed, or black dotted, is <m>g(x)</m>, which is <m>g'(x)</m>, and which is <m>g''(x)</m>.
+                        </p>
+                        <p>
+                                Explain your choices clearly in terms of function values and rates of change or slopes!
+                        </p>
+                </statement>
+        </exercise>
+</page>
+</worksheet>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="gppgpg">
+ <diagram dimensions="(600,480)" margins="15">
+    <definition>pts=((-3,0), (0, 0), 
+                   (2, 1), (4, 0), 
+                   (6, -1),(8, -1), 
+                   (12, 0), (15, 1),(17,1/2))</definition>
+  <definition>g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3</definition>
+  <derivative name="gp" function="g"/>
+  <derivative name="gpp" function="gp"/>
+  <coordinates bbox="(-4,-4,16,12)">
+    <grid-axes xlabel="x" ylabel="y" decorations="no" spacings="((-4,4,16),(-4,2,12))"/>
+    <graph at="graph"  function="g"    thickness="4" dash="16 4 4 4" stroke="blue" />
+    <graph at="deriv"  function="gp"   thickness="4" dash="4 4"      stroke="black" />
+    <graph at="deriv2" function="gpp"  thickness="4"                 stroke="green" />
+    <!--
+    <scatter points="pts" fill="blue"/>
+    -->
+  </coordinates>
+</diagram>
+</prefigure>
