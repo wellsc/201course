@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout xmlns:xi="http://www.w3.org/2001/XInclude" >
+        <title>Simple Patterns in Derivatives</title>
+        <p>
+                We will look at some simple functions, and patters that occur in their derivatives.
+        </p>
+        <example xml:id="example_deriv_const_four">
+                <statement>
+                        <p>
+                                Let <m>f(x)=4</m>. That is, no matter what value of <m>x</m>we input into <m>f(x)</m>, the output will be <m>4</m>. Then the derivative of <m>f(x)</m> is given by
+                                <md>
+                                        <mrow>f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x}</mrow>
+                                        <mrow>     &amp;=\lim_{u\to{}x}\frac{4-4}{u-x}</mrow>
+                                        <mrow>     &amp;=\lim_{u\to{}x}\frac{0}{u-x}.</mrow>
+                                </md>
+                                For every value of <m>u\neq{}x</m>, <m>\frac{0}{u-x}=0</m>.<fn>One way to think about this is that in the limit <m>\lim_{u\to{}x}\frac{0}{u-x}</m>, the numerator <em>is</em> <m>0</m>, while the denominator is <em>approaching</em> <m>0</m>.</fn> This means that the expression <m>\frac{0}{u-x}</m> is identical with <m>0</m> except when <m>u=x</m>. Thus, 
+                                <md>
+                                        <mrow>f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x}</mrow>
+                                        <mrow>     &amp;=\lim_{u\to{}x}\frac{0}{u-x}</mrow>
+                                        <mrow>     &amp;=\lim_{u\to{}x}0</mrow>
+                                        <mrow>     &amp;=0.</mrow>
+                                </md>
+                        </p>
+                </statement>
+        </example>
+        <p>
+                        There is nothing particularly special about <m>4</m> in this example. The same result holds for any function whose output is constant. This kind of universal pattern (it holds for all constant functions) is a <term>theorem</term>.
+        </p>
+        <theorem xml:id="thm_derivs_of_constants">
+                <title>Derivatives of Constant Functions</title>
+                <statement>
+                        <p>
+                                        For any constant value <m>c</m>, if <m>f(x)=c</m> (for all values of <m>x</m>), then <m>f'(x)=0</m>.
+                        </p>
+                </statement>
+                <proof>
+                        <p>
+                                        The proof is identical to <xref ref="example_deriv_const_four"/> with <m>4</m> replaced by <m>c</m>.
+                        </p>
+                </proof>
+        </theorem>
+        <theorem xml:id="thm_derivs_powers_of_x">
+        <title>Derivatives of Powers of <m>x</m></title>
+                <statement>
+                        <p>
+                                        For any non-zero real number <m>r</m>, if <m>f(x)=x^{r}</m>, then <m>f'(x)=r x^{r-1}</m>.
+                        </p>
+                </statement>
+                <proof>
+                        <p>
+                                        We will examine three cases: when <m>r</m> is a positive rational number, when <m>r</m> is a negative rational number, and when <m>r</m> is irrational.
+                        </p>
+                        <case>
+                                <title>Positive Rational <m>r</m></title>
+                        <p>
+                                Let <m>f(x)=x^{r}</m> where <m>r</m> is positive and rational, then there are positive integers, <m>p</m> and <m>q</m> so that <m>r=\frac{p}{q}</m>, and thus <m>f(x)=x^{\frac{p}{q}}</m>. Then
+                                <md>
+                                        <mrow> f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{u^{r}-x^{r}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{u^{p/q}-x^{p/q}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\left(u^{p/q}-x^{p/q}\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\left(u^{p/q}\right)^{q}-\left(x^{p/q}\right)^{q}}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{u^{p}-x^{p}}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\left(u-x\right)\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(u-x\right)\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\frac{\left(x^{p-1}+x^{p-2}x+x^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(x^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(x^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\frac{\overbrace{x^{p-1}+x^{p-1}+x^{p-1}+\cdots+x^{p-1}}^{p\text{ copies}}}{\underbrace{\left(\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}+\cdots+\left(x^{p/q}\right)^{q-1}+\left(x^{p/q}\right)^{q-1}\right)}_{q\text{ copies}}} </mrow>
+                                        <mrow>      &amp;=\frac{px^{p-1}}{q\left(x^{p/q}\right)^{q-1}} </mrow>
+                                        <mrow>      &amp;=\frac{p}{q}\frac{x^{p-1}}{x^{p-\frac{p}{q}}} </mrow>
+                                        <mrow>      &amp;=\frac{p}{q}{x^{p-1-p+\frac{p}{q}}} </mrow>
+                                        <mrow>      &amp;=\frac{p}{q}{x^{\frac{p}{q}-1}} </mrow>
+                                        <mrow>      &amp;=r{x^{r-1}}.</mrow>
+                                </md>
+                        </p>
+                        </case>
+                        <case>
+                                <title>Negative Rational <m>r</m></title>
+                        <p>
+                                Let <m>f(x)=x^{r}</m> where <m>r</m> is negative and rational, then there are positive integers, <m>p</m> and <m>q</m> so that <m>r=\frac{-p}{q}</m>, and thus <m>f(x)=x^{\frac{-p}{q}}</m>. Then
+                                <md>
+                                        <mrow> f'(x)&amp;=\lim_{u\to{}x}\frac{f(u)-f(x)}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{u^{r}-x^{r}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{u^{-p/q}-x^{-p/q}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\frac{1}{u^{p/q}}-\frac{1}{x^{p/q}}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{\frac{x^{p/q}}{u^{p/q}x^{p/q}}-\frac{u^{p/q}}{u^{p/q}x^{p/q}}}{u-x} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{{x^{p/q}}-{u^{p/q}}}{\left(u-x\right)\left({u^{p/q}x^{p/q}}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{-1\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)\left({u^{p/q}x^{p/q}}\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)}.</mrow>
+                                </md>
+                        </p>
+                        <p>
+                                At this point, our limit is the same as in the positive rational case except for the factor <m>\frac{-1}{u^{p/q}x^{p/q}}</m>, and so making the same algebraic manipulations, we have
+                                <md>
+                                        <mrow>f'(x) &amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left({u^{p/q}}-{x^{p/q}}\right)}{\left(u-x\right)} </mrow>
+                                        <mrow>      &amp;=\lim_{u\to{}x}\frac{-1}{\left({u^{p/q}x^{p/q}}\right)}\frac{\left(u^{p-1}+u^{p-2}x+u^{p-3}x^{2}+\cdots+x^{p-1}\right)}{\left(\left(u^{p/q}\right)^{q-1}+\left(u^{p/q}\right)^{q-2}\left(x^{p/q}\right)+\left(u^{p/q}\right)^{q-3}\left(x^{p/q}\right)^{2}+\cdots+\left(u^{p/q}\right)\left(x^{p/q}\right)^{q-2}+\left(x^{p/q}\right)^{q-1}\right)} </mrow>
+                                        <mrow>      &amp;=\frac{-1}{\left({x^{p/q}x^{p/q}}\right)}\frac{px^{p-1}}{q\left(x^{p/q}\right)^{q-1}} </mrow>
+                                        <mrow>      &amp;=\frac{-p}{q}\frac{1}{{x^{2p/q}}}\frac{x^{p-1}}{x^{p-p/q}} </mrow>
+                                        <mrow>      &amp;=\frac{-p}{q}{x^{p-1-p+p/q-2p/q}} </mrow>
+                                        <mrow>      &amp;=\frac{-p}{q}{x^{-p/q-1}} </mrow>
+                                        <mrow>      &amp;=r{x^{r-1}}.</mrow>
+                                </md>
+                        </p>
+                        </case>
+                        <case>
+                                <title>Irrational <m>r</m></title>
+                                <p>
+                                                We now examine the case where <m>r</m> is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are <term>dense</term> in the real numbers. Essentially, this means that there must be a sequence or rational numbers, <m>r_{1}, r_{2}, r_{3}, \ldots</m> so that <m>r_{k}\xrightarrow{k\to{}\infty}{r}</m>.
+                                </p>
+                                <p>
+                                                We can then define function <m>f_{k}(x)=x^{r_{k}}</m>, and note that <m>x^{r_{k}}\xrightarrow{k\to{}\infty}x^{r}</m>, and by continuity,
+                                                <md>
+                                                        <mrow> f'(x)&amp;=\lim_{k\to\infty}f_{k}'(x) </mrow>
+                                                        <mrow>      &amp;=\lim_{k\to\infty}r_{k}x^{r_{k}-1} </mrow>
+                                                        <mrow>      &amp;=rx^{r-1}.</mrow>
+                                                </md>
+                                </p>
+                        </case>
+                </proof>
+        </theorem>
+        <theorem xml:id="thm_deriv_sums_and_constant_multiples">
+                <title>
+                Sums and Constant Multiples of Derivatives
+                </title>
+                <statement>
+                        <p>
+                                Let <m>f_{1}(x)</m> and <m>f_{2}(x)</m> be any functions that have derivatives on a shared domain, and let <m>k_{1}</m> and <m>k_{2}</m> be any (constant) real numbers.  Then
+                                <md>
+                                        \left(k_{1}f_{1}(x)+k_{2}f_{2}(x)\right)'
+                                        =
+                                        k_{1}f_{1}'(x)+k_{2}f_{2}'(x).
+                                </md>
+                        </p>
+                </statement>
+        </theorem>
+        <exercise>
+                <statement>
+                        <p>
+                                        Find the derivative of <m>f(x)=4x^{30}-5x^{17}+15x^{2}+45</m>.
+                        </p>
+                </statement>
+                <answer>
+                        <p>
+                                <m>f'(x)=120x^{29}-85x^{16}+30x+0=120x^{29}-85x^{16}+30x</m>.
+                        </p>
+                </answer>
+        </exercise>
+</handout>

@@ -63,10 +63,8 @@
 
     <chapter xml:id="handouts">
       <title>Handouts</title>
-      <p></p>
-      <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
       <xi:include href="./handouts/ProblemSolving.ptx"/>
+      <xi:include href="./handouts/PowersOfX/PowersOfX.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
