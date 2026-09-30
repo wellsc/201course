@@ -793,6 +793,42 @@ var ptx_lunr_docs = [
   "body": " Synthesis     What is something new you learned in this activity, or what is a new insight or way of looking at things that you have developed because of this activity?    How do you think Leonard Euler hit upon the idea of the natural exponential function and the natural logarithm?    How does the use of power series inform your understanding of the natural exponential function?    How could you demonstrate understanding of the material in this activity?    How does this activity inform your understanding of the nature of (modern) mathematics?     "
 },
 {
+  "id": "activity_identify_der_graphs",
+  "level": "1",
+  "url": "activity_identify_der_graphs.html",
+  "type": "Worksheet",
+  "number": "3.9",
+  "title": "Identifying Graphs of Derivatives",
+  "body": " Identifying Graphs of Derivatives    The learner will use connections between the shape of the graph of a function and its derivative to discern which function could or could not be the derivative of which.        The graphs , , and .    The graphs of three functions, l, M, and k, which are also f, f prime, and f double prime.     f(x)=sqrt(3*x^2+4)-3                     The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!         The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!     "
+},
+{
+  "id": "activity_identify_der_graphs-2",
+  "level": "2",
+  "url": "activity_identify_der_graphs.html#activity_identify_der_graphs-2",
+  "type": "Objectives",
+  "number": "3.9",
+  "title": "",
+  "body": "  The learner will use connections between the shape of the graph of a function and its derivative to discern which function could or could not be the derivative of which.   "
+},
+{
+  "id": "fppfpf",
+  "level": "2",
+  "url": "activity_identify_der_graphs.html#fppfpf",
+  "type": "Worksheet Exercise",
+  "number": "3.9.1",
+  "title": "",
+  "body": "   The graphs , , and .    The graphs of three functions, l, M, and k, which are also f, f prime, and f double prime.     f(x)=sqrt(3*x^2+4)-3                     The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
+},
+{
+  "id": "gppgpg",
+  "level": "2",
+  "url": "activity_identify_der_graphs.html#gppgpg",
+  "type": "Worksheet Exercise",
+  "number": "3.9.2",
+  "title": "",
+  "body": "   The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
+},
+{
   "id": "handouts-3",
   "level": "1",
   "url": "handouts-3.html",
