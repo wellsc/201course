@@ -40,6 +40,7 @@
       <xi:include href="./activities/SketchDerivative/SketchDerivative.ptx"/>
       <xi:include href="./activities/DerivPatterns01/DerivPatterns01.ptx"/>
       <xi:include href="./activities/NaturalExponential/NaturalExponential.ptx"/>
+      <xi:include href="./activities/OrigamiBoxOptimization/OrigamiBox.ptx"/>
       <xi:include href="./activities/GraphFirstSecondDeriv/GraphFirstSecondDeriv.ptx"/>
 
     </chapter>

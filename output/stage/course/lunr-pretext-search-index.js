@@ -793,11 +793,146 @@ var ptx_lunr_docs = [
   "body": " Synthesis     What is something new you learned in this activity, or what is a new insight or way of looking at things that you have developed because of this activity?    How do you think Leonard Euler hit upon the idea of the natural exponential function and the natural logarithm?    How does the use of power series inform your understanding of the natural exponential function?    How could you demonstrate understanding of the material in this activity?    How does this activity inform your understanding of the nature of (modern) mathematics?     "
 },
 {
+  "id": "sec-procedure",
+  "level": "1",
+  "url": "sec-procedure.html",
+  "type": "Subsection",
+  "number": "3.9.1",
+  "title": "Procedure",
+  "body": " Procedure   through is a step-by-step pictorial guide to help you fold the boxes. The crucial steps for making boxes of different heights are Step 3 and Step 5 . If you fold short of the center the box will be shorter (and wider). If you fold past the center the box will be taller (and narrower).    Step 1: Crease and return twice    Step 2: Fold four corners to center    Step 3: Fold two sides to height and return    Step 4: Open two corners    Step 5: Fold other sides to height      Step 6: Lift both sides and one end    Step 7: Fold flap to center    Step 8: Raise other end    Step 9: Fold flap to center    Step 10: Completed box     Note: The size of the folds in Step 3 and Step 5 must be the same!      Each group should fold at least three boxes of differing heights.    Some suggestions for boxes to fold are:   a box of height 1 inch,    a box of height 1.5 inches,    a box of height 2.5 inches, and    a box of height 2.75 inches.      For each of the boxes you fold:   Plan how to fold the box in order to get the desired height. (For example, you may decide to mark your paper with a pencil to help you choose the positions of your folds.)    After folding, measure the box carefully to determine its dimensions and calculate its volume. (We will record the data from these measurements as a class.)    Carefully unfold the box to reveal the fold pattern. (It should look similar to Figure .)       Short    Standard    Tall    "
+},
+{
+  "id": "fig-guide_step_one",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_one",
+  "type": "Figure",
+  "number": "22",
+  "title": "",
+  "body": " Step 1: Crease and return twice  "
+},
+{
+  "id": "fig-guide_step_two",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_two",
+  "type": "Figure",
+  "number": "23",
+  "title": "",
+  "body": " Step 2: Fold four corners to center  "
+},
+{
+  "id": "fig-guide_step_three",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_three",
+  "type": "Figure",
+  "number": "24",
+  "title": "",
+  "body": " Step 3: Fold two sides to height and return  "
+},
+{
+  "id": "fig-guide_step_four",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_four",
+  "type": "Figure",
+  "number": "25",
+  "title": "",
+  "body": " Step 4: Open two corners  "
+},
+{
+  "id": "fig-guide_step_five",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_five",
+  "type": "Figure",
+  "number": "26",
+  "title": "",
+  "body": " Step 5: Fold other sides to height  "
+},
+{
+  "id": "fig-guide_step_six",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_six",
+  "type": "Figure",
+  "number": "27",
+  "title": "",
+  "body": " Step 6: Lift both sides and one end  "
+},
+{
+  "id": "fig-guide_step_seven",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_seven",
+  "type": "Figure",
+  "number": "28",
+  "title": "",
+  "body": " Step 7: Fold flap to center  "
+},
+{
+  "id": "fig-guide_step_eight",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_eight",
+  "type": "Figure",
+  "number": "29",
+  "title": "",
+  "body": " Step 8: Raise other end  "
+},
+{
+  "id": "fig-guide_step_nine",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_nine",
+  "type": "Figure",
+  "number": "30",
+  "title": "",
+  "body": " Step 9: Fold flap to center  "
+},
+{
+  "id": "fig-guide_step_ten",
+  "level": "2",
+  "url": "sec-procedure.html#fig-guide_step_ten",
+  "type": "Figure",
+  "number": "31",
+  "title": "",
+  "body": " Step 10: Completed box  "
+},
+{
+  "id": "fig-fold_pattern_short",
+  "level": "2",
+  "url": "sec-procedure.html#fig-fold_pattern_short",
+  "type": "Figure",
+  "number": "32",
+  "title": "",
+  "body": " Short  "
+},
+{
+  "id": "fig-fold_pattern_standard",
+  "level": "2",
+  "url": "sec-procedure.html#fig-fold_pattern_standard",
+  "type": "Figure",
+  "number": "33",
+  "title": "",
+  "body": " Standard  "
+},
+{
+  "id": "fig-fold_pattern_tall",
+  "level": "2",
+  "url": "sec-procedure.html#fig-fold_pattern_tall",
+  "type": "Figure",
+  "number": "34",
+  "title": "",
+  "body": " Tall  "
+},
+{
+  "id": "activity-origami_box-4",
+  "level": "1",
+  "url": "activity-origami_box-4.html",
+  "type": "Subsection",
+  "number": "3.9.2",
+  "title": "Analysis",
+  "body": " Analysis  After examining and measuring the fold patterns for your group's boxes:   Make a prediction about the dimensions of an origami masu box of maximum volume. (Do you think it will be taller than it is wide, wider than it is tall, or will its height and width be the same? If taller or wider, by how much?)    Use the fold pattern to find a relationship between the width and the height (your relationship may involve the length of the diagonal, )    Determine your decision variable . Stop here to discuss.     Turn your relationship into a function, , returning the other dimension as a function of the decision variable. That is, your function, , should satisfy one of or .    Use your function, , as a starting point to develop a volume function, , so that the volume, , is given as a function of the decision variable.    Determine what values of the decision variable are reasonable inputs for your functions ( and ) in this situation.    Use calculus to find the value of the height that will make the volume as large as possible.    Is the standard box optimal? If not, is the optimal box taller or shorter?    How does your result compare to your prediction? Explain what might account for any discrepancies, or, if your prediction was accurate, explain what insight led to your prediction.    If you wish (and you have enough paper) fold a box of the optimal dimensions.     "
+},
+{
   "id": "activity_identify_der_graphs",
   "level": "1",
   "url": "activity_identify_der_graphs.html",
   "type": "Worksheet",
-  "number": "3.9",
+  "number": "3.10",
   "title": "Identifying Graphs of Derivatives",
   "body": " Identifying Graphs of Derivatives    The learner will use connections between the shape of the graph of a function and its derivative to discern which function could or could not be the derivative of which.        The graphs , , and .    The graphs of three functions, l, M, and k, which are also f, f prime, and f double prime.     f(x)=sqrt(3*x^2+4)-3                     The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!         The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!     "
 },
@@ -806,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activity_identify_der_graphs.html#activity_identify_der_graphs-2",
   "type": "Objectives",
-  "number": "3.9",
+  "number": "3.10",
   "title": "",
   "body": "  The learner will use connections between the shape of the graph of a function and its derivative to discern which function could or could not be the derivative of which.   "
 },
@@ -815,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activity_identify_der_graphs.html#fppfpf",
   "type": "Worksheet Exercise",
-  "number": "3.9.1",
+  "number": "3.10.1",
   "title": "",
   "body": "   The graphs , , and .    The graphs of three functions, l, M, and k, which are also f, f prime, and f double prime.     f(x)=sqrt(3*x^2+4)-3                     The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
 },
@@ -824,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activity_identify_der_graphs.html#gppgpg",
   "type": "Worksheet Exercise",
-  "number": "3.9.2",
+  "number": "3.10.2",
   "title": "",
   "body": "   The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
 },
@@ -851,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "24",
+  "number": "37",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -869,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "25",
+  "number": "38",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -878,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "26",
+  "number": "39",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -887,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "27",
+  "number": "40",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -896,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "28",
+  "number": "41",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
