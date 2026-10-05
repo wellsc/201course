@@ -14,7 +14,6 @@
     experiment to see if we can fold a <em>masu</em> box so that it would hold
     as much rice as possible.
   </p>
-
   <p>
     First we will fold a <q>standard</q> <em>masu</em> box together, then, in
     groups, you will fold several <em>masu</em> boxes whose heights (and
@@ -35,36 +34,56 @@
   </p>
       <sidebyside widths="13% 13% 13% 13% 13%" margins="auto" >
           <figure xml:id="fig-guide_step_one">
-<caption>Step 1: Crease and return twice</caption><image decorative="yes"  source="Origami_Masu_Box_Step_01"/>
+<caption>Step 1: Crease and return twice</caption><image  source="Origami_Masu_Box_Step_01">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_two">
-<caption>Step 2: Fold four corners to center</caption><image decorative="yes"  source="Origami_Masu_Box_Step_02"/>
+<caption>Step 2: Fold four corners to center</caption><image  source="Origami_Masu_Box_Step_02">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_three">
-            <caption><alert>Step 3: Fold two sides to height and return</alert></caption><image decorative="yes"  source="Origami_Masu_Box_Step_03"/>
+            <caption><alert>Step 3: Fold two sides to height and return</alert></caption><image  source="Origami_Masu_Box_Step_03">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_four">
-<caption>Step 4: Open two corners</caption><image decorative="yes"  source="Origami_Masu_Box_Step_04"/>
+<caption>Step 4: Open two corners</caption><image  source="Origami_Masu_Box_Step_04">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_five">
-            <caption><alert>Step 5: Fold other sides to height</alert></caption><image decorative="yes"  source="Origami_Masu_Box_Step_05"/>
+            <caption><alert>Step 5: Fold other sides to height</alert></caption><image  source="Origami_Masu_Box_Step_05">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
       </sidebyside>
       <sidebyside widths="13% 13% 13% 13% 13%" margins="auto" >
           <figure xml:id="fig-guide_step_six">
-<caption>Step 6: Lift both sides and one end</caption><image decorative="yes"  source="Origami_Masu_Box_Step_06"/>
+<caption>Step 6: Lift both sides and one end</caption><image  source="Origami_Masu_Box_Step_06">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_seven">
-<caption>Step 7: Fold flap to center</caption><image decorative="yes"  source="Origami_Masu_Box_Step_07"/>
+<caption>Step 7: Fold flap to center</caption><image  source="Origami_Masu_Box_Step_07">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_eight">
-<caption>Step 8: Raise other end</caption><image decorative="yes"  source="Origami_Masu_Box_Step_08"/>
+<caption>Step 8: Raise other end</caption><image  source="Origami_Masu_Box_Step_08">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_nine">
-<caption>Step 9: Fold flap to center</caption><image decorative="yes"  source="Origami_Masu_Box_Step_09"/>
+<caption>Step 9: Fold flap to center</caption><image  source="Origami_Masu_Box_Step_09">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-guide_step_ten">
-<caption>Step 10: Completed box</caption><image decorative="yes"  source="Origami_Masu_Box_Step_10"/>
+<caption>Step 10: Completed box</caption><image  source="Origami_Masu_Box_Step_10">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
       </sidebyside>
 
@@ -142,13 +161,19 @@
 
       <sidebyside widths="30% 30% 30%" margins="auto">
           <figure xml:id="fig-fold_pattern_short">
-<caption>Short</caption><image decorative="yes" source="masuShort"/>
+<caption>Short</caption><image source="masuShort">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-fold_pattern_standard">
-<caption>Standard</caption><image decorative="yes" source="masuStandard"/>
+<caption>Standard</caption><image source="masuStandard">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
           <figure xml:id="fig-fold_pattern_tall">
-<caption>Tall</caption><image decorative="yes" source="masuTall"/>
+<caption>Tall</caption><image source="masuTall">
+<description><p>Image of Origami Folding</p></description>
+</image>
 </figure>
       </sidebyside>
 </subsection>
@@ -172,7 +197,7 @@
         <p>
           Use the fold pattern to find a relationship between the width and the
           height (your relationship may involve the length of the diagonal,
-          <m>d=12\sqrt{2}\approx 16.97056\text{ in.}</m> )
+          <m>d=12\sqrt{2}\approx 16.97056\text{ in.}</m>)
         </p>
       </li>
 
@@ -187,8 +212,8 @@
         <p>
           Turn your relationship into a function, <m>f</m>, returning the other
           dimension as a function of the decision variable. That is, your
-          function, <m>f</m>, should satisfy one of <m>w = f(h)</m> or
-          <m>h = f(w)</m>.
+          function, <m>f</m>, should satisfy one of <m>w=f(h)</m> or
+          <m>h=f(w)</m>.
         </p>
       </li>
 
@@ -203,7 +228,7 @@
       <li>
         <p>
           Determine what values of the decision variable are reasonable inputs
-          for your functions ( <m>f</m> and <m>g</m> ) in this situation.
+          for your functions (<m>f</m> and <m>g</m>) in this situation.
         </p>
       </li>
 
