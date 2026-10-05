@@ -799,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.9.1",
   "title": "Procedure",
-  "body": " Procedure   through is a step-by-step pictorial guide to help you fold the boxes. The crucial steps for making boxes of different heights are Step 3 and Step 5 . If you fold short of the center the box will be shorter (and wider). If you fold past the center the box will be taller (and narrower).    Step 1: Crease and return twice    Step 2: Fold four corners to center    Step 3: Fold two sides to height and return    Step 4: Open two corners    Step 5: Fold other sides to height      Step 6: Lift both sides and one end    Step 7: Fold flap to center    Step 8: Raise other end    Step 9: Fold flap to center    Step 10: Completed box     Note: The size of the folds in Step 3 and Step 5 must be the same!      Each group should fold at least three boxes of differing heights.    Some suggestions for boxes to fold are:   a box of height 1 inch,    a box of height 1.5 inches,    a box of height 2.5 inches, and    a box of height 2.75 inches.      For each of the boxes you fold:   Plan how to fold the box in order to get the desired height. (For example, you may decide to mark your paper with a pencil to help you choose the positions of your folds.)    After folding, measure the box carefully to determine its dimensions and calculate its volume. (We will record the data from these measurements as a class.)    Carefully unfold the box to reveal the fold pattern. (It should look similar to Figure .)       Short    Standard    Tall    "
+  "body": " Procedure   through is a step-by-step pictorial guide to help you fold the boxes. The crucial steps for making boxes of different heights are Step 3 and Step 5 . If you fold short of the center the box will be shorter (and wider). If you fold past the center the box will be taller (and narrower).    Step 1: Crease and return twice  Image of Origami Folding     Step 2: Fold four corners to center  Image of Origami Folding     Step 3: Fold two sides to height and return  Image of Origami Folding     Step 4: Open two corners  Image of Origami Folding     Step 5: Fold other sides to height  Image of Origami Folding       Step 6: Lift both sides and one end  Image of Origami Folding     Step 7: Fold flap to center  Image of Origami Folding     Step 8: Raise other end  Image of Origami Folding     Step 9: Fold flap to center  Image of Origami Folding     Step 10: Completed box  Image of Origami Folding      Note: The size of the folds in Step 3 and Step 5 must be the same!      Each group should fold at least three boxes of differing heights.    Some suggestions for boxes to fold are:   a box of height 1 inch,    a box of height 1.5 inches,    a box of height 2.5 inches, and    a box of height 2.75 inches.      For each of the boxes you fold:   Plan how to fold the box in order to get the desired height. (For example, you may decide to mark your paper with a pencil to help you choose the positions of your folds.)    After folding, measure the box carefully to determine its dimensions and calculate its volume. (We will record the data from these measurements as a class.)    Carefully unfold the box to reveal the fold pattern. (It should look similar to Figure .)       Short  Image of Origami Folding     Standard  Image of Origami Folding     Tall  Image of Origami Folding     "
 },
 {
   "id": "fig-guide_step_one",
@@ -808,7 +808,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "22",
   "title": "",
-  "body": " Step 1: Crease and return twice  "
+  "body": " Step 1: Crease and return twice  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_two",
@@ -817,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "23",
   "title": "",
-  "body": " Step 2: Fold four corners to center  "
+  "body": " Step 2: Fold four corners to center  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_three",
@@ -826,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "24",
   "title": "",
-  "body": " Step 3: Fold two sides to height and return  "
+  "body": " Step 3: Fold two sides to height and return  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_four",
@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "25",
   "title": "",
-  "body": " Step 4: Open two corners  "
+  "body": " Step 4: Open two corners  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_five",
@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "26",
   "title": "",
-  "body": " Step 5: Fold other sides to height  "
+  "body": " Step 5: Fold other sides to height  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_six",
@@ -853,7 +853,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "27",
   "title": "",
-  "body": " Step 6: Lift both sides and one end  "
+  "body": " Step 6: Lift both sides and one end  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_seven",
@@ -862,7 +862,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "28",
   "title": "",
-  "body": " Step 7: Fold flap to center  "
+  "body": " Step 7: Fold flap to center  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_eight",
@@ -871,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "29",
   "title": "",
-  "body": " Step 8: Raise other end  "
+  "body": " Step 8: Raise other end  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_nine",
@@ -880,7 +880,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "30",
   "title": "",
-  "body": " Step 9: Fold flap to center  "
+  "body": " Step 9: Fold flap to center  Image of Origami Folding   "
 },
 {
   "id": "fig-guide_step_ten",
@@ -889,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "31",
   "title": "",
-  "body": " Step 10: Completed box  "
+  "body": " Step 10: Completed box  Image of Origami Folding   "
 },
 {
   "id": "fig-fold_pattern_short",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "32",
   "title": "",
-  "body": " Short  "
+  "body": " Short  Image of Origami Folding   "
 },
 {
   "id": "fig-fold_pattern_standard",
@@ -907,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "33",
   "title": "",
-  "body": " Standard  "
+  "body": " Standard  Image of Origami Folding   "
 },
 {
   "id": "fig-fold_pattern_tall",
@@ -916,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "34",
   "title": "",
-  "body": " Tall  "
+  "body": " Tall  Image of Origami Folding   "
 },
 {
   "id": "activity-origami_box-4",
