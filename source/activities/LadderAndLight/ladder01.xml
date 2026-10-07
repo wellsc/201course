@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="ladder_1">
+        <diagram dimensions="(500, 500)" margins="15">
+                <definition>hallwidth1=2</definition>
+                <definition>hallwidth2=3</definition>
+                <definition>total_width=12</definition>
+                <definition>total_height=12</definition>
+                <definition>incorner=(0,0)</definition>
+                <definition>outcorner=(-hallwidth1,hallwidth2)</definition>
+                <definition>outll=outcorner-(0,total_height)</definition>
+                <definition>outur=outcorner+(total_width,0)</definition>
+                <definition>inll=(incorner[0],outll[1])</definition>
+                <definition>inur=(outur[0],incorner[1])</definition>
+                <definition>L=(outll,outcorner)</definition>
+                <definition>T=(outcorner,outur)</definition>
+                <definition>R=(inll,incorner)</definition>
+                <definition>B=(inur,incorner)</definition>
+
+                <definition>h1=1</definition>
+                <definition>Ph1=incorner-(hallwidth1,h1)</definition>
+                <definition>ladderline1=(Ph1,3*incorner-2*Ph1)</definition>
+                <definition>ladderend1=intersect((ladderline1,T))</definition>
+
+                <definition>h2=2</definition>
+                <definition>Ph2=incorner-(hallwidth1,h2)</definition>
+                <definition>ladderline2=(Ph2,3*incorner-2*Ph2)</definition>
+                <definition>ladderend2=intersect((ladderline2,T))</definition>
+
+                <coordinates bbox="(outll[0],outll[1],outur[0],outur[1])" >
+                        <line endpoints="L" />
+                        <line endpoints="T" />
+                        <line endpoints="R" />
+                        <line endpoints="B" />
+                        <line endpoints="(Ph1,ladderend1)" dash="4 4" />
+                        <line endpoints="(Ph2,ladderend2)" dash="4 4" />
+                </coordinates>
+        </diagram>
+</prefigure>
