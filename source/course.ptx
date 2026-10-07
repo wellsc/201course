@@ -43,6 +43,7 @@
       <xi:include href="./activities/OrigamiBoxOptimization/OrigamiBox.ptx"/>
       <xi:include href="./activities/GraphFirstSecondDeriv/GraphFirstSecondDeriv.ptx"/>
       <xi:include href="./activities/TrigDerivs/Trig.ptx"/>
+      <xi:include href="./activities/LadderAndLight/Ladder01.ptx"/>
 
     </chapter>
     <!--

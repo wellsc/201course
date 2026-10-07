@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ladder_1-figure" width="530" height="530" viewBox="0 0 530 530">
+  <defs>
+    <clipPath id="ladder_1-__clipPath-0">
+      <rect x="15.0" y="15.0" width="500.0" height="500.0"/>
+    </clipPath>
+    <clipPath id="ladder_1-__clipPath-1">
+      <rect x="15.0" y="15.0" width="500.0" height="500.0"/>
+    </clipPath>
+  </defs>
+  <line id="ladder_1-__line-0" x1="15.0" y1="515.0" x2="15.0" y2="15.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="ladder_1-__line-1" x1="15.0" y1="15.0" x2="515.0" y2="15.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="ladder_1-__line-2" x1="98.3" y1="515.0" x2="98.3" y2="140.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="ladder_1-__line-3" x1="515.0" y1="140.0" x2="98.3" y2="140.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="ladder_1-__line-4" x1="15.0" y1="181.7" x2="348.3" y2="15.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <line id="ladder_1-__line-5" x1="15.0" y1="223.3" x2="223.3" y2="15.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+</svg>
