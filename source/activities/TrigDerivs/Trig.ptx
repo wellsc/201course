@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="wksht_sine_cosine" xmlns:xi="http://www.w3.org/2001/XInclude" >
+    <title>Patterns and Properties (Graphs of Derivatives)</title>
+
+    <objectives>
+            <ul>
+                    <li>
+      <p>
+        The Learner will investigate graphs of derivatives and use their
+        understanding of graphs to develop strategies for finding the
+        derivatives of trigonometric functions.
+      </p>
+                    </li>
+            </ul>
+    </objectives>
+
+    <sidebyside>
+    <figure xml:id="fig_cosine_one_hump">
+            <caption>The graph of <m>y=f(x)</m></caption>
+            <image>
+                    <description><p>The graph of a function, f of x</p></description>
+                    <xi:include href="./cos1.xml" />
+            </image>
+    </figure>
+    <figure xml:id="fig_sine_one_hump">
+            <caption>The graph of <m>y=g(x)</m></caption>
+            <image>
+                    <description><p>The graph of a function, g of x</p></description>
+                    <xi:include href="./sin1.xml" />
+            </image>
+    </figure>
+    </sidebyside>
+          <exercise>
+                  <statement>
+            <p>
+              Find all the values of <m>x</m> for the graph of <m>y=f(x)</m>
+              where <m>f'</m> appears to be zero and mark the points on the
+              <m>x</m>-axis.
+            </p>
+                  </statement>
+          </exercise>
+
+          <exercise>
+                  <statement>
+            <p>
+              Find all the values of <m>x</m> for the graph of <m>y=f(x)</m>
+              where <m>f'</m> appears to be one (1) and for each, mark the point
+              <m>(x,1)</m>.
+            </p>
+                  </statement>
+          </exercise>
+
+          <exercise>
+                  <statement>
+            <p>
+              Find all the values of <m>x</m> for the graph of <m>y=f(x)</m>
+              where <m>f'</m> appears to be negative one (-1) and for each, mark
+              the point <m>(x,-1)</m>.
+            </p>
+                  </statement>
+          </exercise>
+
+          <exercise>
+                  <statement>
+            <p>
+              Sketch a graph of <m>y=f'(x)</m> over the graph of <m>y=f(x)</m>.
+            </p>
+                  </statement>
+          </exercise>
+
+          <exercise>
+                  <statement>
+            <p>
+              Repeat the above steps for <m>y=g(x)</m>.
+            </p>
+                  </statement>
+          </exercise>
+  </worksheet>

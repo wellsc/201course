@@ -964,6 +964,87 @@ var ptx_lunr_docs = [
   "body": "   The graphs , , and .    The graphs of three functions, h, T, and s, which are also g, g prime, and g double prime.     pts=((-3,0), (0, 0), (2, 1), (4, 0), (6, -1),(8, -1), (12, 0), (15, 1),(17,1\/2))  g(x)=-4.08553096121179*10^(-8)*x^9 + 2.86585917713369*10^(-6)*x^8 - 7.8205795883492*10^(-5)*x^7 + 0.000986607422473435*x^6 - 0.00432162222082565*x^5 - 0.0199725193107546*x^4 + 0.189315232697586*x^3               The graphs of three functions are shown in . One of these graphs is , a second one is the graph of the derivative of , . The third one is the graph of the derivative of , .  Identify which of the graphs, green solid, blue dashed, or black dotted, is , which is , and which is .  Explain your choices clearly in terms of function values and rates of change or slopes!   "
 },
 {
+  "id": "wksht_sine_cosine",
+  "level": "1",
+  "url": "wksht_sine_cosine.html",
+  "type": "Worksheet",
+  "number": "3.11",
+  "title": "Patterns and Properties (Graphs of Derivatives)",
+  "body": " Patterns and Properties (Graphs of Derivatives)     The Learner will investigate graphs of derivatives and use their understanding of graphs to develop strategies for finding the derivatives of trigonometric functions.       The graph of   The graph of a function, f of x    f(x)=cos(x)           The graph of   The graph of a function, g of x    f(x)=sin(x)             Find all the values of for the graph of where appears to be zero and mark the points on the -axis.      Find all the values of for the graph of where appears to be one (1) and for each, mark the point .      Find all the values of for the graph of where appears to be negative one (-1) and for each, mark the point .      Sketch a graph of over the graph of .      Repeat the above steps for .    "
+},
+{
+  "id": "wksht_sine_cosine-2",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-2",
+  "type": "Objectives",
+  "number": "3.11",
+  "title": "",
+  "body": "   The Learner will investigate graphs of derivatives and use their understanding of graphs to develop strategies for finding the derivatives of trigonometric functions.    "
+},
+{
+  "id": "fig_cosine_one_hump",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_cosine_one_hump",
+  "type": "Figure",
+  "number": "37",
+  "title": "",
+  "body": " The graph of   The graph of a function, f of x    f(x)=cos(x)         "
+},
+{
+  "id": "fig_sine_one_hump",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_sine_one_hump",
+  "type": "Figure",
+  "number": "38",
+  "title": "",
+  "body": " The graph of   The graph of a function, g of x    f(x)=sin(x)         "
+},
+{
+  "id": "wksht_sine_cosine-4",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-4",
+  "type": "Worksheet Exercise",
+  "number": "3.11.1",
+  "title": "",
+  "body": "  Find all the values of for the graph of where appears to be zero and mark the points on the -axis.   "
+},
+{
+  "id": "wksht_sine_cosine-5",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-5",
+  "type": "Worksheet Exercise",
+  "number": "3.11.2",
+  "title": "",
+  "body": "  Find all the values of for the graph of where appears to be one (1) and for each, mark the point .   "
+},
+{
+  "id": "wksht_sine_cosine-6",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-6",
+  "type": "Worksheet Exercise",
+  "number": "3.11.3",
+  "title": "",
+  "body": "  Find all the values of for the graph of where appears to be negative one (-1) and for each, mark the point .   "
+},
+{
+  "id": "wksht_sine_cosine-7",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-7",
+  "type": "Worksheet Exercise",
+  "number": "3.11.4",
+  "title": "",
+  "body": "  Sketch a graph of over the graph of .   "
+},
+{
+  "id": "wksht_sine_cosine-8",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#wksht_sine_cosine-8",
+  "type": "Worksheet Exercise",
+  "number": "3.11.5",
+  "title": "",
+  "body": "  Repeat the above steps for .   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -986,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "37",
+  "number": "39",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1004,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "38",
+  "number": "40",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1013,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "39",
+  "number": "41",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1022,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "40",
+  "number": "42",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1031,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "41",
+  "number": "43",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },

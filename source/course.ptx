@@ -42,6 +42,7 @@
       <xi:include href="./activities/NaturalExponential/NaturalExponential.ptx"/>
       <xi:include href="./activities/OrigamiBoxOptimization/OrigamiBox.ptx"/>
       <xi:include href="./activities/GraphFirstSecondDeriv/GraphFirstSecondDeriv.ptx"/>
+      <xi:include href="./activities/TrigDerivs/Trig.ptx"/>
 
     </chapter>
     <!--
