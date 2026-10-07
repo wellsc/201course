@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.11",
   "title": "Patterns and Properties (Graphs of Derivatives)",
-  "body": " Patterns and Properties (Graphs of Derivatives)     The Learner will investigate graphs of derivatives and use their understanding of graphs to develop strategies for finding the derivatives of trigonometric functions.       The graph of   The graph of a function, f of x    f(x)=cos(x)           The graph of   The graph of a function, g of x    f(x)=sin(x)             Find all the values of for the graph of where appears to be zero and mark the points on the -axis.      Find all the values of for the graph of where appears to be one (1) and for each, mark the point .      Find all the values of for the graph of where appears to be negative one (-1) and for each, mark the point .      Sketch a graph of over the graph of .      Repeat the above steps for .    "
+  "body": " Patterns and Properties (Graphs of Derivatives)     The Learner will investigate graphs of derivatives and use their understanding of graphs to develop strategies for finding the derivatives of trigonometric functions.        The graph of   The graph of a function, f of x             The graph of   The graph of a function, g of x    f(x)=sin(x)             A Blank Grid for Drawing   A blank grid for drawing f prime of x    f(x)=cos(x)          A Blank Grid for Drawing   A blank grid for drawing g prime of x    f(x)=cos(x)             Find all the values of for the graph of where appears to be zero and mark the points on the -axis.      Find all the values of for the graph of where appears to be one (1) and for each, mark the point .      Find all the values of for the graph of where appears to be negative one (-1) and for each, mark the point .      Sketch a graph of over the graph of .      Repeat the above steps for .      The graph of   The graph of a function, f of x    f(x)=cos(x)           The graph of   The graph of a function, g of x    f(x)=sin(x)           "
 },
 {
   "id": "wksht_sine_cosine-2",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "37",
   "title": "",
-  "body": " The graph of   The graph of a function, f of x    f(x)=cos(x)         "
+  "body": " The graph of   The graph of a function, f of x           "
 },
 {
   "id": "fig_sine_one_hump",
@@ -998,6 +998,24 @@ var ptx_lunr_docs = [
   "number": "38",
   "title": "",
   "body": " The graph of   The graph of a function, g of x    f(x)=sin(x)         "
+},
+{
+  "id": "fig_blank_cosine_one",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_blank_cosine_one",
+  "type": "Figure",
+  "number": "39",
+  "title": "",
+  "body": " A Blank Grid for Drawing   A blank grid for drawing f prime of x    f(x)=cos(x)        "
+},
+{
+  "id": "fig_blank_sine_one",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_blank_sine_one",
+  "type": "Figure",
+  "number": "40",
+  "title": "",
+  "body": " A Blank Grid for Drawing   A blank grid for drawing g prime of x    f(x)=cos(x)        "
 },
 {
   "id": "wksht_sine_cosine-4",
@@ -1045,6 +1063,24 @@ var ptx_lunr_docs = [
   "body": "  Repeat the above steps for .   "
 },
 {
+  "id": "fig_cosine_two_humps",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_cosine_two_humps",
+  "type": "Figure",
+  "number": "41",
+  "title": "",
+  "body": " The graph of   The graph of a function, f of x    f(x)=cos(x)         "
+},
+{
+  "id": "fig_sine_two_humps",
+  "level": "2",
+  "url": "wksht_sine_cosine.html#fig_sine_two_humps",
+  "type": "Figure",
+  "number": "42",
+  "title": "",
+  "body": " The graph of   The graph of a function, g of x    f(x)=sin(x)         "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1067,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "39",
+  "number": "43",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1085,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "40",
+  "number": "44",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1094,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "41",
+  "number": "45",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1103,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "42",
+  "number": "46",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1112,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "43",
+  "number": "47",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },

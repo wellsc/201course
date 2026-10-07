@@ -16,6 +16,7 @@
             </ul>
     </objectives>
 
+            <sbsgroup>
     <sidebyside>
     <figure xml:id="fig_cosine_one_hump">
             <caption>The graph of <m>y=f(x)</m></caption>
@@ -31,7 +32,24 @@
                     <xi:include href="./sin1.xml" />
             </image>
     </figure>
+            </sidebyside>
+            <sidebyside>
+    <figure xml:id="fig_blank_cosine_one">
+            <caption>A Blank Grid for Drawing <m>y=f'(x)</m></caption>
+            <image>
+                    <description><p>A blank grid for drawing f prime of x</p></description>
+                    <xi:include href="./blank1.xml" />
+            </image>
+    </figure>
+    <figure xml:id="fig_blank_sine_one">
+            <caption>A Blank Grid for Drawing <m>y=g'(x)</m></caption>
+            <image>
+                    <description><p>A blank grid for drawing g prime of x</p></description>
+                    <xi:include href="./blank2.xml" />
+            </image>
+    </figure>
     </sidebyside>
+            </sbsgroup>
           <exercise>
                   <statement>
             <p>
@@ -77,4 +95,20 @@
             </p>
                   </statement>
           </exercise>
+    <sidebyside>
+    <figure xml:id="fig_cosine_two_humps">
+            <caption>The graph of <m>y=f(x)</m></caption>
+            <image>
+                    <description><p>The graph of a function, f of x</p></description>
+                    <xi:include href="./cos2.xml" />
+            </image>
+    </figure>
+    <figure xml:id="fig_sine_two_humps">
+            <caption>The graph of <m>y=g(x)</m></caption>
+            <image>
+                    <description><p>The graph of a function, g of x</p></description>
+                    <xi:include href="./sin2.xml" />
+            </image>
+    </figure>
+    </sidebyside>
   </worksheet>
