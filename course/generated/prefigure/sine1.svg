@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sine1-figure" width="630" height="630" viewBox="0 0 630 630">
+  <defs>
+    <clipPath id="sine1-__clipPath-0">
+      <rect x="15.0" y="15.0" width="600.0" height="600.0"/>
+    </clipPath>
+    <clipPath id="sine1-__clipPath-1">
+      <rect x="15.0" y="15.0" width="600.0" height="600.0"/>
+    </clipPath>
+  </defs>
+  <g id="sine1-grid-axes">
+    <g id="sine1-grid" stroke="#ccc" stroke-width="1">
+      <line x1="28.5" y1="615.0" x2="28.5" y2="15.0"/>
+      <line x1="52.4" y1="615.0" x2="52.4" y2="15.0"/>
+      <line x1="76.3" y1="615.0" x2="76.3" y2="15.0"/>
+      <line x1="100.1" y1="615.0" x2="100.1" y2="15.0"/>
+      <line x1="124.0" y1="615.0" x2="124.0" y2="15.0"/>
+      <line x1="147.9" y1="615.0" x2="147.9" y2="15.0"/>
+      <line x1="171.8" y1="615.0" x2="171.8" y2="15.0"/>
+      <line x1="195.6" y1="615.0" x2="195.6" y2="15.0"/>
+      <line x1="219.5" y1="615.0" x2="219.5" y2="15.0"/>
+      <line x1="243.4" y1="615.0" x2="243.4" y2="15.0"/>
+      <line x1="267.3" y1="615.0" x2="267.3" y2="15.0"/>
+      <line x1="291.1" y1="615.0" x2="291.1" y2="15.0"/>
+      <line x1="315.0" y1="615.0" x2="315.0" y2="15.0"/>
+      <line x1="338.9" y1="615.0" x2="338.9" y2="15.0"/>
+      <line x1="362.7" y1="615.0" x2="362.7" y2="15.0"/>
+      <line x1="386.6" y1="615.0" x2="386.6" y2="15.0"/>
+      <line x1="410.5" y1="615.0" x2="410.5" y2="15.0"/>
+      <line x1="434.4" y1="615.0" x2="434.4" y2="15.0"/>
+      <line x1="458.2" y1="615.0" x2="458.2" y2="15.0"/>
+      <line x1="482.1" y1="615.0" x2="482.1" y2="15.0"/>
+      <line x1="506.0" y1="615.0" x2="506.0" y2="15.0"/>
+      <line x1="529.9" y1="615.0" x2="529.9" y2="15.0"/>
+      <line x1="553.7" y1="615.0" x2="553.7" y2="15.0"/>
+      <line x1="577.6" y1="615.0" x2="577.6" y2="15.0"/>
+      <line x1="601.5" y1="615.0" x2="601.5" y2="15.0"/>
+      <line x1="15.0" y1="601.5" x2="615.0" y2="601.5"/>
+      <line x1="15.0" y1="577.6" x2="615.0" y2="577.6"/>
+      <line x1="15.0" y1="553.7" x2="615.0" y2="553.7"/>
+      <line x1="15.0" y1="529.9" x2="615.0" y2="529.9"/>
+      <line x1="15.0" y1="506.0" x2="615.0" y2="506.0"/>
+      <line x1="15.0" y1="482.1" x2="615.0" y2="482.1"/>
+      <line x1="15.0" y1="458.2" x2="615.0" y2="458.2"/>
+      <line x1="15.0" y1="434.4" x2="615.0" y2="434.4"/>
+      <line x1="15.0" y1="410.5" x2="615.0" y2="410.5"/>
+      <line x1="15.0" y1="386.6" x2="615.0" y2="386.6"/>
+      <line x1="15.0" y1="362.7" x2="615.0" y2="362.7"/>
+      <line x1="15.0" y1="338.9" x2="615.0" y2="338.9"/>
+      <line x1="15.0" y1="315.0" x2="615.0" y2="315.0"/>
+      <line x1="15.0" y1="291.1" x2="615.0" y2="291.1"/>
+      <line x1="15.0" y1="267.3" x2="615.0" y2="267.3"/>
+      <line x1="15.0" y1="243.4" x2="615.0" y2="243.4"/>
+      <line x1="15.0" y1="219.5" x2="615.0" y2="219.5"/>
+      <line x1="15.0" y1="195.6" x2="615.0" y2="195.6"/>
+      <line x1="15.0" y1="171.8" x2="615.0" y2="171.8"/>
+      <line x1="15.0" y1="147.9" x2="615.0" y2="147.9"/>
+      <line x1="15.0" y1="124.0" x2="615.0" y2="124.0"/>
+      <line x1="15.0" y1="100.1" x2="615.0" y2="100.1"/>
+      <line x1="15.0" y1="76.3" x2="615.0" y2="76.3"/>
+      <line x1="15.0" y1="52.4" x2="615.0" y2="52.4"/>
+      <line x1="15.0" y1="28.5" x2="615.0" y2="28.5"/>
+    </g>
+    <g id="sine1-axes" stroke="black" stroke-width="2">
+      <line id="sine1-__line-50" x1="15.0" y1="315.0" x2="615.0" y2="315.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="sine1-__line-51" x1="124.0" y1="318.0" x2="124.0" y2="312.0"/>
+        <line id="sine1-__line-52" x1="506.0" y1="318.0" x2="506.0" y2="312.0"/>
+      </g>
+      <line id="sine1-__line-53" x1="315.0" y1="615.0" x2="315.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="sine1-__line-54" x1="312.0" y1="506.0" x2="318.0" y2="506.0"/>
+        <line id="sine1-__line-55" x1="312.0" y1="124.0" x2="318.0" y2="124.0"/>
+      </g>
+    </g>
+    <g id="sine1-__label-0" transform="translate(124.0,326.0) translate(-7.5,-0.0)">
+      <g id="sine1-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="sine1-MJX-2-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="sine1-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#sine1-MJX-2-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#sine1-MJX-2-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="sine1-__label-1" transform="translate(506.0,326.0) translate(-4.5,-0.0)">
+      <g id="sine1-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="sine1-MJX-3-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#sine1-MJX-3-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="sine1-__label-2" transform="translate(304.0,506.0) translate(-15.1,-6.0)">
+      <g id="sine1-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="sine1-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="sine1-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#sine1-MJX-4-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#sine1-MJX-4-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="sine1-__label-3" transform="translate(304.0,124.0) translate(-9.0,-6.0)">
+      <g id="sine1-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="sine1-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#sine1-MJX-5-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="sine1-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 15.0 506.0 L 21.0 505.9 L 27.0 505.6 L 33.0 505.1 L 39.0 504.5 L 45.0 503.6 L 51.0 502.6 L 57.0 501.4 L 63.0 500.0 L 69.0 498.4 L 75.0 496.6 L 81.0 494.7 L 87.0 492.6 L 93.0 490.3 L 99.0 487.8 L 105.0 485.2 L 111.0 482.4 L 117.0 479.4 L 123.0 476.3 L 129.0 473.0 L 135.0 469.5 L 141.0 465.9 L 147.0 462.2 L 153.0 458.3 L 159.0 454.2 L 165.0 450.0 L 171.0 445.7 L 177.0 441.3 L 183.0 436.7 L 189.0 432.1 L 195.0 427.3 L 201.0 422.4 L 207.0 417.3 L 213.0 412.2 L 219.0 407.0 L 225.0 401.7 L 231.0 396.3 L 237.0 390.8 L 243.0 385.3 L 249.0 379.7 L 255.0 374.0 L 261.0 368.3 L 267.0 362.5 L 273.0 356.7 L 279.0 350.8 L 285.0 344.9 L 291.0 338.9 L 297.0 333.0 L 303.0 327.0 L 309.0 321.0 L 315.0 315.0 L 321.0 309.0 L 327.0 303.0 L 333.0 297.0 L 339.0 291.1 L 345.0 285.1 L 351.0 279.2 L 357.0 273.3 L 363.0 267.5 L 369.0 261.7 L 375.0 256.0 L 381.0 250.3 L 387.0 244.7 L 393.0 239.2 L 399.0 233.7 L 405.0 228.3 L 411.0 223.0 L 417.0 217.8 L 423.0 212.7 L 429.0 207.6 L 435.0 202.7 L 441.0 197.9 L 447.0 193.3 L 453.0 188.7 L 459.0 184.3 L 465.0 180.0 L 471.0 175.8 L 477.0 171.7 L 483.0 167.8 L 489.0 164.1 L 495.0 160.5 L 501.0 157.0 L 507.0 153.7 L 513.0 150.6 L 519.0 147.6 L 525.0 144.8 L 531.0 142.2 L 537.0 139.7 L 543.0 137.4 L 549.0 135.3 L 555.0 133.4 L 561.0 131.6 L 567.0 130.0 L 573.0 128.6 L 579.0 127.4 L 585.0 126.4 L 591.0 125.5 L 597.0 124.9 L 603.0 124.4 L 609.0 124.1 L 615.0 124.0" clip-path="url(#sine1-__clipPath-1)"/>
+</svg>
