@@ -1063,6 +1063,42 @@ var ptx_lunr_docs = [
   "body": " The graph of   The graph of a function, g of x    f(x)=sin(x)         "
 },
 {
+  "id": "activities-14",
+  "level": "1",
+  "url": "activities-14.html",
+  "type": "Worksheet",
+  "number": "3.12",
+  "title": "How Many Calculus Students Does it Take to Change a Light Bulb?",
+  "body": " How Many Calculus Students Does it Take to Change a Light Bulb?    This activity is designed to stretch students modeling ability by having them solve a realistic optimization problem.     There is a chandelier in the atrium of the main hall on the campus of Enormous State University that needs to have its light bulbs changed. To get a ladder into the room, maintenance would have to bring it down a hall and around a corner from the maintenance rooms. If the ladder is too long, it will get stuck going around the corner. shows a diagram of the hallway and corner, and examples of various ladders that might get stuck.   Two Hallways and Possible Ladders   A visual depiction of a corner where two hallways of different widths meet with dashed lines from the far wall of one hallway to the inner corner and on to the far wall of the other hallway.    hallwidth1=2  hallwidth2=3  total_width=12  total_height=12  incorner=(0,0)  outcorner=(-hallwidth1,hallwidth2)  outll=outcorner-(0,total_height)  outur=outcorner+(total_width,0)  inll=(incorner[0],outll[1])  inur=(outur[0],incorner[1])  L=(outll,outcorner)  T=(outcorner,outur)  R=(inll,incorner)  B=(inur,incorner)  h1=1  Ph1=incorner-(hallwidth1,h1)  ladderline1=(Ph1,3*incorner-2*Ph1)  ladderend1=intersect((ladderline1,T))  h2=2  Ph2=incorner-(hallwidth1,h2)  ladderline2=(Ph2,3*incorner-2*Ph2)  ladderend2=intersect((ladderline2,T))                 The narrower hallway is 2~meters wide, and the wider is 5~meters wide. Maintenance has a really tall employee, Henry, who is tall enough to change the bulbs with their 9~meter ladder (if he stretches), but anyone else would need their next size up, which is 10~meters.  The problem is that a bunch of the bulbs just blew out, and they need the bulbs replaced before the Board of Trustees meets tomorrow. Not knowing that he would be needed, maintenance already allowed Henry to put in his hours for the week, so they would have to pay him overtime.  The alternative, unfortunately, is not very attractive, either. Due to construction, there is no direct way to access the lights without taking a ladder outside, going around a couple of other buildings, and so on, to bring the ladder in the main entrance. This would cost even more than bringing in Henry, because they would have to send \\emph{two} employess to carry the ladder that far! (On the other hand, if even the smaller ladder won't fit, they will have to use this option anyway, so they won't add the extra expense of paying Henry overtime!)  Should they give Henry a call?    "
+},
+{
+  "id": "activities-14-2",
+  "level": "2",
+  "url": "activities-14.html#activities-14-2",
+  "type": "Objectives",
+  "number": "3.12",
+  "title": "",
+  "body": "  This activity is designed to stretch students modeling ability by having them solve a realistic optimization problem.   "
+},
+{
+  "id": "fig_ladder01",
+  "level": "2",
+  "url": "activities-14.html#fig_ladder01",
+  "type": "Figure",
+  "number": "41",
+  "title": "",
+  "body": " Two Hallways and Possible Ladders   A visual depiction of a corner where two hallways of different widths meet with dashed lines from the far wall of one hallway to the inner corner and on to the far wall of the other hallway.    hallwidth1=2  hallwidth2=3  total_width=12  total_height=12  incorner=(0,0)  outcorner=(-hallwidth1,hallwidth2)  outll=outcorner-(0,total_height)  outur=outcorner+(total_width,0)  inll=(incorner[0],outll[1])  inur=(outur[0],incorner[1])  L=(outll,outcorner)  T=(outcorner,outur)  R=(inll,incorner)  B=(inur,incorner)  h1=1  Ph1=incorner-(hallwidth1,h1)  ladderline1=(Ph1,3*incorner-2*Ph1)  ladderend1=intersect((ladderline1,T))  h2=2  Ph2=incorner-(hallwidth1,h2)  ladderline2=(Ph2,3*incorner-2*Ph2)  ladderend2=intersect((ladderline2,T))             "
+},
+{
+  "id": "activities-14-4",
+  "level": "2",
+  "url": "activities-14.html#activities-14-4",
+  "type": "Worksheet Exercise",
+  "number": "3.12.1",
+  "title": "",
+  "body": "  The narrower hallway is 2~meters wide, and the wider is 5~meters wide. Maintenance has a really tall employee, Henry, who is tall enough to change the bulbs with their 9~meter ladder (if he stretches), but anyone else would need their next size up, which is 10~meters.  The problem is that a bunch of the bulbs just blew out, and they need the bulbs replaced before the Board of Trustees meets tomorrow. Not knowing that he would be needed, maintenance already allowed Henry to put in his hours for the week, so they would have to pay him overtime.  The alternative, unfortunately, is not very attractive, either. Due to construction, there is no direct way to access the lights without taking a ladder outside, going around a couple of other buildings, and so on, to bring the ladder in the main entrance. This would cost even more than bringing in Henry, because they would have to send \\emph{two} employess to carry the ladder that far! (On the other hand, if even the smaller ladder won't fit, they will have to use this option anyway, so they won't add the extra expense of paying Henry overtime!)  Should they give Henry a call?   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1085,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "41",
+  "number": "42",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1103,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "42",
+  "number": "43",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1112,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "43",
+  "number": "44",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1121,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "44",
+  "number": "45",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1130,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "45",
+  "number": "46",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
