@@ -16,7 +16,9 @@
             </ul>
     </objectives>
 
+    <!--
             <sbsgroup>
+    -->
     <sidebyside>
     <figure xml:id="fig_cosine_one_hump">
             <caption>The graph of <m>y=f(x)</m></caption>
@@ -33,6 +35,7 @@
             </image>
     </figure>
             </sidebyside>
+            <!--
             <sidebyside>
     <figure xml:id="fig_blank_cosine_one">
             <caption>A Blank Grid for Drawing <m>y=f'(x)</m></caption>
@@ -50,6 +53,7 @@
     </figure>
     </sidebyside>
             </sbsgroup>
+            -->
           <exercise>
                   <statement>
             <p>
@@ -95,7 +99,10 @@
             </p>
                   </statement>
           </exercise>
-    <sidebyside>
+          <conclusion>
+                  <p>
+                          More of the functions is shown in <xref ref="fig_cosine_two_humps,fig_sine_two_humps" />. What familiar functions are these, and what appears to be true about their derivatives?
+                  </p>
     <figure xml:id="fig_cosine_two_humps">
             <caption>The graph of <m>y=f(x)</m></caption>
             <image>
@@ -110,5 +117,5 @@
                     <xi:include href="./sin2.xml" />
             </image>
     </figure>
-    </sidebyside>
+          </conclusion>
   </worksheet>

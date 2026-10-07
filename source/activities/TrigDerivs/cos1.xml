@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prefigure xmlns="https://prefigure.org" label="cosine1">
 <diagram dimensions="(600, 600)" margins="15">
+<definition>f(x)=cos(x)</definition>
 <coordinates bbox="(-pi/2,-pi/2,pi/2,pi/2)">
   <grid-axes spacings="((-3,1/8,3),(-3,1/8,3))"/>    
 <graph function="f" />
