@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fuel Efficiency of a Marine Motor</title>
+
+  <objectives>
+          <ul>
+                  <li>
+                        The Learner will investigate how derivatives of functions affect the
+                        derivative of new functions obtained by combining them.
+                  </li>
+          </ul>
+  </objectives>
+  <introduction>
+        <p>
+                The fuel consumption (in gallons per hour) and power output (in horsepower) of
+                some marine (boat) motors are available in their technical specifications as
+                functions of the running speed of the motor (in revolutions per minute).
+        </p>
+        <p>
+                For the boat motor we are looking at, we will call the \emph{fuel Consumption
+function} <m>C</m>, and we will call the <em>Power output fuction</em> <m>P</m>.
+        </p>
+        <p>
+                You work at a marine engine company, and your job today is to determine the <em>Volumetric Fuel Efficiency</em> (<m>VFE</m>) of an engine and determine how the efficiency changes with engine speed.  The Volumetric Fuel Efficiency is the amount of work (in horsepower-hours) that can be done for a specific amount of fuel (so the final units will be horsepower-hours per gallon).
+        </p>
+        <p>
+Here is the information you have:
+                <ul>
+                <li> <m>C(1800)=17.61</m></li>
+                <li> <m>P(1800)=61.09</m></li>
+                <li> <m>C'(1800)=0.01776</m></li>
+                <li> <m>P'(1800)=0.07141</m></li>
+                </ul>
+        </p>
+  </introduction>
+  <exercise workspace="1in">
+          <introduction>
+                  <p>
+                        Here is an outline of your job for this activity:
+                  </p>
+          </introduction>
+        <task>
+                <statement>
+                        <p>
+                                Interpret each of the values listed above in the context of this
+                                task;
+                        </p>
+                </statement>
+        </task>
+        <task>
+                <statement>
+                        <p>
+                                Determine the relationship among <m>C</m>, <m>P</m>, and <m>VFE</m>. 
+                        </p>
+                </statement>
+        </task>
+        <task>
+                <statement>
+                        <p>
+                                Calculate <m>VFE(1800)</m>.
+                        </p>
+                </statement>
+        </task>
+        <task>
+                <statement>
+                        <p>
+                                Estimate <m>VFE'(1800)</m> and interpret the results.
+                        </p>
+                </statement>
+        </task>
+  </exercise>
+</worksheet>

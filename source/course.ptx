@@ -45,6 +45,7 @@
       <xi:include href="./activities/TrigDerivs/Trig.ptx"/>
       <xi:include href="./activities/LadderAndLight/Ladder01.ptx"/>
       <xi:include href="./activities/DerivativesOfProducts/DerivProducts.ptx"/>
+      <xi:include href="./activities/BoatMotor/BoatMotor.ptx"/>
 
     </chapter>
     <!--
