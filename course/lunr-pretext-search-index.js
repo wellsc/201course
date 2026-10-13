@@ -1099,6 +1099,69 @@ var ptx_lunr_docs = [
   "body": "  The narrower hallway is 2 meters wide, and the wider is 5 meters wide. Maintenance has a really tall employee, Henry, who is tall enough to change the bulbs with their 9 meter ladder (if he stretches), but anyone else would need their next size up, which is 10 meters.  The problem is that a bunch of the bulbs just blew out, and they need the bulbs replaced before the Board of Trustees meets tomorrow. Not knowing that he would be needed, maintenance already allowed Henry to put in his hours for the week, so they would have to pay him overtime.  The alternative, unfortunately, is not very attractive, either. Due to construction, there is no direct way to access the lights without taking a ladder outside, going around a couple of other buildings, and so on, to bring the ladder in the main entrance. This would cost even more than bringing in Henry, because they would have to send two employees to carry the ladder that far! (On the other hand, if even the smaller ladder won't fit, they will have to use this option anyway, so they won't add the extra expense of paying Henry overtime!)  Should they give Henry a call?   "
 },
 {
+  "id": "activities-15",
+  "level": "1",
+  "url": "activities-15.html",
+  "type": "Worksheet",
+  "number": "3.13",
+  "title": "Rate of Change for an Area",
+  "body": " Rate of Change for an Area    The learner will investigate the relationship among the derivatives of two functions and the derivative of their product and propose a general method for derivatives of products.      shows a model of a computer window being resized. Our measurements started when the window was wide by high.   A Changing Rectangular Region   A region representing a computer window being resized, made up of four rectangles: A main one of width 13 and height 7, one adjacent to the main one on the right of width 0.3 and height 13, one adjacent to the main one on the top of width 7 and height 0.5, and a small one at the upper right corner of width 0.3 and height 0.5, completing a rectangular area of 13.3 by 7.5.    width=13  height=7  dw=.3  dh=.5       h  \\Delta{}h  w  \\Delta{}w          Assuming that only the width is changing at a rate of , how fast would the total area of the rectangular window be changing?      Assuming that only the height is changing at a rate of , how fast would the total area of the rectangular window be changing?      If both changes are happening simultaneously , that is the height is increasing at and the width is changing at a rate of , how fast would you expect the total area of the rectangular window be changing? (Justify your answer!)     If we build a model assuming the rates of change in each direction are constant, we might have . Without simplifying, we can take the derivative (at time when we start) and get . This suggests a pattern for the derivative of a product of functions.   The Product Rule   For two functions, and , both of which are differentiable at , the derivative of their product at is given by   Expressed as the derivative function of the product, we have     Sketch of Proof  We will use the limit definition of derivative for the function and add a clever form of zero.      "
+},
+{
+  "id": "activities-15-2",
+  "level": "2",
+  "url": "activities-15.html#activities-15-2",
+  "type": "Objectives",
+  "number": "3.13",
+  "title": "",
+  "body": "  The learner will investigate the relationship among the derivatives of two functions and the derivative of their product and propose a general method for derivatives of products.   "
+},
+{
+  "id": "resizing_window",
+  "level": "2",
+  "url": "activities-15.html#resizing_window",
+  "type": "Figure",
+  "number": "42",
+  "title": "",
+  "body": " A Changing Rectangular Region   A region representing a computer window being resized, made up of four rectangles: A main one of width 13 and height 7, one adjacent to the main one on the right of width 0.3 and height 13, one adjacent to the main one on the top of width 7 and height 0.5, and a small one at the upper right corner of width 0.3 and height 0.5, completing a rectangular area of 13.3 by 7.5.    width=13  height=7  dw=.3  dh=.5       h  \\Delta{}h  w  \\Delta{}w      "
+},
+{
+  "id": "activities-15-4",
+  "level": "2",
+  "url": "activities-15.html#activities-15-4",
+  "type": "Worksheet Exercise",
+  "number": "3.13.1",
+  "title": "",
+  "body": "  Assuming that only the width is changing at a rate of , how fast would the total area of the rectangular window be changing?   "
+},
+{
+  "id": "activities-15-5",
+  "level": "2",
+  "url": "activities-15.html#activities-15-5",
+  "type": "Worksheet Exercise",
+  "number": "3.13.2",
+  "title": "",
+  "body": "  Assuming that only the height is changing at a rate of , how fast would the total area of the rectangular window be changing?   "
+},
+{
+  "id": "activities-15-6",
+  "level": "2",
+  "url": "activities-15.html#activities-15-6",
+  "type": "Worksheet Exercise",
+  "number": "3.13.3",
+  "title": "",
+  "body": "  If both changes are happening simultaneously , that is the height is increasing at and the width is changing at a rate of , how fast would you expect the total area of the rectangular window be changing? (Justify your answer!)   "
+},
+{
+  "id": "activities-15-7-2",
+  "level": "2",
+  "url": "activities-15.html#activities-15-7-2",
+  "type": "Theorem",
+  "number": "43",
+  "title": "The Product Rule.",
+  "body": " The Product Rule   For two functions, and , both of which are differentiable at , the derivative of their product at is given by   Expressed as the derivative function of the product, we have     Sketch of Proof  We will use the limit definition of derivative for the function and add a clever form of zero.    "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1121,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "42",
+  "number": "44",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1139,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "43",
+  "number": "45",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1148,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "44",
+  "number": "46",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1157,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "45",
+  "number": "47",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1166,25 +1229,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "46",
+  "number": "48",
   "title": "",
   "body": "  Find the derivative of .     .   "
-},
-{
-  "id": "homework",
-  "level": "1",
-  "url": "homework.html",
-  "type": "Chapter",
-  "number": "5",
-  "title": "Homework",
-  "body": " Homework     "
 },
 {
   "id": "progress_check_1",
   "level": "1",
   "url": "progress_check_1.html",
   "type": "Worksheet",
-  "number": "6.1",
+  "number": "5.1",
   "title": "Progress Check 1",
   "body": " Progress Check 1     An object is moving in such a way that its position (in meters) at time (in seconds) is given by the function .      Set up, but do not evaluate , the limit definition of the derivative that would find the derivative of the function at .           Clearly explain why the limit you set up in Part will find the derivative of at .    Using the two different ways we have defined the derivative, the limit to find , the derivative of at , is   The expressions for any value of other than , and , for any non-zero value of , are the average rate of change between the points and , or between and , respectively, so the closer is to or the closer is to zero, the closer the average rate of change is to being an instantaneous rate of change.       Evaluate the limit you found in Part .     or,       Find an equation for the tangent line to the graph of from Question at the point .    The tangent line goes through the point and has slope . Using the point slope form, an equation for the tangent line is          A company's monthly revenue (money taken in) from car sales, (in thousands of dollars), is a function of monthly advertising spending, (in thousands of dollars). That is, for some function , .     Interpret the following in practical terms, paying close attention to units.     When monthly advertising spending is thousand dollars, monthly revenue is thousand dollars.      What does the company expect is true about the sign of ? Why?    The sign should be positive, because you expect more spending on advertising to bring in more revenue.      What does the statement mean in practical terms?    When monthly advertising spending is thousand dollars, monthly revenue increases by thousand dollars per additional thousand dollars spent on advertising.      What does the statement mean in practical terms?    When monthly advertising spending is thousand dollars, monthly revenue increases by thousand dollars per additional thousand dollars spent on advertising. That is, revenue increases by dollars per additional thousand dollars spent on advertising.      Suppose the company currently spends about $100,000 per month on advertising.     If , should the company spend more or less than $100,000 on advertising?    If , each $1,000 spent brings in an additional $2,000 in revenue, so additional spending makes sense.      If , should the company spend more or less than $100,000 on advertising?    If , each $1,000 spent brings in only an additional $500 in revenue, which means they are spending more on advertising than they bring in, so additional advertising is not advisable. The company should spend less on advertising.          A water tank in the shape of a cone with the point upward with a base radius of ft and a height of ft, as shown in , is filling at a constant rate of . The goal of this problem is to construct a model for the depth of water as a function of time.   A Conical Tank with Base Radius 6 ft and Height 24 ft.    A conical tank, point upward, with base radius 6 ft and height 24 ft.     H=24  R1=6  R2=R1\/3  Ft(x)=sqrt(R2^(2)-(R2*x\/R1)^(2))  Fb(x)=-sqrt(R2^(2)-(R2*x\/R1)^(2))  pFb(t)=(t,-sqrt(R2^(2)-(R2*t\/R1)^(2)))  h=H\/4  r1=6-h\/4  r2=r1\/3  ft(x)=sqrt(r2^(2)-(r2*x\/r1)^(2))+h  pft(t)=(t,sqrt(r2^(2)-(-r2*t\/r1)^(2))+h)  fb(x)=-sqrt(r2^(2)-(r2*x\/r1)^(2))+h              ${H} ft    ${R1} ft          Find the total volume of the tank in cubic feet.    The total height is ft and the radius of the base is ft, so the total volume is given by       Find the volume of water in the tank (in cubic feet) when the tank is filled to a depth of ft and when the tank is filled to a depth of ft.    When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is   When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is       Find a formula for the volume of water in the tank (in cubic feet) when the tank is filled to a depth of ft.    The volume of water is the volume of the whole tank minus the volume of the empty cone (from the surface of the water to the top of the tank).    When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is         On the blank grid in , sketch a graph of the depth of water as a function of time . Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.  You may assume the tank is empty to begin.   A Blank Grid for Sketching the Graph of Depth as a Function of Time   A Blank Grid for Sketching the Graph of Depth as a Function of Time              Depth as a Function of Time    f(x)=24-(13824-x*144\/25\/pi)^(1\/3)             Find an expression for the volume of water in the tank as a function of time, , in minutes. (You may assume the tank is empty to begin.)    The volume of water as a function of time is given by .      Equate the volume in terms of time with the volume in terms of depth and solve for depth. This yields a formula for the depth as a function of time.    Equating volume as a function of time with the volume as a function of depth, we have Solving this for , we have              A water tank in the shape of a horizontal cylinder with a radius of m and a length of m, as shown in , is filling at a constant rate of . The goal of this problem is to approximate instantaneous rate of change numerically when the water is m deep.   A Cylindrical Tank with Radius 3 m and Length 8 m.    A Cylindrical Tank with Radius 3 m and Length 8 m.     R=3  l=8  O=(0,0)  shift_dir=(12\/13,5\/13)  perp_dir=(-5\/13,12\/13)  radial=3*(cos(-pi\/6),sin(-pi\/6))  opposite=3*(-cos(-pi\/6),sin(-pi\/6))            8 m   3 m              Find the total volume of the tank in cubic meters.           Find the volume of water in the tank (in cubic meters) when the tank is filled to a depth of m.           How long will it take for the tank to fill to a depth of m if it starts empty?           How long will it take for the tank to fill completely if it starts empty?           On the blank grid in , sketch a graph of the depth of water as a function of time . Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.  You may assume the tank is empty to begin.   A Blank Grid for Sketching the Graph of Depth as a Function of Time   A Blank Grid for Sketching the Graph of Depth as a Function of Time              Depth as a Function of Time    f(t)=(8*(t-3)*sqrt(9-(t-3)^2)+72*asin((t-3)\/3)+36*pi,t)             The volume of water in the tank, in cubic meters, as a function of depth, , in meters, is given by .     Use the volume function, , to find the volume of water in the tank at a depth of m and at a depth of m.            Use the fill rate to find how long it would take for the tank to fill from a depth of m to a depth of m.    The amount of water changed by , so it would take       Calculate the average rate of change of depth as a function of time between the times when the depth is m when the depth is m.  Be careful! Your result should have units meters per minute!            Repeat the previous problem with depths of and meters.     so the amount of time it takes to fill from to is which means the rate at which the depth is rising is       "
 },
@@ -1193,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "progress_check_1.html#pc1_limit",
   "type": "Worksheet Exercise",
-  "number": "6.1.1",
+  "number": "5.1.1",
   "title": "",
   "body": "  An object is moving in such a way that its position (in meters) at time (in seconds) is given by the function .      Set up, but do not evaluate , the limit definition of the derivative that would find the derivative of the function at .           Clearly explain why the limit you set up in Part will find the derivative of at .    Using the two different ways we have defined the derivative, the limit to find , the derivative of at , is   The expressions for any value of other than , and , for any non-zero value of , are the average rate of change between the points and , or between and , respectively, so the closer is to or the closer is to zero, the closer the average rate of change is to being an instantaneous rate of change.       Evaluate the limit you found in Part .     or,       Find an equation for the tangent line to the graph of from Question at the point .    The tangent line goes through the point and has slope . Using the point slope form, an equation for the tangent line is     "
 },
@@ -1202,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "progress_check_1.html#pc1_interpret",
   "type": "Worksheet Exercise",
-  "number": "6.1.2",
+  "number": "5.1.2",
   "title": "",
   "body": "  A company's monthly revenue (money taken in) from car sales, (in thousands of dollars), is a function of monthly advertising spending, (in thousands of dollars). That is, for some function , .     Interpret the following in practical terms, paying close attention to units.     When monthly advertising spending is thousand dollars, monthly revenue is thousand dollars.      What does the company expect is true about the sign of ? Why?    The sign should be positive, because you expect more spending on advertising to bring in more revenue.      What does the statement mean in practical terms?    When monthly advertising spending is thousand dollars, monthly revenue increases by thousand dollars per additional thousand dollars spent on advertising.      What does the statement mean in practical terms?    When monthly advertising spending is thousand dollars, monthly revenue increases by thousand dollars per additional thousand dollars spent on advertising. That is, revenue increases by dollars per additional thousand dollars spent on advertising.      Suppose the company currently spends about $100,000 per month on advertising.     If , should the company spend more or less than $100,000 on advertising?    If , each $1,000 spent brings in an additional $2,000 in revenue, so additional spending makes sense.      If , should the company spend more or less than $100,000 on advertising?    If , each $1,000 spent brings in only an additional $500 in revenue, which means they are spending more on advertising than they bring in, so additional advertising is not advisable. The company should spend less on advertising.     "
 },
@@ -1211,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "progress_check_1.html#pc1_cone_water_tank",
   "type": "Worksheet Exercise",
-  "number": "6.1.3",
+  "number": "5.1.3",
   "title": "",
   "body": "  A water tank in the shape of a cone with the point upward with a base radius of ft and a height of ft, as shown in , is filling at a constant rate of . The goal of this problem is to construct a model for the depth of water as a function of time.   A Conical Tank with Base Radius 6 ft and Height 24 ft.    A conical tank, point upward, with base radius 6 ft and height 24 ft.     H=24  R1=6  R2=R1\/3  Ft(x)=sqrt(R2^(2)-(R2*x\/R1)^(2))  Fb(x)=-sqrt(R2^(2)-(R2*x\/R1)^(2))  pFb(t)=(t,-sqrt(R2^(2)-(R2*t\/R1)^(2)))  h=H\/4  r1=6-h\/4  r2=r1\/3  ft(x)=sqrt(r2^(2)-(r2*x\/r1)^(2))+h  pft(t)=(t,sqrt(r2^(2)-(-r2*t\/r1)^(2))+h)  fb(x)=-sqrt(r2^(2)-(r2*x\/r1)^(2))+h              ${H} ft    ${R1} ft          Find the total volume of the tank in cubic feet.    The total height is ft and the radius of the base is ft, so the total volume is given by       Find the volume of water in the tank (in cubic feet) when the tank is filled to a depth of ft and when the tank is filled to a depth of ft.    When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is   When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is       Find a formula for the volume of water in the tank (in cubic feet) when the tank is filled to a depth of ft.    The volume of water is the volume of the whole tank minus the volume of the empty cone (from the surface of the water to the top of the tank).    When the tank is filled to a depth of , the empty space above the water is a cone with height , and the radius of its base is in the same proportion to the radius of the whole tank as is to the full height of the tank. That is, so, So the empty volume is and so, the volume of water is         On the blank grid in , sketch a graph of the depth of water as a function of time . Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.  You may assume the tank is empty to begin.   A Blank Grid for Sketching the Graph of Depth as a Function of Time   A Blank Grid for Sketching the Graph of Depth as a Function of Time              Depth as a Function of Time    f(x)=24-(13824-x*144\/25\/pi)^(1\/3)             Find an expression for the volume of water in the tank as a function of time, , in minutes. (You may assume the tank is empty to begin.)    The volume of water as a function of time is given by .      Equate the volume in terms of time with the volume in terms of depth and solve for depth. This yields a formula for the depth as a function of time.    Equating volume as a function of time with the volume as a function of depth, we have Solving this for , we have         "
 },
@@ -1220,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "progress_check_1.html#pc1_cylinder_water_tank",
   "type": "Worksheet Exercise",
-  "number": "6.1.4",
+  "number": "5.1.4",
   "title": "",
   "body": "  A water tank in the shape of a horizontal cylinder with a radius of m and a length of m, as shown in , is filling at a constant rate of . The goal of this problem is to approximate instantaneous rate of change numerically when the water is m deep.   A Cylindrical Tank with Radius 3 m and Length 8 m.    A Cylindrical Tank with Radius 3 m and Length 8 m.     R=3  l=8  O=(0,0)  shift_dir=(12\/13,5\/13)  perp_dir=(-5\/13,12\/13)  radial=3*(cos(-pi\/6),sin(-pi\/6))  opposite=3*(-cos(-pi\/6),sin(-pi\/6))            8 m   3 m              Find the total volume of the tank in cubic meters.           Find the volume of water in the tank (in cubic meters) when the tank is filled to a depth of m.           How long will it take for the tank to fill to a depth of m if it starts empty?           How long will it take for the tank to fill completely if it starts empty?           On the blank grid in , sketch a graph of the depth of water as a function of time . Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.  You may assume the tank is empty to begin.   A Blank Grid for Sketching the Graph of Depth as a Function of Time   A Blank Grid for Sketching the Graph of Depth as a Function of Time              Depth as a Function of Time    f(t)=(8*(t-3)*sqrt(9-(t-3)^2)+72*asin((t-3)\/3)+36*pi,t)             The volume of water in the tank, in cubic meters, as a function of depth, , in meters, is given by .     Use the volume function, , to find the volume of water in the tank at a depth of m and at a depth of m.            Use the fill rate to find how long it would take for the tank to fill from a depth of m to a depth of m.    The amount of water changed by , so it would take       Calculate the average rate of change of depth as a function of time between the times when the depth is m when the depth is m.  Be careful! Your result should have units meters per minute!            Repeat the previous problem with depths of and meters.     so the amount of time it takes to fill from to is which means the rate at which the depth is rising is     "
 }
