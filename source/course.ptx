@@ -44,6 +44,7 @@
       <xi:include href="./activities/GraphFirstSecondDeriv/GraphFirstSecondDeriv.ptx"/>
       <xi:include href="./activities/TrigDerivs/Trig.ptx"/>
       <xi:include href="./activities/LadderAndLight/Ladder01.ptx"/>
+      <xi:include href="./activities/DerivativesOfProducts/DerivProducts.ptx"/>
 
     </chapter>
     <!--
@@ -70,14 +71,6 @@
       <xi:include href="./handouts/PowersOfX/PowersOfX.ptx"/>
     </chapter>
 
-    <chapter xml:id="homework">
-      <title>Homework</title>
-      <p></p>
-
-      <!-- Include homework files -->
-      <!--<xi:include href="./homework/homework01.ptx"/>-->
-
-    </chapter>
     <chapter xml:id="progress_checks">
             <title>Progress Checks</title>
             <xi:include href="./progress_checks/progress_check01.ptx" />
