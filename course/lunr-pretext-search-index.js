@@ -1162,6 +1162,33 @@ var ptx_lunr_docs = [
   "body": " The Product Rule   For two functions, and , both of which are differentiable at , the derivative of their product at is given by   Expressed as the derivative function of the product, we have     Sketch of Proof  We will use the limit definition of derivative for the function and add a clever form of zero.    "
 },
 {
+  "id": "activities-16",
+  "level": "1",
+  "url": "activities-16.html",
+  "type": "Worksheet",
+  "number": "3.14",
+  "title": "Fuel Efficiency of a Marine Motor",
+  "body": " Fuel Efficiency of a Marine Motor    The Learner will investigate how derivatives of functions affect the derivative of new functions obtained by combining them.     The fuel consumption (in gallons per hour) and power output (in horsepower) of some marine (boat) motors are available in their technical specifications as functions of the running speed of the motor (in revolutions per minute).  For the boat motor we are looking at, we will call the \\emph{fuel Consumption function} , and we will call the Power output fuction  .  You work at a marine engine company, and your job today is to determine the Volumetric Fuel Efficiency ( ) of an engine and determine how the efficiency changes with engine speed. The Volumetric Fuel Efficiency is the amount of work (in horsepower-hours) that can be done for a specific amount of fuel (so the final units will be horsepower-hours per gallon).  Here is the information you have:               Here is an outline of your job for this activity:     Interpret each of the values listed above in the context of this task;      Determine the relationship among , , and .      Calculate .      Estimate and interpret the results.     "
+},
+{
+  "id": "activities-16-2",
+  "level": "2",
+  "url": "activities-16.html#activities-16-2",
+  "type": "Objectives",
+  "number": "3.14",
+  "title": "",
+  "body": "  The Learner will investigate how derivatives of functions affect the derivative of new functions obtained by combining them.   "
+},
+{
+  "id": "activities-16-4",
+  "level": "2",
+  "url": "activities-16.html#activities-16-4",
+  "type": "Worksheet Exercise",
+  "number": "3.14.1",
+  "title": "",
+  "body": "  Here is an outline of your job for this activity:     Interpret each of the values listed above in the context of this task;      Determine the relationship among , , and .      Calculate .      Estimate and interpret the results.    "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
