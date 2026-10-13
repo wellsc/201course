@@ -24,14 +24,14 @@
   <exercise workspace="1in">
     <statement>
       <p>
-                      Assuming that <em>only</em> the width is changing at a rate of <m>+3\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
+                      Assuming that <em>only</em> the width is changing at a rate of <m>+0.3\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
       </p>
     </statement>
   </exercise>
   <exercise workspace="1in">
     <statement>
       <p>
-                      Assuming that <em>only</em> the height is changing at a rate of <m>+5\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
+                      Assuming that <em>only</em> the height is changing at a rate of <m>+0.5\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
       </p>
     </statement>
   </exercise>
