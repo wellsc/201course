@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rate of Change for an Area</title>
+
+  <objectives>
+          <ul>
+                  <li>The learner will investigate the relationship among the derivatives of two functions and the derivative of their product and propose a general method for derivatives of products.</li>
+          </ul>
+  </objectives>
+  <introduction>
+    <p>
+            <xref ref="resizing_window" text="type-local" /> shows a model of a computer window being resized. Our measurements started when the window was <m>13\text{cm}</m> wide by <m>7\text{cm}</m> high.
+    </p>
+    <figure xml:id="resizing_window" >
+            <caption>A Changing Rectangular Region</caption>
+            <image width="50%">
+                    <description><p>A region representing a computer window being resized, made up of four rectangles: A main one of width 13 and height 7, one adjacent to the main one on the right of width 0.3 and height 13, one adjacent to the main one on the top of width 7 and height 0.5, and a small one at the upper right corner of width 0.3 and height 0.5, completing a rectangular area of 13.3 by 7.5.</p></description>
+                    <xi:include href="./window.xml" />
+            </image>
+    </figure>
+  </introduction>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      Assuming that <em>only</em> the width is changing at a rate of <m>+3\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      Assuming that <em>only</em> the height is changing at a rate of <m>+5\text{cm}/\text{s}</m>, how fast would the total area of the rectangular window be changing?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+                      If both changes are happening <em>simultaneously</em>, that is the height is increasing at <m>5\text{cm}/\text{s}</m> and the width is changing at a rate of <m>+3\text{cm}/\text{s}</m>, how fast would you expect the total area of the rectangular window be changing? (Justify your answer!)
+      </p>
+    </statement>
+  </exercise>
+  <conclusion>
+          <p>
+                          If we build a model assuming the rates of change in each direction are constant, we might have <m>A(t)=(13+0.3t)(7+0.5t)=13\cdot7+13\cdot 0.5t+0.3t\cdot 7+0.3t\cdot0.5t</m>. Without simplifying, we can take the derivative (at time <m>t=0</m> when we start) and get <m>A'(0)=13\cdot{}0.5+7\cdot{}0.3</m>. This suggests a pattern for the derivative of a product of functions.
+          </p>
+                          <theorem>
+                                  <title>The Product Rule</title>
+                                  <statement>
+                                          <p>
+                                          For two functions, <m>f(x)</m> and <m>g(x)</m>, both of which are differentiable at <m>x=a</m>, the derivative of their product at <m>x=a</m> is given by
+                                          <md>
+                                                  <mrow>\left(f\cdot{}g\right)^{'}(a)&amp;=f'(a)g(a)+f(a)g'(a).</mrow>
+                                          </md>
+                                          </p>
+                                          <p>
+                                                  Expressed as the derivative function of the product, we have
+                                          <md>
+                                                  <mrow>\left(f\cdot{}g\right)^{'}(x)&amp;=f'(x)g(x)+f(x)g'(x).</mrow>
+                                          </md>
+                                          </p>
+                                  </statement>
+                                  <proof>
+                                          <title>Sketch of Proof</title>
+                                          <p>
+                                                  We will use the limit definition of derivative for the function <m>f(x)g(x)</m> and add a clever form of zero.
+                                                  <md>
+                                                          <mrow>
+                                                                  \left(f\cdot{}g\right)'(x)
+                                                                          &amp;=
+                                                                  \lim_{h\to{}0}\frac{f(x+h)g(x+h)-f(x)g(x)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \lim_{h\to{}0}\frac{f(x+h)g(x+h)-f(x)g(x+h)+f(x)g(x+h)-f(x)g(x)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \lim_{h\to{}0}\frac{f(x+h)g(x+h)-f(x)g(x+h)}{h}+\frac{f(x)g(x+h)-f(x)g(x)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \lim_{h\to{}0}\frac{f(x+h)-f(x)}{h}g(x+h)+f(x)\frac{g(x+h)-g(x)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \lim_{h\to{}0}\frac{f(x+h)-f(x)}{h}g(x+h)+\lim_{h\to{}0}f(x)\frac{g(x+h)-g(x)}{h}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  f'(x)g(x)+f(x)g'(x).
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </proof>
+                          </theorem>
+  </conclusion>
+</worksheet>

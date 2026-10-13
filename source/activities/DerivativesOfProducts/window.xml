@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="product_window">
+        <diagram dimensions="(650,350)" margins="15">
+          <definition>width=13</definition>
+          <definition>height=7</definition>
+          <definition>dw=.3</definition>
+          <definition>dh=.5</definition>
+  
+          <coordinates bbox="(-0.1,-0.1,width+dw+0.1,height+dh+0.1)">
+            <rectangle lower-left="(0,0)" dimensions="(width,height)" fill="black" opacity="0.3" />    
+            <rectangle lower-left="(width,0)" dimensions="(dw,height)" fill="black" opacity="0.2" />
+            <rectangle lower-left="(0,height)" dimensions="(width,dh)" fill="black" opacity="0.2" />
+            <rectangle lower-left="(width,height)" dimensions="(dw,dh)" stroke="black" thickness="1" dash="2 2" />
+  
+            <line endpoints="((0,0),(0,height))" thickness="0"><m>h</m></line>
+            <line endpoints="((0,height),(0,height+dh))" thickness="0"><m>\Delta{}h</m></line>
+            <line endpoints="((0,0),(width,0))" thickness="0" alignment="s" ><m>w</m></line>
+            <line endpoints="((width,0),(width+dw,0))" thickness="0" alignment="s" ><m>\Delta{}w</m></line>
+          </coordinates>
+        </diagram>
+</prefigure>
