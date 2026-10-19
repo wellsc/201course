@@ -70,11 +70,12 @@
       <title>Handouts</title>
       <xi:include href="./handouts/ProblemSolving.ptx"/>
       <xi:include href="./handouts/PowersOfX/PowersOfX.ptx"/>
+      <xi:include href="./handouts/Shortcuts/Shortcuts.ptx"/>
     </chapter>
 
     <chapter xml:id="progress_checks">
             <title>Progress Checks</title>
-            <xi:include href="./progress_checks/progress_check01.ptx" />
+            <xi:include href="./progress_checks/ProgressCheck01/progress_check01.ptx" />
     </chapter>
 
     </book>

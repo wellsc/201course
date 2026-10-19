@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="deriv_shortcuts">
+<title>Derivative Shortcuts</title>
+<subsection xml:id="deriv_basic">
+        <title>Basic Functions</title>
+    <p>
+            <dl>
+                    <li>
+                            <title>Constant Functions</title>
+                            <p>For any constant, <m>c</m>, <md><mrow>\text{if }f(x)&amp;=c,&amp;\text{ then }f'(x)&amp;=0</mrow></md></p>
+                    </li>
+                    <li>
+                            <title>Power Functions</title>
+                            <p>For any constant, <m>r\neq{}0</m>, 
+                            <md>
+                                    <mrow>
+                                            \text{if }f(x)&amp;=x^{r},&amp;\text{ then }f'(x)&amp;=r x^{r-1}
+                                    </mrow>
+                            </md>
+                            </p>
+                    </li>
+                    <li>
+                            <title>Sine</title>
+                            <p>
+                                    <md>
+                                            <mrow>
+                                                            \text{If }f(x)&amp;=\sin(x),&amp;\text{ then }f'(x)&amp;=\cos(x)
+                                            </mrow>
+                                    </md>
+                            </p>
+                    </li>
+                    <li>
+                            <title>Cosine</title>
+                            <p>
+                                    <md>
+                                            <mrow>
+                                                            \text{If }f(x)&amp;=\cos(x),&amp;\text{ then }f'(x)&amp;=-\sin(x)
+                                            </mrow>
+                                    </md>
+                            </p>
+                    </li>
+                    <li>
+                            <title>Natural Exponential</title>
+                            <p>
+                                    <md>
+                                            <mrow>
+                                                    \text{If }f(x)&amp;=\nexp{x},&amp;\text{ then }f'(x)&amp;=\nexp{x}
+                                            </mrow>
+                                    </md>
+                            </p>
+                    </li>
+            </dl>
+    </p>
+</subsection>
+<subsection xml:id="deriv_combinations">
+        <title>Combinations of Functions</title>
+        <p>
+                <dl>
+                        <li>
+                                <title>Constant Multiple</title>
+                                <p>For any constant <m>c</m> and any differentiable function <m>f(x)</m>,
+                                <md>
+                                        <mrow>
+                                                        \text{if }g(x)&amp;=c\cdot{}f(x),&amp;\text{ then }g'(x)&amp;=c\cdot{}f'(x)
+                                        </mrow>
+                                </md>
+                        </p>
+                        </li>
+                        <li>
+                                <title>Sums</title>
+                                <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>, 
+                                <md>
+                                        <mrow>
+                                                        \text{if }g(x)&amp;=f_{1}(x)+f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)+f_{2}'(x)
+                                        </mrow>
+                                </md></p>
+                        </li>
+                        <li>
+                                <title>Products</title>
+                                <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>,
+                                <md>
+                                        <mrow>
+                                                \text{if }g(x)&amp;=f_{1}(x)\cdot{}f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)\cdot{}f_{2}(x)+f_{1}(x)\cdot{}f_{2}'(x)
+                                        </mrow>
+                                </md>
+                                </p>
+                        </li>
+                        <li>
+                                <title>Quotients</title>
+                                <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>, for any <m>x</m> where <m>g(x)\neq{}0</m>,
+                                <md>
+                                        <mrow>
+                                                        \text{if }g(x)&amp;=\frac{f_{1}(x)}{f_{2}(x)}&amp;\text{ then }g'(x)&amp;=\frac{f_{1}'(x)\cdot{}f_{2}(x)-f_{1}(x)\cdot{}f_{2}'(x)}{\left({f_{2}(x)}\right)^{2}}
+                                        </mrow>
+                                </md></p>
+                        </li>
+                        <li>
+                                <title>Compositions</title>
+                                <p>For any differentiable functions <m>f_{o}(x)</m> and <m>f_{i}(x)</m>,
+                                <md>
+                                        <mrow>
+                                                \text{if }g(x)&amp;=f_{o}\big(f_{i}(x)\big),&amp;\text{ then }g'(x)&amp;=f_{o}\big(f_{i}(x)\big)\cdot{}f_{i}'(x)
+                                        </mrow>
+                                </md>
+                                </p>
+                        </li>
+                </dl>
+        </p>
+</subsection>
+</section>

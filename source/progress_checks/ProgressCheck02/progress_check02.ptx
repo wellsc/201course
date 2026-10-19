@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet margin="0.5in" bottom="0.75in" xml:id="progress_check_1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Progress Check 2</title>
+  <page>
+          <exercise workspace="0.5in" xml:id="pc2_speeding">
+                  <title>Interpreting Derivatives and Linear Approximation</title>
+                        <introduction>
+                                <p>
+                                        In this problem, you will investigate how speed (in miles per
+                                        hour) and the total time for a ten mile trip are related.
+                                </p>
+                                <p>
+                                        The total time (in seconds) for a trip of <m> 10 </m> <nbsp/> miles at a constant speed of <m> v\text{mph} </m> (where <m> v\gt{0} </m>) is given by
+                                        <md>
+                                                <mrow>
+                                                        T(v)
+                                                        &amp;=
+                                                        \frac{10\text{mi}}{v\text{mph}}\cdot\frac{3600\text{s}}{1\text{hr}}
+                                                </mrow>
+                                                <mrow>
+                                                        &amp;=
+                                                        \frac{36,000}{v}
+                                                </mrow>
+                                                <mrow>
+                                                        &amp;=
+                                                        36,000{v}^{-1}.
+                                                </mrow>
+                                        </md>
+                                </p>
+                        </introduction>
+                        <task workspace="0.5in">
+                          <statement>
+                                  <p>
+                                          Calculate and interpret (including units) <m>T(60)</m>.
+                                  </p>
+                          </statement>
+                          <solution>
+                                  <p>
+                                          <m>T(60)=36000/60=600</m>, which means that at <m>60</m>mph, the trip would take <m>600</m> seconds, or ten minutes.
+                                  </p>
+                          </solution>
+                        </task>
+                        <task workspace="0.5in" >
+                          <statement>
+                                  <p>
+                                                  Based on the physical context, would you expect <m>T'(v)</m> to be positive or negative? Explain.
+                                  </p>
+                          </statement>
+                          <solution>
+                                  <p>
+                                                  Since total time goes down as speed goes up, we should have <m>T'(v)\lt{}0</m>.
+                                  </p>
+                          </solution>
+                        </task>
+                        <task>
+                                <statement>
+                                        <p>
+                                                Calculate <m>T'(v)</m>. (You may use either the limit definition of derivative or a shortcut that we have learned.)
+                                        </p>
+                                </statement>
+                                <solution>
+                                        <p>
+                                                Using the pattern/shortcut for powers of <m>x</m>, we know that <m>\frac{\mathrm{d}}{\mathrm{d}x}x^{-1}=-1\cdot{}x^{-2}</m>, so <m>T'(v)=-36000v^{-2}</m>.
+                                        </p>
+                                        <p>
+                                                Using the limit definition, we have
+                                                <md>
+                                                        <mrow>
+                                                                T'(v)
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{T(u)-T(v)}{u-v}
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{1}{u-v}\left(\frac{36000}{u}-\frac{36000}{v}\right)
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{1}{u-v}\left(\frac{36000v}{uv}-\frac{36000u}{uv}\right)
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{1}{u-v}\left(\frac{36000v-36000u}{uv}\right)
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{36000}{u-v}\left(\frac{v-u}{uv}\right)
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \lim_{u\to v}\frac{-36000}{uv}
+                                                        </mrow>
+                                                        <mrow>
+                                                                &amp;=
+                                                                \frac{-36000}{v^{2}}
+                                                        </mrow>
+                                                </md>
+                                        </p>
+                                </solution>
+                        </task>
+          <task>
+                  <statement>
+                          <p>
+                                          Calculate and interpret (including units) <m>T'(60)</m>.
+                          </p>
+                  </statement>
+                  <solution>
+                          <p>
+                                  <m>T'(60)=36000/(60^{2})=36000/3600=10\text{s}/\text{mph}</m>, which says that at <m>60</m> miles per hour, increasing speed reduces the total trip time by <m>10</m> seconds per mile-per-hour.
+                          </p>
+                  </solution>
+          </task>
+                        <task>
+                                <task>
+                                        <statement>
+                                                <p>
+                                                                Find an equation for the linear approximation of <m>T</m> at <m>v=60</m>. Call this function <m>L_{T}(v)</m>.
+                                                </p>
+                                        </statement>
+                                </task>
+                                <task>
+                                        <statement>
+                                                <p>
+                                                                Use your linear approximation to approximate <m>T(65)</m>.
+                                                </p>
+                                        </statement>
+                                </task>
+                        </task>
+                        <task workspace="0.5in">
+                                <task>
+                                <statement>
+                                        <p>
+                                                Calculate and interpret (including units) <m>T(65)</m>.
+                                        </p>
+                                </statement>
+                                <solution>
+                                        <p>
+                                                <m>T(65)=36000/65=\frac{7200}{13}\approx 553.8461538</m>, which means that at <m>65</m>mph, the trip would take about <m>554</m> seconds, or nine and one quarter minutes.
+                                        </p>
+                                </solution>
+                                </task>
+                                <task>
+                                        <statement>
+                                                <p>
+                                                                How does the actual value of <m>T(65)</m> compare with the value from the linear approximation? What is the magnitude of the error, and is the linear approximation an over- or under-estimate?
+                                                </p>
+                                        </statement>
+                                </task>
+                        </task>
+                        <task workspace="0.5in">
+                                <statement>
+                                        <p>
+                                                        Compare the value of the linear approximation at <m>61</m>, <m>L_{T}(61)</m>, with the value of <m>T(61)</m>. What is the magnitude of the error, and is the linear approximation an over- or under-estimate? How does this compare to the error at <m>v=65</m>?
+                                        </p>
+                                </statement>
+                        </task>
+          <task>
+                  <statement>
+                          <p>
+                                          Calculate and interpret (including units) <m>T'(75)</m>.
+                          </p>
+                  </statement>
+                  <solution>
+                          <p>
+                                  <m>T'(75)=36000/(75^{2})=36000/5625=6.4\text{s}/\text{mph}</m>, which says that at <m>75</m> miles per hour, increasing speed reduces the total trip time by <m>6.4</m> seconds per mile-per-hour.
+                          </p>
+                  </solution>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                          Would you expect <m>T''(v)</m> to be positive or negative? Explain.
+                          </p>
+                  </statement>
+                  <solution>
+                          <p>
+                                          Because <m>T'(v)\lt{}0</m> and because fewer seconds are saved at higher speed, <m>T'(v)</m> is <em>increasing</em> from more negative to less negative, and thus, <m>T''(v)\gt{}0</m>.
+                          </p>
+                  </solution>
+          </task>
+          </exercise>
+  </page>
+  <page>
+          <exercise workspace="0.5in">
+                  <title>Modeling and Optimization</title>
+                  <introduction>
+                          <p>
+                                  A trough is made from a <m>5\text{ft}\times{}20\text{ft}</m> sheet of metal by folding two <m>1\text{ft}\times{}20\text{ft}</m> sections up at an angle <m>\theta</m> and attaching trapezoidal caps at the ends. A cross-section is shown in <xref ref="pc2_prefig_trough" text="type-local" />.
+                          </p>
+                          <figure xml:id="pc2_prefig_trough">
+                                  <caption>Cross-Section of a Trough</caption>
+                                  <image width="50%" >
+                                          <description><p>A cross-section of a trough in the shape of a trapezoid (open on top) with the top wider than the bottom. The base at the bottom of the trapezoid is 3 ft wide, and on each end a 1 ft section is bent upward, making an angle theta with the ground.</p></description>
+                                          <xi:include href="./trough.xml" />
+                                  </image>
+                          </figure>
+                  </introduction>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Express the total cross-sectional area, <m>A(\theta)</m>, and then the total volume of the trough, <m>V(\theta)</m>, in terms of trigonometric functions of <m>\theta</m>.
+                                  </p>
+                          </statement>
+                          <hint>
+                                  <p>
+                                          Draw a vertical line through each of the corners on the base to divide the cross-section into a rectangle and two right triangles.
+                                          </p>
+                                          <p>
+                                          The total volume will be cross-sectional area times <m>20\text{ft}</m>. 
+                                  </p>
+                          </hint>
+                          <solution>
+                                  <p>
+                                                  Let <m>h</m> be the vertical height and <m>w</m> be the width of each triangular part of the cross-section. Then the area of the rectangular region will be <m>3h</m> and each triangular region will have area <m>\frac{1}{2}wh</m>, so the total cross-sectional area will be <m>3h+wh</m>.
+                                  </p>
+                                  <p>
+                                          In terms of sine and cosine, we have <m>\sin(\theta)=\frac{h}{1}</m> and <m>\cos(\theta)=\frac{w}{1}</m>, or equivalently <m>h=\sin(\theta)</m> and <m>w=\cos(\theta)</m>. Thus, the cross-sectional area is
+                                          <md>A(\theta)=3\sin(\theta)+\sin(\theta)\cos(\theta)</md>
+                                          which makes the volume
+                                          <md>V(\theta)=60\sin(\theta)+20\sin(\theta)\cos(\theta).</md>
+                                  </p>
+                          </solution>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Calculate <m>V'(\theta)</m>.
+                                  </p>
+                          </statement>
+                          <answer>
+                                  <p>
+                                          <m>V'(\theta)=60\cos(\theta)+20\left(\sin(\theta)\cdot{}-\sin(\theta)+\cos(\theta)\cos(\theta)\right)=60\cos(\theta)-20\sin^{2}(\theta)+20\cos^{2}(\theta)</m>.
+                                  </p>
+                          </answer>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Find the angle <m>\theta</m> that maximizes the volume of the trough.
+                                  </p>
+                          </statement>
+                          <hint>
+                                  <p>
+                                          What will be true about the derivative at the point where the volume is highest?
+                                  </p>
+                                  <p>
+                                                  You will need to use the identity <m>\cos^{2}(\theta)+\sin^{2}(\theta)=1</m> and solve a quadratic equation for <m>\cos(\theta)</m>.
+                                  </p>
+                          </hint>
+                          <solution>
+                                  <p>
+                                          Using the Pythagorean identity for sine and cosine, we have <m>\sin^{2}(\theta)=1-\cos^{2}(\theta)</m>, so our derivative becomes
+                                          <md>
+                                                  <mrow>
+                                                          V'(\theta)
+                                                                  &amp;=60\cos(\theta)-20\sin^{2}(\theta)+20\cos^{2}(\theta)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=60\cos(\theta)-20\left(1-\cos^{2}(\theta)\right)+20\cos^{2}(\theta)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=60\cos(\theta)-20+20\cos^{2}(\theta)+20\cos^{2}(\theta)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=60\cos(\theta)-20+40\cos^{2}(\theta).
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                                  <p>
+                                                  If there is a maximum, then either <m>V'(\theta)</m> will be undefined at that point or <m>V'(\theta)=0</m>. Since sine and cosine are defined for all real <m>\theta</m>, we need to solve <m>V'(\theta)=0</m>, or
+                                                  <md>
+                                                                  40\cos^{2}(\theta)+60\cos(\theta)-20=0.
+                                                  </md>
+                                                  If we let <m>x=\cos(\theta)</m>, this becomes <m>40x^{2}+60x-20=0</m>.
+                                                  This has solutions
+                                                  <md>
+                                                          <mrow>
+                                                                  x&amp;=\frac{-3+\sqrt{17}}{4}
+                                                                  &amp;
+                                                                  x&amp;=\frac{-3-\sqrt{17}}{4}.
+                                                          </mrow>
+                                                  </md>
+                                                  Since we know <m>0\le \theta \le \pi/2</m>, we know that <m>x=\cos(\theta)\ge 0</m>, so <m>\cos(\theta)=x=\frac{-3+\sqrt{17}}{4}</m>, giving us <m>\theta=\arccos\left(\frac{-3+\sqrt{17}}{4}\right)</m>. This yields the volume
+                                                  <md>
+                                                          <mrow>
+                                                                  V\left(\arccos\left(\frac{-3+\sqrt{17}}{4}\right)\right)
+                                                                          &amp;
+                                                                  =20 \left(\frac{-3+\sqrt{17}}{4}\right) \sqrt{1 -\left(\frac{-3+\sqrt{17}}{4}\right)^{2}} + 60  \sqrt{1 -\left(\frac{-3+\sqrt{17}}{4}\right)^{2}}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;\approx 62.9760258855007\text{ft}^{3}.
+                                                          </mrow>
+                                                  </md>
+                                  </p>
+                          </solution>
+
+                  </task>
+          </exercise>
+  </page>
+  <page>
+          <exercise workspace="3in">
+                  <statement>
+                          <p>
+                                  <xref ref="pc2_fig_graph_and_der" text="type-local" /> shows the graphs <m>y=f(x)</m> (solid) and <m>y=g(x)</m> (dashed), one of which is the derivative of the other.
+                          </p>
+                          <p>
+                                  Determine which graph is the derivative and justify your answer in terms of the relationships between a function and its derivative.
+                          </p>
+                          <figure xml:id="pc2_fig_graph_and_der">
+                                  <caption>The graphs of <m>f(x)</m> and <m>g(x)</m>.</caption>
+                                  <image width="50%" >
+                                          <description>
+                                                  <p>
+                                                          The graphs of two functions, f and g, one of which is the derivative of the other. The graph of f is solid and the graph of g is dashed.
+                                                  </p>
+                                          </description>
+                                          <xi:include href="./pc2_graph_and_deriv.ptx"/>
+                                  </image>
+                          </figure>
+                  </statement>
+          </exercise>
+  </page>
+  <page>
+          <exercise workspace="0.5in">
+                  <title>Computation and Patterns</title>
+                  <introduction>
+                          <p>
+                                  In this problem, you will calculate several derivatives (using shortcuts) and look for patterns in the derivatives.
+                          </p>
+                  </introduction>
+                  <task>
+                          <title>Squares of Functions</title>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Calculate the derivative of <m>x^{6}</m> in two ways: first by using the pattern for derivatives of <m>x^{r}</m> directly, and then using the fact that <m>x^{6}=\left(x^{3}\right)\left(x^{3}\right)</m>.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Calculate the derivative of <m>\nexp{2x}=\left(\nexp{x}\right)^{2}</m> using the fact that <m>\nexp{2x}=\nexp{x}\cdot{}\nexp{x}</m>.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Calculate the derivative of <m>\cos^{2}(x)</m> using the fact that <m>\cos^{2}(x)=\cos(x)\cdot{}\cos(x)</m>.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Let <m>f(x)</m> be a differentiable function (with derivative <m>f'(x)</m>) and calculate the derivative of <m>\left(f(x)\right)^{2}=f(x)\cdot{}f(x)</m>.
+                                          </p>
+                                          <p>
+                                                  Compare this result to your previous calculations.
+                                          </p>
+                                  </statement>
+                          </task>
+                  </task>
+                  <task>
+                          <title>Cubes of Functions</title>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Calculate the derivative of <m>\nexp{3x}=\left(\nexp{x}\right)^{3}</m> using your previous work and the fact that <m>\nexp{3x}=\nexp{2x}\cdot{}\nexp{x}</m>.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Calculate the derivative of <m>\cos^{3}(x)</m> using your previous work and the fact that <m>\cos^{3}(x)=\cos^{2}(x)\cdot{}\cos(x)</m>.
+                                          </p>
+                                  </statement>
+                          </task>
+                          <task>
+                                  <statement>
+                                          <p>
+                                                          Let <m>f(x)</m> be a differentiable function (with derivative <m>f'(x)</m>) and calculate the derivative of <m>\left(f(x)\right)^{3}=\left(f(x)\right)^{2}\cdot{}f(x)</m>.
+                                          </p>
+                                          <p>
+                                                  Compare this result to your previous calculations.
+                                          </p>
+                                  </statement>
+                          </task>
+                  </task>
+          </exercise>
+  </page>
+</worksheet>

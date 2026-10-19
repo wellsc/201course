@@ -49,5 +49,79 @@ Henry overtime!)
 Should they give Henry a call?
       </p>
     </statement>
+    <solution>
+            <p>
+                    There are several ways to model the problem based on choice of decision variable. I will outline several below. In all of these, I will treat the top of the image in <xref ref="fig_ladder01" text="type-local" /> as <q>north</q> and imagine a tape measure stretched from a point on the west wall to the north wall touching the inner corner.
+            </p>
+            <p>
+                            Let our decision variable be the horizontal distance from the inner corner to the point where the tape measure touches the north wall, and call it <m>x</m>. The domain would be <m>x\gt 0</m>.
+            </p>
+            <p>
+                    We will deal with the length of the tape measure in two sections, one from the inner corner to the north wall, which we will call <m>\ell_{1}</m>, and one from the west wall to the inner corner, which will be <m>\ell_{2}</m>. From the Pythagorean theorem, we have 
+                    <md>
+                            <mrow>
+                                    \ell_{1}&amp;=\sqrt{x^{2}+5^{2}}
+                            </mrow>
+                            <mrow>
+                                            &amp;=\sqrt{x^{2}+25}
+                            </mrow>
+                    </md>
+                    and using similar triangles, <m>\frac{x}{2}=\frac{\ell_{1}}{\ell_{2}}</m>, so 
+                    <md>
+                            <mrow>
+                                    \ell_{2}&amp;=\frac{2\ell_{1}}{x}
+                            </mrow>
+                            <mrow>
+                                            &amp;=\frac{2\sqrt{x^{2}+25}}{x}
+                            </mrow>
+                    </md>
+                    making our total length
+                    <md>
+                            <mrow>
+                                    \ell(x)&amp;=\ell_{1}+\ell_{2}
+                            </mrow>
+                            <mrow>
+                                    &amp;=\sqrt{x^{2}+25}+\frac{2\sqrt{x^{2}+25}}{x}
+                            </mrow>
+                            <mrow>
+                                            &amp;=\left(1+\frac{2}{x}\right)\sqrt{x^{2}+25}
+                            </mrow>
+                            <mrow>
+                                            &amp;=\left(\frac{x+2}{x}\right)\sqrt{x^{2}+25}
+                            </mrow>
+                    </md>
+                            Another way to get the same function is to use different similar triangles and notice that <m>\frac{\ell_{1}}{x}=\frac{\ell}{x+2}</m>.
+            </p>
+            <p>
+                    Similarly, if we use the vertical distance from the inner corner to the point where the tape measure touches the west wall, call it <m>y</m>, with <m>y\gt 0</m>, we obtain
+                    <md>
+                            <mrow>
+                                    \ell(y)&amp;=\sqrt{y^{2}+4}+\frac{5\sqrt{y^{2}+4}}{y}
+                            </mrow>
+                            <mrow>
+                                            &amp;=\left(1+\frac{5}{y}\right)\sqrt{y^{2}+4}
+                            </mrow>
+                    </md>
+            </p>
+            <p>
+                    Another solution is to use an angle as the decision variable. Let <m>\theta</m> be the angle made by the tape measure and a horizontal line through the point where the tape measure touches the west wall, with domain <m>0\lt \theta \lt \pi/2</m>. Then using <m>\ell_{1}</m> and <m>\ell_{2}</m> as above, we have 
+                    <md>
+                            <mrow>
+                                    \sin(\theta)&amp;=\frac{5}{\ell_{1}}
+                                    &amp;
+                                    \cos(\theta)&amp;=\frac{2}{\ell_{2}}
+                            </mrow>
+                    </md>
+                    so
+                    <md>
+                            <mrow>
+                                    \ell(\theta)&amp;=\frac{5}{\sin(\theta)}+\frac{2}{\cos(\theta)}.
+                            </mrow>
+                    </md>
+            </p>
+            <p>
+                    Although we do not yet have all the tools to manually calculate the derivatives of these functions, 
+            </p>
+    </solution>
   </exercise>
 </worksheet>

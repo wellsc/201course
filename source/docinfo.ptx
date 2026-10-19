@@ -16,6 +16,7 @@
     \newcommand{\Q}{\mathbb Q}
     \newcommand{\R}{\mathbb R}
           \newcommand{\php}{\phantom{+}}
+          \newcommand{\nexp}[1]{\mathrm{e}^{#1}}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
