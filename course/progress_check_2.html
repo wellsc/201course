@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Progress Check 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-1 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Calculus">
+<meta property="og:title" content="Calculus">
+<meta property="book:title" content="Calculus">
+<meta name="twitter:description" content="MATH 201 Fall 2026">
+<meta property="og:description" content="MATH 201 Fall 2026">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.55"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.55"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.4beca1fdeed766a2.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.ebd33f6a21eed414.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.9963089870a016c8.css">
+<script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Calculus</span> <span class="subtitle">MATH 201 Fall 2026</span></a></div>
+<p class="byline">Clark Wells</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="progress_check_1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="progress_checks.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\di}[1]{{\mathrm{d}}{#1}}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\php}{\phantom{+}}
+\newcommand{\nexp}[1]{\mathrm{e}^{#1}}
+      \newcommand{\abs}[1]{\left\lvert{}{#1}\right\rvert{}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="codenumber">1</span> <span class="title">Course Syllabus</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="tldr.html" class="internal"><span class="codenumber">1.1</span> <span class="title">TL;DR</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="info.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Instructor and Course Information</span></a></div>
+<ul id="ptx-toc-group-info" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="prereqs.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Prerequisites</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="meeting-times.html" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Meeting Times</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="contact.html" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Contact Information</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="withdrawal.html" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Withdrawal Date, Safety, and Accommodation</span></a></div>
+<ul id="ptx-toc-group-withdrawal" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="withdrawal.html#withdrawal-date" class="internal"><span class="codenumber">1.2.4.1</span> <span class="title">Withdrawal Date</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="withdrawal.html#accessibility_and_accommodation" class="internal"><span class="codenumber">1.2.4.2</span> <span class="title">Accessibility, and Accommodation</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="withdrawal.html#safety-information" class="internal"><span class="codenumber">1.2.4.3</span> <span class="title">Classroom and Campus Safety</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="overallIntro.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Introduction and Teaching Philosophy</span></a></div>
+<ul id="ptx-toc-group-overallIntro" class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="intro_201.html" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Introduction to Math 201</span></a></div>
+<ul id="ptx-toc-group-intro_201" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="intro_201.html#intro_201-2" class="internal"><span class="codenumber">1.3.1.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="intro_201.html#course_description" class="internal"><span class="codenumber">1.3.1.2</span> <span class="title">Course Description</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="philosophy.html" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Teaching Philosophy</span></a></div>
+<ul id="ptx-toc-group-philosophy" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="philosophy.html#learning_is_fun" class="internal"><span class="codenumber">1.3.2.1</span> <span class="title">Learning is fun!</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="philosophy.html#math_is_fun" class="internal"><span class="codenumber">1.3.2.2</span> <span class="title">Math is fun!</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="objectives_and_content.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Objectives and Content</span></a></div>
+<ul id="ptx-toc-group-objectives_and_content" class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="coursecontent.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Content</span></a></div>
+<ul id="ptx-toc-group-coursecontent" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="coursecontent.html#course_intro" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Course Description</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="coursecontent.html#topics" class="internal"><span class="codenumber">1.4.1.2</span> <span class="title">Topics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="coursecontent.html#additional_content" class="internal"><span class="codenumber">1.4.1.3</span> <span class="title">Additional Content</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="objectives.html" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Objectives</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="materials.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Materials and Resources</span></a></div>
+<ul id="ptx-toc-group-materials" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="materials.html#texts" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Primary Reference</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="materials.html#readings" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Additional Materials</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="important_dates.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Important Dates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="codenumber">2</span> <span class="title">Course Documents</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="assessment.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Assessment</span></a></div>
+<ul id="ptx-toc-group-assessment" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="assess_intro.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Introduction to Ungrading</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="portfolio.html" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Portfolio and Reader’s Guide</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="portfolio_contents_required.html" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Required Elements of the Portfolio</span></a></div>
+<ul id="ptx-toc-group-portfolio_contents_required" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_required.html#self_eval" class="internal"><span class="codenumber">2.1.3.1</span> <span class="title">Reader’s Guide and Progress Report</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_required.html#port_progress_checks" class="internal"><span class="codenumber">2.1.3.2</span> <span class="title">Progress Checks</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_required.html#project_catalog_of_examples" class="internal"><span class="codenumber">2.1.3.3</span> <span class="title">Catalog of Detailed Examples</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_required.html#portfolio_activities" class="internal"><span class="codenumber">2.1.3.4</span> <span class="title">Overviews of Activities, Techniques, and Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_required.html#sources" class="internal"><span class="codenumber">2.1.3.5</span> <span class="title">Citation of Sources</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="portfolio_contents_optional.html" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Optional Elements of the Portfolio</span></a></div>
+<ul id="ptx-toc-group-portfolio_contents_optional" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_optional.html#investigations" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Details of Activities and Investigations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_optional.html#experimentation" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">Experiments and Explorations</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_optional.html#summaries" class="internal"><span class="codenumber">2.1.4.3</span> <span class="title">Summaries of Outside Reading</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="portfolio_contents_optional.html#other" class="internal"><span class="codenumber">2.1.4.4</span> <span class="title">Other Items</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="professionalism.html" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Professionalism</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="culmination.html" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Culminating Experience</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="policies.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Course Policies and Expectations</span></a></div>
+<ul id="ptx-toc-group-policies" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="policies-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="genrative_ai.html" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Use of Generative AI</span></a></div>
+<ul id="ptx-toc-group-genrative_ai" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="genrative_ai.html#ai_awareness" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Awareness</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="genrative_ai.html#ai_transparency" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Transparency</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="genrative_ai.html#ai_accountability" class="internal"><span class="codenumber">2.2.1.3</span> <span class="title">Accountability</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="timedwork.html" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Initial Drafts of Work in Timed Settings</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="untimed.html" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Submitting Un-Timed Work for Feedback</span></a></div>
+<ul id="ptx-toc-group-untimed" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="untimed.html#feedback_format" class="internal"><span class="codenumber">2.2.3.1</span> <span class="title">Format of Submissions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="untimed.html#FERPA_and_email" class="internal"><span class="codenumber">2.2.3.2</span> <span class="title">FERPA and Email</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="timemanagement.html" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Time Management</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="gettingmore.html" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Getting More from Class</span></a></div>
+<ul id="ptx-toc-group-gettingmore" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#go_to_student_hours" class="internal"><span class="codenumber">2.2.5.1</span> <span class="title">Attend Student Hours</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#form_study_groups" class="internal"><span class="codenumber">2.2.5.2</span> <span class="title">Form a Study Group</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#attendance" class="internal"><span class="codenumber">2.2.5.3</span> <span class="title">Make Attendance a Priority</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#preparation" class="internal"><span class="codenumber">2.2.5.4</span> <span class="title">Come to Class Prepared</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#participation" class="internal"><span class="codenumber">2.2.5.5</span> <span class="title">Participate in Class</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="gettingmore.html#additional_resources" class="internal"><span class="codenumber">2.2.5.6</span> <span class="title">Make Full Use of Additional Learning Resources</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="integrity.html" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Academic Integrity</span></a></div>
+<ul id="ptx-toc-group-integrity" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="integrity.html#integrity_of_grades" class="internal"><span class="codenumber">2.2.6.1</span> <span class="title">Integrity of Scholarship and Grades</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="integrity.html#plagiarism" class="internal"><span class="codenumber">2.2.6.2</span> <span class="title">Plagiarism</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="technology.html" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Communication and Technology Use</span></a></div>
+<ul id="ptx-toc-group-technology" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#online_requirements" class="internal"><span class="codenumber">2.2.7.1</span> <span class="title">Technology Requirements for Online/Hybrid Courses</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#blackboard" class="internal"><span class="codenumber">2.2.7.2</span> <span class="title">BlackBoard</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#email" class="internal"><span class="codenumber">2.2.7.3</span> <span class="title">E-mail</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#webwork" class="internal"><span class="codenumber">2.2.7.4</span> <span class="title">WeBWorK</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#demos" class="internal"><span class="codenumber">2.2.7.5</span> <span class="title">Computer Algebra Systems</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#mathematical-typesetting" class="internal"><span class="codenumber">2.2.7.6</span> <span class="title">Mathematical Typesetting</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="technology.html#recording_of_classes" class="internal"><span class="codenumber">2.2.7.7</span> <span class="title">Recording of Classes</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="activities.html" class="internal"><span class="codenumber">3</span> <span class="title">In-Class Activities</span></a></div>
+<ul id="ptx-toc-group-activities" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activities-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="functions_and_modeling.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Functions and Modeling</span></a></div>
+<ul id="ptx-toc-group-functions_and_modeling" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_intro.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Objective</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ill_posed_prob.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Activity</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="understanding_limits.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Understanding Limits</span></a></div>
+<ul id="ptx-toc-group-understanding_limits" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="Introduction.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="understanding_limits-3.html" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Activity</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act_depth_of_water.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Rate of Change of Depth</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act_inst_roc_depth_of_water.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Instantaneous Rate of Change of Depth</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="act_interp_deriv.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Interpretations of the Derivative</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-8.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Sketching the Derivative Function</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-9.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Derivative Patterns 1: Powers of <span class="process-math">\(x\)</span></span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="natural_exp_activity.html" class="internal"><span class="codenumber">3.8</span> <span class="title">What’s Natural about the Natural Exponential?</span></a></div>
+<ul id="ptx-toc-group-natural_exp_activity" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="natural_exp_activity-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="natural_exp_activity-3.html" class="internal"><span class="codenumber">3.8.1</span> <span class="title">A Function that is its Own Derivative</span></a></div>
+<ul id="ptx-toc-group-natural_exp_activity-3" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="natural_exp_activity-3.html#natural_exp_activity-3-3" class="internal"><span class="codenumber">3.8.1.1</span> <span class="title">Preliminary Ideas</span></a></div></li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="natural_exp_activity-3.html#ssec-poly" class="internal"><span class="codenumber">3.8.1.2</span> <span class="title">An “Infinite” Polynomial</span></a></div>
+<ul id="ptx-toc-group-ssec-poly" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="natural_exp_activity-3.html#ssec-poly-6" class="internal"><span class="codenumber">3.8.1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="natural_exp_activity-3.html#natural_exp_activity-3-5" class="internal"><span class="codenumber">3.8.1.3</span> <span class="title">Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="natural_exp_activity-3.html#natural_exp_activity-3-6" class="internal"><span class="codenumber">3.8.1.4</span> <span class="title">A Power Series that Acts Like an Exponential</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="natural_exp_activity-4.html" class="internal"><span class="codenumber">3.8.2</span> <span class="title">Synthesis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="activity-origami_box.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Modeling and Optimizing an Origami <em class="emphasis">Masu</em> Box</span></a></div>
+<ul id="ptx-toc-group-activity-origami_box" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activity-origami_box-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-procedure.html" class="internal"><span class="codenumber">3.9.1</span> <span class="title">Procedure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="activity-origami_box-4.html" class="internal"><span class="codenumber">3.9.2</span> <span class="title">Analysis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity_identify_der_graphs.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Identifying Graphs of Derivatives</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="wksht_sine_cosine.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Patterns and Properties (Graphs of Derivatives)</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-14.html" class="internal"><span class="codenumber">3.12</span> <span class="title">How Many Calculus Students Does it Take to Change a Light Bulb?</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-15.html" class="internal"><span class="codenumber">3.13</span> <span class="title">Rate of Change for an Area</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-16.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Fuel Efficiency of a Marine Motor</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="handouts.html" class="internal"><span class="codenumber">4</span> <span class="title">Handouts</span></a></div>
+<ul id="ptx-toc-group-handouts" class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="handouts-2.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Problem Solving</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="handouts-3.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Simple Patterns in Derivatives</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="deriv_shortcuts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Derivative Shortcuts</span></a></div>
+<ul id="ptx-toc-group-deriv_shortcuts" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="deriv_basic.html" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Basic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="deriv_combinations.html" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Combinations of Functions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="deriv_shortcuts-4.html" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Justifications</span></a></div>
+<ul id="ptx-toc-group-deriv_shortcuts-4" class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-2" class="internal"><span class="codenumber">4.3.3.1</span> <span class="title">Products</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-3" class="internal"><span class="codenumber">4.3.3.2</span> <span class="title">Quotients</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="deriv_shortcuts-5.html" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Consequences</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="progress_checks.html" class="internal"><span class="codenumber">5</span> <span class="title">Progress Checks</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-progress_checks">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="progress_check_1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Progress Check 1</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="progress_check_2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Progress Check 2</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<button type="button" id="ptx-print-options-button" class="ptx-print-options-button button" title="Printing options"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Printing options</span></button><dialog class="ptx-dialog ptx-print-options-popup" id="ptx-print-options-popup"><div class="ptx-print-options-popup-controls">
+<h2 class="heading">Printing options</h2>
+<button type="button" class="ptx-print-options-close-button button" id="ptx-print-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-print-options-group">
+<div class="print-option-row papersize-select" id="papersize-select" role="radiogroup" aria-labelledby="ptx-print-papersize-label">
+<span class="print-option-label" id="ptx-print-papersize-label"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe873;</span><span>Paper size</span></span><span class="papersize-choices"><label><input type="radio" name="papersize" value="a4"><span>A4</span></label><label><input type="radio" name="papersize" value="letter"><span>Letter</span></label></span>
+</div>
+<div class="print-option-row">
+<label for="ptx-print-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Font size</span></label><select id="ptx-print-font-size"><option value="10">10 pt</option>
+<option value="" selected>11 pt (standard)</option>
+<option value="12">12 pt</option>
+<option value="14">14 pt</option>
+<option value="16">16 pt</option>
+<option value="18">18 pt</option>
+<option value="20">20 pt</option></select>
+</div>
+<div class="print-option-row">
+<label for="ptx-print-line-spacing"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line spacing</span></label><select id="ptx-print-line-spacing"><option value="1.15">1.15</option>
+<option value="" selected>1.35 (standard)</option>
+<option value="1.5">1.5</option>
+<option value="1.75">1.75</option>
+<option value="2">2</option>
+<option value="2.5">2.5</option></select>
+</div>
+<div class="print-option-row">
+<label for="ptx-print-letter-spacing"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf773;</span><span>Letter spacing</span></label><select id="ptx-print-letter-spacing"><option value="" selected>Standard</option>
+<option value="wide">Wide</option>
+<option value="wider">Wider</option>
+<option value="widest">Widest</option></select>
+</div>
+<div class="print-option-row">
+<label for="ptx-print-font"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe167;</span><span>Font</span></label><select id="ptx-print-font"><option value="" selected>Serif (standard)</option>
+<option value="sans-serif">Sans serif</option>
+<option value="hyperlegible">Atkinson Hyperlegible</option>
+<option value="lexend">Lexend</option>
+<option value="andika">Andika</option></select>
+</div>
+</div>
+<div class="ptx-print-options-group hide-solutions-options">
+<div class="hide-option"><label for="hide-hint-checkbox"><input type="checkbox" id="hide-hint-checkbox"><span>Hide hints</span></label></div>
+<div class="hide-option"><label for="hide-answer-checkbox"><input type="checkbox" id="hide-answer-checkbox"><span>Hide answers</span></label></div>
+<div class="hide-option"><label for="hide-solution-checkbox"><input type="checkbox" id="hide-solution-checkbox"><span>Hide solutions</span></label></div>
+</div>
+<div class="ptx-print-options-group header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label><input type="checkbox" id="print-first-page-header-checkbox" checked><span>First page</span></label><label><input type="checkbox" id="print-running-header-checkbox" checked><span>Running</span></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label><input type="checkbox" id="print-first-page-footer-checkbox" checked><span>First page</span></label><label><input type="checkbox" id="print-running-footer-checkbox" checked><span>Running</span></label>
+</div>
+</div>
+<div class="ptx-print-options-group highlight-workspace-option"><label for="highlight-workspace-checkbox"><input type="checkbox" id="highlight-workspace-checkbox"><span>Highlight workspace</span></label></div>
+<div class="ptx-print-options-group"><button type="button" class="ptx-print-options-reset-button button" id="ptx-print-options-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog><button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="progress_check_2" data-margins="0.5in 0.5in 0.75in 0.5in">
+<h1 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Progress Check 2</span><div class="print-links"><a href="?printpreview=progress_check_2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h1>
+<section class="onepage" id="progress_check_2-2">
+<article class="exercise exercise-like" id="pc2_speeding"><h2 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Interpreting Derivatives and Linear Approximation.</span>
+</h2>
+<div class="introduction" id="pc2_speeding-2">
+<div class="para" id="pc2_speeding-2-1">In this problem, you will investigate how speed (in miles per hour) and the total time for a ten mile trip are related.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="pc2_speeding-2-2">
+<div class="para">The total time (in seconds) for a trip of <span class="process-math">\(10 \)</span>   miles at a constant speed of <span class="process-math">\(v\text{mph} \)</span> (where <span class="process-math">\(v\gt{0} \)</span>) is given by</div>
+<div class="displaymath process-math" id="pc2_speeding-2-2-5">
+\begin{align*}
+T(v)
+&amp;=
+\frac{10\text{mi}}{v\text{mph}}\cdot\frac{3600\text{s}}{1\text{hr}}\\
+&amp;=
+\frac{36,000}{v}\\
+&amp;=
+36,000{v}^{-1}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="pc2_speeding-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="pc2_speeding-3-1-1">Calculate and interpret (including units) <span class="process-math">\(T(60)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-3-2-1">
+<span class="process-math">\(T(60)=36000/60=600\text{,}\)</span> which means that at <span class="process-math">\(60\)</span>mph, the trip would take <span class="process-math">\(600\)</span> seconds, or ten minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.a.1"><a tabindex="-1" href="#pc2_speeding-3-2" title="Copy heading and permalink for Solution 5.2.1.a.1" aria-label="Copy heading and permalink for Solution 5.2.1.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.a"><a tabindex="-1" href="#pc2_speeding-3" title="Copy heading and permalink for Task 5.2.1.a" aria-label="Copy heading and permalink for Task 5.2.1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="pc2_speeding-4-1-1">Based on the physical context, would you expect <span class="process-math">\(T'(v)\)</span> to be positive or negative? Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-4-2-1">Since total time goes down as speed goes up, we should have <span class="process-math">\(T'(v)\lt{}0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.b.1"><a tabindex="-1" href="#pc2_speeding-4-2" title="Copy heading and permalink for Solution 5.2.1.b.1" aria-label="Copy heading and permalink for Solution 5.2.1.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.b"><a tabindex="-1" href="#pc2_speeding-4" title="Copy heading and permalink for Task 5.2.1.b" aria-label="Copy heading and permalink for Task 5.2.1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="pc2_speeding-5-1-1">Calculate <span class="process-math">\(T'(v)\text{.}\)</span> (You may use either the limit definition of derivative or a shortcut that we have learned.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-5-2-1">Using the pattern/shortcut for powers of <span class="process-math">\(x\text{,}\)</span> we know that <span class="process-math">\(\frac{\mathrm{d}}{\mathrm{d}x}x^{-1}=-1\cdot{}x^{-2}\text{,}\)</span> so <span class="process-math">\(T'(v)=-36000v^{-2}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="pc2_speeding-5-2-2">
+<div class="para">Using the limit definition, we have</div>
+<div class="displaymath process-math" id="pc2_speeding-5-2-2-1">
+\begin{align*}
+T'(v)
+&amp;=
+\lim_{u\to v}\frac{T(u)-T(v)}{u-v}\\
+&amp;=
+\lim_{u\to v}\frac{1}{u-v}\left(\frac{36000}{u}-\frac{36000}{v}\right)\\
+&amp;=
+\lim_{u\to v}\frac{1}{u-v}\left(\frac{36000v}{uv}-\frac{36000u}{uv}\right)\\
+&amp;=
+\lim_{u\to v}\frac{1}{u-v}\left(\frac{36000v-36000u}{uv}\right)\\
+&amp;=
+\lim_{u\to v}\frac{36000}{u-v}\left(\frac{v-u}{uv}\right)\\
+&amp;=
+\lim_{u\to v}\frac{-36000}{uv}\\
+&amp;=
+\frac{-36000}{v^{2}}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.c.1"><a tabindex="-1" href="#pc2_speeding-5-2" title="Copy heading and permalink for Solution 5.2.1.c.1" aria-label="Copy heading and permalink for Solution 5.2.1.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.c"><a tabindex="-1" href="#pc2_speeding-5" title="Copy heading and permalink for Task 5.2.1.c" aria-label="Copy heading and permalink for Task 5.2.1.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
+<div class="para" id="pc2_speeding-6-1-1">Calculate and interpret (including units) <span class="process-math">\(T'(60)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-6-2-1">
+<span class="process-math">\(T'(60)=-36000/(60^{2})=-36000/3600=-10\text{s}/\text{mph}\text{,}\)</span> which says that at <span class="process-math">\(60\)</span> miles per hour, increasing speed reduces the total trip time by <span class="process-math">\(10\)</span> seconds per mile-per-hour.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.d.1"><a tabindex="-1" href="#pc2_speeding-6-2" title="Copy heading and permalink for Solution 5.2.1.d.1" aria-label="Copy heading and permalink for Solution 5.2.1.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.d"><a tabindex="-1" href="#pc2_speeding-6" title="Copy heading and permalink for Task 5.2.1.d" aria-label="Copy heading and permalink for Task 5.2.1.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-7"><h3 class="heading"><span class="codenumber">(e)</span></h3>
+<article class="task exercise-like" id="pc2_speeding-7-1"><h4 class="heading"><span class="codenumber">(i)</span></h4>
+<div class="para" id="pc2_speeding-7-1-1-1">Find an equation for the linear approximation of <span class="process-math">\(T\)</span> at <span class="process-math">\(v=60\text{.}\)</span> Call this function <span class="process-math">\(L_{T}(v)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-7-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="pc2_speeding-7-1-2-1">
+<div class="para">The formula for a linear approximation at a point <span class="process-math">\(a\)</span> is <span class="process-math">\(l(x)=f'(a)(x-a)+f(a)\text{,}\)</span> so we have</div>
+<div class="displaymath process-math" id="pc2_speeding-7-1-2-1-3">
+\begin{align*}
+L_{t}(v)
+&amp;=
+T'(60)(v-60)+T(60)\\
+&amp;=
+-10(v-60)+600.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.e.i.1"><a tabindex="-1" href="#pc2_speeding-7-1-2" title="Copy heading and permalink for Solution 5.2.1.e.i.1" aria-label="Copy heading and permalink for Solution 5.2.1.e.i.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.e.i"><a tabindex="-1" href="#pc2_speeding-7-1" title="Copy heading and permalink for Task 5.2.1.e.i" aria-label="Copy heading and permalink for Task 5.2.1.e.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-7-2"><h4 class="heading"><span class="codenumber">(ii)</span></h4>
+<div class="para" id="pc2_speeding-7-2-1-1">Use your linear approximation to approximate <span class="process-math">\(T(65)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-7-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="pc2_speeding-7-2-2-1">
+<div class="para">We have</div>
+<div class="displaymath process-math" id="pc2_speeding-7-2-2-1-1">
+\begin{align*}
+T(65)
+&amp;\approx
+L_{T}(65)\\
+&amp;
+-10(65-60)+600.\\
+&amp;
+550.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-7-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.e.ii.1"><a tabindex="-1" href="#pc2_speeding-7-2-2" title="Copy heading and permalink for Solution 5.2.1.e.ii.1" aria-label="Copy heading and permalink for Solution 5.2.1.e.ii.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.e.ii"><a tabindex="-1" href="#pc2_speeding-7-2" title="Copy heading and permalink for Task 5.2.1.e.ii" aria-label="Copy heading and permalink for Task 5.2.1.e.ii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.e"><a tabindex="-1" href="#pc2_speeding-7" title="Copy heading and permalink for Task 5.2.1.e" aria-label="Copy heading and permalink for Task 5.2.1.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-8"><h3 class="heading"><span class="codenumber">(f)</span></h3>
+<article class="task exercise-like" id="pc2_speeding-8-1"><h4 class="heading"><span class="codenumber">(i)</span></h4>
+<div class="para" id="pc2_speeding-8-1-1-1">Calculate and interpret (including units) <span class="process-math">\(T(65)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-8-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-8-1-2-1">
+<span class="process-math">\(T(65)=36000/65=\frac{7200}{13}\approx 553.8461538\text{,}\)</span> which means that at <span class="process-math">\(65\)</span>mph, the trip would take about <span class="process-math">\(554\)</span> seconds, or nine and one quarter minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-8-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.f.i.1"><a tabindex="-1" href="#pc2_speeding-8-1-2" title="Copy heading and permalink for Solution 5.2.1.f.i.1" aria-label="Copy heading and permalink for Solution 5.2.1.f.i.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.f.i"><a tabindex="-1" href="#pc2_speeding-8-1" title="Copy heading and permalink for Task 5.2.1.f.i" aria-label="Copy heading and permalink for Task 5.2.1.f.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-8-2"><h4 class="heading"><span class="codenumber">(ii)</span></h4>
+<div class="para" id="pc2_speeding-8-2-1-1">How does the actual value of <span class="process-math">\(T(65)\)</span> compare with the value from the linear approximation? What is the magnitude of the error, and is the linear approximation an over- or under-estimate?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-8-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-8-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-8-2-2-1">We know that <span class="process-math">\(T(65)=\frac{7200}{13}=553\,\frac{11}{13}\)</span> and <span class="process-math">\(L_{T}(65)=550\text{,}\)</span> so the (absolute) error is <span class="process-math">\(\abs{T(65)-L_{T}(65)}=3\frac{11}{13}\text{,}\)</span> and <span class="process-math">\(L_{T}(v)\)</span> underestimates <span class="process-math">\(T(v)\)</span> at <span class="process-math">\(v=65\text{.}\)</span> The <em class="emphasis">relative error</em> is <span class="process-math">\(\abs{\frac{L_{T}(65)-T(65)}{65-60}}\approx 0.769230769230769\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-8-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.f.ii.1"><a tabindex="-1" href="#pc2_speeding-8-2-2" title="Copy heading and permalink for Solution 5.2.1.f.ii.1" aria-label="Copy heading and permalink for Solution 5.2.1.f.ii.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.f.ii"><a tabindex="-1" href="#pc2_speeding-8-2" title="Copy heading and permalink for Task 5.2.1.f.ii" aria-label="Copy heading and permalink for Task 5.2.1.f.ii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.f"><a tabindex="-1" href="#pc2_speeding-8" title="Copy heading and permalink for Task 5.2.1.f" aria-label="Copy heading and permalink for Task 5.2.1.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-9"><h3 class="heading"><span class="codenumber">(g)</span></h3>
+<div class="para" id="pc2_speeding-9-1-1">Compare the value of the linear approximation at <span class="process-math">\(61\text{,}\)</span> <span class="process-math">\(L_{T}(61)\text{,}\)</span> with the value of <span class="process-math">\(T(61)\text{.}\)</span> What is the magnitude of the error, and is the linear approximation an over- or under-estimate? How does this compare to the error at <span class="process-math">\(v=65\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-9-2-1">We have <span class="process-math">\(T(61)=\frac{36000}{61}\approx 590.16393442623\)</span> and <span class="process-math">\(L_{T}(61)=-10(61-60)+600=590\text{.}\)</span> Here the error is <span class="process-math">\(L_{T}(61)-T(61)\approx -0.1639344\text{,}\)</span> and <span class="process-math">\(L_{T}(v)\)</span> underestimates <span class="process-math">\(T(v)\)</span> at <span class="process-math">\(v=61\text{.}\)</span> The relative error is <span class="process-math">\(\abs{\frac{L_{T}(61)-T(61)}{61-60}}\approx 0.163934426229508\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.g.1"><a tabindex="-1" href="#pc2_speeding-9-2" title="Copy heading and permalink for Solution 5.2.1.g.1" aria-label="Copy heading and permalink for Solution 5.2.1.g.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.g"><a tabindex="-1" href="#pc2_speeding-9" title="Copy heading and permalink for Task 5.2.1.g" aria-label="Copy heading and permalink for Task 5.2.1.g">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-10"><h3 class="heading"><span class="codenumber">(h)</span></h3>
+<div class="para" id="pc2_speeding-10-1-1">Calculate and interpret (including units) <span class="process-math">\(T'(75)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-10-2-1">
+<span class="process-math">\(T'(75)=36000/(75^{2})=36000/5625=6.4\text{s}/\text{mph}\text{,}\)</span> which says that at <span class="process-math">\(75\)</span> miles per hour, increasing speed reduces the total trip time by <span class="process-math">\(6.4\)</span> seconds per mile-per-hour.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.h.1"><a tabindex="-1" href="#pc2_speeding-10-2" title="Copy heading and permalink for Solution 5.2.1.h.1" aria-label="Copy heading and permalink for Solution 5.2.1.h.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.h"><a tabindex="-1" href="#pc2_speeding-10" title="Copy heading and permalink for Task 5.2.1.h" aria-label="Copy heading and permalink for Task 5.2.1.h">🔗</a></div>
+</article>
+<article class="task exercise-like" id="pc2_speeding-11"><h3 class="heading"><span class="codenumber">(i)</span></h3>
+<div class="para" id="pc2_speeding-11-1-1">Would you expect <span class="process-math">\(T''(v)\)</span> to be positive or negative? Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="pc2_speeding-11-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="pc2_speeding-11-2-1">Because <span class="process-math">\(T'(v)\lt{}0\)</span> and because fewer seconds are saved at higher speed, <span class="process-math">\(T'(v)\)</span> is <em class="emphasis">increasing</em> from more negative to less negative, and thus, <span class="process-math">\(T''(v)\gt{}0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_speeding-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.1.i.1"><a tabindex="-1" href="#pc2_speeding-11-2" title="Copy heading and permalink for Solution 5.2.1.i.1" aria-label="Copy heading and permalink for Solution 5.2.1.i.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.i"><a tabindex="-1" href="#pc2_speeding-11" title="Copy heading and permalink for Task 5.2.1.i" aria-label="Copy heading and permalink for Task 5.2.1.i">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5.2.1: Interpreting Derivatives and Linear Approximation"><a tabindex="-1" href="#pc2_speeding" title="Copy heading and permalink for Worksheet Exercise 5.2.1: Interpreting Derivatives and Linear Approximation" aria-label="Copy heading and permalink for Worksheet Exercise 5.2.1: Interpreting Derivatives and Linear Approximation">🔗</a></div>
+</article></section><section class="onepage" id="progress_check_2-3">
+<article class="exercise exercise-like" id="progress_check_2-3-1"><h2 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Modeling and Optimization.</span>
+</h2>
+<div class="introduction" id="progress_check_2-3-1-2">
+<div class="para" id="progress_check_2-3-1-2-1">A trough is made from a <span class="process-math">\(5\text{ft}\times{}20\text{ft}\)</span> sheet of metal by folding two <span class="process-math">\(1\text{ft}\times{}20\text{ft}\)</span> sections up at an angle <span class="process-math">\(\theta\)</span> and attaching trapezoidal caps at the ends. A cross-section is shown in <a href="progress_check_2.html#pc2_prefig_trough" class="xref" data-knowl="./knowl/xref/pc2_prefig_trough.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 55">Figure 55</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="pc2_prefig_trough"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+<img src="generated/prefigure/pc2_trough.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="pc2_prefig_trough-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="pc2_prefig_trough-2-description">
+<div class="para" id="pc2_prefig_trough-2-1-1">A cross-section of a trough in the shape of a trapezoid (open on top) with the top wider than the bottom. The base at the bottom of the trapezoid is 3 ft wide, and on each end a 1 ft section is bent upward, making an angle theta with the ground.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_prefig_trough-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">55<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Cross-Section of a Trough<div class="autopermalink" aria-hidden="true" data-description="Figure 55"><a tabindex="-1" href="#pc2_prefig_trough" title="Copy heading and permalink for Figure 55" aria-label="Copy heading and permalink for Figure 55">🔗</a></div></figcaption>
+</figure>
+</div>
+<article class="task exercise-like" id="progress_check_2-3-1-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="progress_check_2-3-1-3-1-1">Express the total cross-sectional area, <span class="process-math">\(A(\theta)\text{,}\)</span> and then the total volume of the trough, <span class="process-math">\(V(\theta)\text{,}\)</span> in terms of trigonometric functions of <span class="process-math">\(\theta\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-3-1-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="progress_check_2-3-1-3-2-1">Draw a vertical line through each of the corners on the base to divide the cross-section into a rectangle and two right triangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="progress_check_2-3-1-3-2-2">The total volume will be cross-sectional area times <span class="process-math">\(20\text{ft}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.2.a.1"><a tabindex="-1" href="#progress_check_2-3-1-3-2" title="Copy heading and permalink for Hint 5.2.2.a.1" aria-label="Copy heading and permalink for Hint 5.2.2.a.1">🔗</a></div>
+</div></details>
+<details id="progress_check_2-3-1-3-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="progress_check_2-3-1-3-3-1">Let <span class="process-math">\(h\)</span> be the vertical height and <span class="process-math">\(w\)</span> be the width of each triangular part of the cross-section. Then the area of the rectangular region will be <span class="process-math">\(3h\)</span> and each triangular region will have area <span class="process-math">\(\frac{1}{2}wh\text{,}\)</span> so the total cross-sectional area will be <span class="process-math">\(3h+wh\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="progress_check_2-3-1-3-3-2">
+<div class="para">In terms of sine and cosine, we have <span class="process-math">\(\sin(\theta)=\frac{h}{1}\)</span> and <span class="process-math">\(\cos(\theta)=\frac{w}{1}\text{,}\)</span> or equivalently <span class="process-math">\(h=\sin(\theta)\)</span> and <span class="process-math">\(w=\cos(\theta)\text{.}\)</span> Thus, the cross-sectional area is</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-3-3-2-5">
+\begin{equation*}
+A(\theta)=3\sin(\theta)+\sin(\theta)\cos(\theta)
+\end{equation*}
+</div>
+<div class="para">which makes the volume</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-3-3-2-6">
+\begin{equation*}
+V(\theta)=60\sin(\theta)+20\sin(\theta)\cos(\theta).
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-3-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.2.a.1"><a tabindex="-1" href="#progress_check_2-3-1-3-3" title="Copy heading and permalink for Solution 5.2.2.a.1" aria-label="Copy heading and permalink for Solution 5.2.2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.a"><a tabindex="-1" href="#progress_check_2-3-1-3" title="Copy heading and permalink for Task 5.2.2.a" aria-label="Copy heading and permalink for Task 5.2.2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-3-1-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="progress_check_2-3-1-4-1-1">Calculate <span class="process-math">\(V'(\theta)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-3-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="progress_check_2-3-1-4-2-1">
+<span class="process-math">\(V'(\theta)=60\cos(\theta)+20\left(\sin(\theta)\cdot{}-\sin(\theta)+\cos(\theta)\cos(\theta)\right)=60\cos(\theta)-20\sin^{2}(\theta)+20\cos^{2}(\theta)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.2.b.1"><a tabindex="-1" href="#progress_check_2-3-1-4-2" title="Copy heading and permalink for Answer 5.2.2.b.1" aria-label="Copy heading and permalink for Answer 5.2.2.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.b"><a tabindex="-1" href="#progress_check_2-3-1-4" title="Copy heading and permalink for Task 5.2.2.b" aria-label="Copy heading and permalink for Task 5.2.2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-3-1-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="progress_check_2-3-1-5-1-1">Find the angle <span class="process-math">\(\theta\)</span> that maximizes the volume of the trough.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-3-1-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="progress_check_2-3-1-5-2-1">What will be true about the derivative at the point where the volume is highest?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="progress_check_2-3-1-5-2-2">You will need to use the identity <span class="process-math">\(\cos^{2}(\theta)+\sin^{2}(\theta)=1\)</span> and solve a quadratic equation for <span class="process-math">\(\cos(\theta)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.2.c.1"><a tabindex="-1" href="#progress_check_2-3-1-5-2" title="Copy heading and permalink for Hint 5.2.2.c.1" aria-label="Copy heading and permalink for Hint 5.2.2.c.1">🔗</a></div>
+</div></details>
+<details id="progress_check_2-3-1-5-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="progress_check_2-3-1-5-3-1">
+<div class="para">Using the Pythagorean identity for sine and cosine, we have <span class="process-math">\(\sin^{2}(\theta)=1-\cos^{2}(\theta)\text{,}\)</span> so our derivative becomes</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-5-3-1-2">
+\begin{align*}
+V'(\theta)
+&amp;=60\cos(\theta)-20\sin^{2}(\theta)+20\cos^{2}(\theta)\\
+&amp;=60\cos(\theta)-20\left(1-\cos^{2}(\theta)\right)+20\cos^{2}(\theta)\\
+&amp;=60\cos(\theta)-20+20\cos^{2}(\theta)+20\cos^{2}(\theta)\\
+&amp;=60\cos(\theta)-20+40\cos^{2}(\theta).
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="progress_check_2-3-1-5-3-2">
+<div class="para">If there is a maximum, then either <span class="process-math">\(V'(\theta)\)</span> will be undefined at that point or <span class="process-math">\(V'(\theta)=0\text{.}\)</span> Since sine and cosine are defined for all real <span class="process-math">\(\theta\text{,}\)</span> we need to solve <span class="process-math">\(V'(\theta)=0\text{,}\)</span> or</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-5-3-2-5">
+\begin{equation*}
+40\cos^{2}(\theta)+60\cos(\theta)-20=0.
+\end{equation*}
+</div>
+<div class="para">If we let <span class="process-math">\(x=\cos(\theta)\text{,}\)</span> this becomes <span class="process-math">\(40x^{2}+60x-20=0\text{.}\)</span> This has solutions</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-5-3-2-8">
+\begin{align*}
+x&amp;=\frac{-3+\sqrt{17}}{4}
+&amp;
+x&amp;=\frac{-3-\sqrt{17}}{4}.
+\end{align*}
+</div>
+<div class="para">Since we know <span class="process-math">\(0\le \theta \le \pi/2\text{,}\)</span> we know that <span class="process-math">\(x=\cos(\theta)\ge 0\text{,}\)</span> so <span class="process-math">\(\cos(\theta)=x=\frac{-3+\sqrt{17}}{4}\text{,}\)</span> giving us <span class="process-math">\(\theta=\arccos\left(\frac{-3+\sqrt{17}}{4}\right)\text{.}\)</span> This yields the volume</div>
+<div class="displaymath process-math" id="progress_check_2-3-1-5-3-2-13">
+\begin{align*}
+V\left(\arccos\left(\frac{-3+\sqrt{17}}{4}\right)\right)
+&amp;
+=20 \left(\frac{-3+\sqrt{17}}{4}\right) \sqrt{1 -\left(\frac{-3+\sqrt{17}}{4}\right)^{2}} + 60  \sqrt{1 -\left(\frac{-3+\sqrt{17}}{4}\right)^{2}}\\
+&amp;\approx 62.9760258855007\text{ft}^{3}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-3-1-5-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.2.c.1"><a tabindex="-1" href="#progress_check_2-3-1-5-3" title="Copy heading and permalink for Solution 5.2.2.c.1" aria-label="Copy heading and permalink for Solution 5.2.2.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.c"><a tabindex="-1" href="#progress_check_2-3-1-5" title="Copy heading and permalink for Task 5.2.2.c" aria-label="Copy heading and permalink for Task 5.2.2.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5.2.2: Modeling and Optimization"><a tabindex="-1" href="#progress_check_2-3-1" title="Copy heading and permalink for Worksheet Exercise 5.2.2: Modeling and Optimization" aria-label="Copy heading and permalink for Worksheet Exercise 5.2.2: Modeling and Optimization">🔗</a></div>
+</article></section><section class="onepage" id="progress_check_2-4">
+<article class="exercise exercise-like" id="progress_check_2-4-1"><h2 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="para" id="progress_check_2-4-1-1-1">
+<a href="progress_check_2.html#pc2_fig_graph_and_der" class="xref" data-knowl="./knowl/xref/pc2_fig_graph_and_der.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 56">Figure 56</a> shows the graphs <span class="process-math">\(y=f(x)\)</span> (solid) and <span class="process-math">\(y=g(x)\)</span> (dashed), one of which is the derivative of the other.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="progress_check_2-4-1-1-2">Determine which graph is the derivative and justify your answer in terms of the relationships between a function and its derivative.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-4-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="pc2_fig_graph_and_der"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+<div class="ChemAccess-element" data-src="generated/prefigure/pc2_graph_and_deriv-diagcess.svg" data-cml="generated/prefigure/pc2_graph_and_deriv-annotations.xml"></div>
+<details class="instructions diagcess__instructions"><summary>Diagram Exploration Keyboard Controls</summary><div class="diagcess-navigation-controls"><table>
+<thead><tr>
+<th>Key</th>
+<th>Action</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Enter, A</td>
+<td>Activate keyboard driven exploration</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Activate menu driven exploration</td>
+</tr>
+<tr>
+<td>Escape</td>
+<td>Leave exploration mode</td>
+</tr>
+<tr>
+<td>Cursor down</td>
+<td>Explore next lower level</td>
+</tr>
+<tr>
+<td>Cursor up</td>
+<td>Explore next upper level</td>
+</tr>
+<tr>
+<td>Cursor right</td>
+<td>Explore next element on level</td>
+</tr>
+<tr>
+<td>Cursor left</td>
+<td>Explore previous element on level</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Toggle expert mode</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Extra details if available</td>
+</tr>
+<tr>
+<td>Space</td>
+<td>Repeat speech</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Activate step magnification</td>
+</tr>
+<tr>
+<td>Comma</td>
+<td>Activate direct magnification</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Deactivate magnification</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Toggle subtitles</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Cycle contrast settings</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Monochrome colours</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Toggle language (if available)</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Kill current sound</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Stop sound output</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Start and stop sonification</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Repeat sonification output</td>
+</tr>
+</tbody>
+</table></div></details><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="pc2_fig_graph_and_der-2-description">
+<div class="para" id="pc2_fig_graph_and_der-2-1-1">The graphs of two functions, f and g, one of which is the derivative of the other. The graph of f is solid and the graph of g is dashed.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc2_fig_graph_and_der-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">56<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The graphs of <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Figure 56"><a tabindex="-1" href="#pc2_fig_graph_and_der" title="Copy heading and permalink for Figure 56" aria-label="Copy heading and permalink for Figure 56">🔗</a></div></figcaption>
+</figure><div class="solutions">
+<details id="progress_check_2-4-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="progress_check_2-4-1-2-1">The dashed function is the derivative of the solid function. One simple way to see this is that the maxima and minima of the solid function correspond to the zeroes of the dashed functions, whereas the reverse is not true.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.3.1"><a tabindex="-1" href="#progress_check_2-4-1-2" title="Copy heading and permalink for Answer 5.2.3.1" aria-label="Copy heading and permalink for Answer 5.2.3.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5.2.3"><a tabindex="-1" href="#progress_check_2-4-1" title="Copy heading and permalink for Worksheet Exercise 5.2.3" aria-label="Copy heading and permalink for Worksheet Exercise 5.2.3">🔗</a></div>
+</article></section><section class="onepage" id="progress_check_2-5">
+<article class="exercise exercise-like" id="progress_check_2-5-1"><h2 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Computation and Patterns.</span>
+</h2>
+<div class="introduction" id="progress_check_2-5-1-2">
+<div class="para" id="progress_check_2-5-1-2-1">In this problem, you will calculate several derivatives (using shortcuts) and look for patterns in the derivatives.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="progress_check_2-5-1-3"><h3 class="heading">
+<span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Squares of Functions.</span>
+</h3>
+<article class="task exercise-like" id="progress_check_2-5-1-3-2"><h4 class="heading"><span class="codenumber">(i)</span></h4>
+<div class="para" id="progress_check_2-5-1-3-2-1-1">Calculate the derivative of <span class="process-math">\(x^{6}\)</span> in two ways: first by using the pattern for derivatives of <span class="process-math">\(x^{r}\)</span> directly, and then using the fact that <span class="process-math">\(x^{6}=\left(x^{3}\right)\left(x^{3}\right)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-5-1-3-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="progress_check_2-5-1-3-2-2-1">
+<div class="para">From the power rule, <span class="process-math">\(\left(x^{6}\right)^{'}=6x^{5}\text{.}\)</span> Writing <span class="process-math">\(x^{6}=x^{3}x^{3}=f(x)g(x)\)</span> where <span class="process-math">\(f(x)=g(x)=x^{3}\text{,}\)</span> we can use the product rule,</div>
+<div class="displaymath process-math" id="progress_check_2-5-1-3-2-2-1-4">
+\begin{align*}
+\left(f(x)g(x)\right)^{'}
+&amp;=
+f'(x)g(x)+f(x)g'(x)\\
+&amp;=
+(3x^{2})(x^{3})+(x^{3})(3x^{2})\\
+&amp;=
+3x^{5}+3x^{5}\\
+&amp;=
+6x^{5}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.4.a.i.1"><a tabindex="-1" href="#progress_check_2-5-1-3-2-2" title="Copy heading and permalink for Solution 5.2.4.a.i.1" aria-label="Copy heading and permalink for Solution 5.2.4.a.i.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a.i"><a tabindex="-1" href="#progress_check_2-5-1-3-2" title="Copy heading and permalink for Task 5.2.4.a.i" aria-label="Copy heading and permalink for Task 5.2.4.a.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-3-3"><h4 class="heading"><span class="codenumber">(ii)</span></h4>
+<div class="para" id="progress_check_2-5-1-3-3-1-1">Calculate the derivative of <span class="process-math">\(\nexp{2x}=\left(\nexp{x}\right)^{2}\)</span> using the fact that <span class="process-math">\(\nexp{2x}=\nexp{x}\cdot{}\nexp{x}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-5-1-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="progress_check_2-5-1-3-3-2-1">
+<div class="para">Let <span class="process-math">\(f(x)=g(x)=\nexp{x}\text{,}\)</span> then</div>
+<div class="displaymath process-math" id="progress_check_2-5-1-3-3-2-1-2">
+\begin{align*}
+\left(f(x)g(x)\right)^{'}
+&amp;=
+f'(x)g(x)+f(x)g'(x)\\
+&amp;=
+(\nexp{x})(\nexp{x})+(\nexp{x})(\nexp{x})\\
+&amp;=
+2\nexp{2x}.
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.4.a.ii.1"><a tabindex="-1" href="#progress_check_2-5-1-3-3-2" title="Copy heading and permalink for Solution 5.2.4.a.ii.1" aria-label="Copy heading and permalink for Solution 5.2.4.a.ii.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a.ii"><a tabindex="-1" href="#progress_check_2-5-1-3-3" title="Copy heading and permalink for Task 5.2.4.a.ii" aria-label="Copy heading and permalink for Task 5.2.4.a.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-3-4"><h4 class="heading"><span class="codenumber">(iii)</span></h4>
+<div class="para" id="progress_check_2-5-1-3-4-1-1">Calculate the derivative of <span class="process-math">\(\cos^{2}(x)\)</span> using the fact that <span class="process-math">\(\cos^{2}(x)=\cos(x)\cdot{}\cos(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-5-1-3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="progress_check_2-5-1-3-4-2-1">
+<div class="displaymath process-math" id="progress_check_2-5-1-3-4-2-1-1">
+\begin{align*}
+\big(\cos(x)\cos(x)\big)^{'}
+&amp;=
+(\cos(x))^{'}(\cos(x))+(\cos(x))(\cos(x))^{'}\\
+&amp;=
+(-\sin(x))(\cos(x))+(\cos(x))(-\sin(x))\\
+&amp;=
+-2\sin(x)\cos(x).
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.4.a.iii.1"><a tabindex="-1" href="#progress_check_2-5-1-3-4-2" title="Copy heading and permalink for Solution 5.2.4.a.iii.1" aria-label="Copy heading and permalink for Solution 5.2.4.a.iii.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a.iii"><a tabindex="-1" href="#progress_check_2-5-1-3-4" title="Copy heading and permalink for Task 5.2.4.a.iii" aria-label="Copy heading and permalink for Task 5.2.4.a.iii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-3-5"><h4 class="heading"><span class="codenumber">(iv)</span></h4>
+<div class="para" id="progress_check_2-5-1-3-5-1-1">Let <span class="process-math">\(f(x)\)</span> be a differentiable function (with derivative <span class="process-math">\(f'(x)\)</span>) and calculate the derivative of <span class="process-math">\(\left(f(x)\right)^{2}=f(x)\cdot{}f(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="progress_check_2-5-1-3-5-1-2">Compare this result to your previous calculations.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="progress_check_2-5-1-3-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="progress_check_2-5-1-3-5-2-1">
+<div class="para">Applying the pattern for products with <span class="process-math">\(f(x)=g(x)\text{,}\)</span> we get</div>
+<div class="displaymath process-math" id="progress_check_2-5-1-3-5-2-1-2">
+\begin{align*}
+\big(f(x)f(x)\big)^{'}
+&amp;=
+f(x)f'(x)+f'(x)f(x)\\
+&amp;=2f(x)f'(x).
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="progress_check_2-5-1-3-5-2-2">If we let <span class="process-math">\(f(x)=\nexp{x}\text{,}\)</span> we get <span class="process-math">\(\left(\nexp{2x}\right)^{'}=2\nexp{x}\nexp{x}=2\nexp{2x}\text{,}\)</span> and if we let <span class="process-math">\(f(x)=\cos(x)\text{,}\)</span> we get <span class="process-math">\(\left(\cos^{2}(x)\right)^{'}=2\cos(x)\cdot{}-\sin(x)=-2\sin(x)\cos(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-3-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 5.2.4.a.iv.1"><a tabindex="-1" href="#progress_check_2-5-1-3-5-2" title="Copy heading and permalink for Solution 5.2.4.a.iv.1" aria-label="Copy heading and permalink for Solution 5.2.4.a.iv.1">🔗</a></div>
+</div></details>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a.iv"><a tabindex="-1" href="#progress_check_2-5-1-3-5" title="Copy heading and permalink for Task 5.2.4.a.iv" aria-label="Copy heading and permalink for Task 5.2.4.a.iv">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a: Squares of Functions"><a tabindex="-1" href="#progress_check_2-5-1-3" title="Copy heading and permalink for Task 5.2.4.a: Squares of Functions" aria-label="Copy heading and permalink for Task 5.2.4.a: Squares of Functions">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-4"><h3 class="heading">
+<span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cubes of Functions.</span>
+</h3>
+<article class="task exercise-like" id="progress_check_2-5-1-4-2"><h4 class="heading"><span class="codenumber">(i)</span></h4>
+<div class="para" id="progress_check_2-5-1-4-2-1-1">Calculate the derivative of <span class="process-math">\(\nexp{3x}=\left(\nexp{x}\right)^{3}\)</span> using your previous work and the fact that <span class="process-math">\(\nexp{3x}=\nexp{2x}\cdot{}\nexp{x}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.b.i"><a tabindex="-1" href="#progress_check_2-5-1-4-2" title="Copy heading and permalink for Task 5.2.4.b.i" aria-label="Copy heading and permalink for Task 5.2.4.b.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-4-3"><h4 class="heading"><span class="codenumber">(ii)</span></h4>
+<div class="para" id="progress_check_2-5-1-4-3-1-1">Calculate the derivative of <span class="process-math">\(\cos^{3}(x)\)</span> using your previous work and the fact that <span class="process-math">\(\cos^{3}(x)=\cos^{2}(x)\cdot{}\cos(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.b.ii"><a tabindex="-1" href="#progress_check_2-5-1-4-3" title="Copy heading and permalink for Task 5.2.4.b.ii" aria-label="Copy heading and permalink for Task 5.2.4.b.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="progress_check_2-5-1-4-4"><h4 class="heading"><span class="codenumber">(iii)</span></h4>
+<div class="para" id="progress_check_2-5-1-4-4-1-1">Let <span class="process-math">\(f(x)\)</span> be a differentiable function (with derivative <span class="process-math">\(f'(x)\)</span>) and calculate the derivative of <span class="process-math">\(\left(f(x)\right)^{3}=\left(f(x)\right)^{2}\cdot{}f(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="progress_check_2-5-1-4-4-1-2">Compare this result to your previous calculations.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#progress_check_2-5-1-4-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.b.iii"><a tabindex="-1" href="#progress_check_2-5-1-4-4" title="Copy heading and permalink for Task 5.2.4.b.iii" aria-label="Copy heading and permalink for Task 5.2.4.b.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.b: Cubes of Functions"><a tabindex="-1" href="#progress_check_2-5-1-4" title="Copy heading and permalink for Task 5.2.4.b: Cubes of Functions" aria-label="Copy heading and permalink for Task 5.2.4.b: Cubes of Functions">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5.2.4: Computation and Patterns"><a tabindex="-1" href="#progress_check_2-5-1" title="Copy heading and permalink for Worksheet Exercise 5.2.4: Computation and Patterns" aria-label="Copy heading and permalink for Worksheet Exercise 5.2.4: Computation and Patterns">🔗</a></div>
+</article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet 5.2: Progress Check 2"><a tabindex="-1" href="#progress_check_2" title="Copy heading and permalink for Worksheet 5.2: Progress Check 2" aria-label="Copy heading and permalink for Worksheet 5.2: Progress Check 2">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="progress_check_1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" alt="Runestone Academy logo" src="data:image/png;base64,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"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" alt="MathJax logo" src="data:image/png;base64,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"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>
