@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="pc2_trough" >
+<diagram dimensions="(600, 100)" margins="45">
+  <definition>theta=pi/3</definition>
+  <definition>alpha=2*pi/12</definition>
+  <definition>h=sin(theta)</definition>
+  <definition>w=cos(theta)</definition>
+  <definition>L=24</definition>
+  <definition>b=3</definition>
+  <definition>left=(-1,0)</definition>
+  <definition>right=(1,0)</definition>
+  <definition>u=(cos(alpha),sin(alpha))</definition>
+  <coordinates bbox="(-3,0,3,1)" >
+    
+    <line endpoints="(left,right)" alignment="s" ><m>${b}\text{ft}</m></line>
+    <line endpoints="(left+(-w,h),left)"  alignment="n" ><m>1\text{ft}</m></line>
+    <line endpoints="(right,right+(w,h))"  alignment="n" ><m>1\text{ft}</m></line>
+    
+    <line endpoints="(left-(1.,0),right+(1,0))" dash="4 4" />
+
+    <angle-marker points="(left+(-w,h),left,(-2,0))" ><m>\theta</m></angle-marker>
+    <angle-marker points="((5,0),right,right+(w,h))" alignment="e" offset="(8,0)"><m>\theta</m></angle-marker>
+   <!--
+    <line endpoints="(left+(-w,h),left+(-w,h)+u)" dash="4 4"/>
+    <line endpoints="(right+(w,h),right+(w,h)+u)" dash="4 4"/>
+    <line endpoints="(left,left+3*u)" dash="4 4"/>
+    <line endpoints="(right,right+3*u)" dash="2 4"/>
+    
+    
+    <line endpoints="(left+L*u,right+L*u)" />
+    
+    <line endpoints="(left+(-w,h)+L*u,left+L*u)" />
+    <line endpoints="(right+L*u,right+(w,h)+L*u)" />
+    
+    <line endpoints="(left+(-w,h),left+(-w,h)+L*u)" />
+    <line endpoints="(right+(w,h),right+(w,h)+L*u)" />
+    <line endpoints="(right,right+L*u)" alignment="s" ><m>${L}\text{ft}</m></line>
+-->
+
+  </coordinates>
+</diagram>
+</prefigure>

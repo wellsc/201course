@@ -76,6 +76,7 @@
     <chapter xml:id="progress_checks">
             <title>Progress Checks</title>
             <xi:include href="./progress_checks/ProgressCheck01/progress_check01.ptx" />
+            <xi:include href="./progress_checks/ProgressCheck02/progress_check02.ptx" />
     </chapter>
 
     </book>

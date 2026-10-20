@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="more_graph_deriv">
+<diagram dimensions="(400,400)" margins="5">
+  <definition>f(x)=3/2*cos(3*x/2-5*pi/7)</definition>
+  <definition>g(x)=deriv(f,x)</definition>
+  <!--
+  <definition>d(t,y)=f(t)</definition>
+  <de-solve function="d" t0="-2*pi" y0="3" t1="2*pi" name="F" N="300" />
+  -->
+  <coordinates bbox="(-pi,-pi,pi,pi)">
+    <grid-axes spacings="((-pi,pi/4,pi),(-pi,pi/4,pi))" decorations="no"/>
+    <graph at="orig" function="f" N="300" dash="4 4" thickness="4" />
+    <graph at="deriv" function="g" N="300" stroke="darkgreen" thickness="4" />
+    <!--
+    <plot-de-solution at="anti" solution="F" stroke="black" dash="4 4 12 4" thickness="4" />
+    -->
+  </coordinates>
+
+  <annotations text="The graph of a function and its derivative">
+    <annotation ref="graph-group" text="The graph of a function, its derivative, and its second derivative">
+      <annotation ref="orig"  text="The graph of the function f" sonify="yes"/>
+      <annotation ref="deriv" text="The graph of the function g" sonify="yes"/>
+      <!--
+      <annotation ref="anti"  text="The graph of the function h" sonify="yes"/>
+      -->
+    </annotation>
+  </annotations>
+</diagram>
+</prefigure>

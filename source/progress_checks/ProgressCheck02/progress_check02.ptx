@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet margin="0.5in" bottom="0.75in" xml:id="progress_check_1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet margin="0.5in" bottom="0.75in" xml:id="progress_check_2" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Progress Check 2</title>
   <page>
           <exercise workspace="0.5in" xml:id="pc2_speeding">
@@ -107,7 +107,7 @@
                   </statement>
                   <solution>
                           <p>
-                                  <m>T'(60)=36000/(60^{2})=36000/3600=10\text{s}/\text{mph}</m>, which says that at <m>60</m> miles per hour, increasing speed reduces the total trip time by <m>10</m> seconds per mile-per-hour.
+                                  <m>T'(60)=-36000/(60^{2})=-36000/3600=-10\text{s}/\text{mph}</m>, which says that at <m>60</m> miles per hour, increasing speed reduces the total trip time by <m>10</m> seconds per mile-per-hour.
                           </p>
                   </solution>
           </task>
@@ -118,6 +118,22 @@
                                                                 Find an equation for the linear approximation of <m>T</m> at <m>v=60</m>. Call this function <m>L_{T}(v)</m>.
                                                 </p>
                                         </statement>
+                                        <solution>
+                                                <p>
+                                                        The formula for a linear approximation at a point <m>a</m> is <m>l(x)=f'(a)(x-a)+f(a)</m>, so we have
+                                                        <md>
+                                                                <mrow>
+                                                                        L_{t}(v)
+                                                                                &amp;=
+                                                                        T'(60)(v-60)+T(60)
+                                                                </mrow>
+                                                                <mrow>
+                                                                                &amp;=
+                                                                        -10(v-60)+600.
+                                                                </mrow>
+                                                        </md>
+                                                </p>
+                                        </solution>
                                 </task>
                                 <task>
                                         <statement>
@@ -125,6 +141,26 @@
                                                                 Use your linear approximation to approximate <m>T(65)</m>.
                                                 </p>
                                         </statement>
+                                        <solution>
+                                                <p>
+                                                        We have
+                                                        <md>
+                                                                <mrow>
+                                                                        T(65)
+                                                                                &amp;\approx
+                                                                        L_{T}(65)
+                                                                </mrow>
+                                                                <mrow>
+                                                                                &amp;
+                                                                                -10(65-60)+600.
+                                                                </mrow>
+                                                                <mrow>
+                                                                                &amp;
+                                                                                550.
+                                                                </mrow>
+                                                        </md>
+                                                </p>
+                                        </solution>
                                 </task>
                         </task>
                         <task workspace="0.5in">
@@ -146,6 +182,11 @@
                                                                 How does the actual value of <m>T(65)</m> compare with the value from the linear approximation? What is the magnitude of the error, and is the linear approximation an over- or under-estimate?
                                                 </p>
                                         </statement>
+                                        <solution>
+                                                <p>
+                                                                We know that <m>T(65)=\frac{7200}{13}=553\,\frac{11}{13}</m> and <m>L_{T}(65)=550</m>, so the (absolute) error is <m>\abs{T(65)-L_{T}(65)}=3\frac{11}{13}</m>, and <m>L_{T}(v)</m> underestimates <m>T(v)</m> at <m>v=65</m>. The <em>relative error</em> is <m>\abs{\frac{L_{T}(65)-T(65)}{65-60}}\approx 0.769230769230769</m>.
+                                                </p>
+                                        </solution>
                                 </task>
                         </task>
                         <task workspace="0.5in">
@@ -154,6 +195,11 @@
                                                         Compare the value of the linear approximation at <m>61</m>, <m>L_{T}(61)</m>, with the value of <m>T(61)</m>. What is the magnitude of the error, and is the linear approximation an over- or under-estimate? How does this compare to the error at <m>v=65</m>?
                                         </p>
                                 </statement>
+                                <solution>
+                                        <p>
+                                                        We have <m>T(61)=\frac{36000}{61}\approx 590.16393442623</m> and <m>L_{T}(61)=-10(61-60)+600=590</m>. Here the error is <m>L_{T}(61)-T(61)\approx -0.1639344</m>, and <m>L_{T}(v)</m> underestimates <m>T(v)</m> at <m>v=61</m>. The relative error is <m>\abs{\frac{L_{T}(61)-T(61)}{61-60}}\approx 0.163934426229508</m>.
+                                        </p>
+                                </solution>
                         </task>
           <task>
                   <statement>
@@ -315,10 +361,15 @@
                                                           The graphs of two functions, f and g, one of which is the derivative of the other. The graph of f is solid and the graph of g is dashed.
                                                   </p>
                                           </description>
-                                          <xi:include href="./pc2_graph_and_deriv.ptx"/>
+                                          <xi:include href="./pc2_graph_and_deriv.xml"/>
                                   </image>
                           </figure>
                   </statement>
+                  <answer>
+                          <p>
+                                  The dashed function is the derivative of the solid function. One simple way to see this is that the maxima and minima of the solid function correspond to the zeroes of the dashed functions, whereas the reverse is not true.
+                          </p>
+                  </answer>
           </exercise>
   </page>
   <page>
@@ -337,6 +388,30 @@
                                                           Calculate the derivative of <m>x^{6}</m> in two ways: first by using the pattern for derivatives of <m>x^{r}</m> directly, and then using the fact that <m>x^{6}=\left(x^{3}\right)\left(x^{3}\right)</m>.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  From the power rule, <m>\left(x^{6}\right)^{'}=6x^{5}</m>. Writing <m>x^{6}=x^{3}x^{3}=f(x)g(x)</m> where <m>f(x)=g(x)=x^{3}</m>, we can use the product rule,
+                                                  <md>
+                                                          <mrow>
+                                                                  \left(f(x)g(x)\right)^{'}
+                                                                          &amp;=
+                                                                          f'(x)g(x)+f(x)g'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                          (3x^{2})(x^{3})+(x^{3})(3x^{2})
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                          3x^{5}+3x^{5}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                          6x^{5}.
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </solution>
                           </task>
                           <task>
                                   <statement>
@@ -344,6 +419,26 @@
                                                           Calculate the derivative of <m>\nexp{2x}=\left(\nexp{x}\right)^{2}</m> using the fact that <m>\nexp{2x}=\nexp{x}\cdot{}\nexp{x}</m>.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                          Let <m>f(x)=g(x)=\nexp{x}</m>, then
+                                                  <md>
+                                                          <mrow>
+                                                                  \left(f(x)g(x)\right)^{'}
+                                                                          &amp;=
+                                                                          f'(x)g(x)+f(x)g'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  (\nexp{x})(\nexp{x})+(\nexp{x})(\nexp{x})
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  2\nexp{2x}.
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </solution>
                           </task>
                           <task>
                                   <statement>
@@ -351,6 +446,25 @@
                                                           Calculate the derivative of <m>\cos^{2}(x)</m> using the fact that <m>\cos^{2}(x)=\cos(x)\cdot{}\cos(x)</m>.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  <md>
+                                                          <mrow>
+                                                          \big(\cos(x)\cos(x)\big)^{'}
+                                                                          &amp;=
+                                                                  (\cos(x))^{'}(\cos(x))+(\cos(x))(\cos(x))^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  (-\sin(x))(\cos(x))+(\cos(x))(-\sin(x))
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  -2\sin(x)\cos(x).
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </solution>
                           </task>
                           <task>
                                   <statement>
@@ -361,6 +475,24 @@
                                                   Compare this result to your previous calculations.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  Applying the pattern for products with <m>f(x)=g(x)</m>, we get
+                                                  <md>
+                                                          <mrow>
+                                                                  \big(f(x)f(x)\big)^{'}
+                                                                          &amp;=
+                                                                  f(x)f'(x)+f'(x)f(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=2f(x)f'(x).
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                          <p>
+                                                          If we let <m>f(x)=\nexp{x}</m>, we get <m>\left(\nexp{2x}\right)^{'}=2\nexp{x}\nexp{x}=2\nexp{2x}</m>, and if we let <m>f(x)=\cos(x)</m>, we get <m>\left(\cos^{2}(x)\right)^{'}=2\cos(x)\cdot{}-\sin(x)=-2\sin(x)\cos(x)</m>.
+                                          </p>
+                                  </solution>
                           </task>
                   </task>
                   <task>

@@ -107,4 +107,199 @@
                 </dl>
         </p>
 </subsection>
+<subsection>
+        <title>Justifications</title>
+        <subsubsection>
+                <title>Products</title>
+                <p>
+                        Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions (with the same domain), and let <m>P(x)=f(x)g(x)</m>. Then
+                        <md>
+                                <mrow>
+                                        \big(f(x)g(x)\big)^{'}&amp;=P'(x)
+                                </mrow>
+                                <mrow>
+                                             &amp;=\lim_{u\to x}\frac{P(u)-P(x)}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                                \frac{f(u)g(u)-f(x)g(x)}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                                \frac{f(u)g(u)-f(x)g(u)+f(x)g(u)-f(x)g(x)}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                                \frac{f(u)g(u)-f(x)g(u)}{u-x}
+                                               +\frac{f(x)g(u)-f(x)g(x)}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                                \left(\frac{f(u)-f(x)}{u-x}\right)g(u)
+                                               +f(x)\left(\frac{g(u)-g(x)}{u-x}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=
+                                        \lim_{u\to x}
+                                                \left(\frac{f(u)-f(x)}{u-x}\right)g(u)
+                                        +\lim_{u\to x}
+                                               f(x)\left(\frac{g(u)-g(x)}{u-x}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=
+                                        \lim_{u\to x}
+                                                \left(\frac{f(u)-f(x)}{u-x}\right)\lim_{u\to x}g(u)
+                                        +\lim_{u\to x}
+                                               f(x)\lim_{u\to x}\left(\frac{g(u)-g(x)}{u-x}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=
+                                                f'(x)g(x)
+                                                +f(x)g'(x).
+                                </mrow>
+                        </md>
+                </p>
+        </subsubsection>
+        <subsubsection>
+                <title>Quotients</title>
+                <p>
+                        Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions (with the same domain) with <m>g(x)\neq{}0</m> on the domain, and let <m>P(x)=\frac{f(x)}{g(x)}</m>. Then
+                        <md>
+                                <mrow>
+                                        \left(\frac{f(x)}{g(x)}\right)^{'}&amp;=P'(x)
+                                </mrow>
+                                <mrow>
+                                             &amp;=\lim_{u\to x}\frac{P(u)-P(x)}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{\frac{f(u)}{g(u)}-\frac{f(x)}{g(x)}}{u-x}
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{u-x}\left(\frac{f(u)}{g(u)}-\frac{f(x)}{g(x)}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{u-x}\left(\frac{f(u)}{g(u)}\frac{g(x)}{g(x)}-\frac{f(x)}{g(x)}\frac{g(u)}{g(u)}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{u-x}\left(\frac{f(u)g(x)-f(x)g(u)}{g(x)g(u)}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}\left(\frac{f(u)g(x)-f(x)g(u)}{u-x}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}\left(\frac{f(u)g(x)-f(x)g(x)+f(x)g(x)-f(x)g(u)}{u-x}\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}\left(\left(\frac{f(u)g(x)-f(x)g(x)}{u-x}\right)+\left(\frac{f(x)g(x)-f(x)g(u)}{u-x}\right)\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}\left(\left(\frac{f(u)-f(x)}{u-x}\right)g(x)+f(x)\left(\frac{g(x)-g(u)}{u-x}\right)\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}\left(\left(\frac{f(u)-f(x)}{u-x}\right)g(x)-f(x)\left(\frac{g(u)-g(x)}{u-x}\right)\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=\lim_{u\to x}
+                                        \frac{1}{g(x)g(u)}
+                                        \left(
+                                        \lim_{u\to x}\left(\frac{f(u)-f(x)}{u-x}\right)g(x)-
+                                        \lim_{u\to x}f(x)\left(\frac{g(u)-g(x)}{u-x}\right)\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=
+                                        \frac{1}{g(x)g(x)} \left( f'(x)g(x)- f(x)g'(x)\right)
+                                </mrow>
+                                <mrow>
+                                                &amp;=
+                                        \frac{f'(x)g(x)- f(x)g'(x)}{\left(g(x)\right)^{2}}  
+                                </mrow>
+                        </md>
+                </p>
+        </subsubsection>
+</subsection>
+<subsection>
+        <title>Consequences</title>
+        <example>
+                <title>The Derivative of <m>\tan(x)</m></title>
+                <statement>
+                        <p>
+                                Let consider <m>f(x)=\tan(x)=\frac{\sin(x)}{\cos(x)}</m>. Then
+                                <md>
+                                        <mrow>
+                                                f'(x)
+                                                &amp;=
+                                                \frac{(\sin(x))^{'}(\cos(x))-(\sin(x))(\cos(x))^{'}}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{(\cos(x))(\cos(x))-(\sin(x))(-\sin(x))}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{\cos^{2}(x)+\sin^{2}(x)}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{1}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                {\sec^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                \text{or}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{\cos^{2}(x)}{\cos^{2}(x)}-\frac{\sin^{2}(x)}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                1-\tan^{2}(x).
+                                        </mrow>
+                                </md>
+                        </p>
+                </statement>
+        </example>
+        <example>
+                <title>The Derivative of <m>\sec(x)</m></title>
+                <statement>
+                        <p>
+                                        Let <m>f(x)=\sec(x)=\frac{1}{\cos(x)}</m>. Then
+                                <md>
+                                        <mrow>
+                                                f'(x)
+                                                &amp;=
+                                                \frac{(1)^{'}(\cos(x))-(1)(\cos(x))^{'}}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{(0)(\cos(x))-(1)(-\sin(x))}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{\sin(x)}{\cos^{2}(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \frac{1}{\cos(x)}\frac{\sin(x)}{\cos(x)}
+                                        </mrow>
+                                        <mrow>
+                                                &amp;=
+                                                \sec(x)\tan(x).
+                                        </mrow>
+                                </md>
+                        </p>
+                </statement>
+        </example>
+</subsection>
 </section>

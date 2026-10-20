@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="pc2_graph_and_deriv" >
+<diagram dimensions="(450,750)" margins="15">
+  <definition>aa=-2</definition>
+  <definition>bb=-5</definition>
+  <definition>cc=1</definition>
+  <definition>dd=3</definition>
+  <definition>f(x)=x*(x-aa)*(x-bb)*(x-cc)*(x-dd)*exp(-2/3*x^2)/6</definition>
+  <definition>g(x)=deriv(f,x)</definition>
+  <definition>z(x)=0</definition>
+
+  <definition>a=intersect((g,z),-2.39)</definition>
+  <definition>b=intersect((g,z),-0.8)</definition>
+  <definition>c=intersect((g,z),0.9)</definition>
+  <definition>ds=1.56</definition>
+  <definition>d=intersect((g,z),ds)</definition>
+
+  <coordinates bbox="(-3.5,-4,2.5,6)">
+    <grid-axes decorations="no" spacings="((-3.5,0.5,2.5),(-4,0.5,6))" />
+    
+    <graph at="graph" function="f" N="300" />
+    <graph at="deriv" function="g" stroke="darkgreen" N="300" dash="4 4" />
+    
+    <!--
+    <point p="(a,0)" size="3" fill="black" />
+    <point p="(b,0)" size="3" fill="black" />
+    <point p="(c,0)" size="3" fill="black" />
+    <point p="(d,0)" size="3" fill="black" />
+    <point p="(aa,0)" size="3" fill="black" />
+    <point p="(bb,0)" size="3" fill="black" />
+    <point p="(cc,0)" size="3" fill="black" />
+    <point p="(dd,0)" size="3" fill="black" />
+    -->
+  </coordinates>
+
+  <annotations text="The graph of a function and its tangent line at the point a equals 1">
+    <annotation ref="graph-group" text="The graph of two functions">
+      <annotation ref="graph" text="The graph of the function f" />
+      <annotation ref="deriv" text="The graph of the function g" />
+    </annotation>
+  </annotations>
+</diagram>
+</prefigure>
