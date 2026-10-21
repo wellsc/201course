@@ -503,6 +503,38 @@
                                                           Calculate the derivative of <m>\nexp{3x}=\left(\nexp{x}\right)^{3}</m> using your previous work and the fact that <m>\nexp{3x}=\nexp{2x}\cdot{}\nexp{x}</m>.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  Let <m>f(x)=\nexp{2x}</m> and <m>g(x)=\nexp{x}</m>. Then
+                                                  <md>
+                                                          <mrow>
+                                                                  \frac{\di{}\nexp{3x}}{\di{}x}
+                                                                          &amp;=
+                                                                  \left( \nexp{2x}\nexp{x}\right)^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \left( f(x)g(x)\right)^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  f'(x)g(x)+f(x)g'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  (2\nexp{2x})(\nexp{x})+\nexp{2x}\nexp{x}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  2\nexp{3x}+\nexp{3x}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  3\nexp{3x}
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </solution>
                           </task>
                           <task>
                                   <statement>
@@ -510,6 +542,38 @@
                                                           Calculate the derivative of <m>\cos^{3}(x)</m> using your previous work and the fact that <m>\cos^{3}(x)=\cos^{2}(x)\cdot{}\cos(x)</m>.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  Let <m>f(x)=\cos^{2}(x)</m> and <m>g(x)=\cos(x)</m>. Then
+                                                  <md>
+                                                          <mrow>
+                                                                  \frac{\di{}\cos^{3}(x)}{\di{}x}
+                                                                          &amp;=
+                                                                  \left( \cos^{2}(x)\cos(x)\right)^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \left( f(x)g(x)\right)^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  f'(x)g(x)+f(x)g'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  (-2\cos(x)\sin(x))(\cos(x))+\cos^{2}(x)(-\sin(x))
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  -2\cos^{2}(x)\sin(x)-\cos^{2}(x)\sin(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  -3\cos^{2}(x)\sin(x)
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                  </solution>
                           </task>
                           <task>
                                   <statement>
@@ -520,6 +584,36 @@
                                                   Compare this result to your previous calculations.
                                           </p>
                                   </statement>
+                                  <solution>
+                                          <p>
+                                                  <md>
+                                                          <mrow>
+                                                                  \big(\left(f(x)\right)^{3}\big)^{'}
+                                                                  &amp;=
+                                                                  \big(\left(f(x)\right)^{2}f(x)\big)^{'}
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  \big(\left(f(x)\right)^{2}\big)^{'}f(x)+\big(\left(f(x)\right)^{2}\big)f'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  \left(2f(x)f'(x)\right)f(x)+\big(\left(f(x)\right)^{2}\big)f'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  2\left(f(x)\right)^{2}f'(x)+\left(f(x)\right)^{2}f'(x)
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  3\left(f(x)\right)^{2}f'(x)
+                                                          </mrow>
+                                                  </md>
+                                          </p>
+                                          <p>
+                                                          It's easy to see that this is the same as for <m>\left(\nexp{x}\right)^{3}</m>. It takes a little more work to see that <m>\left(\cos^{3}(x)\right)'=3\cos^{2}(x)(-\sin(x))=-3\cos^{2}(x)\sin(x)</m>, which is the same as what we got earlier.
+                                          </p>
+                                  </solution>
                           </task>
                   </task>
           </exercise>
