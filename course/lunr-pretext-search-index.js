@@ -1189,6 +1189,42 @@ var ptx_lunr_docs = [
   "body": "  Here is an outline of your job for this activity:     Interpret each of the values listed above in the context of this task;      Determine the relationship among , , and .      Calculate .      Estimate and interpret the results.    "
 },
 {
+  "id": "activities-17",
+  "level": "1",
+  "url": "activities-17.html",
+  "type": "Worksheet",
+  "number": "3.15",
+  "title": "Composition of Functions",
+  "body": " Composition of Functions   In this activity, we review what composition of functions means in preparation for investigating patterns for the derivative of a composition of functions.     Complete the following tables, given that .    Values for                  Values for                  Values for                      Write each of the following functions as a composition of two or more functions (none of which is allowed to be the identity function , ).                                              "
+},
+{
+  "id": "activities-17-2-1",
+  "level": "2",
+  "url": "activities-17.html#activities-17-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "composition "
+},
+{
+  "id": "activities-17-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-3",
+  "type": "Worksheet Exercise",
+  "number": "3.15.1",
+  "title": "",
+  "body": "  Complete the following tables, given that .    Values for                  Values for                  Values for                   "
+},
+{
+  "id": "activities-17-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4",
+  "type": "Worksheet Exercise",
+  "number": "3.15.2",
+  "title": "",
+  "body": "  Write each of the following functions as a composition of two or more functions (none of which is allowed to be the identity function , ).                                             "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1211,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "44",
+  "number": "47",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1229,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "45",
+  "number": "48",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1238,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "46",
+  "number": "49",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1247,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "47",
+  "number": "50",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1256,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "48",
+  "number": "51",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
@@ -1301,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "49",
+  "number": "52",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -1310,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "50",
+  "number": "53",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },
