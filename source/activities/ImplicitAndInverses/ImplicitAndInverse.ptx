@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_imp_and_inv" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Implicit Differentiation and Derivative of Inverse Functions</title>
+  <introduction>
+    <p>
+                    One important application of derivatives of compositions of functions is finding derivatives of functions that are defined only indirectly in terms of other functions. For example, all we know about <m>\arcsin(x)</m> is that it is the inverse of (the principle branch of) the sine. So, how do we find its derivative?
+    </p>
+    <p>
+            Another instance of this kind of idea is found in progress check 1 where we are given the formula
+            <md>V=8(h-3)\sqrt{9-\left(h-3\right)^{2}}+72\arcsin\left(\frac{h-3}{3}\right)+36\pi</md>
+                    for the volume of a water tank (in cubic meters) as a function of the depth of the water (in meters), and we also find the volume as a function of time to be given by <m>V=1.1t\text{m}^{3}</m>, where <m>t</m> is given in minutes. In this case, we know from our physical experience that the depth of the water is a function of time, but there is no way to directly solve for <m>h</m> as a function of <m>t</m>. Nevertheless, we can use ideas from derivatives of compositions of functions to calculate the rate of change of the depth as a function of time.
+    </p>
+  </introduction>
+  <subsection>
+          <title>Practice with Derivatives of Compositions</title>
+          <example>
+                  <title>The Derivative of a Composition</title>
+                  <statement>
+                          <p>
+                                          We will rewrite <m>f(x)=\sqrt{x^{2}+4}</m> as a composition of functions and find its derivative.
+                          </p>
+                          <p>
+                                          Let <m>y=g(x)=x^{2}+4</m> and let <m>z=h(y)=\sqrt{y}</m>. Thus <m>z=h(y)=h(g(x))</m>, or equivalently <m>z=\sqrt{y}=\sqrt{x^{2}+4}</m>.
+                          </p>
+                          <p>
+                                  Using Leibniz's notation, we know that <m>\dd{z}{x}=\dd{z}{y}\dd{y}{x}</m>. Calculating <m>\dd{z}{y}</m> and <m>\dd{y}{x}</m>, we have
+                                  <md>
+                                          <mrow>
+                                                  \dd{z}{x}
+                                                          &amp;=\dd{z}{y}\dd{y}{x}
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\dd{{}\sqrt{y}}{y}\dd{(x^{2}+4)}{x}
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\dd{{}y^{1/2}}{y}\dd{(x^{2}+4)}{x}
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\left(\frac{1}{2}y^{-1/2}\right)\left(2x\right)
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\left(\frac{1}{2\sqrt{y}}\right)\left(2x\right)
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\left(\frac{1}{2\sqrt{x^2+4}}\right)\left(2x\right)
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\frac{2x}{2\sqrt{x^2+4}}
+                                          </mrow>
+                                          <mrow>
+                                                          &amp;=\frac{x}{\sqrt{x^2+4}}
+                                          </mrow>
+                                  </md>
+                          </p>
+                          <p>
+                                  Alternatively, we know that <m>\left(h(g(x))\right)'=h'(g(x))g'(x)</m>. Now, <m>h(y)=\sqrt{y}=y^{1/2}</m>so <m>h'(y)=\frac{1}{2}y^{-1/2}=1/(2\sqrt{y})</m>, and <m>g(x)=x^{2}+4</m>, so <m>g'(x)=2x</m>. Therefore, 
+                                          <md>
+                                                  <mrow>
+                                                          \left(\sqrt{x^{2}+4}\right)'
+                                                          &amp;=\left(h(g(x))\right)'
+                                                  </mrow>
+                                                  <mrow>
+                                                          &amp;=h'(g(x))g'(x)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{1}{2\sqrt{g(x)}}\left(g'(x)\right)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{1}{2\sqrt{x^{2}+4}}\left(2x\right)
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{2x}{2\sqrt{x^{2}+4}}
+                                                  </mrow>
+                                                  <mrow>
+                                                                  &amp;=\frac{x}{\sqrt{x^{2}+4}}.
+                                                  </mrow>
+                                          </md>
+                          </p>
+                  </statement>
+          </example>
+          <exercises>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Find the derivative of <m>\sqrt{x^{3}+6x}</m>.
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Find the derivative of <m>\sin(x^{3}+6x)</m>.
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Find the derivative of <m>\sqrt{\sin(x)}</m> (assuming <m>\sin(x)\gt 0</m>).
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Find the derivative of <m>\nexp{x^{3}+6x}</m>.
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Let <m>g(x)</m> be an unspecified function. How would you find the derivative of <m>\sqrt{g(x)}</m>?
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Let <m>g(x)</m> be an unspecified function. How would you find the derivative of <m>g\big(\sin(x)\big)</m>?
+                                  </p>
+                          </statement>
+                  </exercise>
+          </exercises>
+  </subsection>
+  <subsection>
+          <title>Derivatives of Inverse Functions</title>
+          <example>
+                  <statement>
+                          <p>
+                                          We will use composition of functions to find the derivative of <m>\arcsin(x)</m>. First of all, we know that <m>\arcsin(x)</m> is the inverse function of the principle branch of the sine. That is, <m>\sin(\theta)</m> with the domain restricted to <m>-\frac{\pi}{2}\le \theta\le \frac{\pi}{2}</m>. Thus, for any <m>x</m> with <m>-1\le x\le 1</m>, if <m>\theta=\arcsin(x)</m>, then <m>\sin(\theta)=x</m> and <m>-\frac{\pi}{2}\le \theta\le \frac{\pi}{2}</m>. In particular, for any <m>x</m> with <m>-1\le x\le 1</m>,
+                                          <md>
+                                                  \sin(\arcsin(x))=x.
+                                          </md>
+                          </p>
+                          <p>
+                                          Let <m>-1\le x\le 1</m>, let <m>y=\arcsin(x)</m>, and let <m>z=\sin(y)</m>. We will now calculate <m>\dd{z}{x}</m> in two different ways, and then use the fact that the derivative of <m>z</m> must be the same no matter which way we calculate it.
+                                  </p>
+                                  <p>
+                                                  First, we know that <m>\dd{z}{x}=\dd{z}{y}\dd{y}{x}</m>. But 
+                                                  <md>
+                                                          <mrow>\dd{z}{y}&amp;=\dd{{}\sin(y)}{y}</mrow>
+                                                          <mrow>         &amp;=\cos(y).</mrow>
+                                                  </md>
+                                                          Then, we have
+                                                  <md>
+                                                          <mrow>\dd{z}{x}&amp;=\dd{z}{y}\dd{y}{x}</mrow>
+                                                          <mrow>         &amp;=\dd{{}\sin(y)}{y}\dd{y}{x}</mrow>
+                                                          <mrow>         &amp;=\cos(y)\dd{y}{x}</mrow>
+                                                          <mrow>         &amp;=\cos\big(\arcsin(x)\big)\dd{{}\arcsin(x)}{x}.</mrow>
+                                                  </md>
+                                                          The value of <m>\dd{{}\arcsin(x)}{x}</m> is what we want to find.
+                                  </p>
+                                  <p>
+                                                  Next, we know that <m>z=\sin\left(\arcsin(x)\right)=x</m>, so <m>\dd{z}{x}=\dd{x}{x}=1.</m>
+                                  </p>
+                                  <p>
+                                                  Finally, from trigonometry, we know that if <m>\sin(\theta)=x</m> and <m>-\pi/2\le \theta\le\pi/2</m>, then <m>\cos(\theta)\ge 0</m>, and so <m>\cos(\theta)=\sqrt{1-x^{2}}</m>. Thus, because <m>-\pi/2\le\arcsin(x)\le\pi/2</m> and <m>\sin(\arcsin(x))=x</m>, <m>\cos(\arcsin(x))=\sqrt{1-x^{2}}</m>. Putting all of this together, we have
+                                                  <md>
+                                                          <mrow>\dd{z}{x}&amp;=\dd{z}{y}\dd{y}{x}</mrow>
+                                                          <mrow>         &amp;=\cos\big(\arcsin(x)\big)\dd{{}\arcsin(x)}{x}.</mrow>
+                                                          <mrow>         &amp;=\sqrt{1-x^{2}}\,\dd{{}\arcsin(x)}{x}</mrow>
+                                                  </md>
+                                                  and
+                                                  <md>
+                                                          <mrow>\dd{z}{x}&amp;=\dd{x}{x}</mrow>
+                                                          <mrow>         &amp;=1</mrow>
+                                                  </md>
+                                                          so <m>\sqrt{1-x^{2}}\,\dd{{}\arcsin(x)}{x}=1</m>, and therefore, for any <m>-1\lt x\lt 1</m>,
+                                                  <md>
+                                                          \dd{{}\arcsin(x)}{x}=\frac{1}{\sqrt{1-x^{2}}}.
+                                                  </md>
+                                  </p>
+                  </statement>
+          </example>
+          <p>
+                  More generally, we have the following theorem.
+          </p>
+          <theorem>
+                  <title>Derivatives of Inverse Functions</title>
+                  <statement>
+                          <p>
+                          For any differentiable, invertible function <m>f</m>, with inverse <m>f^{-1}</m>, for any <m>x</m> for which <m>f'\left(f^{-1}(x)\right)\neq 0</m>, 
+                          <md>
+                                  \dd{{}f^{-1}(x)}{x}=\frac{1}{f'\left(f^{-1}(x)\right)}.
+                          </md>
+                          </p>
+                  </statement>
+          </theorem>
+          <exercises>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Use the facts that for any <m>-\pi/2\lt x\lt \pi/2</m>, <m>\tan(\arctan(x))=x</m> and <m>\dd{{}\tan(x)}{x}=1/\cos^{2}(x)</m> to find the derivative of <m>\arctan(x)</m>.
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <statement>
+                                  <p>
+                                                  Use the fact that for any <m>x\gt 0</m>, <m>\nexp{\ln(x)}=x</m> to find the derivative of <m>\ln(x)</m>.
+                                  </p>
+                          </statement>
+                  </exercise>
+                  <exercise>
+                          <introduction>
+                                  <p>
+                                          Hyperbolic cosine (<m>\cosh(x)</m>) and hyperbolic sine (<m>\sinh(x)</m>), which occur frequently in engineering applications, are defined by
+                                          <md>
+                                                  <mrow>
+                                                          \cosh(x)&amp;=\frac{\nexp{x}+\nexp{-x}}{2}
+                                                                  &amp;
+                                                          \sinh(x)&amp;=\frac{\nexp{x}-\nexp{-x}}{2}
+                                                  </mrow>
+                                          </md>
+                                  </p>
+                          </introduction>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Show that the derivative of <m>\sinh(x)</m> is <m>\cosh(x)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Show that the derivative of <m>\cosh(x)</m> is <m>\sinh(x)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Explain why for every real <m>x</m>, <m>\sinh(x)</m> is strictly increasing at <m>x</m>, and therefore has an inverse function, <m>\sinh^{-1}(x)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Let <m>f(x)=\sinh^{-1}(x)</m>. Calculate <m>f'(0)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                  </exercise>
+          </exercises>
+  </subsection>
+  <subsection>
+          <title>Derivative of Implicitly Defined Functions</title>
+          <example>
+                  <statement>
+          <p>
+                          Let the volume of a water tank (in cubic meters) as a function of depth of the water (in meters) be given by
+                  <md>V=8(h-3)\sqrt{9-\left(h-3\right)^{2}}+72\arcsin\left(\frac{h-3}{3}\right)+36\pi</md>
+                          and let water be flowing into the (empty) tank at a rate of <m>1.1\text{m}^{3}/\text{min}</m>. We will find the rate at which the water is rising when the water is <m>2\text{m}</m> deep.
+                 
+          </p>
+          <p>
+                          Although it is not given explicitly, we know that the depth of the water is a function of time. Furthermore, there is no way to solve for <m>h</m> as a function of time. Thus, we will treat <m>h</m> as an unspecified <term>implicit function</term>.
+          </p>
+          <p>
+                  From our work with derivatives of compositions, we know that 
+                  <md>\dd{V}{t}=\dd{V}{h}\dd{h}{t}.</md>
+                  To calculate <m>\dd{V}{h}</m>, first we will let <m>k=h-3</m>, so that 
+                  <md>
+                          V=8k\sqrt{9-k^{2}}+72\arcsin\left(\frac{k}{3}\right)+36\pi.
+                  </md>
+                          Furthermore, <m>\dd{k}{h}=\dd{{}(h-3)}{h}=1</m>, so
+                  <md>
+                          <mrow> \dd{V}{h} &amp;=\dd{V}{k}\cdot\dd{k}{h} </mrow>
+                          <mrow>           &amp;=\dd{V}{k}\cdot 1 </mrow>
+                          <mrow>  
+                                          &amp;=\dd{{}\left(8k\sqrt{9-k^{2}}\right)}{k}+\dd{{}\left(72\arcsin\left(\frac{k}{3}\right)\right)}{k}+\dd{{}36\pi}{k}
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          \left(8k\dd{{}\left(\sqrt{9-k^{2}}\right)}{k}
+                          +\dd{{}\left(8k\right)}{k}\sqrt{9-k^{2}}\right)
+                          +72\left(
+                          \frac{1}{\sqrt{1-\left(\frac{k}{3}\right)^{2}}}
+                          \right)\dd{{}\left(\frac{k}{3}\right)}{k}
+                          +0
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          \left(8k\frac{1}{2\sqrt{9-k^{2}}}\dd{9-k^{2}}{k}
+                          +8\sqrt{9-k^{2}}\right)
+                          +72\left(
+                          \frac{1}{\sqrt{1-\left(\frac{k}{3}\right)^{2}}}
+                          \right)\frac{1}{3}
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          \left(8k\frac{1}{2\sqrt{9-k^{2}}}(-2k)
+                          +8\sqrt{9-k^{2}}\right)
+                          +72\left(
+                          \frac{3}{\sqrt{9-{k}^{2}}}
+                          \right)\frac{1}{3}
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          8\left(\frac{-k^{2}}{\sqrt{9-k^{2}}}
+                          +\sqrt{9-k^{2}}\right)
+                          +\left(
+                          \frac{72}{\sqrt{9-{k}^{2}}}
+                          \right)
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          8\left(\frac{-k^{2}}{\sqrt{9-k^{2}}}
+                          +\sqrt{9-k^{2}}
+                          + \frac{9}{\sqrt{9-{k}^{2}}}
+                          \right)
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          8\left(\frac{9-k^{2}}{\sqrt{9-k^{2}}}
+                          +\sqrt{9-k^{2}}
+                          \right)
+                          </mrow>
+                          <mrow>  
+                                          &amp;=
+                          8\left({\sqrt{9-k^{2}}}
+                          +\sqrt{9-k^{2}}
+                          \right)
+                          </mrow>
+                          <mrow>  
+                                          &amp;= 16 {\sqrt{9-k^{2}}}
+                          </mrow>
+                          <mrow>  
+                                          &amp;= 16 {\sqrt{9-(h-3)^{2}}}
+                          </mrow>
+                  </md>
+                  Now, we also know that <m>\dd{V}{t}=1.1</m>, so
+                  <md>
+                          <mrow> 1.1&amp;=\dd{V}{t} </mrow>
+                          <mrow>    &amp;=\dd{V}{h}\dd{h}{t} </mrow>
+                          <mrow>    &amp;=16 {\sqrt{9-(h-3)^{2}}}\dd{h}{t} </mrow>
+                  </md>
+                  and so
+                  <md>
+                          <mrow>\dd{h}{t}&amp;=\frac{1.1}{16 {\sqrt{9-(h-3)^{2}}}}.</mrow>
+                  </md>
+          </p>
+          <p>
+                          Finally,  we evaluate this at <m>h=2</m>:
+                          <md>
+                                  <mrow>\left.\dd{h}{t}\right\rvert_{h=2}&amp;=\frac{1.1}{16 {\sqrt{9-(2-3)^{2}}}}</mrow>
+                                  <mrow>&amp;=\frac{1.1}{16 {\sqrt{9-(-1)^{2}}}}</mrow>
+                                  <mrow>&amp;=\frac{1.1}{16 {\sqrt{8}}}</mrow>
+                                  <mrow>&amp;=\frac{1.1}{32 {\sqrt{2}}}</mrow>
+                                  <mrow>&amp;\approx 0.243067956\text{m}/\text{min}.</mrow>
+                          </md>
+          </p>
+                  </statement>
+          </example>
+  </subsection>
+
+</section>

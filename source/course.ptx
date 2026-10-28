@@ -47,6 +47,7 @@
       <xi:include href="./activities/DerivativesOfProducts/DerivProducts.ptx"/>
       <xi:include href="./activities/BoatMotor/BoatMotor.ptx"/>
       <xi:include href="./activities/Compositions/Compositions.ptx"/>
+      <xi:include href="./activities/ImplicitAndInverses/ImplicitAndInverse.ptx"/>
 
     </chapter>
     <!--
