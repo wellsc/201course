@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Composition of Functions</title>
+
+  <introduction>
+    <p>
+                    In this activity, we review what <term>composition</term> of functions means in preparation for investigating patterns for the derivative of a composition of functions.
+    </p>
+  </introduction>
+
+  <exercise>
+    <statement>
+              <p>
+                      Complete the following tables, given that <m>h(x) = g\left(f(x)\right)</m>.
+              </p>
+              <sidebyside>
+                      <table>
+                              <title>Values for <m>f(x)</m></title>
+                              <tabular>
+                                      <row><cell><m>x</m></cell> <cell><m>f(x)</m></cell></row>
+                                      <row><cell><m>-2</m></cell> <cell><m>4</m></cell></row>
+                                      <row><cell><m>-1</m></cell> <cell><m></m></cell></row>
+                                      <row><cell><m>0</m></cell> <cell><m></m></cell></row>
+                                      <row><cell><m>1</m></cell> <cell><m>5</m></cell></row>
+                                      <row><cell><m>2</m></cell> <cell><m>1</m></cell></row>
+                              </tabular>
+                      </table>
+                      <table>
+                              <title>Values for <m>g(x)</m></title>
+                              <tabular>
+                                      <row><cell><m>x</m></cell> <cell><m>g(x)</m></cell></row>
+                                      <row><cell><m>1</m></cell> <cell><m></m></cell></row>
+                                      <row><cell><m>2</m></cell> <cell><m>1</m></cell></row>
+                                      <row><cell><m>3</m></cell> <cell><m>2</m></cell></row>
+                                      <row><cell><m>4</m></cell> <cell><m>0</m></cell></row>
+                                      <row><cell><m>5</m></cell> <cell><m>-1</m></cell></row>
+                              </tabular>
+                      </table>
+                      <table>
+                              <title>Values for <m>f(x)</m></title>
+                              <tabular>
+                                      <row><cell><m>x</m></cell> <cell><m>f(x)</m></cell></row>
+                                      <row><cell><m>-2</m></cell> <cell><m></m></cell></row>
+                                      <row><cell><m>-1</m></cell> <cell><m>1</m></cell></row>
+                                      <row><cell><m>0</m></cell> <cell><m>2</m></cell></row>
+                                      <row><cell><m>1</m></cell> <cell><m></m></cell></row>
+                                      <row><cell><m>2</m></cell> <cell><m>-2</m></cell></row>
+                              </tabular>
+                      </table>
+              </sidebyside>
+    </statement>
+  </exercise>
+  <exercise>
+          <introduction>
+                  <p>
+                                  Write each of the following functions as a composition of two or more functions (none of which is allowed to be the <term>identity function</term>, <m>I:x\to{}x</m>).
+                  </p>
+          </introduction>
+          <task>
+                  <statement>
+                          <p>
+                                  <m>f:x\to{}\left(x^{3}+7\right)^{5}</m>
+                          </p>
+                  </statement>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                  <m>g:x\to{}\nexp{3x-6}</m>
+                          </p>
+                  </statement>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                  <m>
+                                  k:x\to{}\frac{1}{\sqrt{x^{2}+1}}
+                                  </m>
+                          </p>
+                  </statement>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                  <m>m:x\to{}\left(x^{3}-3x^{2}+5\right)^{10}</m>
+                          </p>
+                  </statement>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                  <m> \ell:x\to{}\nexp{10x} </m>
+                          </p>
+                  </statement>
+          </task>
+          <task>
+                  <statement>
+                          <p>
+                                  <m> n:x\to\nexp{3x^{2}} </m>
+                          </p>
+                  </statement>
+          </task>
+  </exercise>
+</worksheet>
