@@ -123,14 +123,15 @@ eBookConfig.enable_chatcodes =  false;
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
 <div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="progress_checks.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="progress_checks.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="progress_check_2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\di}[1]{{\mathrm{d}}{#1}}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(  \newcommand{\di}[1]{{\mathrm{d}}{#1}}
+\newcommand{\dd}[2]{\frac{\di{#1}}{\di{#2}}}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
 \newcommand{\php}{\phantom{+}}
 \newcommand{\nexp}[1]{\mathrm{e}^{#1}}
-      \newcommand{\abs}[1]{\left\lvert{}{#1}\right\rvert{}}
+\newcommand{\abs}[1]{\left\lvert{}{#1}\right\rvert{}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -346,6 +347,21 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-15.html" class="internal"><span class="codenumber">3.13</span> <span class="title">Rate of Change for an Area</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-16.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Fuel Efficiency of a Marine Motor</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-17.html" class="internal"><span class="codenumber">3.15</span> <span class="title">Composition of Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_imp_and_inv.html" class="internal"><span class="codenumber">3.16</span> <span class="title">Implicit Differentiation and Derivative of Inverse Functions</span></a></div>
+<ul id="ptx-toc-group-sec_imp_and_inv" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="sec_imp_and_inv-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_imp_and_inv-3.html" class="internal"><span class="codenumber">3.16.1</span> <span class="title">Practice with Derivatives of Compositions</span></a></div>
+<ul id="ptx-toc-group-sec_imp_and_inv-3" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_imp_and_inv-3.html#sec_imp_and_inv-3-3" class="internal"><span class="codenumber">3.16.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_imp_and_inv-4.html" class="internal"><span class="codenumber">3.16.2</span> <span class="title">Derivatives of Inverse Functions</span></a></div>
+<ul id="ptx-toc-group-sec_imp_and_inv-4" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec_imp_and_inv-4.html#sec_imp_and_inv-4-5" class="internal"><span class="codenumber">3.16.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_imp_and_inv-5.html" class="internal"><span class="codenumber">3.16.3</span> <span class="title">Derivative of Implicitly Defined Functions</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -663,7 +679,7 @@ f(80)=250.
 </article></section><section class="onepage" id="progress_check_1-4">
 <article class="exercise exercise-like" id="pc1_cone_water_tank"><h2 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
 <div class="introduction" id="pc1_cone_water_tank-1">
-<div class="para" id="pc1_cone_water_tank-1-1">A water tank in the shape of a cone with the point upward with a base radius of <span class="process-math">\(6\)</span> ft and a height of <span class="process-math">\(24\)</span> ft, as shown in <a href="progress_check_1.html#fig_wide_bot_cone" class="xref" data-knowl="./knowl/xref/fig_wide_bot_cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 54">Figure 54</a>, is filling at a constant rate of <span class="process-math">\(0.12~\text{ft}^{3}/\text{min}\text{.}\)</span> The goal of this problem is to construct a model for the depth of water as a function of time.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cone_water_tank-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="pc1_cone_water_tank-1-1">A water tank in the shape of a cone with the point upward with a base radius of <span class="process-math">\(6\)</span> ft and a height of <span class="process-math">\(24\)</span> ft, as shown in <a href="progress_check_1.html#fig_wide_bot_cone" class="xref" data-knowl="./knowl/xref/fig_wide_bot_cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 58">Figure 58</a>, is filling at a constant rate of <span class="process-math">\(0.12~\text{ft}^{3}/\text{min}\text{.}\)</span> The goal of this problem is to construct a model for the depth of water as a function of time.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cone_water_tank-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig_wide_bot_cone"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;">
 <img src="generated/prefigure/wide_bottom_cone.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="fig_wide_bot_cone-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_wide_bot_cone-2-description">
@@ -671,7 +687,7 @@ f(80)=250.
 </div>
 </div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">54<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Conical Tank with Base Radius 6 ft and Height 24 ft.<div class="autopermalink" aria-hidden="true" data-description="Figure 54"><a tabindex="-1" href="#fig_wide_bot_cone" title="Copy heading and permalink for Figure 54" aria-label="Copy heading and permalink for Figure 54">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">58<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Conical Tank with Base Radius 6 ft and Height 24 ft.<div class="autopermalink" aria-hidden="true" data-description="Figure 58"><a tabindex="-1" href="#fig_wide_bot_cone" title="Copy heading and permalink for Figure 58" aria-label="Copy heading and permalink for Figure 58">🔗</a></div></figcaption>
 </figure>
 </div>
 <article class="task exercise-like" id="pc1_cone_water_tank-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
@@ -835,7 +851,7 @@ V_{w}&amp;=V_{T}-V_{\varnothing}\\
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.1.3.c"><a tabindex="-1" href="#pc1_cone_water_tank-4" title="Copy heading and permalink for Task 5.1.3.c" aria-label="Copy heading and permalink for Task 5.1.3.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="pc1_cone_water_tank-5"><h3 class="heading"><span class="codenumber">(d)</span></h3>
-<div class="para" id="pc1_cone_water_tank-5-1-1">On the blank grid in <a href="progress_check_1.html#pc1_blank_grid1" class="xref" data-knowl="./knowl/xref/pc1_blank_grid1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 55">Figure 55</a>, sketch a graph of the depth of water <em class="emphasis">as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cone_water_tank-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="pc1_cone_water_tank-5-1-1">On the blank grid in <a href="progress_check_1.html#pc1_blank_grid1" class="xref" data-knowl="./knowl/xref/pc1_blank_grid1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 59">Figure 59</a>, sketch a graph of the depth of water <em class="emphasis">as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cone_water_tank-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="pc1_cone_water_tank-5-1-2">You may assume the tank is empty to begin.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cone_water_tank-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
@@ -845,7 +861,7 @@ V_{w}&amp;=V_{T}-V_{\varnothing}\\
 </div>
 </div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">55<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Blank Grid for Sketching the Graph of Depth as a Function of Time<div class="autopermalink" aria-hidden="true" data-description="Figure 55"><a tabindex="-1" href="#pc1_blank_grid1" title="Copy heading and permalink for Figure 55" aria-label="Copy heading and permalink for Figure 55">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">59<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Blank Grid for Sketching the Graph of Depth as a Function of Time<div class="autopermalink" aria-hidden="true" data-description="Figure 59"><a tabindex="-1" href="#pc1_blank_grid1" title="Copy heading and permalink for Figure 59" aria-label="Copy heading and permalink for Figure 59">🔗</a></div></figcaption>
 </figure><div class="solutions">
 <details id="pc1_cone_water_tank-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
@@ -920,7 +936,7 @@ d=24-\sqrt[3]{13824-1.8335t}
 </article></section><section class="onepage" id="progress_check_1-5">
 <article class="exercise exercise-like" id="pc1_cylinder_water_tank"><h2 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
 <div class="introduction" id="pc1_cylinder_water_tank-1">
-<div class="para" id="pc1_cylinder_water_tank-1-1">A water tank in the shape of a horizontal cylinder with a radius of <span class="process-math">\(3\)</span> m and a length of <span class="process-math">\(8\)</span> m, as shown in <a href="progress_check_1.html#fig_horiz_cyl" class="xref" data-knowl="./knowl/xref/fig_horiz_cyl.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 56">Figure 56</a>, is filling at a constant rate of <span class="process-math">\(1.1\text{m}^{3}/\text{min}\text{.}\)</span> The goal of this problem is to approximate instantaneous rate of change numerically when the water is <span class="process-math">\(2\)</span>m deep.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cylinder_water_tank-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="pc1_cylinder_water_tank-1-1">A water tank in the shape of a horizontal cylinder with a radius of <span class="process-math">\(3\)</span> m and a length of <span class="process-math">\(8\)</span> m, as shown in <a href="progress_check_1.html#fig_horiz_cyl" class="xref" data-knowl="./knowl/xref/fig_horiz_cyl.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 60">Figure 60</a>, is filling at a constant rate of <span class="process-math">\(1.1\text{m}^{3}/\text{min}\text{.}\)</span> The goal of this problem is to approximate instantaneous rate of change numerically when the water is <span class="process-math">\(2\)</span>m deep.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cylinder_water_tank-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig_horiz_cyl"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;">
 <img src="generated/prefigure/cylindrical_cone.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="fig_horiz_cyl-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig_horiz_cyl-2-description">
@@ -928,7 +944,7 @@ d=24-\sqrt[3]{13824-1.8335t}
 </div>
 </div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">56<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Cylindrical Tank with Radius 3 m and Length 8 m.<div class="autopermalink" aria-hidden="true" data-description="Figure 56"><a tabindex="-1" href="#fig_horiz_cyl" title="Copy heading and permalink for Figure 56" aria-label="Copy heading and permalink for Figure 56">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">60<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Cylindrical Tank with Radius 3 m and Length 8 m.<div class="autopermalink" aria-hidden="true" data-description="Figure 60"><a tabindex="-1" href="#fig_horiz_cyl" title="Copy heading and permalink for Figure 60" aria-label="Copy heading and permalink for Figure 60">🔗</a></div></figcaption>
 </figure>
 </div>
 <article class="task exercise-like" id="pc1_cylinder_water_tank-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
@@ -1000,7 +1016,7 @@ V
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.1.4.d"><a tabindex="-1" href="#pc1_cylinder_water_tank-5" title="Copy heading and permalink for Task 5.1.4.d" aria-label="Copy heading and permalink for Task 5.1.4.d">🔗</a></div>
 </article>
 <article class="task exercise-like" id="pc1_cylinder_water_tank-6"><h3 class="heading"><span class="codenumber">(e)</span></h3>
-<div class="para" id="pc1_cylinder_water_tank-6-1-1">On the blank grid in <a href="progress_check_1.html#pc1_blank_grid2" class="xref" data-knowl="./knowl/xref/pc1_blank_grid2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 57">Figure 57</a>, sketch a graph of the depth of water <em class="emphasis">as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cylinder_water_tank-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="pc1_cylinder_water_tank-6-1-1">On the blank grid in <a href="progress_check_1.html#pc1_blank_grid2" class="xref" data-knowl="./knowl/xref/pc1_blank_grid2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 61">Figure 61</a>, sketch a graph of the depth of water <em class="emphasis">as a function of time</em>. Your sketch does not need to be perfect, but it should reflect how the rate of change of depth is changing as the tank fills.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cylinder_water_tank-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="pc1_cylinder_water_tank-6-1-2">You may assume the tank is empty to begin.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#pc1_cylinder_water_tank-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
@@ -1010,7 +1026,7 @@ V
 </div>
 </div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">57<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Blank Grid for Sketching the Graph of Depth as a Function of Time<div class="autopermalink" aria-hidden="true" data-description="Figure 57"><a tabindex="-1" href="#pc1_blank_grid2" title="Copy heading and permalink for Figure 57" aria-label="Copy heading and permalink for Figure 57">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">61<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Blank Grid for Sketching the Graph of Depth as a Function of Time<div class="autopermalink" aria-hidden="true" data-description="Figure 61"><a tabindex="-1" href="#pc1_blank_grid2" title="Copy heading and permalink for Figure 61" aria-label="Copy heading and permalink for Figure 61">🔗</a></div></figcaption>
 </figure><div class="solutions">
 <details id="pc1_cylinder_water_tank-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
