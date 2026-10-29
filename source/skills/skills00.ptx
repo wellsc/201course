@@ -10,7 +10,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>f(x) = 7x^8-3x^2-4x-13</m>
+			<m>f'(x) = 56x^7-6x-4</m>
 		</p>
 	</answer>
 </exercise>
@@ -22,7 +22,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>g(x) = {\big(\tan(x)\big)}^{1/5}</m>
+			<m>g'(x) = \frac{1}{5}{\big(\tan(x)\big)}^{-4/5}\sec^2(x)</m>
 		</p>
 	</answer>
 </exercise>
@@ -34,7 +34,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>q(u) = {\big(\sin(4u^2-1)\big)}^3</m>
+			<m>q'(u) = 3{\big(\sin(4u^2-1)\big)}^2\cos(4u^2-1)(8u)</m>
 		</p>
 	</answer>
 </exercise>
@@ -46,7 +46,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>h(x) = \dfrac{{(x^2-3x)}^2}{x^3-4}</m>
+			<m>h'(x) = \dfrac{(x^3-4)\cdot2(x^2-3x)(2x-3)-{(x^2-3x)}^2(3x^2)}{{(x^3-4)}^2}</m>
 		</p>
 	</answer>
 </exercise>
@@ -58,7 +58,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>p(r) = \dfrac{2r+3}{2r^3+1}</m>
+			<m>p'(r) = \dfrac{(2r^3+1)\cdot2-(2r+3)(6r^2)}{{(2r^3+1)}^2}</m>
 		</p>
 	</answer>
 </exercise>
@@ -70,7 +70,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>m(t) = e^{3\cos(2t-1)}</m>
+			<m>m'(t) = e^{3\cos(2t-1)}\big(-3\sin(2t-1)\big)(2)</m>
 		</p>
 	</answer>
 </exercise>
@@ -82,7 +82,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>r(x) = (-2\sqrt[4]{x}+4x^5)(x^2-3x^3+1)</m>
+			<m>r'(x) = (-2\sqrt[4]{x}+4x^5)(2x-9x^2)</m>
 		</p>
 	</answer>
 </exercise>
@@ -94,19 +94,7 @@
 	</statement>
 	<answer>
 		<p>
-			<m>T(z) = \sin^2(3z+1)</m>
-		</p>
-	</answer>
-</exercise>
-  <exercise workspace='1in'>
-	<statement>
-		<p>
-			<m>F(x) = \dfrac{1}{2x^3} - 3x^{-1/3}</m>
-		</p>
-	</statement>
-	<answer>
-		<p>
-			<m>F(x) = \dfrac{1}{2x^3} - 3x^{-1/3}</m>
+			<m>T'(z) = 2\sin(3z+1)\cos(3z+1)(3)+ (-2\cdot\frac{1}{4}\cdot x^{-3/4}+20x^4)(x^2-3x^3+1)</m>
 		</p>
 	</answer>
 </exercise>
@@ -118,7 +106,19 @@
 	</statement>
 	<answer>
 		<p>
-			<m>g(w) = 3^{\sqrt{4w^2-1}}</m>
+			<m>g'(w) = 3^{\sqrt{4w^2-1}}\ln(3)\frac{1}{2}{(4w^2-1)}^{-1/2}(8w)</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>F(x) = \dfrac{1}{2x^3} - 3x^{-1/3}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>F'(x) = \genfrac{}{}{0pt}{0}{-}{}\dfrac{3}{2}x^{-4} + x^{-4/3}</m>
 		</p>
 	</answer>
 </exercise>
