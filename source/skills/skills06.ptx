@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Skills Check 6</title>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>f(x) = -2x^{6}-5x^{-3}+2x-5</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(x) = 2\cos(\nexp{3x})</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>q(t) = \sin\left(\dfrac{5}{2t^{3}+t}\right)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>p(r) = \dfrac{r^{3}-4r^{2}+5}{2r^{3}-5}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>h(x) = \dfrac{2x^{2}-3x+2}{(x^{2}+5x)^{4}}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>m(t) = \nexp{\sin(4t^{3}+t)}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>r(x) = \left(\dfrac{1}{\sqrt[3]{x^{2}}}-5x\right)\left(x^{4}-\dfrac{5}{6x^{2}}\right)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>T(z) = z^{5}\sin(z)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(w) = \sin\left({\sqrt[3]{3w+2}}\right)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>F(x) = \dfrac{1}{3x^{2}} - \dfrac{x^{-3/2}}{4}</m>
+		</p>
+	</statement>
+</exercise>
+</worksheet>

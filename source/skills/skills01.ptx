@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Skills Check 1</title>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>f(x) = 8x^{5} - 12x^{3} + 5x^{2} + 7</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>f(x) = 8x^{5} - 12x^{3} + 5x^{2} + 7</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(x) = \sqrt[5]{\cos(x)}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>g(x) = \sqrt[5]{\cos(x)}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>q(t) = \cos^{2}(4t^{3}+3t^{2})</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>q(t) = \cos^{2}(4t^{3}+3t^{2})</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>p(r) = \dfrac{r^{2}+2r+3}{3r+2}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>p(r) = \dfrac{r^{2}+2r+3}{3r+2}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>h(x) = \dfrac{x^{3}-x^{2}+1}{{(x^{2}+2)}^{4}}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>h(x) = \dfrac{x^{3}-x^{2}+1}{{(x^{2}+2)}^{4}}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>m(t) = e^{\sqrt{2t+3}}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>m(t) = e^{\sqrt{2t+3}}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>r(x) = (\sqrt[3]{x}-x^{3})\bigg(\dfrac{1}{3x}+\dfrac{x}{3}\bigg)</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>r(x) = (\sqrt[3]{x}-x^{3})\bigg(\dfrac{1}{3x}+\dfrac{x}{3}\bigg)</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>T(z) = z^{5}\tan(z)</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>T(z) = z^{5}\tan(z)</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(w) = e^{\sin{(3w^{2})}}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>g(w) = e^{\sin{(3w^{2})}}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>F(x) = \dfrac{1}{3x^{4}} - 5x^{-1/2}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>F(x) = \dfrac{1}{3x^{4}} - 5x^{-1/2}</m>
+		</p>
+	</answer>
+</exercise>
+</worksheet>

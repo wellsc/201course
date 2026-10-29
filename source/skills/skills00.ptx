@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Skills Check 0</title>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>f(x) = 7x^8-3x^2-4x-13</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>f(x) = 7x^8-3x^2-4x-13</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(x) = {\big(\tan(x)\big)}^{1/5}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>g(x) = {\big(\tan(x)\big)}^{1/5}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>q(u) = {\big(\sin(4u^2-1)\big)}^3</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>q(u) = {\big(\sin(4u^2-1)\big)}^3</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>h(x) = \dfrac{{(x^2-3x)}^2}{x^3-4}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>h(x) = \dfrac{{(x^2-3x)}^2}{x^3-4}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>p(r) = \dfrac{2r+3}{2r^3+1}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>p(r) = \dfrac{2r+3}{2r^3+1}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>m(t) = e^{3\cos(2t-1)}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>m(t) = e^{3\cos(2t-1)}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>r(x) = (-2\sqrt[4]{x}+4x^5)(x^2-3x^3+1)</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>r(x) = (-2\sqrt[4]{x}+4x^5)(x^2-3x^3+1)</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>T(z) = \sin^2(3z+1)</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>T(z) = \sin^2(3z+1)</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>F(x) = \dfrac{1}{2x^3} - 3x^{-1/3}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>F(x) = \dfrac{1}{2x^3} - 3x^{-1/3}</m>
+		</p>
+	</answer>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(w) = 3^{\sqrt{4w^2-1}}</m>
+		</p>
+	</statement>
+	<answer>
+		<p>
+			<m>g(w) = 3^{\sqrt{4w^2-1}}</m>
+		</p>
+	</answer>
+</exercise>
+</worksheet>

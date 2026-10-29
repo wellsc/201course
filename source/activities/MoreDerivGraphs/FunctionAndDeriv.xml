@@ -8,7 +8,7 @@
   <de-solve function="d" t0="-2*pi" y0="3" t1="2*pi" name="F" N="300" />
   -->
   <coordinates bbox="(-pi,-pi,pi,pi)">
-    <grid-axes spacings="((-pi,pi/4,pi),(-pi,pi/4,pi))" decorations="no"/>
+    <grid-axes arrows="1" spacings="((-pi,pi/4,pi),(-pi,pi/4,pi))" decorations="no"/>
     <graph at="orig" function="f" N="300" dash="4 4" thickness="4" />
     <graph at="deriv" function="g" N="300" stroke="darkgreen" thickness="4" />
     <!--

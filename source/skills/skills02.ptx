@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Skills Check 2</title>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>f(x) = 6x^{5}+3x^{4}-12x^{2}-x</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(x) = \cos\big(\tan(x)\big)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>q(t) = \dfrac{1}{\sin\bigg(\dfrac{1}{4t+1}\bigg)}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>p(r) = \dfrac{r^{5}-10r^{2}+r}{5r+2}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>h(x) = \dfrac{x^{2}+x}{{(x^{4}+x^{3})}^{5}}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>m(t) = \nexp{{(3t+5)}^{2}}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>r(x) = \bigg(\dfrac{1}{\sqrt[3]{x}}-3x\bigg)\bigg(x^{3}-\dfrac{1}{x^{3}}\bigg)</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>T(z) = \dfrac{z^{2}}{\cos(z)}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>g(w) = \nexp{3\tan^{2}(w)}</m>
+		</p>
+	</statement>
+</exercise>
+  <exercise workspace='1in'>
+	<statement>
+		<p>
+			<m>F(x) = \dfrac{-1}{4x^{3}} - x^{-2/3}</m>
+		</p>
+	</statement>
+</exercise>
+</worksheet>

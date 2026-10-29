@@ -1495,6 +1495,105 @@ var ptx_lunr_docs = [
   "body": " The Derivative of   Let . Then    "
 },
 {
+  "id": "handouts-5",
+  "level": "1",
+  "url": "handouts-5.html",
+  "type": "Worksheet",
+  "number": "4.4",
+  "title": "Skills Check 0",
+  "body": " Skills Check 0                                                                                                                          "
+},
+{
+  "id": "handouts-5-2",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-3",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-4",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-4",
+  "type": "Worksheet Exercise",
+  "number": "4.4.3",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-5",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-5",
+  "type": "Worksheet Exercise",
+  "number": "4.4.4",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-6",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-6",
+  "type": "Worksheet Exercise",
+  "number": "4.4.5",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-7",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-7",
+  "type": "Worksheet Exercise",
+  "number": "4.4.6",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-8",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-8",
+  "type": "Worksheet Exercise",
+  "number": "4.4.7",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-9",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-9",
+  "type": "Worksheet Exercise",
+  "number": "4.4.8",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-10",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-10",
+  "type": "Worksheet Exercise",
+  "number": "4.4.9",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-5-11",
+  "level": "2",
+  "url": "handouts-5.html#handouts-5-11",
+  "type": "Worksheet Exercise",
+  "number": "4.4.10",
+  "title": "",
+  "body": "           "
+},
+{
   "id": "progress_check_1",
   "level": "1",
   "url": "progress_check_1.html",
