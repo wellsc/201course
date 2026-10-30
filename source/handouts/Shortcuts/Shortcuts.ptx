@@ -4,13 +4,15 @@
 <subsection xml:id="deriv_basic">
         <title>Basic Functions</title>
     <p>
-            <dl>
-                    <li>
+                    <theorem>
                             <title>Constant Functions</title>
+                            <statement>
                             <p>For any constant, <m>c</m>, <md><mrow>\text{if }f(x)&amp;=c,&amp;\text{ then }f'(x)&amp;=0</mrow></md></p>
-                    </li>
-                    <li>
+                            </statement>
+                    </theorem>
+                    <theorem>
                             <title>Power Functions</title>
+                            <statement>
                             <p>For any constant, <m>r\neq{}0</m>, 
                             <md>
                                     <mrow>
@@ -18,9 +20,11 @@
                                     </mrow>
                             </md>
                             </p>
-                    </li>
-                    <li>
+                            </statement>
+                    </theorem>
+                    <theorem>
                             <title>Sine</title>
+                            <statement>
                             <p>
                                     <md>
                                             <mrow>
@@ -28,9 +32,11 @@
                                             </mrow>
                                     </md>
                             </p>
-                    </li>
-                    <li>
+                            </statement>
+                    </theorem>
+                    <theorem>
                             <title>Cosine</title>
+                            <statement>
                             <p>
                                     <md>
                                             <mrow>
@@ -38,9 +44,11 @@
                                             </mrow>
                                     </md>
                             </p>
-                    </li>
-                    <li>
+                            </statement>
+                    </theorem>
+                    <theorem>
                             <title>Natural Exponential</title>
+                            <statement>
                             <p>
                                     <md>
                                             <mrow>
@@ -48,16 +56,16 @@
                                             </mrow>
                                     </md>
                             </p>
-                    </li>
-            </dl>
+                            </statement>
+                    </theorem>
     </p>
 </subsection>
 <subsection xml:id="deriv_combinations">
         <title>Combinations of Functions</title>
         <p>
-                <dl>
-                        <li>
+                        <theorem>
                                 <title>Constant Multiple</title>
+                                <statement>
                                 <p>For any constant <m>c</m> and any differentiable function <m>f(x)</m>,
                                 <md>
                                         <mrow>
@@ -65,18 +73,25 @@
                                         </mrow>
                                 </md>
                         </p>
-                        </li>
-                        <li>
-                                <title>Sums</title>
+                                </statement>
+                        </theorem>
+                        <theorem>
+                                <title>Sums and Differences</title>
+                                <statement>
                                 <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>, 
                                 <md>
                                         <mrow>
                                                         \text{if }g(x)&amp;=f_{1}(x)+f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)+f_{2}'(x)
                                         </mrow>
+                                        <mrow>
+                                                        \text{if }g(x)&amp;=f_{1}(x)-f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)-f_{2}'(x)
+                                        </mrow>
                                 </md></p>
-                        </li>
-                        <li>
+                                </statement>
+                        </theorem>
+                        <theorem>
                                 <title>Products</title>
+                                <statement>
                                 <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>,
                                 <md>
                                         <mrow>
@@ -84,18 +99,22 @@
                                         </mrow>
                                 </md>
                                 </p>
-                        </li>
-                        <li>
+                                </statement>
+                        </theorem>
+                        <theorem>
                                 <title>Quotients</title>
+                                <statement>
                                 <p>For any differentiable functions <m>f_{1}(x)</m> and <m>f_{2}(x)</m>, for any <m>x</m> where <m>g(x)\neq{}0</m>,
                                 <md>
                                         <mrow>
                                                         \text{if }g(x)&amp;=\frac{f_{1}(x)}{f_{2}(x)}&amp;\text{ then }g'(x)&amp;=\frac{f_{1}'(x)\cdot{}f_{2}(x)-f_{1}(x)\cdot{}f_{2}'(x)}{\left({f_{2}(x)}\right)^{2}}
                                         </mrow>
                                 </md></p>
-                        </li>
-                        <li>
+                                </statement>
+                        </theorem>
+                        <theorem>
                                 <title>Compositions</title>
+                                <statement>
                                 <p>For any differentiable functions <m>f_{o}(x)</m> and <m>f_{i}(x)</m>,
                                 <md>
                                         <mrow>
@@ -103,8 +122,8 @@
                                         </mrow>
                                 </md>
                                 </p>
-                        </li>
-                </dl>
+                                </statement>
+                        </theorem>
         </p>
 </subsection>
 <subsection>
@@ -225,6 +244,27 @@
                         </md>
                 </p>
         </subsubsection>
+        <subsubsection>
+                <title>Compositions</title>
+                <p>
+                                Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions, and let <m>C(x)=f\big(g(x)\big)</m>. Then, if we let <m>U=g(u)</m> and <m>X=g(x)</m>, we have <m>U\xrightarrow{u\to{}x}X</m>, and so
+                        <md>
+                                <mrow>
+                                        \left(f\big(g(x)\big)\right)^{'}&amp;=C'(x)
+                                </mrow>
+                                <mrow>
+                                             &amp;=\lim_{u\to x}\frac{C(u)-C(x)}{u-x}
+                                </mrow>
+                                <mrow>&amp;=\lim_{u\to{}x}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{u-x}</mrow>
+                                <mrow>&amp;=\lim_{u\to{}x}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{g(u)-g(x)}\cdot\frac{g(u)-g(x)}{u-x}</mrow>
+                                <mrow>&amp;=\lim_{g(u)\to{}g(x)}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{g(u)-g(x)}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}</mrow>
+                                <mrow>&amp;=\lim_{U\to{}X}\frac{f\big(U\big)-f\big(X\big)}{U-X}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}</mrow>
+                                <mrow>&amp;=\lim_{U\to{}X}\frac{f\big(U\big)-f\big(X\big)}{U-X}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}</mrow>
+                                <mrow>&amp;=f'\left(X\right)\cdot{}g'(x)</mrow>
+                                <mrow>&amp;=f'\big(g(x)\big)\cdot{}g'(x)</mrow>
+                        </md>
+                </p>
+        </subsubsection>
 </subsection>
 <subsection>
         <title>Consequences</title>
@@ -256,10 +296,10 @@
                                                 {\sec^{2}(x)}
                                         </mrow>
                                         <mrow>
-                                                \text{or}
+                                                \text{or, equivalently}
                                         </mrow>
                                         <mrow>
-                                                &amp;=
+                                                f'(x)&amp;=
                                                 \frac{\cos^{2}(x)}{\cos^{2}(x)}-\frac{\sin^{2}(x)}{\cos^{2}(x)}
                                         </mrow>
                                         <mrow>

@@ -74,6 +74,7 @@
       <xi:include href="./handouts/PowersOfX/PowersOfX.ptx"/>
       <xi:include href="./handouts/Shortcuts/Shortcuts.ptx"/>
       <xi:include href="./skills/skills00.ptx" />
+      <xi:include href="./skills/skills01.ptx" />
     </chapter>
 
     <chapter xml:id="progress_checks">
