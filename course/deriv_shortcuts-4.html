@@ -379,12 +379,14 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list active" id="ptx-toc-group-deriv_shortcuts-4">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-2" class="internal"><span class="codenumber">4.3.3.1</span> <span class="title">Products</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-3" class="internal"><span class="codenumber">4.3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-4" class="internal"><span class="codenumber">4.3.3.3</span> <span class="title">Compositions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="deriv_shortcuts-5.html" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Consequences</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="handouts-5.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Skills Check 0</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="handouts-6.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Skills Check 1</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -481,6 +483,29 @@ f'(x)g(x)
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_shortcuts-4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Subsubsection 4.3.3.2: Quotients"><a tabindex="-1" href="#deriv_shortcuts-4-3" title="Copy heading and permalink for Subsubsection 4.3.3.2: Quotients" aria-label="Copy heading and permalink for Subsubsection 4.3.3.2: Quotients">🔗</a></div>
+</section>
+<section class="subsubsection" id="deriv_shortcuts-4-4">
+<h2 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Compositions</span>
+</h2>
+<div class="para logical" id="deriv_shortcuts-4-4-2">
+<div class="para">Let <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> be differentiable functions, and let <span class="process-math">\(C(x)=f\big(g(x)\big)\text{.}\)</span> Then, if we let <span class="process-math">\(U=g(u)\)</span> and <span class="process-math">\(X=g(x)\text{,}\)</span> we have <span class="process-math">\(U\xrightarrow{u\to{}x}X\text{,}\)</span> and so</div>
+<div class="displaymath process-math" id="deriv_shortcuts-4-4-2-7">
+\begin{align*}
+\left(f\big(g(x)\big)\right)^{'}&amp;=C'(x)\\
+&amp;=\lim_{u\to x}\frac{C(u)-C(x)}{u-x}\\
+&amp;=\lim_{u\to{}x}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{u-x}\\
+&amp;=\lim_{u\to{}x}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{g(u)-g(x)}\cdot\frac{g(u)-g(x)}{u-x}\\
+&amp;=\lim_{g(u)\to{}g(x)}\frac{f\big(g(u)\big)-f\big(g(x)\big)}{g(u)-g(x)}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}\\
+&amp;=\lim_{U\to{}X}\frac{f\big(U\big)-f\big(X\big)}{U-X}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}\\
+&amp;=\lim_{U\to{}X}\frac{f\big(U\big)-f\big(X\big)}{U-X}\cdot\lim_{u\to{}x}\frac{g(u)-g(x)}{u-x}\\
+&amp;=f'\left(X\right)\cdot{}g'(x)\\
+&amp;=f'\big(g(x)\big)\cdot{}g'(x)
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_shortcuts-4-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsubsection 4.3.3.3: Compositions"><a tabindex="-1" href="#deriv_shortcuts-4-4" title="Copy heading and permalink for Subsubsection 4.3.3.3: Compositions" aria-label="Copy heading and permalink for Subsubsection 4.3.3.3: Compositions">🔗</a></div>
 </section><div class="autopermalink" aria-hidden="true" data-description="Subsection 4.3.3: Justifications"><a tabindex="-1" href="#deriv_shortcuts-4" title="Copy heading and permalink for Subsection 4.3.3: Justifications" aria-label="Copy heading and permalink for Subsection 4.3.3: Justifications">🔗</a></div>
 </section>
 </div>

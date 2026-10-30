@@ -379,12 +379,14 @@ eBookConfig.enable_chatcodes =  false;
 <ul id="ptx-toc-group-deriv_shortcuts-4" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-2" class="internal"><span class="codenumber">4.3.3.1</span> <span class="title">Products</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-3" class="internal"><span class="codenumber">4.3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="deriv_shortcuts-4.html#deriv_shortcuts-4-4" class="internal"><span class="codenumber">4.3.3.3</span> <span class="title">Compositions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="deriv_shortcuts-5.html" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Consequences</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="handouts-5.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Skills Check 0</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="handouts-6.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Skills Check 1</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -400,80 +402,83 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Combinations of Functions</span>
 </h1>
-<div class="para logical" id="deriv_combinations-2">
-<dl class="description-list">
-<dt id="deriv_combinations-2-1-1">Constant Multiple<div class="autopermalink" aria-hidden="true" data-description="Item: Constant Multiple"><a tabindex="-1" href="#deriv_combinations-2-1-1" title="Copy heading and permalink for Item: Constant Multiple" aria-label="Copy heading and permalink for Item: Constant Multiple">🔗</a></div>
-</dt>
-<dd>
-<div class="para logical" id="deriv_combinations-2-1-1-2">
+<div class="para" id="deriv_combinations-2">
+<article class="theorem theorem-like" id="deriv_combinations-2-1"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">61</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Constant Multiple.</span>
+</h2>
+<div class="para logical" id="deriv_combinations-2-1-2-1">
 <div class="para">For any constant <span class="process-math">\(c\)</span> and any differentiable function <span class="process-math">\(f(x)\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_combinations-2-1-1-2-3">
+<div class="displaymath process-math" id="deriv_combinations-2-1-2-1-3">
 \begin{align*}
 \text{if }g(x)&amp;=c\cdot{}f(x),&amp;\text{ then }g'(x)&amp;=c\cdot{}f'(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-</dd>
-<dt id="deriv_combinations-2-1-2">Sums<div class="autopermalink" aria-hidden="true" data-description="Item: Sums"><a tabindex="-1" href="#deriv_combinations-2-1-2" title="Copy heading and permalink for Item: Sums" aria-label="Copy heading and permalink for Item: Sums">🔗</a></div>
-</dt>
-<dd>
-<div class="para logical" id="deriv_combinations-2-1-2-2">
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 61: Constant Multiple"><a tabindex="-1" href="#deriv_combinations-2-1" title="Copy heading and permalink for Theorem 61: Constant Multiple" aria-label="Copy heading and permalink for Theorem 61: Constant Multiple">🔗</a></div>
+</article> 
+<article class="theorem theorem-like" id="deriv_combinations-2-2"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">62</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sums and Differences.</span>
+</h2>
+<div class="para logical" id="deriv_combinations-2-2-2-1">
 <div class="para">For any differentiable functions <span class="process-math">\(f_{1}(x)\)</span> and <span class="process-math">\(f_{2}(x)\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_combinations-2-1-2-2-3">
+<div class="displaymath process-math" id="deriv_combinations-2-2-2-1-3">
 \begin{align*}
-\text{if }g(x)&amp;=f_{1}(x)+f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)+f_{2}'(x)
+\text{if }g(x)&amp;=f_{1}(x)+f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)+f_{2}'(x)\\
+\text{if }g(x)&amp;=f_{1}(x)-f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)-f_{2}'(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-</dd>
-<dt id="deriv_combinations-2-1-3">Products<div class="autopermalink" aria-hidden="true" data-description="Item: Products"><a tabindex="-1" href="#deriv_combinations-2-1-3" title="Copy heading and permalink for Item: Products" aria-label="Copy heading and permalink for Item: Products">🔗</a></div>
-</dt>
-<dd>
-<div class="para logical" id="deriv_combinations-2-1-3-2">
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 62: Sums and Differences"><a tabindex="-1" href="#deriv_combinations-2-2" title="Copy heading and permalink for Theorem 62: Sums and Differences" aria-label="Copy heading and permalink for Theorem 62: Sums and Differences">🔗</a></div>
+</article> 
+<article class="theorem theorem-like" id="deriv_combinations-2-3"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">63</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Products.</span>
+</h2>
+<div class="para logical" id="deriv_combinations-2-3-2-1">
 <div class="para">For any differentiable functions <span class="process-math">\(f_{1}(x)\)</span> and <span class="process-math">\(f_{2}(x)\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_combinations-2-1-3-2-3">
+<div class="displaymath process-math" id="deriv_combinations-2-3-2-1-3">
 \begin{align*}
 \text{if }g(x)&amp;=f_{1}(x)\cdot{}f_{2}(x),&amp;\text{ then }g'(x)&amp;=f_{1}'(x)\cdot{}f_{2}(x)+f_{1}(x)\cdot{}f_{2}'(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-</dd>
-<dt id="deriv_combinations-2-1-4">Quotients<div class="autopermalink" aria-hidden="true" data-description="Item: Quotients"><a tabindex="-1" href="#deriv_combinations-2-1-4" title="Copy heading and permalink for Item: Quotients" aria-label="Copy heading and permalink for Item: Quotients">🔗</a></div>
-</dt>
-<dd>
-<div class="para logical" id="deriv_combinations-2-1-4-2">
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 63: Products"><a tabindex="-1" href="#deriv_combinations-2-3" title="Copy heading and permalink for Theorem 63: Products" aria-label="Copy heading and permalink for Theorem 63: Products">🔗</a></div>
+</article> 
+<article class="theorem theorem-like" id="deriv_combinations-2-4"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">64</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Quotients.</span>
+</h2>
+<div class="para logical" id="deriv_combinations-2-4-2-1">
 <div class="para">For any differentiable functions <span class="process-math">\(f_{1}(x)\)</span> and <span class="process-math">\(f_{2}(x)\text{,}\)</span> for any <span class="process-math">\(x\)</span> where <span class="process-math">\(g(x)\neq{}0\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_combinations-2-1-4-2-5">
+<div class="displaymath process-math" id="deriv_combinations-2-4-2-1-5">
 \begin{align*}
 \text{if }g(x)&amp;=\frac{f_{1}(x)}{f_{2}(x)}&amp;\text{ then }g'(x)&amp;=\frac{f_{1}'(x)\cdot{}f_{2}(x)-f_{1}(x)\cdot{}f_{2}'(x)}{\left({f_{2}(x)}\right)^{2}}
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-</dd>
-<dt id="deriv_combinations-2-1-5">Compositions<div class="autopermalink" aria-hidden="true" data-description="Item: Compositions"><a tabindex="-1" href="#deriv_combinations-2-1-5" title="Copy heading and permalink for Item: Compositions" aria-label="Copy heading and permalink for Item: Compositions">🔗</a></div>
-</dt>
-<dd>
-<div class="para logical" id="deriv_combinations-2-1-5-2">
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 64: Quotients"><a tabindex="-1" href="#deriv_combinations-2-4" title="Copy heading and permalink for Theorem 64: Quotients" aria-label="Copy heading and permalink for Theorem 64: Quotients">🔗</a></div>
+</article> 
+<article class="theorem theorem-like" id="deriv_combinations-2-5"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">65</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Compositions.</span>
+</h2>
+<div class="para logical" id="deriv_combinations-2-5-2-1">
 <div class="para">For any differentiable functions <span class="process-math">\(f_{o}(x)\)</span> and <span class="process-math">\(f_{i}(x)\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_combinations-2-1-5-2-3">
+<div class="displaymath process-math" id="deriv_combinations-2-5-2-1-3">
 \begin{align*}
 \text{if }g(x)&amp;=f_{o}\big(f_{i}(x)\big),&amp;\text{ then }g'(x)&amp;=f_{o}\big(f_{i}(x)\big)\cdot{}f_{i}'(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-1-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-</dd>
-</dl>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 65: Compositions"><a tabindex="-1" href="#deriv_combinations-2-5" title="Copy heading and permalink for Theorem 65: Compositions" aria-label="Copy heading and permalink for Theorem 65: Compositions">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_combinations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Subsection 4.3.2: Combinations of Functions"><a tabindex="-1" href="#deriv_combinations" title="Copy heading and permalink for Subsection 4.3.2: Combinations of Functions" aria-label="Copy heading and permalink for Subsection 4.3.2: Combinations of Functions">🔗</a></div>
 </section>

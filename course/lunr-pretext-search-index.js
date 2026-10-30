@@ -1447,7 +1447,52 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.3.1",
   "title": "Basic Functions",
-  "body": " Basic Functions     Constant Functions  For any constant, ,    Power Functions  For any constant, ,     Sine       Cosine       Natural Exponential        "
+  "body": " Basic Functions    Constant Functions   For any constant, ,     Power Functions   For any constant, ,      Sine         Cosine         Natural Exponential         "
+},
+{
+  "id": "deriv_basic-2-1",
+  "level": "2",
+  "url": "deriv_basic.html#deriv_basic-2-1",
+  "type": "Theorem",
+  "number": "56",
+  "title": "Constant Functions.",
+  "body": " Constant Functions   For any constant, ,   "
+},
+{
+  "id": "deriv_basic-2-2",
+  "level": "2",
+  "url": "deriv_basic.html#deriv_basic-2-2",
+  "type": "Theorem",
+  "number": "57",
+  "title": "Power Functions.",
+  "body": " Power Functions   For any constant, ,    "
+},
+{
+  "id": "deriv_basic-2-3",
+  "level": "2",
+  "url": "deriv_basic.html#deriv_basic-2-3",
+  "type": "Theorem",
+  "number": "58",
+  "title": "Sine.",
+  "body": " Sine       "
+},
+{
+  "id": "deriv_basic-2-4",
+  "level": "2",
+  "url": "deriv_basic.html#deriv_basic-2-4",
+  "type": "Theorem",
+  "number": "59",
+  "title": "Cosine.",
+  "body": " Cosine       "
+},
+{
+  "id": "deriv_basic-2-5",
+  "level": "2",
+  "url": "deriv_basic.html#deriv_basic-2-5",
+  "type": "Theorem",
+  "number": "60",
+  "title": "Natural Exponential.",
+  "body": " Natural Exponential       "
 },
 {
   "id": "deriv_combinations",
@@ -1456,7 +1501,52 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.3.2",
   "title": "Combinations of Functions",
-  "body": " Combinations of Functions     Constant Multiple  For any constant and any differentiable function ,     Sums  For any differentiable functions and ,    Products  For any differentiable functions and ,     Quotients  For any differentiable functions and , for any where ,    Compositions  For any differentiable functions and ,      "
+  "body": " Combinations of Functions    Constant Multiple   For any constant and any differentiable function ,      Sums and Differences   For any differentiable functions and ,     Products   For any differentiable functions and ,      Quotients   For any differentiable functions and , for any where ,     Compositions   For any differentiable functions and ,      "
+},
+{
+  "id": "deriv_combinations-2-1",
+  "level": "2",
+  "url": "deriv_combinations.html#deriv_combinations-2-1",
+  "type": "Theorem",
+  "number": "61",
+  "title": "Constant Multiple.",
+  "body": " Constant Multiple   For any constant and any differentiable function ,    "
+},
+{
+  "id": "deriv_combinations-2-2",
+  "level": "2",
+  "url": "deriv_combinations.html#deriv_combinations-2-2",
+  "type": "Theorem",
+  "number": "62",
+  "title": "Sums and Differences.",
+  "body": " Sums and Differences   For any differentiable functions and ,   "
+},
+{
+  "id": "deriv_combinations-2-3",
+  "level": "2",
+  "url": "deriv_combinations.html#deriv_combinations-2-3",
+  "type": "Theorem",
+  "number": "63",
+  "title": "Products.",
+  "body": " Products   For any differentiable functions and ,    "
+},
+{
+  "id": "deriv_combinations-2-4",
+  "level": "2",
+  "url": "deriv_combinations.html#deriv_combinations-2-4",
+  "type": "Theorem",
+  "number": "64",
+  "title": "Quotients.",
+  "body": " Quotients   For any differentiable functions and , for any where ,   "
+},
+{
+  "id": "deriv_combinations-2-5",
+  "level": "2",
+  "url": "deriv_combinations.html#deriv_combinations-2-5",
+  "type": "Theorem",
+  "number": "65",
+  "title": "Compositions.",
+  "body": " Compositions   For any differentiable functions and ,    "
 },
 {
   "id": "deriv_shortcuts-4",
@@ -1465,7 +1555,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.3.3",
   "title": "Justifications",
-  "body": " Justifications   Products  Let and be differentiable functions (with the same domain), and let . Then     Quotients  Let and be differentiable functions (with the same domain) with on the domain, and let . Then    "
+  "body": " Justifications   Products  Let and be differentiable functions (with the same domain), and let . Then     Quotients  Let and be differentiable functions (with the same domain) with on the domain, and let . Then     Compositions  Let and be differentiable functions, and let . Then, if we let and , we have , and so    "
 },
 {
   "id": "deriv_shortcuts-5",
@@ -1481,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "56",
+  "number": "66",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -1490,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "57",
+  "number": "67",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },
@@ -1590,6 +1680,105 @@ var ptx_lunr_docs = [
   "url": "handouts-5.html#handouts-5-11",
   "type": "Worksheet Exercise",
   "number": "4.4.10",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6",
+  "level": "1",
+  "url": "handouts-6.html",
+  "type": "Worksheet",
+  "number": "4.5",
+  "title": "Skills Check 1",
+  "body": " Skills Check 1                                                                                                                          "
+},
+{
+  "id": "handouts-6-2",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-3",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-3",
+  "type": "Worksheet Exercise",
+  "number": "4.5.2",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-4",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-4",
+  "type": "Worksheet Exercise",
+  "number": "4.5.3",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-5",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-5",
+  "type": "Worksheet Exercise",
+  "number": "4.5.4",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-6",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-6",
+  "type": "Worksheet Exercise",
+  "number": "4.5.5",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-7",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-7",
+  "type": "Worksheet Exercise",
+  "number": "4.5.6",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-8",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-8",
+  "type": "Worksheet Exercise",
+  "number": "4.5.7",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-9",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-9",
+  "type": "Worksheet Exercise",
+  "number": "4.5.8",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-10",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-10",
+  "type": "Worksheet Exercise",
+  "number": "4.5.9",
+  "title": "",
+  "body": "           "
+},
+{
+  "id": "handouts-6-11",
+  "level": "2",
+  "url": "handouts-6.html#handouts-6-11",
+  "type": "Worksheet Exercise",
+  "number": "4.5.10",
   "title": "",
   "body": "           "
 },
