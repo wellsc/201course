@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_imp_and_inv" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Implicit Differentiation and Derivative of Inverse Functions</title>
+  <title>Derivatives of Inverse Functions and Implicit Differentiation</title>
   <introduction>
     <p>
                     One important application of derivatives of compositions of functions is finding derivatives of functions that are defined only indirectly in terms of other functions. For example, all we know about <m>\arcsin(x)</m> is that it is the inverse of (the principle branch of) the sine. So, how do we find its derivative?
@@ -219,6 +219,13 @@
                                   <task>
                                           <statement>
                                                   <p>
+                                                                  Calculate <m>\sinh(0)</m> and <m>\cosh(0)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
                                                                   Show that the derivative of <m>\sinh(x)</m> is <m>\cosh(x)</m>.
                                                   </p>
                                           </statement>
@@ -231,16 +238,58 @@
                                           </statement>
                                   </task>
                                   <task>
+                                          <introduction>
+                                                  <p>
+                                                                  Verify that for any real number, <m>x</m>:
+                                                  </p>
+                                          </introduction>
+                                          <task>
+                                                  <statement>
+                                                          <p>
+                                                                  <m>\cosh(x)+\sinh(x)=\nexp{x}.</m>
+                                                          </p>
+                                                  </statement>
+                                          </task>
+                                          <task>
+                                                  <statement>
+                                                          <p>
+                                                                  <m>\cosh(x)-\sinh(x)=\nexp{-x}.</m>
+                                                          </p>
+                                                  </statement>
+                                          </task>
+                                          <task>
+                                                  <statement>
+                                                          <p>
+                                                                  <m>\cosh^{2}(x)-\sinh^{2}(x)=1.</m>
+                                                          </p>
+                                                  </statement>
+                                          </task>
+                                  </task>
+                                  <task>
                                           <statement>
                                                   <p>
-                                                                  Explain why for every real <m>x</m>, <m>\sinh(x)</m> is strictly increasing at <m>x</m>, and therefore has an inverse function, <m>\sinh^{-1}(x)</m>.
+                                                                  Explain why for every real <m>x</m>, <m>\sinh(x)</m> is strictly increasing at <m>x</m>, and therefore has an inverse function, <m>\arcsinh(x)</m>.
                                                   </p>
                                           </statement>
                                   </task>
                                   <task>
                                           <statement>
                                                   <p>
-                                                                  Let <m>f(x)=\sinh^{-1}(x)</m>. Calculate <m>f'(0)</m>.
+                                                                  Show that for any real numbers, <m>x</m> and <m>y</m>, if <m>\sinh(y)=x</m> then <m>\cosh(y)=\sqrt{1+x^{2}}</m> and therefore <m>\cosh(\arcsinh(x))=\sqrt{1+x^{2}}</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Let <m>f(x)=\arcsinh(x)</m>. Calculate <m>f'(0)</m>.
+                                                  </p>
+                                          </statement>
+                                  </task>
+                                  <task>
+                                          <statement>
+                                                  <p>
+                                                                  Let <m>f(x)=\arcsinh(x)</m>. Calculate <m>f'(x)</m>.
                                                   </p>
                                           </statement>
                                   </task>
@@ -356,6 +405,202 @@
           </p>
                   </statement>
           </example>
+          <example>
+                  <introduction>
+                          <p>
+                                  We will find the equation of the tangent line to the ellipse given by <m>13x^{2}+10xy+13y^{2}=36</m> at the point <m>\left(0,\frac{6\sqrt{13}}{13}\right)</m>. (As shown in <xref ref="fig_ellipse"/>.)
+                          </p>
+                          <figure xml:id="fig_ellipse" >
+                                  <caption>An Ellipse and a Tangent Line</caption>
+                                  <image width="50%">
+                                          <description>
+                                                  <p>
+                                                          The ellipse <m>13x^{2}+10xy+13y^{2}=36</m> and the tangent line to the ellipse at <m>\left(0,\frac{6\sqrt{13}}{13}\right)</m>.
+                                                  </p>
+                                          </description>
+                                          <xi:include href="./Ellipse.xml" />
+                                  </image>
+                          </figure>
+                  </introduction>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  First, we will verify that the point <m>\left(0,\frac{6\sqrt{13}}{13}\right)</m> is a point on the graph of <m>13x^{2}+10xy+13y^{2}=36</m> by substituting the <m>x</m>- and <m>y</m>-coordinates into the equation to see if they make the equation true.
+                                                  <md>
+                                                          <mrow>
+                                                                  13(0)^{2}+10(0)\left(\frac{6\sqrt{13}}{13}\right)+13\left(\frac{6\sqrt{13}}{13}\right)^{2}&amp;=13\left(\frac{6\sqrt{13}}{13}\right)^{2}
+                                                          </mrow>
+                                                          <mrow>
+                                                          &amp;=13\left(\frac{36\cdot{13}}{13\cdot 13}\right)
+                                                          </mrow>
+                                                          <mrow>
+                                                          &amp;=36
+                                                          </mrow>
+                                                  </md>
+                                                  so we see that the point is on the graph.
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Next, we will find the <term>differential</term> of the left hand side of the equation. We do this by taking the derivative, treating every variable as a function, and ending with the operator <m>\di{}</m> applied to every variable. We will then collect <m>\di{x}</m> and <m>\di{y}</m>, treating them like variables.
+                                                  <md>
+                                                          <mrow>
+                                                                  \di{\left(13x^{2}+10xy+13y^{2}\right)}
+                                                                  &amp;=
+                                                                  13\di{\left(x^{2}\right)}
+                                                                  +10\di{\left(xy\right)}+13\di{\left(y^{2}\right)}
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  13\cdot2x\di{x}
+                                                                  +10\left(x\di{y}+\di{x}y\right)
+                                                                  +13\cdot2y\di y 
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  26x\di{x}
+                                                                  +10x\di{y}+10y\di{x}
+                                                                  +26y\di{y} 
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;=
+                                                                  (26x+10y)\di{x}+(10x +26y)\di{y} 
+                                                          </mrow>
+                                                  </md>
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Now, since the derivative of a constant is zero, <m>\di{(36)}=0</m>, and so we have <m>(26x+10y)\di{x}+(10x +26y)\di{y}=0</m>. We will now isolate <m>\frac{\di{y}}{\di{x}}</m>:
+                                                  <md>
+                                                          <mrow>
+                                                                  (26x+10y)\di{x}+(10x +26y)\di{y}=0
+                                                                  &amp;\to
+                                                                  (10x +26y)\di{y}=-(26x+10y)\di{x}
+                                                          </mrow>
+                                                          <mrow>
+                                                                  &amp;\to
+                                                                  \frac{\di{y}}{\di{x}}=\frac{-(26x+10y)}{(10x +26y)}
+                                                          </mrow>
+                                                  </md>
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                          We now calculate <m>\left.\dd{y}{x}\right\rvert_{(x,y)=(0,6\sqrt{13}/{13})}</m> to find the slope of the tangent line.
+                                                  <md>
+                                                          <mrow>
+                                                                  \left.\dd{y}{x}\right\rvert_{(x,y)=(0,6\sqrt{13}/{13})}
+                                                                          &amp;=
+                                                                  \left.\frac{-(26x+10y)}{(10x +26y)}\right\rvert_{(x,y)=(0,6\sqrt{13}/{13})}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \frac{-(26(0)+10(6\sqrt{13}/13))}{(10(0) +26(6\sqrt{13}/13))}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \frac{-10(6\sqrt{13}/13)}{26(6\sqrt{13}/13)}
+                                                          </mrow>
+                                                          <mrow>
+                                                                          &amp;=
+                                                                  \frac{-5}{13}
+                                                          </mrow>
+                                                  </md>
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Finally, we will use the point-slope form of a line to find the equation of the tangent line: <m>y=\frac{-5}{13}(x-0)+\frac{6\sqrt{13}}{13}</m>.
+                                  </p>
+                          </statement>
+                  </task>
+          </example>
+          <exercise>
+                  <introduction>
+                          <p>
+                                  A train is travelling due east at <m>90\text{m}/\text{s}</m> (approximately <m>201.324\text{mph}</m>). An observer is positioned <m>100\text{m}</m> south of a point, <m>P</m>, on the track and is following the train as it approaches from the west with a camera mounted on a tripod.
+                          </p>
+                          <p>
+                                          We want to know the rate at which the camera is turning (in radians per second) when the train is <m>50\text{m}</m> west of <m>P</m>.
+                          </p>
+                  </introduction>
+                  <task>
+                          <statement>
+                                  <p>
+                                          Let <m>x</m> be the displacement of the train relative to <m>P</m> (with west being negative and east being positive) and let <m>\theta</m> be the angle that the line-of-sight of the camera makes with the line from the observer to <m>P</m>. Find an equation relating <m>x</m> and <m>\theta</m>.
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                          Both <m>\theta</m> and <m>x</m> can be thought of as functions of time, <m>\theta(t)</m> and <m>x(t)</m>. Replace <m>\theta</m> with <m>\theta(t)</m> and <m>x</m> with <m>x(t)</m> in your equation. Each side of your equation is also a function of <m>t</m>. Call them <m>L(t)</m> (for left) and <m>R(t)</m> (for right). Take the derivatives of <m>L(t)</m> and <m>R(t)</m> with <m>\theta(t)</m> and <m>x(t)</m> treated as unspecified functions. (Your derivatives will contain <m>\theta'(t)</m> and <m>x'(t)</m>.)
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Because <m>L(t)=R(t)</m>, we must have <m>L'(t)=R'(t)</m>. Set <m>L(t)=R(t)</m> and solve for <m>\theta'(t)</m>. 
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Use your understanding of trigonometry to replace any trigonometric functions of <m>\theta(t)</m> with expressions involving <m>x(t)</m>.
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  At the time of interest, <m>x(t)=-50\text{m}</m> (since the train is <m>50\text{m}</m> west of <m>P</m>), and <m>x'(t)=+90\text{m}/\text{s}</m> (since the train is moving toward the east). Substitute these values into <m>L'(t)=R'(t)</m> and determine the value for <m>\theta'(t)</m>.
+                                  </p>
+                          </statement>
+                  </task>
+          </exercise>
+          <exercise>
+                  <introduction>
+                          <p>
+                                  <xref ref="fig_elliptic"/> shows a curve called an <term>elliptic curve</term> given by the equation <m>y^{2}=x^{3}-2x-1/4</m> and a tangent line to the curve. 
+                          </p>
+                          <figure xml:id="fig_elliptic">
+                                  <caption>An Elliptic Curve with a Tangent Line</caption>
+                                  <image width="50%">
+                                          <description>
+                                                  <p>
+                                                                  A graph of the elliptic curve <m>y^{2}=x^{3}-2x-1/4</m> with a tangent line at the point <m>(-1,\sqrt{3}/2)</m>.
+                                                  </p>
+                                          </description>
+                                          <xi:include href="./EllipticCurve.xml"/>
+                                  </image>
+                          </figure>
+                  </introduction>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  Verify that the point <m>(-1,\sqrt{3}/2)</m> is on the elliptic curve.
+                                  </p>
+                          </statement>
+                  </task>
+                  <task>
+                          <statement>
+                                  <p>
+                                                  For points near <m>(-1,\sqrt{3}/2)</m>, <m>y</m> is an implicit function of <m>x</m>.
+                                  </p>
+                          </statement>
+                  </task>
+          </exercise>
   </subsection>
 
 </section>

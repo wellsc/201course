@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="prefig_elliptic">
+<diagram dimensions="(400,300)" margins="25">
+  <definition>a=-2</definition>
+  <definition>b=-1/4</definition>
+  <definition>f(x)=sqrt(x^3+a*x+b)</definition>
+  <definition>g(x)=-sqrt(x^3+a*x+b)</definition>
+  <definition>x0 = -1</definition>
+  <definition>m=(3*(x0)^2-2)/(2*f(x0))</definition>
+  <definition>x1=m^2-2*x0</definition>
+
+  <definition>an = 1.7</definition>
+  <coordinates bbox="(-3,-3,5,3)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="top" function="f" N="300"/>
+    <graph at="bottom" function="g" N="300"/>
+    <tangent-line at="tangent" function="f" point="x0" name="L"/>
+    <point at="point" p="(x0,f(x0))" alignment="nw">
+      <m>\left(${x0},\frac{\sqrt{3}}{2}\right)</m>
+    </point>
+    
+    <label anchor="(an,f(an))" alignment="e"><m>y^{2}=x^{3}-2x-\frac{1}{4}</m></label>
+  </coordinates>
+
+  <annotations text="The graph of an elliptic curve and a tangent line at the point a equals negative 1">
+    <annotation ref="graph-group" text="The graph and its tangent line">
+      <annotation ref="top" text="The upper half of the elliptic curve" sonify="yes"/>
+      <annotation ref="bottom" text="The lower half of the elliptic curve" sonify="yes"/>
+      <annotation ref="point" text="The point -1 comma square root of 99"/>
+      <annotation ref="tangent" text="The tangent line to the graph at the point"/>
+    </annotation>
+  </annotations>
+</diagram>
+</prefigure>

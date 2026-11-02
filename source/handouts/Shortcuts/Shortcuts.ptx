@@ -3,7 +3,6 @@
 <title>Derivative Shortcuts</title>
 <subsection xml:id="deriv_basic">
         <title>Basic Functions</title>
-    <p>
                     <theorem>
                             <title>Constant Functions</title>
                             <statement>
@@ -58,11 +57,9 @@
                             </p>
                             </statement>
                     </theorem>
-    </p>
 </subsection>
 <subsection xml:id="deriv_combinations">
         <title>Combinations of Functions</title>
-        <p>
                         <theorem>
                                 <title>Constant Multiple</title>
                                 <statement>
@@ -124,7 +121,6 @@
                                 </p>
                                 </statement>
                         </theorem>
-        </p>
 </subsection>
 <subsection>
         <title>Justifications</title>

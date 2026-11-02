@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefigure xmlns="https://prefigure.org" label="prefig_ellipse">
+<diagram dimensions="(300,300)" margins="25">
+  <definition>f(x,y)=13*x^2+10*x*y+13*y^2</definition>
+  <definition>m(x,y)=-(26*x+10*y)/(10*x+26*y)</definition>
+  <definition>x0 = 0</definition>
+  <definition>y0=6/sqrt(13)</definition>
+  <definition>l(x)=m(x0,y0)*(x-x0)+y0</definition>
+  <coordinates bbox="(-3,-3,3,3)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <implicit-curve at="ellipse" function="f" k="36" stroke="blue" />
+    <graph at="tangent" function="l" stroke="red" />
+    <point at="point" p="(x0,y0)" alignment="e">
+      <m>\left(0,\frac{6\sqrt{13}}{13}\right)</m>
+    </point>
+    <label anchor="(1,-3)" alignment="sw" ><m>13x^2+10xy+13y^2=36</m></label>
+  </coordinates>
+
+  <annotations text="The graph of an ellipse and its tangent line at the point zero comma 6 square root of 13 divided by 13">
+    <annotation ref="graph-group" text="The graph and its tangent line">
+      <annotation ref="ellipse" text="The graph of the ellipse" />
+      <annotation ref="point" text="The point zero comma 6 square root of 13 divided by 13"/>
+      <annotation ref="tangent" text="The tangent line to the graph of f at the point"/>
+    </annotation>
+  </annotations>
+</diagram>
+</prefigure>

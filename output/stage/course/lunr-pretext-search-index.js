@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.16.2",
   "title": "Derivatives of Inverse Functions",
-  "body": " Derivatives of Inverse Functions    We will use composition of functions to find the derivative of . First of all, we know that is the inverse function of the principle branch of the sine. That is, with the domain restricted to . Thus, for any with , if , then and . In particular, for any with ,   Let , let , and let . We will now calculate in two different ways, and then use the fact that the derivative of must be the same no matter which way we calculate it.  First, we know that . But Then, we have The value of is what we want to find.  Next, we know that , so   Finally, from trigonometry, we know that if and , then , and so . Thus, because and , . Putting all of this together, we have and so , and therefore, for any ,     More generally, we have the following theorem.   Derivatives of Inverse Functions   For any differentiable, invertible function , with inverse , for any for which ,        Use the facts that for any , and to find the derivative of .      Use the fact that for any , to find the derivative of .      Hyperbolic cosine ( ) and hyperbolic sine ( ), which occur frequently in engineering applications, are defined by      Show that the derivative of is .      Show that the derivative of is .      Explain why for every real , is strictly increasing at , and therefore has an inverse function, .      Let . Calculate .      "
+  "body": " Derivatives of Inverse Functions    We will use composition of functions to find the derivative of . First of all, we know that is the inverse function of the principle branch of the sine. That is, with the domain restricted to . Thus, for any with , if , then and . In particular, for any with ,   Let , let , and let . We will now calculate in two different ways, and then use the fact that the derivative of must be the same no matter which way we calculate it.  First, we know that . But Then, we have The value of is what we want to find.  Next, we know that , so   Finally, from trigonometry, we know that if and , then , and so . Thus, because and , . Putting all of this together, we have and so , and therefore, for any ,     More generally, we have the following theorem.   Derivatives of Inverse Functions   For any differentiable, invertible function , with inverse , for any for which ,        Use the facts that for any , and to find the derivative of .      Use the fact that for any , to find the derivative of .      Hyperbolic cosine ( ) and hyperbolic sine ( ), which occur frequently in engineering applications, are defined by      Calculate and .      Show that the derivative of is .      Show that the derivative of is .      Verify that for any real number, :                           Explain why for every real , is strictly increasing at , and therefore has an inverse function, .      Show that for any real numbers, and , if then and therefore .      Let . Calculate .      Let . Calculate .      "
 },
 {
   "id": "sec_imp_and_inv-4-2",
@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.16.2.3",
   "title": "",
-  "body": "  Hyperbolic cosine ( ) and hyperbolic sine ( ), which occur frequently in engineering applications, are defined by      Show that the derivative of is .      Show that the derivative of is .      Explain why for every real , is strictly increasing at , and therefore has an inverse function, .      Let . Calculate .    "
+  "body": "  Hyperbolic cosine ( ) and hyperbolic sine ( ), which occur frequently in engineering applications, are defined by      Calculate and .      Show that the derivative of is .      Show that the derivative of is .      Verify that for any real number, :                           Explain why for every real , is strictly increasing at , and therefore has an inverse function, .      Show that for any real numbers, and , if then and therefore .      Let . Calculate .      Let . Calculate .    "
 },
 {
   "id": "sec_imp_and_inv-5",
@@ -1357,7 +1357,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.16.3",
   "title": "Derivative of Implicitly Defined Functions",
-  "body": " Derivative of Implicitly Defined Functions    Let the volume of a water tank (in cubic meters) as a function of depth of the water (in meters) be given by and let water be flowing into the (empty) tank at a rate of . We will find the rate at which the water is rising when the water is deep.  Although it is not given explicitly, we know that the depth of the water is a function of time. Furthermore, there is no way to solve for as a function of time. Thus, we will treat as an unspecified implicit function .  From our work with derivatives of compositions, we know that To calculate , first we will let , so that Furthermore, , so Now, we also know that , so and so   Finally, we evaluate this at :     "
+  "body": " Derivative of Implicitly Defined Functions    Let the volume of a water tank (in cubic meters) as a function of depth of the water (in meters) be given by and let water be flowing into the (empty) tank at a rate of . We will find the rate at which the water is rising when the water is deep.  Although it is not given explicitly, we know that the depth of the water is a function of time. Furthermore, there is no way to solve for as a function of time. Thus, we will treat as an unspecified implicit function .  From our work with derivatives of compositions, we know that To calculate , first we will let , so that Furthermore, , so Now, we also know that , so and so   Finally, we evaluate this at :       We will find the equation of the tangent line to the ellipse given by at the point . (As shown in .)   An Ellipse and a Tangent Line    The ellipse and the tangent line to the ellipse at .     f(x,y)=13*x^2+10*x*y+13*y^2  m(x,y)=-(26*x+10*y)\/(10*x+26*y)  x0 = 0  y0=6\/sqrt(13)  l(x)=m(x0,y0)*(x-x0)+y0       \\left(0,\\frac{6\\sqrt{13}}{13}\\right)   13x^2+10xy+13y^2=36                 First, we will verify that the point is a point on the graph of by substituting the - and -coordinates into the equation to see if they make the equation true. so we see that the point is on the graph.      Next, we will find the differential of the left hand side of the equation. We do this by taking the derivative, treating every variable as a function, and ending with the operator applied to every variable. We will then collect and , treating them like variables.       Now, since the derivative of a constant is zero, , and so we have . We will now isolate :       We now calculate to find the slope of the tangent line.       Finally, we will use the point-slope form of a line to find the equation of the tangent line: .       A train is travelling due east at (approximately ). An observer is positioned south of a point, , on the track and is following the train as it approaches from the west with a camera mounted on a tripod.  We want to know the rate at which the camera is turning (in radians per second) when the train is west of .     Let be the displacement of the train relative to (with west being negative and east being positive) and let be the angle that the line-of-sight of the camera makes with the line from the observer to . Find an equation relating and .      Both and can be thought of as functions of time, and . Replace with and with in your equation. Each side of your equation is also a function of . Call them (for left) and (for right). Take the derivatives of and with and treated as unspecified functions. (Your derivatives will contain and .)      Because , we must have . Set and solve for .      Use your understanding of trigonometry to replace any trigonometric functions of with expressions involving .      At the time of interest, (since the train is west of ), and (since the train is moving toward the east). Substitute these values into and determine the value for .        shows a curve called an elliptic curve given by the equation and a tangent line to the curve.   An Elliptic Curve with a Tangent Line    A graph of the elliptic curve with a tangent line at the point .     a=-2  b=-1\/4  f(x)=sqrt(x^3+a*x+b)  g(x)=-sqrt(x^3+a*x+b)  x0 = -1  m=(3*(x0)^2-2)\/(2*f(x0))  x1=m^2-2*x0  an = 1.7        \\left(${x0},\\frac{\\sqrt{3}}{2}\\right)   y^{2}=x^{3}-2x-\\frac{1}{4}                  Verify that the point is on the elliptic curve.      For points near , is an implicit function of .     "
 },
 {
   "id": "sec_imp_and_inv-5-2",
@@ -1367,6 +1367,33 @@ var ptx_lunr_docs = [
   "number": "50",
   "title": "",
   "body": "  Let the volume of a water tank (in cubic meters) as a function of depth of the water (in meters) be given by and let water be flowing into the (empty) tank at a rate of . We will find the rate at which the water is rising when the water is deep.  Although it is not given explicitly, we know that the depth of the water is a function of time. Furthermore, there is no way to solve for as a function of time. Thus, we will treat as an unspecified implicit function .  From our work with derivatives of compositions, we know that To calculate , first we will let , so that Furthermore, , so Now, we also know that , so and so   Finally, we evaluate this at :    "
+},
+{
+  "id": "sec_imp_and_inv-5-3",
+  "level": "2",
+  "url": "sec_imp_and_inv-5.html#sec_imp_and_inv-5-3",
+  "type": "Example",
+  "number": "51",
+  "title": "",
+  "body": "  We will find the equation of the tangent line to the ellipse given by at the point . (As shown in .)   An Ellipse and a Tangent Line    The ellipse and the tangent line to the ellipse at .     f(x,y)=13*x^2+10*x*y+13*y^2  m(x,y)=-(26*x+10*y)\/(10*x+26*y)  x0 = 0  y0=6\/sqrt(13)  l(x)=m(x0,y0)*(x-x0)+y0       \\left(0,\\frac{6\\sqrt{13}}{13}\\right)   13x^2+10xy+13y^2=36                 First, we will verify that the point is a point on the graph of by substituting the - and -coordinates into the equation to see if they make the equation true. so we see that the point is on the graph.      Next, we will find the differential of the left hand side of the equation. We do this by taking the derivative, treating every variable as a function, and ending with the operator applied to every variable. We will then collect and , treating them like variables.       Now, since the derivative of a constant is zero, , and so we have . We will now isolate :       We now calculate to find the slope of the tangent line.       Finally, we will use the point-slope form of a line to find the equation of the tangent line: .    "
+},
+{
+  "id": "sec_imp_and_inv-5-4",
+  "level": "2",
+  "url": "sec_imp_and_inv-5.html#sec_imp_and_inv-5-4",
+  "type": "Checkpoint",
+  "number": "53",
+  "title": "",
+  "body": "  A train is travelling due east at (approximately ). An observer is positioned south of a point, , on the track and is following the train as it approaches from the west with a camera mounted on a tripod.  We want to know the rate at which the camera is turning (in radians per second) when the train is west of .     Let be the displacement of the train relative to (with west being negative and east being positive) and let be the angle that the line-of-sight of the camera makes with the line from the observer to . Find an equation relating and .      Both and can be thought of as functions of time, and . Replace with and with in your equation. Each side of your equation is also a function of . Call them (for left) and (for right). Take the derivatives of and with and treated as unspecified functions. (Your derivatives will contain and .)      Because , we must have . Set and solve for .      Use your understanding of trigonometry to replace any trigonometric functions of with expressions involving .      At the time of interest, (since the train is west of ), and (since the train is moving toward the east). Substitute these values into and determine the value for .    "
+},
+{
+  "id": "sec_imp_and_inv-5-5",
+  "level": "2",
+  "url": "sec_imp_and_inv-5.html#sec_imp_and_inv-5-5",
+  "type": "Checkpoint",
+  "number": "54",
+  "title": "",
+  "body": "   shows a curve called an elliptic curve given by the equation and a tangent line to the curve.   An Elliptic Curve with a Tangent Line    A graph of the elliptic curve with a tangent line at the point .     a=-2  b=-1\/4  f(x)=sqrt(x^3+a*x+b)  g(x)=-sqrt(x^3+a*x+b)  x0 = -1  m=(3*(x0)^2-2)\/(2*f(x0))  x1=m^2-2*x0  an = 1.7        \\left(${x0},\\frac{\\sqrt{3}}{2}\\right)   y^{2}=x^{3}-2x-\\frac{1}{4}                  Verify that the point is on the elliptic curve.      For points near , is an implicit function of .    "
 },
 {
   "id": "handouts-2",
@@ -1391,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "51",
+  "number": "56",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1409,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "52",
+  "number": "57",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1418,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "53",
+  "number": "58",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1427,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "54",
+  "number": "59",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1436,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "55",
+  "number": "60",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
@@ -1447,50 +1474,50 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.3.1",
   "title": "Basic Functions",
-  "body": " Basic Functions    Constant Functions   For any constant, ,     Power Functions   For any constant, ,      Sine         Cosine         Natural Exponential         "
+  "body": " Basic Functions   Constant Functions   For any constant, ,     Power Functions   For any constant, ,      Sine         Cosine         Natural Exponential        "
 },
 {
-  "id": "deriv_basic-2-1",
+  "id": "deriv_basic-2",
   "level": "2",
-  "url": "deriv_basic.html#deriv_basic-2-1",
+  "url": "deriv_basic.html#deriv_basic-2",
   "type": "Theorem",
-  "number": "56",
+  "number": "61",
   "title": "Constant Functions.",
   "body": " Constant Functions   For any constant, ,   "
 },
 {
-  "id": "deriv_basic-2-2",
+  "id": "deriv_basic-3",
   "level": "2",
-  "url": "deriv_basic.html#deriv_basic-2-2",
+  "url": "deriv_basic.html#deriv_basic-3",
   "type": "Theorem",
-  "number": "57",
+  "number": "62",
   "title": "Power Functions.",
   "body": " Power Functions   For any constant, ,    "
 },
 {
-  "id": "deriv_basic-2-3",
+  "id": "deriv_basic-4",
   "level": "2",
-  "url": "deriv_basic.html#deriv_basic-2-3",
+  "url": "deriv_basic.html#deriv_basic-4",
   "type": "Theorem",
-  "number": "58",
+  "number": "63",
   "title": "Sine.",
   "body": " Sine       "
 },
 {
-  "id": "deriv_basic-2-4",
+  "id": "deriv_basic-5",
   "level": "2",
-  "url": "deriv_basic.html#deriv_basic-2-4",
+  "url": "deriv_basic.html#deriv_basic-5",
   "type": "Theorem",
-  "number": "59",
+  "number": "64",
   "title": "Cosine.",
   "body": " Cosine       "
 },
 {
-  "id": "deriv_basic-2-5",
+  "id": "deriv_basic-6",
   "level": "2",
-  "url": "deriv_basic.html#deriv_basic-2-5",
+  "url": "deriv_basic.html#deriv_basic-6",
   "type": "Theorem",
-  "number": "60",
+  "number": "65",
   "title": "Natural Exponential.",
   "body": " Natural Exponential       "
 },
@@ -1501,50 +1528,50 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.3.2",
   "title": "Combinations of Functions",
-  "body": " Combinations of Functions    Constant Multiple   For any constant and any differentiable function ,      Sums and Differences   For any differentiable functions and ,     Products   For any differentiable functions and ,      Quotients   For any differentiable functions and , for any where ,     Compositions   For any differentiable functions and ,      "
+  "body": " Combinations of Functions   Constant Multiple   For any constant and any differentiable function ,      Sums and Differences   For any differentiable functions and ,     Products   For any differentiable functions and ,      Quotients   For any differentiable functions and , for any where ,     Compositions   For any differentiable functions and ,     "
 },
 {
-  "id": "deriv_combinations-2-1",
+  "id": "deriv_combinations-2",
   "level": "2",
-  "url": "deriv_combinations.html#deriv_combinations-2-1",
+  "url": "deriv_combinations.html#deriv_combinations-2",
   "type": "Theorem",
-  "number": "61",
+  "number": "66",
   "title": "Constant Multiple.",
   "body": " Constant Multiple   For any constant and any differentiable function ,    "
 },
 {
-  "id": "deriv_combinations-2-2",
+  "id": "deriv_combinations-3",
   "level": "2",
-  "url": "deriv_combinations.html#deriv_combinations-2-2",
+  "url": "deriv_combinations.html#deriv_combinations-3",
   "type": "Theorem",
-  "number": "62",
+  "number": "67",
   "title": "Sums and Differences.",
   "body": " Sums and Differences   For any differentiable functions and ,   "
 },
 {
-  "id": "deriv_combinations-2-3",
+  "id": "deriv_combinations-4",
   "level": "2",
-  "url": "deriv_combinations.html#deriv_combinations-2-3",
+  "url": "deriv_combinations.html#deriv_combinations-4",
   "type": "Theorem",
-  "number": "63",
+  "number": "68",
   "title": "Products.",
   "body": " Products   For any differentiable functions and ,    "
 },
 {
-  "id": "deriv_combinations-2-4",
+  "id": "deriv_combinations-5",
   "level": "2",
-  "url": "deriv_combinations.html#deriv_combinations-2-4",
+  "url": "deriv_combinations.html#deriv_combinations-5",
   "type": "Theorem",
-  "number": "64",
+  "number": "69",
   "title": "Quotients.",
   "body": " Quotients   For any differentiable functions and , for any where ,   "
 },
 {
-  "id": "deriv_combinations-2-5",
+  "id": "deriv_combinations-6",
   "level": "2",
-  "url": "deriv_combinations.html#deriv_combinations-2-5",
+  "url": "deriv_combinations.html#deriv_combinations-6",
   "type": "Theorem",
-  "number": "65",
+  "number": "70",
   "title": "Compositions.",
   "body": " Compositions   For any differentiable functions and ,    "
 },
@@ -1571,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "66",
+  "number": "71",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -1580,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "67",
+  "number": "72",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },
