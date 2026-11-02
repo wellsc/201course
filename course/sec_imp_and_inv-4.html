@@ -123,7 +123,7 @@ eBookConfig.enable_chatcodes =  false;
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
 <div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="sec_imp_and_inv-3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_imp_and_inv.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_imp_and_inv-5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(  \newcommand{\di}[1]{{\mathrm{d}}{#1}}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\di}[1]{{\,\mathrm{d}}{#1}\,}
 \newcommand{\dd}[2]{\frac{\di{#1}}{\di{#2}}}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -132,6 +132,8 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\php}{\phantom{+}}
 \newcommand{\nexp}[1]{\mathrm{e}^{#1}}
 \newcommand{\abs}[1]{\left\lvert{}{#1}\right\rvert{}}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -348,7 +350,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-16.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Fuel Efficiency of a Marine Motor</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-17.html" class="internal"><span class="codenumber">3.15</span> <span class="title">Composition of Functions</span></a></div></li>
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="sec_imp_and_inv.html" class="internal"><span class="codenumber">3.16</span> <span class="title">Implicit Differentiation and Derivative of Inverse Functions</span></a></div>
+<div class="toc-title-box"><a href="sec_imp_and_inv.html" class="internal"><span class="codenumber">3.16</span> <span class="title">Derivatives of Inverse Functions and Implicit Differentiation</span></a></div>
 <ul class="structural toc-item-list contains-active" id="ptx-toc-group-sec_imp_and_inv">
 <li class="toc-item toc-introduction"><div class="toc-title-box"><a href="sec_imp_and_inv-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-subsection">
@@ -513,24 +515,63 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <article class="task exercise-like" id="sec_imp_and_inv-4-5-3-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<div class="para" id="sec_imp_and_inv-4-5-3-2-1-1">Show that the derivative of <span class="process-math">\(\sinh(x)\)</span> is <span class="process-math">\(\cosh(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_imp_and_inv-4-5-3-2-1-1">Calculate <span class="process-math">\(\sinh(0)\)</span> and <span class="process-math">\(\cosh(0)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.a"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-2" title="Copy heading and permalink for Task 3.16.2.3.a" aria-label="Copy heading and permalink for Task 3.16.2.3.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="sec_imp_and_inv-4-5-3-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="para" id="sec_imp_and_inv-4-5-3-3-1-1">Show that the derivative of <span class="process-math">\(\cosh(x)\)</span> is <span class="process-math">\(\sinh(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_imp_and_inv-4-5-3-3-1-1">Show that the derivative of <span class="process-math">\(\sinh(x)\)</span> is <span class="process-math">\(\cosh(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.b"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-3" title="Copy heading and permalink for Task 3.16.2.3.b" aria-label="Copy heading and permalink for Task 3.16.2.3.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="sec_imp_and_inv-4-5-3-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<div class="para" id="sec_imp_and_inv-4-5-3-4-1-1">Explain why for every real <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(\sinh(x)\)</span> is strictly increasing at <span class="process-math">\(x\text{,}\)</span> and therefore has an inverse function, <span class="process-math">\(\sinh^{-1}(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_imp_and_inv-4-5-3-4-1-1">Show that the derivative of <span class="process-math">\(\cosh(x)\)</span> is <span class="process-math">\(\sinh(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.c"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-4" title="Copy heading and permalink for Task 3.16.2.3.c" aria-label="Copy heading and permalink for Task 3.16.2.3.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="sec_imp_and_inv-4-5-3-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<div class="para" id="sec_imp_and_inv-4-5-3-5-1-1">Let <span class="process-math">\(f(x)=\sinh^{-1}(x)\text{.}\)</span> Calculate <span class="process-math">\(f'(0)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="sec_imp_and_inv-4-5-3-5-1">
+<div class="para" id="sec_imp_and_inv-4-5-3-5-1-1">Verify that for any real number, <span class="process-math">\(x\text{:}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.d"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5" title="Copy heading and permalink for Task 3.16.2.3.d" aria-label="Copy heading and permalink for Task 3.16.2.3.d">🔗</a></div>
+</div>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-5-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="sec_imp_and_inv-4-5-3-5-2-1-1">
+<span class="process-math">\(\cosh(x)+\sinh(x)=\nexp{x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.d.i"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-2" title="Copy heading and permalink for Task 3.16.2.3.d.i" aria-label="Copy heading and permalink for Task 3.16.2.3.d.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-5-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="sec_imp_and_inv-4-5-3-5-3-1-1">
+<span class="process-math">\(\cosh(x)-\sinh(x)=\nexp{-x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.d.ii"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-3" title="Copy heading and permalink for Task 3.16.2.3.d.ii" aria-label="Copy heading and permalink for Task 3.16.2.3.d.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-5-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="sec_imp_and_inv-4-5-3-5-4-1-1">
+<span class="process-math">\(\cosh^{2}(x)-\sinh^{2}(x)=1.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.d.iii"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5-4" title="Copy heading and permalink for Task 3.16.2.3.d.iii" aria-label="Copy heading and permalink for Task 3.16.2.3.d.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.d"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-5" title="Copy heading and permalink for Task 3.16.2.3.d" aria-label="Copy heading and permalink for Task 3.16.2.3.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="sec_imp_and_inv-4-5-3-6-1-1">Explain why for every real <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(\sinh(x)\)</span> is strictly increasing at <span class="process-math">\(x\text{,}\)</span> and therefore has an inverse function, <span class="process-math">\(\arcsinh(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.e"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-6" title="Copy heading and permalink for Task 3.16.2.3.e" aria-label="Copy heading and permalink for Task 3.16.2.3.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="sec_imp_and_inv-4-5-3-7-1-1">Show that for any real numbers, <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> if <span class="process-math">\(\sinh(y)=x\)</span> then <span class="process-math">\(\cosh(y)=\sqrt{1+x^{2}}\)</span> and therefore <span class="process-math">\(\cosh(\arcsinh(x))=\sqrt{1+x^{2}}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.f"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-7" title="Copy heading and permalink for Task 3.16.2.3.f" aria-label="Copy heading and permalink for Task 3.16.2.3.f">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="sec_imp_and_inv-4-5-3-8-1-1">Let <span class="process-math">\(f(x)=\arcsinh(x)\text{.}\)</span> Calculate <span class="process-math">\(f'(0)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.g"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-8" title="Copy heading and permalink for Task 3.16.2.3.g" aria-label="Copy heading and permalink for Task 3.16.2.3.g">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec_imp_and_inv-4-5-3-9"><h4 class="heading"><span class="codenumber">(h)</span></h4>
+<div class="para" id="sec_imp_and_inv-4-5-3-9-1-1">Let <span class="process-math">\(f(x)=\arcsinh(x)\text{.}\)</span> Calculate <span class="process-math">\(f'(x)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.16.2.3.h"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3-9" title="Copy heading and permalink for Task 3.16.2.3.h" aria-label="Copy heading and permalink for Task 3.16.2.3.h">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Exercise 3.16.2.3"><a tabindex="-1" href="#sec_imp_and_inv-4-5-3" title="Copy heading and permalink for Exercise 3.16.2.3" aria-label="Copy heading and permalink for Exercise 3.16.2.3">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Exercises 3.16.2"><a tabindex="-1" href="#sec_imp_and_inv-4-5" title="Copy heading and permalink for Exercises 3.16.2" aria-label="Copy heading and permalink for Exercises 3.16.2">🔗</a></div>
 </section><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.16.2: Derivatives of Inverse Functions"><a tabindex="-1" href="#sec_imp_and_inv-4" title="Copy heading and permalink for Subsection 3.16.2: Derivatives of Inverse Functions" aria-label="Copy heading and permalink for Subsection 3.16.2: Derivatives of Inverse Functions">🔗</a></div>

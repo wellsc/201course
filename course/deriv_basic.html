@@ -123,7 +123,7 @@ eBookConfig.enable_chatcodes =  false;
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
 <div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="deriv_shortcuts.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="deriv_shortcuts.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="deriv_combinations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(  \newcommand{\di}[1]{{\mathrm{d}}{#1}}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\di}[1]{{\,\mathrm{d}}{#1}\,}
 \newcommand{\dd}[2]{\frac{\di{#1}}{\di{#2}}}
 \newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -132,6 +132,8 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\php}{\phantom{+}}
 \newcommand{\nexp}[1]{\mathrm{e}^{#1}}
 \newcommand{\abs}[1]{\left\lvert{}{#1}\right\rvert{}}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -348,7 +350,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-16.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Fuel Efficiency of a Marine Motor</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-17.html" class="internal"><span class="codenumber">3.15</span> <span class="title">Composition of Functions</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_imp_and_inv.html" class="internal"><span class="codenumber">3.16</span> <span class="title">Implicit Differentiation and Derivative of Inverse Functions</span></a></div>
+<div class="toc-title-box"><a href="sec_imp_and_inv.html" class="internal"><span class="codenumber">3.16</span> <span class="title">Derivatives of Inverse Functions and Implicit Differentiation</span></a></div>
 <ul id="ptx-toc-group-sec_imp_and_inv" class="structural toc-item-list">
 <li class="toc-item toc-introduction"><div class="toc-title-box"><a href="sec_imp_and_inv-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-subsection">
@@ -402,78 +404,75 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Basic Functions</span>
 </h1>
-<div class="para" id="deriv_basic-2">
-<article class="theorem theorem-like" id="deriv_basic-2-1"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">56</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Constant Functions.</span>
+<article class="theorem theorem-like" id="deriv_basic-2"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">61</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Constant Functions.</span>
 </h2>
-<div class="para logical" id="deriv_basic-2-1-2-1">
+<div class="para logical" id="deriv_basic-2-2-1">
 <div class="para">For any constant, <span class="process-math">\(c\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_basic-2-1-2-1-2">
+<div class="displaymath process-math" id="deriv_basic-2-2-1-2">
 \begin{align*}
 \text{if }f(x)&amp;=c,&amp;\text{ then }f'(x)&amp;=0
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 56: Constant Functions"><a tabindex="-1" href="#deriv_basic-2-1" title="Copy heading and permalink for Theorem 56: Constant Functions" aria-label="Copy heading and permalink for Theorem 56: Constant Functions">🔗</a></div>
-</article> 
-<article class="theorem theorem-like" id="deriv_basic-2-2"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">57</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Power Functions.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 61: Constant Functions"><a tabindex="-1" href="#deriv_basic-2" title="Copy heading and permalink for Theorem 61: Constant Functions" aria-label="Copy heading and permalink for Theorem 61: Constant Functions">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="deriv_basic-3"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">62</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Power Functions.</span>
 </h2>
-<div class="para logical" id="deriv_basic-2-2-2-1">
+<div class="para logical" id="deriv_basic-3-2-1">
 <div class="para">For any constant, <span class="process-math">\(r\neq{}0\text{,}\)</span>
 </div>
-<div class="displaymath process-math" id="deriv_basic-2-2-2-1-2">
+<div class="displaymath process-math" id="deriv_basic-3-2-1-2">
 \begin{align*}
 \text{if }f(x)&amp;=x^{r},&amp;\text{ then }f'(x)&amp;=r x^{r-1}
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 57: Power Functions"><a tabindex="-1" href="#deriv_basic-2-2" title="Copy heading and permalink for Theorem 57: Power Functions" aria-label="Copy heading and permalink for Theorem 57: Power Functions">🔗</a></div>
-</article> 
-<article class="theorem theorem-like" id="deriv_basic-2-3"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">58</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sine.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 62: Power Functions"><a tabindex="-1" href="#deriv_basic-3" title="Copy heading and permalink for Theorem 62: Power Functions" aria-label="Copy heading and permalink for Theorem 62: Power Functions">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="deriv_basic-4"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">63</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sine.</span>
 </h2>
-<div class="para logical" id="deriv_basic-2-3-2-1">
-<div class="displaymath process-math" id="deriv_basic-2-3-2-1-1">
+<div class="para logical" id="deriv_basic-4-2-1">
+<div class="displaymath process-math" id="deriv_basic-4-2-1-1">
 \begin{align*}
 \text{If }f(x)&amp;=\sin(x),&amp;\text{ then }f'(x)&amp;=\cos(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 58: Sine"><a tabindex="-1" href="#deriv_basic-2-3" title="Copy heading and permalink for Theorem 58: Sine" aria-label="Copy heading and permalink for Theorem 58: Sine">🔗</a></div>
-</article> 
-<article class="theorem theorem-like" id="deriv_basic-2-4"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">59</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cosine.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 63: Sine"><a tabindex="-1" href="#deriv_basic-4" title="Copy heading and permalink for Theorem 63: Sine" aria-label="Copy heading and permalink for Theorem 63: Sine">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="deriv_basic-5"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">64</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cosine.</span>
 </h2>
-<div class="para logical" id="deriv_basic-2-4-2-1">
-<div class="displaymath process-math" id="deriv_basic-2-4-2-1-1">
+<div class="para logical" id="deriv_basic-5-2-1">
+<div class="displaymath process-math" id="deriv_basic-5-2-1-1">
 \begin{align*}
 \text{If }f(x)&amp;=\cos(x),&amp;\text{ then }f'(x)&amp;=-\sin(x)
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 59: Cosine"><a tabindex="-1" href="#deriv_basic-2-4" title="Copy heading and permalink for Theorem 59: Cosine" aria-label="Copy heading and permalink for Theorem 59: Cosine">🔗</a></div>
-</article> 
-<article class="theorem theorem-like" id="deriv_basic-2-5"><h2 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">60</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Natural Exponential.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 64: Cosine"><a tabindex="-1" href="#deriv_basic-5" title="Copy heading and permalink for Theorem 64: Cosine" aria-label="Copy heading and permalink for Theorem 64: Cosine">🔗</a></div>
+</article>
+<article class="theorem theorem-like" id="deriv_basic-6"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">65</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Natural Exponential.</span>
 </h2>
-<div class="para logical" id="deriv_basic-2-5-2-1">
-<div class="displaymath process-math" id="deriv_basic-2-5-2-1-1">
+<div class="para logical" id="deriv_basic-6-2-1">
+<div class="displaymath process-math" id="deriv_basic-6-2-1-1">
 \begin{align*}
 \text{If }f(x)&amp;=\nexp{x},&amp;\text{ then }f'(x)&amp;=\nexp{x}
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Theorem 60: Natural Exponential"><a tabindex="-1" href="#deriv_basic-2-5" title="Copy heading and permalink for Theorem 60: Natural Exponential" aria-label="Copy heading and permalink for Theorem 60: Natural Exponential">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#deriv_basic-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Subsection 4.3.1: Basic Functions"><a tabindex="-1" href="#deriv_basic" title="Copy heading and permalink for Subsection 4.3.1: Basic Functions" aria-label="Copy heading and permalink for Subsection 4.3.1: Basic Functions">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 65: Natural Exponential"><a tabindex="-1" href="#deriv_basic-6" title="Copy heading and permalink for Theorem 65: Natural Exponential" aria-label="Copy heading and permalink for Theorem 65: Natural Exponential">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 4.3.1: Basic Functions"><a tabindex="-1" href="#deriv_basic" title="Copy heading and permalink for Subsection 4.3.1: Basic Functions" aria-label="Copy heading and permalink for Subsection 4.3.1: Basic Functions">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">

@@ -1,0 +1,98 @@
+<diagram>
+  <annotations>
+    <annotation id="prefig_elliptic-figure" speech2="The graph of an elliptic curve and a tangent line at the point a equals negative 1">
+      <grouped>prefig_elliptic-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefig_elliptic-grid-axes</active>
+        <active>prefig_elliptic-graph-group</active>
+      </children>
+      <components>
+        <active>prefig_elliptic-grid-axes</active>
+        <active>prefig_elliptic-graph-group</active>
+      </components>
+    </annotation>
+    <annotation id="prefig_elliptic-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefig_elliptic-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefig_elliptic-grid</active>
+        <active>prefig_elliptic-axes</active>
+      </children>
+      <components>
+        <active>prefig_elliptic-grid</active>
+        <active>prefig_elliptic-axes</active>
+      </components>
+      <parents>
+        <grouped>prefig_elliptic-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefig_elliptic-grid" speech2="The coordinate grid">
+      <active>prefig_elliptic-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefig_elliptic-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefig_elliptic-axes" speech2="The coordinate axes">
+      <active>prefig_elliptic-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefig_elliptic-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefig_elliptic-graph-group" speech2="The graph and its tangent line">
+      <grouped>prefig_elliptic-graph-group</grouped>
+      <position>2</position>
+      <children>
+        <active>prefig_elliptic-top</active>
+        <active>prefig_elliptic-bottom</active>
+        <active>prefig_elliptic-point</active>
+        <active>prefig_elliptic-tangent</active>
+      </children>
+      <components>
+        <active>prefig_elliptic-top</active>
+        <active>prefig_elliptic-bottom</active>
+        <active>prefig_elliptic-point</active>
+        <active>prefig_elliptic-tangent</active>
+      </components>
+      <parents>
+        <grouped>prefig_elliptic-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefig_elliptic-top" speech2="The upper half of the elliptic curve" sonify="yes">
+      <active>prefig_elliptic-top</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefig_elliptic-graph-group</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefig_elliptic-top</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefig_elliptic-bottom" speech2="The lower half of the elliptic curve" sonify="yes">
+      <active>prefig_elliptic-bottom</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefig_elliptic-graph-group</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>prefig_elliptic-bottom</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="prefig_elliptic-point" speech2="The point -1 comma square root of 99">
+      <active>prefig_elliptic-point</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefig_elliptic-graph-group</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefig_elliptic-tangent" speech2="The tangent line to the graph at the point">
+      <active>prefig_elliptic-tangent</active>
+      <position>4</position>
+      <parents>
+        <grouped>prefig_elliptic-graph-group</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
