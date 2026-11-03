@@ -115,7 +115,7 @@
                                 <p>For any differentiable functions <m>f_{o}(x)</m> and <m>f_{i}(x)</m>,
                                 <md>
                                         <mrow>
-                                                \text{if }g(x)&amp;=f_{o}\big(f_{i}(x)\big),&amp;\text{ then }g'(x)&amp;=f_{o}\big(f_{i}(x)\big)\cdot{}f_{i}'(x)
+                                                \text{if }g(x)&amp;=f_{o}\big(f_{i}(x)\big),&amp;\text{ then }g'(x)&amp;=f'_{o}\big(f_{i}(x)\big)\cdot{}f_{i}'(x)
                                         </mrow>
                                 </md>
                                 </p>
