@@ -296,11 +296,11 @@
                                         </mrow>
                                         <mrow>
                                                 f'(x)&amp;=
-                                                \frac{\cos^{2}(x)}{\cos^{2}(x)}-\frac{\sin^{2}(x)}{\cos^{2}(x)}
+                                                \frac{\cos^{2}(x)}{\cos^{2}(x)}+\frac{\sin^{2}(x)}{\cos^{2}(x)}
                                         </mrow>
                                         <mrow>
                                                 &amp;=
-                                                1-\tan^{2}(x).
+                                                1+\tan^{2}(x).
                                         </mrow>
                                 </md>
                         </p>
