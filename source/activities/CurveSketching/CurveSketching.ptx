@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Curve Sketching with Calculus</title>
+<introduction>
+    <p>
+      The learner will use information about a function and its
+      derivative to determine the overall shape of the function's graph.
+    </p>
+</introduction>
+<exercise>
+        <statement>
+    <p>
+      On the axes provided, sketch the graph of a <em>single
+      function</em>, <m>f</m>, that has <em>all</em> of the following
+      characteristics, briefly explaining what each of the
+      characteristic tells you about the graph.
+    </p>
+
+    <p>
+      <ol marker="(a)">
+        <li> <p> <m>f</m> is continuous; </p> </li>
+        <li> <p> <m>f(-5)=0</m>; </p> </li>
+        <li> <p> <m>f(0)=0</m>; </p> </li>
+        <li> <p> <m>f(2)=4</m>; </p> </li>
+        <li> <p> <m>f(5)=0</m>; </p> </li>
+        <li> <p> <m>f'(x)&lt;0</m><nbsp/>for<nbsp/><m>x&lt;-3</m>; </p> </li>
+        <li> <p> <m>f'(-3)=0</m>; </p> </li>
+        <li> <p> <m>f'(x)&gt;0</m> for <m>-3&lt;x&lt;2</m>; </p> </li>
+        <li> <p> <m>\lim\limits_{x\rightarrow2}\dfrac{f(x)-f(2)}{x-2}</m> does not exist.  </p> </li>
+        <li> <p> <m>f'(x)&lt;0</m> for <m>2&lt;x&lt;5</m>; </p> </li>
+        <li> <p> <m>f'(5)=0</m>; </p> </li>
+        <li> <p> <m>f'(x)&gt;0</m> for <m>5&lt;x&lt;7</m>; </p> </li>
+        <li> <p> <m>f'(7)</m> is undefined; </p> </li>
+        <li> <p> <m>f'(x)&gt;0</m> for <m>7&lt;x&lt;9</m>; </p> </li>
+        <li> <p> <m>f'(9)=0</m>; </p> </li>
+        <li> <p> <m>f'(x)&lt;0</m> for <m>x&gt;9</m>; </p> </li>
+        <li> <p> <m>f'(x)</m> decreasing for <m>x&lt;-4</m>; </p> </li>
+        <li> <p> <m>f''(x)&gt;0</m> for <m>-4&lt;x&lt;2</m>; </p> </li>
+        <li> <p> <m>f'(x)</m> increasing for <m>2&lt;x&lt;7</m>; </p> </li>
+        <li> <p> <m>f''(x)&lt;0</m> for <m>7&lt;x&lt;10</m>; </p> </li>
+        <li> <p> <m>f''(x)&gt;0</m> for <m>x&gt;10</m>; </p> </li>
+      </ol>
+    </p>
+    <image>
+            <description><p>A blank grid from -15 to 15 in the x direction and from -10 to 10 in the y direction. Gridlines are spaced one unit apart and tickmarks are every five units.</p></description>
+            <prefigure xmlns="https://prefigure.org" label="prefig_curve_sketching_blank">
+                <diagram dimensions="(600,400)" margins="30">
+                  <coordinates bbox="(-15,-10,15,10)">
+                    <grid-axes hlabels="(-15,5,15)" vlabels="(-10,5,10)" spacings="((-15,1,15),(-10,1,10))"/>
+                  </coordinates>
+                </diagram>
+            </prefigure>
+    </image>
+        </statement>
+</exercise>
+</worksheet>

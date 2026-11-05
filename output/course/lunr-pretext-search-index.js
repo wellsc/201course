@@ -1396,6 +1396,24 @@ var ptx_lunr_docs = [
   "body": "   shows a curve called an elliptic curve given by the equation and a tangent line to the curve.   An Elliptic Curve with a Tangent Line    A graph of the elliptic curve with a tangent line at the point .     a=-2  b=-1\/4  f(x)=sqrt(x^3+a*x+b)  g(x)=-sqrt(x^3+a*x+b)  x0 = -1  m=(3*(x0)^2-2)\/(2*f(x0))  x1=m^2-2*x0  an = 1.7        \\left(${x0},\\frac{\\sqrt{3}}{2}\\right)   y^{2}=x^{3}-2x-\\frac{1}{4}                  Verify that the point is on the elliptic curve.      For points near , is an implicit function of .    "
 },
 {
+  "id": "activities-19",
+  "level": "1",
+  "url": "activities-19.html",
+  "type": "Worksheet",
+  "number": "3.17",
+  "title": "Curve Sketching with Calculus",
+  "body": " Curve Sketching with Calculus   The learner will use information about a function and its derivative to determine the overall shape of the function's graph.     On the axes provided, sketch the graph of a single function , , that has all of the following characteristics, briefly explaining what each of the characteristic tells you about the graph.      is continuous;     ;     ;     ;     ;     for ;     ;     for ;     does not exist.     for ;     ;     for ;     is undefined;     for ;     ;     for ;     decreasing for ;     for ;     increasing for ;     for ;     for ;      A blank grid from -15 to 15 in the x direction and from -10 to 10 in the y direction. Gridlines are spaced one unit apart and tickmarks are every five units.            "
+},
+{
+  "id": "activities-19-3",
+  "level": "2",
+  "url": "activities-19.html#activities-19-3",
+  "type": "Worksheet Exercise",
+  "number": "3.17.1",
+  "title": "",
+  "body": "  On the axes provided, sketch the graph of a single function , , that has all of the following characteristics, briefly explaining what each of the characteristic tells you about the graph.      is continuous;     ;     ;     ;     ;     for ;     ;     for ;     does not exist.     for ;     ;     for ;     is undefined;     for ;     ;     for ;     decreasing for ;     for ;     increasing for ;     for ;     for ;      A blank grid from -15 to 15 in the x direction and from -10 to 10 in the y direction. Gridlines are spaced one unit apart and tickmarks are every five units.           "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",

@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig_curve_sketching_blank-figure" width="660" height="460" viewBox="0 0 660 460">
+  <defs>
+    <clipPath id="prefig_curve_sketching_blank-__clipPath-0">
+      <rect x="30.0" y="30.0" width="600.0" height="400.0"/>
+    </clipPath>
+    <clipPath id="prefig_curve_sketching_blank-__clipPath-1">
+      <rect x="30.0" y="30.0" width="600.0" height="400.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefig_curve_sketching_blank-grid-axes">
+    <g id="prefig_curve_sketching_blank-grid" stroke="#ccc" stroke-width="1">
+      <line x1="30.0" y1="430.0" x2="30.0" y2="30.0"/>
+      <line x1="50.0" y1="430.0" x2="50.0" y2="30.0"/>
+      <line x1="70.0" y1="430.0" x2="70.0" y2="30.0"/>
+      <line x1="90.0" y1="430.0" x2="90.0" y2="30.0"/>
+      <line x1="110.0" y1="430.0" x2="110.0" y2="30.0"/>
+      <line x1="130.0" y1="430.0" x2="130.0" y2="30.0"/>
+      <line x1="150.0" y1="430.0" x2="150.0" y2="30.0"/>
+      <line x1="170.0" y1="430.0" x2="170.0" y2="30.0"/>
+      <line x1="190.0" y1="430.0" x2="190.0" y2="30.0"/>
+      <line x1="210.0" y1="430.0" x2="210.0" y2="30.0"/>
+      <line x1="230.0" y1="430.0" x2="230.0" y2="30.0"/>
+      <line x1="250.0" y1="430.0" x2="250.0" y2="30.0"/>
+      <line x1="270.0" y1="430.0" x2="270.0" y2="30.0"/>
+      <line x1="290.0" y1="430.0" x2="290.0" y2="30.0"/>
+      <line x1="310.0" y1="430.0" x2="310.0" y2="30.0"/>
+      <line x1="330.0" y1="430.0" x2="330.0" y2="30.0"/>
+      <line x1="350.0" y1="430.0" x2="350.0" y2="30.0"/>
+      <line x1="370.0" y1="430.0" x2="370.0" y2="30.0"/>
+      <line x1="390.0" y1="430.0" x2="390.0" y2="30.0"/>
+      <line x1="410.0" y1="430.0" x2="410.0" y2="30.0"/>
+      <line x1="430.0" y1="430.0" x2="430.0" y2="30.0"/>
+      <line x1="450.0" y1="430.0" x2="450.0" y2="30.0"/>
+      <line x1="470.0" y1="430.0" x2="470.0" y2="30.0"/>
+      <line x1="490.0" y1="430.0" x2="490.0" y2="30.0"/>
+      <line x1="510.0" y1="430.0" x2="510.0" y2="30.0"/>
+      <line x1="530.0" y1="430.0" x2="530.0" y2="30.0"/>
+      <line x1="550.0" y1="430.0" x2="550.0" y2="30.0"/>
+      <line x1="570.0" y1="430.0" x2="570.0" y2="30.0"/>
+      <line x1="590.0" y1="430.0" x2="590.0" y2="30.0"/>
+      <line x1="610.0" y1="430.0" x2="610.0" y2="30.0"/>
+      <line x1="630.0" y1="430.0" x2="630.0" y2="30.0"/>
+      <line x1="30.0" y1="430.0" x2="630.0" y2="430.0"/>
+      <line x1="30.0" y1="410.0" x2="630.0" y2="410.0"/>
+      <line x1="30.0" y1="390.0" x2="630.0" y2="390.0"/>
+      <line x1="30.0" y1="370.0" x2="630.0" y2="370.0"/>
+      <line x1="30.0" y1="350.0" x2="630.0" y2="350.0"/>
+      <line x1="30.0" y1="330.0" x2="630.0" y2="330.0"/>
+      <line x1="30.0" y1="310.0" x2="630.0" y2="310.0"/>
+      <line x1="30.0" y1="290.0" x2="630.0" y2="290.0"/>
+      <line x1="30.0" y1="270.0" x2="630.0" y2="270.0"/>
+      <line x1="30.0" y1="250.0" x2="630.0" y2="250.0"/>
+      <line x1="30.0" y1="230.0" x2="630.0" y2="230.0"/>
+      <line x1="30.0" y1="210.0" x2="630.0" y2="210.0"/>
+      <line x1="30.0" y1="190.0" x2="630.0" y2="190.0"/>
+      <line x1="30.0" y1="170.0" x2="630.0" y2="170.0"/>
+      <line x1="30.0" y1="150.0" x2="630.0" y2="150.0"/>
+      <line x1="30.0" y1="130.0" x2="630.0" y2="130.0"/>
+      <line x1="30.0" y1="110.0" x2="630.0" y2="110.0"/>
+      <line x1="30.0" y1="90.0" x2="630.0" y2="90.0"/>
+      <line x1="30.0" y1="70.0" x2="630.0" y2="70.0"/>
+      <line x1="30.0" y1="50.0" x2="630.0" y2="50.0"/>
+      <line x1="30.0" y1="30.0" x2="630.0" y2="30.0"/>
+    </g>
+    <g id="prefig_curve_sketching_blank-axes" stroke="black" stroke-width="2">
+      <line id="prefig_curve_sketching_blank-__line-52" x1="30.0" y1="230.0" x2="630.0" y2="230.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig_curve_sketching_blank-__line-53" x1="30.0" y1="233.0" x2="30.0" y2="227.0"/>
+        <line id="prefig_curve_sketching_blank-__line-54" x1="130.0" y1="233.0" x2="130.0" y2="227.0"/>
+        <line id="prefig_curve_sketching_blank-__line-55" x1="230.0" y1="233.0" x2="230.0" y2="227.0"/>
+        <line id="prefig_curve_sketching_blank-__line-56" x1="430.0" y1="233.0" x2="430.0" y2="227.0"/>
+        <line id="prefig_curve_sketching_blank-__line-57" x1="530.0" y1="233.0" x2="530.0" y2="227.0"/>
+        <line id="prefig_curve_sketching_blank-__line-58" x1="630.0" y1="233.0" x2="630.0" y2="227.0"/>
+      </g>
+      <line id="prefig_curve_sketching_blank-__line-59" x1="330.0" y1="430.0" x2="330.0" y2="30.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig_curve_sketching_blank-__line-60" x1="327.0" y1="430.0" x2="333.0" y2="430.0"/>
+        <line id="prefig_curve_sketching_blank-__line-61" x1="327.0" y1="330.0" x2="333.0" y2="330.0"/>
+        <line id="prefig_curve_sketching_blank-__line-62" x1="327.0" y1="130.0" x2="333.0" y2="130.0"/>
+        <line id="prefig_curve_sketching_blank-__line-63" x1="327.0" y1="30.0" x2="333.0" y2="30.0"/>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-0" transform="translate(30.0,241.0) translate(-12.1,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-2-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-2-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 15">
+                <use data-c="2D" xlink:href="#prefig_curve_sketching_blank-MJX-2-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-2-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-2-TEX-N-35" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-1" transform="translate(130.0,241.0) translate(-12.1,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-3-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-3-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-3-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 10">
+                <use data-c="2D" xlink:href="#prefig_curve_sketching_blank-MJX-3-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-3-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig_curve_sketching_blank-MJX-3-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-2" transform="translate(230.0,241.0) translate(-7.5,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-4-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#prefig_curve_sketching_blank-MJX-4-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-4-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-3" transform="translate(430.0,241.0) translate(-4.5,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-5-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-5-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-4" transform="translate(530.0,241.0) translate(-9.0,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-6-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefig_curve_sketching_blank-MJX-6-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-5" transform="translate(630.0,241.0) translate(-9.0,-0.0)">
+      <g id="prefig_curve_sketching_blank-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-7-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-7-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="15">
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-7-TEX-N-31"/>
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-7-TEX-N-35" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-6" transform="translate(319.0,430.0) translate(-24.1,-6.2)">
+      <g id="prefig_curve_sketching_blank-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-8-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-8-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-8-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 10">
+                <use data-c="2D" xlink:href="#prefig_curve_sketching_blank-MJX-8-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-8-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig_curve_sketching_blank-MJX-8-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-7" transform="translate(319.0,330.0) translate(-15.1,-6.2)">
+      <g id="prefig_curve_sketching_blank-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-9-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-9-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#prefig_curve_sketching_blank-MJX-9-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-9-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-8" transform="translate(319.0,130.0) translate(-9.0,-6.2)">
+      <g id="prefig_curve_sketching_blank-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-10-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#prefig_curve_sketching_blank-MJX-10-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_curve_sketching_blank-__label-9" transform="translate(319.0,30.0) translate(-18.1,-6.2)">
+      <g id="prefig_curve_sketching_blank-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_curve_sketching_blank-MJX-11-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_curve_sketching_blank-MJX-11-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#prefig_curve_sketching_blank-MJX-11-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefig_curve_sketching_blank-MJX-11-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+</svg>

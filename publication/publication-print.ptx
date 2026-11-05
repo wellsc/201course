@@ -1,19 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<publication>
 
+<publication>
     <common>
-        <!-- 0 is an entire book in one file   -->
-        <!-- 1 is each chapter is its own file -->
-        <chunking level="1"/>
-        <exercise-inline solution="no" answer="no"/>
-        <exercise-divisional answer="no" />
-        <exercise-divisional solution="no" />
-        <exercise-inline solution="no" />
-      <!--<exercise-inline statement="yes" hint="yes" answer="no" solution="no" />-->
-      <!--<exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />-->
+    <!-- Level at which html output is split into separate pages: 0 gives -->
+    <!-- a single page, 1 is chapter, 2 is section, and so on through 6.  -->
+    <!-- The default depends on the type of document.                     -->
+      <chunking level="3" />
+
+    <!-- Visibility of exercise components where they first appear.          -->
+    <!-- There are four components (statement/hint/answer/solution) for each -->
+    <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
+    <!-- project).  Each attribute takes "yes" or "no", and every one of     -->
+    <!-- them defaults to "yes".  The entries below are a plausible example, -->
+    <!-- not the defaults.                                                   -->
+        <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+        <exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />
       <exercise-worksheet statement="yes" hint="yes" answer="no" solution="no" />
       <!--<exercise-reading statement="yes" hint="yes" answer="no" solution="no" />-->
       <!--<exercise-project statement="yes" hint="yes" answer="yes" solution="yes" />-->
+
+    <!-- Depth of the table of contents, from 0 through 6.  A value of 0 -->
+    <!-- means no table of contents.  The default depends on the type of -->
+    <!-- document and the conversion.                                    -->
+      <!-- -->
+      <tableofcontents level="3" />
+
+    <!-- Style of fill-in-the-blanks.  Each attribute may be "underline", -->
+    <!-- "box", or "shade".  Defaults are shown.                          -->
+      <!--<fillin textstyle="underline" mathstyle="shade" />-->
+
+    <!-- Spacing around an em dash (the "mdash" element) is set by an -->
+    <!-- attribute on common itself, either "none" (the default) or   -->
+    <!-- "thin", as in <common emdash-space="thin"> -->
+
+    <!-- You can set a watermark.  The text is the content of the -->
+    <!-- element; @scale is a positive number, default 0.5.       -->
+      <!-- <watermark scale="0.5">DRAFT</watermark> -->
+
+    <!-- Mermaid diagrams.  @theme may be "default", "dark", "forest", -->
+    <!-- or "light".                                                   -->
+      <!-- <mermaid theme="default" /> -->
+
+    <!-- QR code image: a square image placed in the center of QR codes -->
+    <!-- for videos and interactives.  The path is relative to your     -->
+    <!-- external assets folder.                                        -->
+      <!-- <qrcode image="image.png" /> -->
+
+    <!-- When writing for a specific journal, naming it here controls the -->
+    <!-- format of bibliography entries and of the LaTeX produced.  For a -->
+    <!-- list of valid short names, see                                   -->
+    <!-- https://pretextbook.org/doc/guide/html/appendix-journals.html    -->
+      <!--<journal name="ams" />-->
+
+    <!-- Margins for worksheets and handouts, used by both the LaTeX and  -->
+    <!-- html conversions.  Values must carry units, either "in" or "cm". -->
+    <!-- @margin sets all four sides (default 0.75in) and any of @top,    -->
+    <!-- @right, @bottom, @left override it for that side.                -->
+      <!--<worksheet margin="0.75in" />-->
+
+    <!-- Worksheet headers and footers are children of that worksheet    -->
+    <!-- element, each taking @left, @center, and @right whose values are -->
+    <!-- the text to place in that position.  For example:               -->
+      <worksheet margin="0.75in">
+        <first-page-header left="Name: __________" right="Date: __________"/>
+        <first-page-footer center="Page 1"/>
+        <running-header left="Worksheet"/>
+        <running-footer center="continued"/>
+      </worksheet>
     </common>
 
     <html print='no'>

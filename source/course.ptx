@@ -48,6 +48,7 @@
       <xi:include href="./activities/BoatMotor/BoatMotor.ptx"/>
       <xi:include href="./activities/Compositions/Compositions.ptx"/>
       <xi:include href="./activities/ImplicitAndInverses/ImplicitAndInverse.ptx"/>
+      <xi:include href="./activities/CurveSketching/CurveSketching.ptx"/>
 
     </chapter>
     <!--

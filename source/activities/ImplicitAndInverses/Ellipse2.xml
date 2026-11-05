@@ -1,0 +1,29 @@
+<diagram dimensions="(600,600)" margins="15">
+  <definition>f(x,y)=34*x^2-38*x*y+34*y^2</definition>
+  <definition>y0 = 2</definition>
+  <definition>m(x,y)=(38*y-68*x)/(68*y-38*x)</definition>
+  <definition>a=34</definition>
+  <definition>b=-38*y0</definition>
+  <definition>c=34*y0^2-225</definition>
+  <definition>g(x)=f(x,y0)</definition>
+  <definition>x0=solve(g,225,-1)</definition>
+  <definition>slope=m(x0,y0)</definition>
+  <definition>l(x)=slope*(x-x0)+y0</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <grid-axes xlabel="x" ylabel="y"/>
+     <implicit-curve at="C" function="f" k="225" stroke="orange" thickness="3" />
+      <graph at="tangent" function="l" />
+    
+    <point at="point" p="(x0,y0)" alignment="w">
+      <m>(x_0,y_0)</m>
+    </point>
+  </coordinates>
+
+  <annotations text="The graph of an ellipse and a tangent line at the point x0 comma y0">
+    <annotation ref="graph-group" text="The graph and its tangent line">
+      <annotation ref="C" text="The graph of the ellipse" />
+      <annotation ref="point" text="The point x0 comma y0"/>
+      <annotation ref="tangent" text="The tangent line to the graph of f at the point"/>
+    </annotation>
+  </annotations>
+</diagram>
