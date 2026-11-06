@@ -1414,6 +1414,150 @@ var ptx_lunr_docs = [
   "body": "  On the axes provided, sketch the graph of a single function , , that has all of the following characteristics, briefly explaining what each of the characteristic tells you about the graph.      is continuous;     ;     ;     ;     ;     for ;     ;     for ;     does not exist.     for ;     ;     for ;     is undefined;     for ;     ;     for ;     decreasing for ;     for ;     increasing for ;     for ;     for ;      A blank grid from -15 to 15 in the x direction and from -10 to 10 in the y direction. Gridlines are spaced one unit apart and tickmarks are every five units.           "
 },
 {
+  "id": "elvise",
+  "level": "1",
+  "url": "elvise.html",
+  "type": "Worksheet",
+  "number": "3.18",
+  "title": "Get The Ball, Elvis!",
+  "body": " Get The Ball, Elvis!   Tim Pennings, a mathematics professor, had a dog named Elvis (a Welsh Corgi), and Tim claims that Elvis seemed to know calculus. According to Tim, Elvis could solve optimization problems in particular, he could minimize the time it takes to fetch a ball that Tim throws into Lake Michigan for him.  In this activity, we will model and solve the optimization problem using calculus, and then analyze the problem to see if we can understand exactly how Elvis did it.  We will start with the following assumptions:  Elvis' running speed is 6.40 m\/s, and   Elvis' swimming speed is 1.90 m\/s.      A possible path for Elvis to follow.   A diagram of a possible path that Elvis might take.    E=(0,0)  R=(10,0)  B=(10,7)  S=(8,0)  d=(0,1\/2)     10\\text{m}  x  7\\text{m}  \\theta  E  S  R  B       The diagram in represents the basic set-up of the optimization problem. Elvis starts at the point marked The ball lands at the point marked The closest point on the shore to where the ball lands is marked (because we will use it as a reference point). After the ball is thrown, Elvis runs some distance (possibly zero meters) along the shore toward the reference point, and then swims directly toward the ball. (That is, runs some distance (possibly zero meters) along the shore toward the reference point, and then swims directly toward the ball. (That is, Elvis chooses the point labeled .)  Also, so that we are all using the same references, we will define to be the distance away from at which Elvis starts swimming. That is, is the distance between and .  We are also interested in the angle at which Elvis swims toward the ball, labeled as in the diagram.     Beginning with specific distances, find an optimal path, angle, and time, for Elvis to reach the ball. Then, experiment by varying the distances, solve the new problems, and generalize your results.  That is, eventually you want a complete generalization: Assuming that the ball lands at so that the nearest point on the shore is meters away from Elvis and the ball is meters away from the shore (where both and are constants ) predict the angle at which Elvis will swim toward the ball and verify your results.  Here is one way you might approach the problem:     Assume that the ball lands 7 meters out from a point 10 meters along the shore.  Develop a formula that gives the time for Elvis to reach the ball as a function of the distance from the reference point at which Elvis begins to swim.  Assign this function to the variable .      Graph . According to your graph, at approximately what distance, , from the reference point should Elvis start swimming to minimize the time require to reach the ball?  Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. How much time is required to reach the ball? Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. In particular,     what can you say about the value of at this point?      What can you say about the value of at this point?       Calculate the derivative of your time function, then use your answer to above to set up an equation for Maple to your answer to above to set up an equation for Maple to solve. Verify that your solution agrees with your answer to .      Find the time required for Elvis to swim to the ball if he follows the path you described.      Find the angle ( ) at which Elvis will have to swim to follow the path you determined. (Hint: It may be easier to see what is going on if you think about how the cosine of the angle is defined.)       Assume that the ball lands 7 meters out from a point 15 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.       Assume that the ball lands 7 meters out from a point 30 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.       Choose several more values for the starting distance between Tim and Elvis. For each, calculate the values of the optimal time, the distance (the distance away from Tim at which Elvis will start swimming), and the angle, at which Elvis will swim. Be systematic, and experiment until you find a pattern.      Assume that the ball lands 7 meters out from a point meters along the shore. (Here we are treating as a parameter . That is, is constant, but our results may depend on its value.) Based on the pattern you found:     predict the angle at which Elvis will swim toward the ball;      check your prediction with the values of that you already used. If necessary, modify your model and prediction so that it will work for every possible value of . (Your model and prediction may have to be conditional ; that is, you may have to say things like if is less than , or if the angle between Elvis and the ball is . ).       Assume that the ball lands meters out from a point meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.        (Extension) Re-solve the problem with Elvis' running speed, , and swimming speed, , as parameters.       (Extension) Have Elvis start some distance away from the shore, create a model, and solve. Verify that the previous situation is a limiting situation for when approaches zero.    "
+},
+{
+  "id": "fig_elvis_path",
+  "level": "2",
+  "url": "elvise.html#fig_elvis_path",
+  "type": "Figure",
+  "number": "56",
+  "title": "",
+  "body": " A possible path for Elvis to follow.   A diagram of a possible path that Elvis might take.    E=(0,0)  R=(10,0)  B=(10,7)  S=(8,0)  d=(0,1\/2)     10\\text{m}  x  7\\text{m}  \\theta  E  S  R  B      "
+},
+{
+  "id": "elvise-3",
+  "level": "2",
+  "url": "elvise.html#elvise-3",
+  "type": "Worksheet Exercise",
+  "number": "3.18.1",
+  "title": "",
+  "body": "  Beginning with specific distances, find an optimal path, angle, and time, for Elvis to reach the ball. Then, experiment by varying the distances, solve the new problems, and generalize your results.  That is, eventually you want a complete generalization: Assuming that the ball lands at so that the nearest point on the shore is meters away from Elvis and the ball is meters away from the shore (where both and are constants ) predict the angle at which Elvis will swim toward the ball and verify your results.  Here is one way you might approach the problem:     Assume that the ball lands 7 meters out from a point 10 meters along the shore.  Develop a formula that gives the time for Elvis to reach the ball as a function of the distance from the reference point at which Elvis begins to swim.  Assign this function to the variable .      Graph . According to your graph, at approximately what distance, , from the reference point should Elvis start swimming to minimize the time require to reach the ball?  Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. How much time is required to reach the ball? Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. In particular,     what can you say about the value of at this point?      What can you say about the value of at this point?       Calculate the derivative of your time function, then use your answer to above to set up an equation for Maple to your answer to above to set up an equation for Maple to solve. Verify that your solution agrees with your answer to .      Find the time required for Elvis to swim to the ball if he follows the path you described.      Find the angle ( ) at which Elvis will have to swim to follow the path you determined. (Hint: It may be easier to see what is going on if you think about how the cosine of the angle is defined.)    "
+},
+{
+  "id": "elvise-4",
+  "level": "2",
+  "url": "elvise.html#elvise-4",
+  "type": "Worksheet Exercise",
+  "number": "3.18.2",
+  "title": "",
+  "body": "  Assume that the ball lands 7 meters out from a point 15 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
+},
+{
+  "id": "elvise-5",
+  "level": "2",
+  "url": "elvise.html#elvise-5",
+  "type": "Worksheet Exercise",
+  "number": "3.18.3",
+  "title": "",
+  "body": "  Assume that the ball lands 7 meters out from a point 30 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
+},
+{
+  "id": "elvise-6",
+  "level": "2",
+  "url": "elvise.html#elvise-6",
+  "type": "Worksheet Exercise",
+  "number": "3.18.4",
+  "title": "",
+  "body": "  Choose several more values for the starting distance between Tim and Elvis. For each, calculate the values of the optimal time, the distance (the distance away from Tim at which Elvis will start swimming), and the angle, at which Elvis will swim. Be systematic, and experiment until you find a pattern.   "
+},
+{
+  "id": "elvise-7",
+  "level": "2",
+  "url": "elvise.html#elvise-7",
+  "type": "Worksheet Exercise",
+  "number": "3.18.5",
+  "title": "",
+  "body": "  Assume that the ball lands 7 meters out from a point meters along the shore. (Here we are treating as a parameter . That is, is constant, but our results may depend on its value.) Based on the pattern you found:     predict the angle at which Elvis will swim toward the ball;      check your prediction with the values of that you already used. If necessary, modify your model and prediction so that it will work for every possible value of . (Your model and prediction may have to be conditional ; that is, you may have to say things like if is less than , or if the angle between Elvis and the ball is . ).    "
+},
+{
+  "id": "elvise-8",
+  "level": "2",
+  "url": "elvise.html#elvise-8",
+  "type": "Worksheet Exercise",
+  "number": "3.18.6",
+  "title": "",
+  "body": "  Assume that the ball lands meters out from a point meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
+},
+{
+  "id": "elvise-9",
+  "level": "2",
+  "url": "elvise.html#elvise-9",
+  "type": "Worksheet Exercise",
+  "number": "3.18.7",
+  "title": "",
+  "body": "   (Extension) Re-solve the problem with Elvis' running speed, , and swimming speed, , as parameters.   "
+},
+{
+  "id": "elvise-10",
+  "level": "2",
+  "url": "elvise.html#elvise-10",
+  "type": "Worksheet Exercise",
+  "number": "3.18.8",
+  "title": "",
+  "body": "   (Extension) Have Elvis start some distance away from the shore, create a model, and solve. Verify that the previous situation is a limiting situation for when approaches zero.   "
+},
+{
+  "id": "ladder_new_person_wksht",
+  "level": "1",
+  "url": "ladder_new_person_wksht.html",
+  "type": "Worksheet",
+  "number": "3.19",
+  "title": "More Ladders in Corners",
+  "body": " More Ladders in Corners   Henry has to break in the new person in maintenance this week, and one of the things Henry has had to deal with is taking ladders around corners (again!).  The halls are wide enough that fitting around the corner isn't the problem. The trouble is that the new person doesn't slow down to go around corners! (At least the new person remembers to swing wide and hug the outside wall!)    The new person walks at a steady .    Henry has the new person leading the way with their ladder.    Assume that the ends of the ladder are always touching the two outer walls of the corner.       How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    We start by assigning variables and finding how they are related. Let be the distance (along the wall) that the new person is from the corner and let be how far Henry is (along the other wall of the outer corner) from the corner. Then, because the ladder is long, we know that   Next, we know that both and are (implicit) functions of time, . That is,   Using differentials and , know that , so we have and so We know since the new person is leading (so their distance from the wall is increasing), and we want to know . Solving for , we have So, to find the value of when , we need to know the value of when . Substituting into and solving, we get , so substituting for , , and , we get       How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    To find the value of when , we substitute into and get , so substituting for , , and , we get       What trend do you see in the value of as decreases? Does this make sense?   As decreases in magnitude, also decreases, becoming more negative.     Generalize by finding an expression that gives Henry's speed when Henry is at any distance, , from the wall.    Working from , we see that for any distance , we need to find the corresponding value of from , which gives us . Thus, for any ,       Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .    "
+},
+{
+  "id": "ladder_new_person_wksht-3",
+  "level": "2",
+  "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-3",
+  "type": "Worksheet Exercise",
+  "number": "3.19.1",
+  "title": "",
+  "body": "  How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    We start by assigning variables and finding how they are related. Let be the distance (along the wall) that the new person is from the corner and let be how far Henry is (along the other wall of the outer corner) from the corner. Then, because the ladder is long, we know that   Next, we know that both and are (implicit) functions of time, . That is,   Using differentials and , know that , so we have and so We know since the new person is leading (so their distance from the wall is increasing), and we want to know . Solving for , we have So, to find the value of when , we need to know the value of when . Substituting into and solving, we get , so substituting for , , and , we get    "
+},
+{
+  "id": "ladder_new_person_wksht-4",
+  "level": "2",
+  "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-4",
+  "type": "Worksheet Exercise",
+  "number": "3.19.2",
+  "title": "",
+  "body": "  How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    To find the value of when , we substitute into and get , so substituting for , , and , we get    "
+},
+{
+  "id": "ladder_new_person_wksht-5",
+  "level": "2",
+  "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-5",
+  "type": "Worksheet Exercise",
+  "number": "3.19.3",
+  "title": "",
+  "body": "  What trend do you see in the value of as decreases? Does this make sense?   As decreases in magnitude, also decreases, becoming more negative.  "
+},
+{
+  "id": "ladder_new_person_wksht-6",
+  "level": "2",
+  "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-6",
+  "type": "Worksheet Exercise",
+  "number": "3.19.4",
+  "title": "",
+  "body": "  Generalize by finding an expression that gives Henry's speed when Henry is at any distance, , from the wall.    Working from , we see that for any distance , we need to find the corresponding value of from , which gives us . Thus, for any ,    "
+},
+{
+  "id": "ladder_new_person_wksht-7",
+  "level": "2",
+  "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-7",
+  "type": "Worksheet Exercise",
+  "number": "3.19.5",
+  "title": "",
+  "body": "  Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1436,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "56",
+  "number": "57",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1454,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "57",
+  "number": "58",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1463,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "58",
+  "number": "59",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1472,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "59",
+  "number": "60",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1481,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "60",
+  "number": "61",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
@@ -1499,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-2",
   "type": "Theorem",
-  "number": "61",
+  "number": "62",
   "title": "Constant Functions.",
   "body": " Constant Functions   For any constant, ,   "
 },
@@ -1508,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-3",
   "type": "Theorem",
-  "number": "62",
+  "number": "63",
   "title": "Power Functions.",
   "body": " Power Functions   For any constant, ,    "
 },
@@ -1517,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-4",
   "type": "Theorem",
-  "number": "63",
+  "number": "64",
   "title": "Sine.",
   "body": " Sine       "
 },
@@ -1526,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-5",
   "type": "Theorem",
-  "number": "64",
+  "number": "65",
   "title": "Cosine.",
   "body": " Cosine       "
 },
@@ -1535,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-6",
   "type": "Theorem",
-  "number": "65",
+  "number": "66",
   "title": "Natural Exponential.",
   "body": " Natural Exponential       "
 },
@@ -1553,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-2",
   "type": "Theorem",
-  "number": "66",
+  "number": "67",
   "title": "Constant Multiple.",
   "body": " Constant Multiple   For any constant and any differentiable function ,    "
 },
@@ -1562,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-3",
   "type": "Theorem",
-  "number": "67",
+  "number": "68",
   "title": "Sums and Differences.",
   "body": " Sums and Differences   For any differentiable functions and ,   "
 },
@@ -1571,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-4",
   "type": "Theorem",
-  "number": "68",
+  "number": "69",
   "title": "Products.",
   "body": " Products   For any differentiable functions and ,    "
 },
@@ -1580,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-5",
   "type": "Theorem",
-  "number": "69",
+  "number": "70",
   "title": "Quotients.",
   "body": " Quotients   For any differentiable functions and , for any where ,   "
 },
@@ -1589,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-6",
   "type": "Theorem",
-  "number": "70",
+  "number": "71",
   "title": "Compositions.",
   "body": " Compositions   For any differentiable functions and ,    "
 },
@@ -1616,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "71",
+  "number": "72",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -1625,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "72",
+  "number": "73",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <worksheet xml:id="ladder_new_person_wksht">
+    <title>More Ladders in Corners</title>
+            <introduction>
+                <p>
+                        Henry has to break in the new person in maintenance this week, and one of the things Henry has had to deal with is taking ladders around corners (again!).
+                </p>
+                <p>
+                        The halls are wide enough that fitting around the corner isn't the problem. The trouble is that the new person doesn't slow down to go around corners! (At least the new person remembers to swing wide and hug the outside wall!)
+                </p>
+                <ul>
+                        <li>
+                                <p>
+                                        The new person walks at a steady <m>1.2\text{m}/\text{s}</m>.
+                                </p>
+                        </li>
+                        <li>
+                                <p>
+                                        Henry has the new person leading the way with their <m>10\text{m}</m> ladder.
+                                </p>
+                        </li>
+                        <li>
+                                <p>
+                                        Assume that the ends of the ladder are always touching the two outer walls of the corner. 
+                                </p>
+                        </li>
+                </ul>
+            </introduction>
+            <exercise workspace="6in">
+                    <statement>
+                            <p>
+                                How fast does Henry have to go to keep up with the new person when Henry is <m>8\text{m}</m> away from the corner?
+                            </p>
+                    </statement>
+                    <solution>
+                            <p>
+                                    We start by assigning variables and finding how they are related. Let <m>x</m> be the distance (along the wall) that the new person is from the corner and let <m>y</m> be how far Henry is (along the other wall of the outer corner) from the corner. Then, because the ladder is <m>10\text{m}</m> long, we know that
+                                    <md>
+                                            <mrow>
+                                            x^{2}+y^{2}&amp;=10^{2}
+                                            </mrow>
+                                            <mrow number="yes" xml:id="new_ladder_eqn">
+                                            &amp;=100.
+                                            </mrow>
+                                    </md>
+                            </p>
+                            <p>
+                                            Next, we know that both <m>x</m> and <m>y</m> are (implicit) functions of time, <m>t</m>. That is,
+                                    <md>
+                                            <mrow>
+                                            x(t)^{2}+y(t)^{2}&amp;=100.
+                                            </mrow>
+                                    </md>
+                            </p>
+                            <p>
+                                    Using differentials and <xref ref="new_ladder_eqn" text="type-local"/>, know that <m>\di{(100)}=0</m>, so we have
+                                    <md>
+                                            <mrow>
+                                                    0
+                                                            &amp;=\di{\left(x^{2}+y^{2}\right)}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;=\di{\left(x^{2}\right)}+\di{\left(y^{2}\right)}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;=2x\di{x}+2y\di{y},
+                                            </mrow>
+                                    </md>
+                                    and so
+                                    <md>
+                                            <mrow number='yes' xml:id='ladder_differential'>
+                                                    2x\frac{\di{x}}{\di{t}}+2y\frac{\di{y}}{\di{t}}&amp;=0.
+                                            </mrow>
+                                    </md>
+                                    We know <m>\di{x}/\di{t}=+1.2</m> since the new person is leading (so their distance from the wall is increasing), and we want to know <m>\di{y}/\di{t}</m>. Solving <xref ref='ladder_differential' text="type-local"/> for <m>\di{y}/\di{t}</m>, we have
+                                    <md>
+                                            <mrow number="yes" xml:id="ladder_dydt">
+                                                    \frac{\di{y}}{\di{t}}
+                                                    &amp;=
+                                                    -{}\frac{x}{y}\frac{\di{x}}{\di{t}}.
+                                            </mrow>
+                                    </md>
+                                            So, to find the value of <m>\di{y}/\di{t}</m> when <m>y=8</m>, we need to know the value of <m>x</m> when <m>y=8</m>. Substituting <m>y=8</m> into <xref ref="new_ladder_eqn" text="type-local"/> and solving, we get <m>x=\sqrt{100-64}=\sqrt{36}=6</m>, so substituting for <m>x</m>, <m>y</m>, and <m>\di{x}/\di{t}</m>, we get
+                                    <md>
+                                            <mrow>
+                                                    \left.\frac{\di{y}}{\di{t}}\right\rvert_{y=8}
+                                                    &amp;=
+                                                    \left.\left(-{}\frac{x}{y}\frac{\di{x}}{\di{t}}\right)\right\rvert_{y=8}
+                                            </mrow>
+                                            <mrow>
+                                                    &amp;=
+                                                    -{}\frac{6}{8}\cdot 1.2\text{m}/\text{s}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;= -0.9\text{m}/\text{s}.
+                                            </mrow>
+                                    </md>
+                            </p>
+                    </solution>
+            </exercise>
+            <exercise workspace="2in">
+                    <statement>
+                            <p>
+                                    How fast does Henry have to go to keep up with the new person when Henry is <m>6\text{m}</m> away from the corner?
+                            </p>
+                    </statement>
+                    <solution>
+                            <p>
+                                            To find the value of <m>\di{y}/\di{t}</m> when <m>y=6</m>, we substitute <m>y=6</m> into <xref ref="new_ladder_eqn" text="type-local"/> and get <m>x=8</m>, so substituting for <m>x</m>, <m>y</m>, and <m>\di{x}/\di{t}</m>, we get
+                                    <md>
+                                            <mrow>
+                                                    \left.\frac{\di{y}}{\di{t}}\right\rvert_{y=6}
+                                                    &amp;=
+                                                    \left.\left(-{}\frac{x}{y}\frac{\di{x}}{\di{t}}\right)\right\rvert_{y=6}
+                                            </mrow>
+                                            <mrow>
+                                                    &amp;=
+                                                    -{}\frac{8}{6}\cdot 1.2\text{m}/\text{s}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;= -1.6\text{m}/\text{s}.
+                                            </mrow>
+                                    </md>
+                            </p>
+                    </solution>
+            </exercise>
+            <exercise workspace="1in">
+                    <statement>
+                            <p>
+                                    What trend do you see in the value of <m>\di{y}/\di{t}</m> as <m>y</m> decreases? Does this make sense?
+                            </p>
+                    </statement>
+                    <answer>
+                                    As <m>y</m> decreases in magnitude, <m>\di{y}/\di{t}</m> also decreases, becoming more negative.
+                    </answer>
+            </exercise>
+            <exercise workspace="2in">
+                    <statement>
+                            <p>
+                                    Generalize by finding an expression that gives Henry's speed when Henry is at any distance, <m>d</m>, from the wall.
+                            </p>
+                    </statement>
+                    <solution>
+                            <p>
+                                            Working from <xref ref="ladder_dydt" text="type-local"/>, we see that for any distance <m>y=d</m>, we need to find the corresponding value of <m>x</m> from <xref ref="new_ladder_eqn"/>, which gives us <m>x=\sqrt{100-y^{2}}=\sqrt{100-d^{2}}</m>. Thus, for any <m>y=d</m>,
+                                            <md>
+                                            <mrow>
+                                                    \left.\frac{\di{y}}{\di{t}}\right\rvert_{y=d}
+                                                    &amp;=
+                                                    \left.\left(-{}\frac{x}{y}\frac{\di{x}}{\di{t}}\right)\right\rvert_{y=d}
+                                            </mrow>
+                                            <mrow>
+                                                    &amp;=
+                                                    -{}\frac{\sqrt{100-d^{2}}}{d}(1.2)\text{m}/\text{s}.
+                                            </mrow>
+                                            <mrow>
+                                                    &amp;=
+                                                    \frac{-1.2\sqrt{100-d^{2}}}{d}\text{m}/\text{s}.
+                                            </mrow>
+                                            </md>
+                            </p>
+                    </solution>
+            </exercise>
+            <exercise workspace="2in">
+                    <statement>
+                            <p>
+                                    Generalize further by making the other person's speed and the ladder length <term>parameters</term>. (That is, they can be any value but are treated as constants within the problem.)
+                            </p>
+                    </statement>
+                    <solution>
+                            <p>
+                                    Let <m>L</m> be the length of the latter, and let the other person's speed be <m>s</m>. Then we have
+                                    <md>
+                                            <mrow>
+                                                    x^{2}+y^{2}=L^{2}
+                                                            &amp;\to
+                                                    2x\di{x}+2y\di{y}=0
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;\to
+                                                    y\di{y}=-x\di{x}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;\to
+                                                    \di{y}=-\frac{x}{y}\di{x}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;\to
+                                                    \frac{\di{y}}{\di{t}}=-\frac{x}{y}\frac{\di{x}}{\di{t}}
+                                            </mrow>
+                                            <mrow>
+                                                            &amp;\to
+                                                    \frac{\di{y}}{\di{t}}=-s\frac{x}{y}
+                                            </mrow>
+                                    </md>
+                            </p>
+                            <p>
+                                            If we want to eliminate <m>x</m> from the result, we can replace it with <m>\sqrt{L^{2}-y^{2}}</m>.
+                            </p>
+                    </solution>
+            </exercise>
+  </worksheet>

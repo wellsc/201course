@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="prefig_Elvis">
+<diagram dimensions="(600,500)" margins="5">
+  <definition>E=(0,0)</definition>
+  <definition>R=(10,0)</definition>
+  <definition>B=(10,7)</definition>
+  <definition>S=(8,0)</definition>
+  <definition>d=(0,1/2)</definition>
+  <coordinates bbox="(-1,-1,11,9)">
+    
+    <line endpoints="(E,S)" />
+    <line endpoints="(S,B)" />
+    <line endpoints="(E-d,R-d)" arrows="2" thickness="1" ><m>10\text{m}</m></line>
+    <line endpoints="(S,R)" dash="4 4" thickness="1" alignment="s" ><m>x</m></line>
+    <line endpoints="(R,B)" dash="4 4" thickness="1" alignment="se" rotate="-90"><m>7\text{m}</m></line>
+    <angle-marker points="(R,S,B)" radius="30"><m>\theta</m></angle-marker>
+    <point p="E" alignment="sw"><m>E</m></point>
+    <point p="S" alignment="nw"><m>S</m></point>
+    <point p="R" alignment="se"><m>R</m></point>
+    <point p="B" alignment="ne"><m>B</m></point>  
+  </coordinates>
+
+</diagram>
+</prefigure>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="elvise">
+        <title>Get The Ball, Elvis!</title>
+        <introduction>
+                <p>
+                        Tim Pennings, a mathematics professor, had a dog named Elvis (a Welsh
+                        Corgi), and Tim claims that Elvis seemed to know calculus.
+                        According to Tim, Elvis could solve optimization problems
+                        <mdash/>
+                        in particular, he could minimize the time it takes to fetch a ball that Tim throws into Lake Michigan for him.
+                </p>
+                <p>
+                        In this activity, we will model and solve the optimization problem
+                        using calculus, and then analyze the problem to see if we can
+                        understand exactly how Elvis did it.
+                </p>
+                <p>
+                        We will start with the following assumptions:
+                        <ul>
+                                <li><p> Elvis' running speed is 6.40<nbsp/>m/s, and </p> </li>
+                                <li><p> Elvis' swimming speed is 1.90<nbsp/>m/s.  </p> </li>
+                        </ul>
+                        
+                </p>
+                        <figure xml:id="fig_elvis_path">
+                                <caption>A possible path for Elvis to follow.</caption>
+                                <image width="70%" >
+                                        <description><p>A diagram of a possible path that Elvis might take.</p></description>
+                                        <xi:include href="./ElvisDiagram.xml" />
+                                </image>
+                </figure>
+                <p>
+                        The diagram in <xref ref="fig_elvis_path" text="type-local" /> represents the basic set-up of the optimization
+                        problem. Elvis starts at the point marked
+                        <q><m>E</m></q> The ball lands at the point marked
+                        <q><m>B</m></q>
+                        The closest point on the
+                        shore to where the ball lands is marked
+                        <q><m>R</m></q>
+                        (because we
+                        will use it as a reference point).
+                        After the ball is thrown, Elvis
+                        runs some distance (possibly zero meters) along the shore toward the
+                        reference point, and then swims directly toward the ball. (That is, runs
+                        some distance (possibly zero meters) along the shore toward the
+                        reference point, and then swims directly toward the ball. (That is,
+                        Elvis <em>chooses</em> the point labeled <q><m>S</m></q>.)
+                        </p>
+                        <p>
+                Also, so that we are all using the same references, we will define <m>x</m> to be the distance away from <m>R</m> at which Elvis starts swimming.  That is, <m>x</m> is the distance between <m>R</m> and <m>S</m>.
+</p>
+<p>
+        We are also interested in the angle at which Elvis swims toward the ball, labeled as <m>\theta</m> in the diagram.
+</p>
+
+        </introduction>
+        <exercise>
+                <introduction>
+<p>
+        Beginning with specific distances, find an optimal path, angle, and time, for Elvis to
+        reach the ball. Then, experiment by varying the distances, solve the new problems, and
+        generalize your results.
+</p>
+<p>
+        That is, eventually you want a complete generalization: Assuming that the ball lands at so that the nearest point on the shore is <m>L</m><nbsp/>meters away from Elvis and the ball is <m>w</m><nbsp/>meters away from the shore (where both <m>L</m> and <m>w</m> are <em>constants</em>) predict the angle at which Elvis will swim toward the ball and verify your results.
+</p>
+<p>
+        Here is one way you might approach the problem:
+</p>
+                </introduction>
+                <task>
+                        <statement>
+                        <p>
+                                Assume that the ball lands 7<nbsp/>meters out from a point 10<nbsp/>meters along the shore.
+                        </p>
+                                
+                                         <p> Develop a formula that gives the time for Elvis to reach the ball as a function of the distance <m> x </m> from the reference point at which Elvis begins to swim.  </p> <p> Assign this function to the variable <m> t </m> .  </p> 
+                        </statement>
+                </task>
+                <task>
+                        <introduction>
+                                <p> Graph <m> y=t(x) </m>. According to your graph, at approximately what distance, <m> x_{*} </m> , from the reference point should Elvis start swimming to minimize the time require to reach the ball? 
+                                </p>
+                                <p>
+                                Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. How much time is required to reach the ball?  Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. In particular,
+                </p>
+                        </introduction>
+                <task>
+                        <statement>
+                         <p> what can you say about the value of <m> t' </m> at this point?  </p> 
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                         <p> What can you say about the value of <m> t'' </m> at this point?  </p> 
+                        </statement>
+                </task>
+                </task>
+                <task>
+                        <statement>
+                                 <p> Calculate the derivative of your time function, then use your answer to above to set up an equation for Maple to your answer to above to set up an equation for Maple to solve. Verify that your solution agrees with your answer to .  </p> 
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                 <p> Find the time required for Elvis to swim to the ball if he follows the path you described.  </p> 
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                 <p> Find the angle (<m> \theta </m>) at which Elvis will have to swim to follow the path you determined. (Hint: It may be easier to see what is going on if you think about how the <em> cosine </em> of the angle is defined.) </p> 
+                        </statement>
+                </task>
+        </exercise>
+        <exercise>
+                <introduction>
+                        <p>
+                                Assume that the ball lands 7<nbsp/>meters out from a point 15<nbsp/>meters along the shore.
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                        Modify your time function to fit the new situation,
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Determine where Elvis should enter the water to reach
+                                        the ball most quickly, the ball most
+                                        quickly,
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Calculate the time it will take Elvis to reach the ball
+                                        if he enters the water where you say he should, and
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Determine the angle at which Elvis will swim toward the
+                                        ball.
+                                </p>
+                        </statement>
+                </task>
+                        </exercise>
+                        <exercise>
+                                <introduction>
+        <p>
+                Assume that the ball lands 7<nbsp/>meters out from a point 30<nbsp/>meters along the shore.
+        </p>
+                                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                        Modify your time function to fit the new situation,
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Determine where Elvis should enter the water to reach
+                                        the ball most quickly, the ball most
+                                        quickly,
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Calculate the time it will take Elvis to reach the ball
+                                        if he enters the water where you say he should, and
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Determine the angle at which Elvis will swim toward the
+                                        ball.
+                                </p>
+                        </statement>
+                </task>
+                </exercise>
+                <exercise>
+                        <statement>
+        <p>
+                Choose several more values for the starting distance between Tim and
+                Elvis. For each, calculate the values of the optimal
+                time, the distance
+                <m> x </m> (the distance away from Tim at which Elvis will start swimming), and the angle, <m> \theta </m> at which Elvis will swim. Be systematic, and experiment until you find a pattern.
+</p>
+                        </statement>
+                        </exercise>
+
+                        <exercise>
+                                <introduction>
+        <p>
+                Assume that the ball lands 7<nbsp/>meters out from a point <m>L</m><nbsp/>meters along the shore. (Here we are treating <m> L </m> as a <em> parameter </em> . That is, <m> L </m> is constant, but our results may depend on its value.) Based on the pattern you found:
+</p>
+                                </introduction>
+                                <task>
+                                        <statement>
+                        <p>
+                                predict the angle at which Elvis will swim toward the ball;
+                        </p>
+                                        </statement>
+                                </task>
+                                <task>
+                                        <statement>
+                        <p>
+                                check your prediction with the values of <m> L </m> that you already used. If necessary, modify your model and prediction so that it will work for every possible value of <m> L </m> . (Your model and prediction may have to be <em>conditional</em> ; that is, you may have to say things like <q> if <m> L </m> is less than <ellipsis/> ,</q> or <q> if the angle between Elvis and the ball is <ellipsis/> .</q>).
+        </p>
+                                        </statement>
+                                </task>
+                                </exercise>
+                                <exercise>
+                                        <introduction>
+        <p>
+                Assume that the ball lands <m> w </m><nbsp/>meters out from a point <m>L</m><nbsp/>meters along the shore.
+</p>
+                                        </introduction>
+                                        <task>
+                                                <statement>
+                 <p> Modify your time function to fit the new situation, </p> 
+                                                </statement>
+                                        </task>
+                                        <task>
+                                                <statement>
+                 <p> Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly, </p> 
+                                                </statement>
+                                        </task>
+                                        <task>
+                                                <statement>
+                 <p> Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and </p> 
+                                                </statement>
+                                        </task>
+                                        <task>
+                                                <statement>
+                 <p> Determine the angle at which Elvis will swim toward the ball.  </p> 
+                                                </statement>
+                                        </task>
+                                        </exercise>
+                                        <exercise>
+                                                <statement>
+ <p> <term>(Extension)</term> Re-solve the problem with Elvis' running speed, <m>r</m>, and swimming speed, <m>s</m>, as parameters.  </p> 
+                                                </statement>
+                                        </exercise>
+                                        <exercise>
+                                                <statement>
+ <p> <term>(Extension)</term> Have Elvis start some distance <m>I</m> away from the shore, create a model, and solve.  Verify that the previous situation is a limiting situation for when <m> I </m> approaches zero.  </p> 
+
+                                                </statement>
+        </exercise>
+</worksheet>
