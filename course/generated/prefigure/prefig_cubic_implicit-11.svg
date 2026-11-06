@@ -1,0 +1,931 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig_cubic_implicit-figure" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <clipPath id="prefig_cubic_implicit-__clipPath-0">
+      <rect x="35.0" y="35.0" width="650.0" height="650.0"/>
+    </clipPath>
+    <clipPath id="prefig_cubic_implicit-__clipPath-1">
+      <rect x="35.0" y="35.0" width="650.0" height="650.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefig_cubic_implicit-grid-axes">
+    <g id="prefig_cubic_implicit-grid" stroke="#ccc" stroke-width="1">
+      <line x1="35.0" y1="685.0" x2="35.0" y2="35.0"/>
+      <line x1="62.1" y1="685.0" x2="62.1" y2="35.0"/>
+      <line x1="89.2" y1="685.0" x2="89.2" y2="35.0"/>
+      <line x1="116.2" y1="685.0" x2="116.2" y2="35.0"/>
+      <line x1="143.3" y1="685.0" x2="143.3" y2="35.0"/>
+      <line x1="170.4" y1="685.0" x2="170.4" y2="35.0"/>
+      <line x1="197.5" y1="685.0" x2="197.5" y2="35.0"/>
+      <line x1="224.6" y1="685.0" x2="224.6" y2="35.0"/>
+      <line x1="251.7" y1="685.0" x2="251.7" y2="35.0"/>
+      <line x1="278.8" y1="685.0" x2="278.8" y2="35.0"/>
+      <line x1="305.8" y1="685.0" x2="305.8" y2="35.0"/>
+      <line x1="332.9" y1="685.0" x2="332.9" y2="35.0"/>
+      <line x1="360.0" y1="685.0" x2="360.0" y2="35.0"/>
+      <line x1="387.1" y1="685.0" x2="387.1" y2="35.0"/>
+      <line x1="414.2" y1="685.0" x2="414.2" y2="35.0"/>
+      <line x1="441.2" y1="685.0" x2="441.2" y2="35.0"/>
+      <line x1="468.3" y1="685.0" x2="468.3" y2="35.0"/>
+      <line x1="495.4" y1="685.0" x2="495.4" y2="35.0"/>
+      <line x1="522.5" y1="685.0" x2="522.5" y2="35.0"/>
+      <line x1="549.6" y1="685.0" x2="549.6" y2="35.0"/>
+      <line x1="576.7" y1="685.0" x2="576.7" y2="35.0"/>
+      <line x1="603.8" y1="685.0" x2="603.8" y2="35.0"/>
+      <line x1="630.8" y1="685.0" x2="630.8" y2="35.0"/>
+      <line x1="657.9" y1="685.0" x2="657.9" y2="35.0"/>
+      <line x1="685.0" y1="685.0" x2="685.0" y2="35.0"/>
+      <line x1="35.0" y1="685.0" x2="685.0" y2="685.0"/>
+      <line x1="35.0" y1="657.9" x2="685.0" y2="657.9"/>
+      <line x1="35.0" y1="630.8" x2="685.0" y2="630.8"/>
+      <line x1="35.0" y1="603.8" x2="685.0" y2="603.8"/>
+      <line x1="35.0" y1="576.7" x2="685.0" y2="576.7"/>
+      <line x1="35.0" y1="549.6" x2="685.0" y2="549.6"/>
+      <line x1="35.0" y1="522.5" x2="685.0" y2="522.5"/>
+      <line x1="35.0" y1="495.4" x2="685.0" y2="495.4"/>
+      <line x1="35.0" y1="468.3" x2="685.0" y2="468.3"/>
+      <line x1="35.0" y1="441.2" x2="685.0" y2="441.2"/>
+      <line x1="35.0" y1="414.2" x2="685.0" y2="414.2"/>
+      <line x1="35.0" y1="387.1" x2="685.0" y2="387.1"/>
+      <line x1="35.0" y1="360.0" x2="685.0" y2="360.0"/>
+      <line x1="35.0" y1="332.9" x2="685.0" y2="332.9"/>
+      <line x1="35.0" y1="305.8" x2="685.0" y2="305.8"/>
+      <line x1="35.0" y1="278.8" x2="685.0" y2="278.8"/>
+      <line x1="35.0" y1="251.7" x2="685.0" y2="251.7"/>
+      <line x1="35.0" y1="224.6" x2="685.0" y2="224.6"/>
+      <line x1="35.0" y1="197.5" x2="685.0" y2="197.5"/>
+      <line x1="35.0" y1="170.4" x2="685.0" y2="170.4"/>
+      <line x1="35.0" y1="143.3" x2="685.0" y2="143.3"/>
+      <line x1="35.0" y1="116.2" x2="685.0" y2="116.2"/>
+      <line x1="35.0" y1="89.2" x2="685.0" y2="89.2"/>
+      <line x1="35.0" y1="62.1" x2="685.0" y2="62.1"/>
+      <line x1="35.0" y1="35.0" x2="685.0" y2="35.0"/>
+    </g>
+    <g id="prefig_cubic_implicit-axes" stroke="black" stroke-width="2">
+      <line id="prefig_cubic_implicit-__line-50" x1="35.0" y1="360.0" x2="685.0" y2="360.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig_cubic_implicit-__line-51" x1="35.0" y1="363.0" x2="35.0" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-52" x1="89.2" y1="363.0" x2="89.2" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-53" x1="143.3" y1="363.0" x2="143.3" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-54" x1="197.5" y1="363.0" x2="197.5" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-55" x1="251.7" y1="363.0" x2="251.7" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-56" x1="305.8" y1="363.0" x2="305.8" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-57" x1="414.2" y1="363.0" x2="414.2" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-58" x1="468.3" y1="363.0" x2="468.3" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-59" x1="522.5" y1="363.0" x2="522.5" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-60" x1="576.7" y1="363.0" x2="576.7" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-61" x1="630.8" y1="363.0" x2="630.8" y2="357.0"/>
+        <line id="prefig_cubic_implicit-__line-62" x1="685.0" y1="363.0" x2="685.0" y2="357.0"/>
+      </g>
+      <line id="prefig_cubic_implicit-__line-63" x1="360.0" y1="685.0" x2="360.0" y2="35.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig_cubic_implicit-__line-64" x1="357.0" y1="685.0" x2="363.0" y2="685.0"/>
+        <line id="prefig_cubic_implicit-__line-65" x1="357.0" y1="630.8" x2="363.0" y2="630.8"/>
+        <line id="prefig_cubic_implicit-__line-66" x1="357.0" y1="576.7" x2="363.0" y2="576.7"/>
+        <line id="prefig_cubic_implicit-__line-67" x1="357.0" y1="522.5" x2="363.0" y2="522.5"/>
+        <line id="prefig_cubic_implicit-__line-68" x1="357.0" y1="468.3" x2="363.0" y2="468.3"/>
+        <line id="prefig_cubic_implicit-__line-69" x1="357.0" y1="414.2" x2="363.0" y2="414.2"/>
+        <line id="prefig_cubic_implicit-__line-70" x1="357.0" y1="305.8" x2="363.0" y2="305.8"/>
+        <line id="prefig_cubic_implicit-__line-71" x1="357.0" y1="251.7" x2="363.0" y2="251.7"/>
+        <line id="prefig_cubic_implicit-__line-72" x1="357.0" y1="197.5" x2="363.0" y2="197.5"/>
+        <line id="prefig_cubic_implicit-__line-73" x1="357.0" y1="143.3" x2="363.0" y2="143.3"/>
+        <line id="prefig_cubic_implicit-__line-74" x1="357.0" y1="89.2" x2="363.0" y2="89.2"/>
+        <line id="prefig_cubic_implicit-__line-75" x1="357.0" y1="35.0" x2="363.0" y2="35.0"/>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-0" transform="translate(681.0,356.0) translate(-10.4,-8.2)">
+      <g id="prefig_cubic_implicit-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#prefig_cubic_implicit-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-1" transform="translate(364.0,39.0) translate(0.0,-0.0)">
+      <g id="prefig_cubic_implicit-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#prefig_cubic_implicit-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-2" transform="translate(35.0,371.0) translate(-12.1,-0.0)">
+      <g id="prefig_cubic_implicit-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="24.128px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1333 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 12">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-4-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-4-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-4-TEX-N-32" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-3" transform="translate(89.2,371.0) translate(-12.1,-0.0)">
+      <g id="prefig_cubic_implicit-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-5-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-5-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 10">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-5-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-5-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig_cubic_implicit-MJX-5-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-4" transform="translate(143.3,371.0) translate(-7.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-6-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 8">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-6-TEX-N-2D"/>
+                <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-6-TEX-N-38" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-5" transform="translate(197.5,371.0) translate(-7.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-7-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-7-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 6">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-7-TEX-N-2D"/>
+                <use data-c="36" xlink:href="#prefig_cubic_implicit-MJX-7-TEX-N-36" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-6" transform="translate(251.7,371.0) translate(-7.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-10">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-8-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-8-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 4">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-8-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-8-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-7" transform="translate(305.8,371.0) translate(-7.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-11">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-9-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-9-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-9-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-8" transform="translate(414.2,371.0) translate(-4.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-12">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-10-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-10-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-9" transform="translate(468.3,371.0) translate(-4.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-13">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-11-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-11-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-10" transform="translate(522.5,371.0) translate(-4.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-14">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-12-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#prefig_cubic_implicit-MJX-12-TEX-N-36"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-11" transform="translate(576.7,371.0) translate(-4.5,-0.0)">
+      <g id="prefig_cubic_implicit-__g-15">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-13-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="8">
+                <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-13-TEX-N-38"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-12" transform="translate(630.8,371.0) translate(-9.0,-0.0)">
+      <g id="prefig_cubic_implicit-__g-16">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-14-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-14-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-14-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefig_cubic_implicit-MJX-14-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-13" transform="translate(685.0,371.0) translate(-9.0,-0.0)">
+      <g id="prefig_cubic_implicit-__g-17">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-15-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-15-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="12">
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-15-TEX-N-31"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-15-TEX-N-32" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-14" transform="translate(349.0,685.0) translate(-24.1,-6.0)">
+      <g id="prefig_cubic_implicit-__g-18">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="24.128px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1333 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-16-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-16-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-16-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 12">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-16-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-16-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-16-TEX-N-32" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-15" transform="translate(349.0,630.8) translate(-24.1,-6.2)">
+      <g id="prefig_cubic_implicit-__g-19">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-17-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-17-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-17-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 10">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-17-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-17-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig_cubic_implicit-MJX-17-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-16" transform="translate(349.0,576.7) translate(-15.1,-6.2)">
+      <g id="prefig_cubic_implicit-__g-20">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-18-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-18-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 8">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-18-TEX-N-2D"/>
+                <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-18-TEX-N-38" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-17" transform="translate(349.0,522.5) translate(-15.1,-6.2)">
+      <g id="prefig_cubic_implicit-__g-21">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-19-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-19-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 6">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-19-TEX-N-2D"/>
+                <use data-c="36" xlink:href="#prefig_cubic_implicit-MJX-19-TEX-N-36" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-18" transform="translate(349.0,468.3) translate(-15.1,-6.1)">
+      <g id="prefig_cubic_implicit-__g-22">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-20-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-20-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 4">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-20-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-20-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-19" transform="translate(349.0,414.2) translate(-15.1,-6.0)">
+      <g id="prefig_cubic_implicit-__g-23">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-21-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig_cubic_implicit-MJX-21-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#prefig_cubic_implicit-MJX-21-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-21-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-20" transform="translate(349.0,305.8) translate(-9.0,-6.0)">
+      <g id="prefig_cubic_implicit-__g-24">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-22-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-22-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-21" transform="translate(349.0,251.7) translate(-9.0,-6.1)">
+      <g id="prefig_cubic_implicit-__g-25">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-23-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-23-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-22" transform="translate(349.0,197.5) translate(-9.0,-6.2)">
+      <g id="prefig_cubic_implicit-__g-26">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-24-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="6">
+                <use data-c="36" xlink:href="#prefig_cubic_implicit-MJX-24-TEX-N-36"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-23" transform="translate(349.0,143.3) translate(-9.0,-6.2)">
+      <g id="prefig_cubic_implicit-__g-27">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-25-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="8">
+                <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-25-TEX-N-38"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-24" transform="translate(349.0,89.2) translate(-18.1,-6.2)">
+      <g id="prefig_cubic_implicit-__g-28">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-26-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-26-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="10">
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-26-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefig_cubic_implicit-MJX-26-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig_cubic_implicit-__label-25" transform="translate(349.0,35.0) translate(-18.1,-6.0)">
+      <g id="prefig_cubic_implicit-__g-29">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-27-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-27-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="12">
+                <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-27-TEX-N-31"/>
+                <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-27-TEX-N-32" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefig_cubic_implicit-curve" d="M 180.1 685.0 L 182.3 682.6 M 182.3 682.6 L 182.4 682.5 M 182.4 682.5 L 184.6 679.9 M 184.6 679.9 L 184.8 679.7 M 184.8 679.7 L 186.9 677.4 M 186.9 677.4 L 187.3 676.9 M 187.3 676.9 L 189.2 674.8 M 189.2 674.8 L 189.9 674.0 M 189.9 674.0 L 191.4 672.3 M 191.4 672.3 L 192.4 671.2 M 192.4 671.2 L 193.7 669.8 M 193.7 669.8 L 195.0 668.3 M 195.0 668.3 L 195.9 667.2 M 195.9 667.2 L 197.5 665.4 M 197.5 665.4 L 198.1 664.7 M 198.1 664.7 L 200.0 662.5 M 200.0 662.5 L 200.4 662.1 M 200.4 662.1 L 202.6 659.6 M 202.6 659.6 L 202.6 659.6 M 202.6 659.6 L 204.8 657.1 M 204.8 657.1 L 205.1 656.7 M 205.1 656.7 L 207.0 654.5 M 207.0 654.5 L 207.7 653.8 M 207.7 653.8 L 209.2 652.0 M 209.2 652.0 L 210.2 650.8 M 210.2 650.8 L 211.4 649.5 M 211.4 649.5 L 212.7 647.9 M 212.7 647.9 L 213.6 646.9 M 213.6 646.9 L 215.3 644.9 M 215.3 644.9 L 215.8 644.4 M 215.8 644.4 L 217.8 642.0 M 217.8 642.0 L 217.9 641.8 M 217.9 641.8 L 220.1 639.3 M 220.1 639.3 L 220.4 639.0 M 220.4 639.0 L 222.3 636.8 M 222.3 636.8 L 222.9 636.0 M 222.9 636.0 L 224.4 634.2 M 224.4 634.2 L 225.4 633.0 M 225.4 633.0 L 226.5 631.7 M 226.5 631.7 L 228.0 630.0 M 228.0 630.0 L 228.7 629.1 M 228.7 629.1 L 230.5 626.9 M 230.5 626.9 L 230.8 626.6 M 230.8 626.6 L 232.9 624.1 M 232.9 624.1 L 233.0 623.9 M 233.0 623.9 L 235.0 621.5 M 235.0 621.5 L 235.6 620.8 M 235.6 620.8 L 237.1 619.0 M 237.1 619.0 L 238.1 617.8 M 238.1 617.8 L 239.2 616.4 M 239.2 616.4 L 240.7 614.7 M 240.7 614.7 L 241.3 613.9 M 241.3 613.9 L 243.2 611.5 M 243.2 611.5 L 243.3 611.4 M 243.3 611.4 L 245.4 608.8 M 245.4 608.8 L 245.7 608.4 M 245.7 608.4 L 247.4 606.3 M 247.4 606.3 L 248.3 605.3 M 248.3 605.3 L 249.5 603.8 M 249.5 603.8 L 250.8 602.1 M 250.8 602.1 L 251.5 601.2 M 251.5 601.2 L 253.4 598.9 M 253.4 598.9 L 253.5 598.7 M 253.5 598.7 L 255.5 596.1 M 255.5 596.1 L 255.9 595.7 M 255.9 595.7 L 257.5 593.6 M 257.5 593.6 L 258.4 592.4 M 258.4 592.4 L 259.5 591.1 M 259.5 591.1 L 261.0 589.2 M 261.0 589.2 L 261.5 588.5 M 261.5 588.5 L 263.4 586.0 M 263.4 586.0 L 263.5 585.9 M 263.5 585.9 L 265.4 583.4 M 265.4 583.4 L 266.1 582.5 M 266.1 582.5 L 267.3 580.9 M 267.3 580.9 L 268.6 579.2 M 268.6 579.2 L 269.2 578.4 M 269.2 578.4 L 271.1 575.8 M 271.1 575.8 L 271.1 575.8 M 271.1 575.8 L 273.0 573.3 M 273.0 573.3 L 273.7 572.4 M 273.7 572.4 L 274.9 570.7 M 274.9 570.7 L 276.2 569.0 M 276.2 569.0 L 276.8 568.2 M 276.8 568.2 L 278.6 565.7 M 278.6 565.7 L 278.8 565.5 M 278.8 565.5 L 280.4 563.1 M 280.4 563.1 L 281.3 562.0 M 281.3 562.0 L 282.3 560.6 M 282.3 560.6 L 283.8 558.4 M 283.8 558.4 L 284.1 558.0 M 284.1 558.0 L 285.9 555.5 M 285.9 555.5 L 286.4 554.8 M 286.4 554.8 L 287.6 553.0 M 287.6 553.0 L 288.9 551.1 M 288.9 551.1 L 289.4 550.4 M 289.4 550.4 L 291.1 547.9 M 291.1 547.9 L 291.4 547.5 M 291.4 547.5 L 292.9 545.4 M 292.9 545.4 L 294.0 543.7 M 294.0 543.7 L 294.6 542.8 M 294.6 542.8 L 296.3 540.3 M 296.3 540.3 L 296.5 539.9 M 296.5 539.9 L 298.0 537.7 M 298.0 537.7 L 299.1 536.0 M 299.1 536.0 L 299.6 535.2 M 299.6 535.2 L 301.3 532.7 M 301.3 532.7 L 301.6 532.1 M 301.6 532.1 L 302.9 530.1 M 302.9 530.1 L 304.1 528.1 M 304.1 528.1 L 304.5 527.6 M 304.5 527.6 L 306.1 525.0 M 306.1 525.0 L 306.7 524.1 M 306.7 524.1 L 307.6 522.5 M 307.6 522.5 L 309.2 520.0 M 309.2 520.0 L 309.2 519.9 M 309.2 519.9 L 310.7 517.4 M 310.7 517.4 L 311.8 515.7 M 311.8 515.7 L 312.2 514.9 M 312.2 514.9 L 313.7 512.3 M 313.7 512.3 L 314.3 511.4 M 314.3 511.4 L 315.2 509.8 M 315.2 509.8 L 316.6 507.3 M 316.6 507.3 L 316.8 506.9 M 316.8 506.9 L 318.1 504.7 M 318.1 504.7 L 319.4 502.4 M 319.4 502.4 L 319.5 502.2 M 319.5 502.2 L 320.9 499.6 M 320.9 499.6 L 321.9 497.7 M 321.9 497.7 L 322.2 497.1 M 322.2 497.1 L 323.6 494.6 M 323.6 494.6 L 324.5 492.9 M 324.5 492.9 L 324.9 492.0 M 324.9 492.0 L 326.2 489.5 M 326.2 489.5 L 327.0 488.0 M 327.0 488.0 L 327.5 487.0 M 327.5 487.0 L 328.8 484.4 M 328.8 484.4 L 329.5 482.8 M 329.5 482.8 L 330.0 481.9 M 330.0 481.9 L 331.2 479.3 M 331.2 479.3 L 332.1 477.5 M 332.1 477.5 L 332.4 476.8 M 332.4 476.8 L 333.6 474.3 M 333.6 474.3 L 334.6 471.9 M 334.6 471.9 L 334.7 471.7 M 334.7 471.7 L 335.8 469.2 M 335.8 469.2 L 336.9 466.6 M 336.9 466.6 L 337.1 466.1 M 337.1 466.1 L 338.0 464.1 M 338.0 464.1 L 339.0 461.6 M 339.0 461.6 L 339.7 459.9 M 339.7 459.9 L 340.1 459.0 M 340.1 459.0 L 341.0 456.5 M 341.0 456.5 L 342.0 453.9 M 342.0 453.9 L 342.2 453.4 M 342.2 453.4 L 343.0 451.4 M 343.0 451.4 L 343.9 448.9 M 343.9 448.9 L 344.8 446.4 M 344.8 446.4 L 344.8 446.3 M 344.8 446.3 L 345.7 443.8 M 345.7 443.8 L 346.5 441.2 M 346.5 441.2 L 347.3 438.8 M 347.3 438.8 L 347.3 438.7 M 347.3 438.7 L 348.1 436.2 M 348.1 436.2 L 348.9 433.6 M 348.9 433.6 L 349.7 431.1 M 349.7 431.1 L 349.8 430.5 M 349.8 430.5 L 350.4 428.6 M 350.4 428.6 L 351.1 426.0 M 351.1 426.0 L 351.8 423.5 M 351.8 423.5 L 352.4 421.0 M 352.4 421.0 L 352.4 420.9 M 352.4 420.9 L 353.0 418.4 M 353.0 418.4 L 353.6 415.9 M 353.6 415.9 L 354.2 413.3 M 354.2 413.3 L 354.7 410.8 M 354.7 410.8 L 354.9 409.8 M 354.9 409.8 L 355.2 408.2 M 355.2 408.2 L 355.7 405.7 M 355.7 405.7 L 356.2 403.2 M 356.2 403.2 L 356.6 400.6 M 356.6 400.6 L 357.0 398.1 M 357.0 398.1 L 357.4 395.5 M 357.4 395.5 L 357.5 395.2 M 357.5 395.2 L 357.8 393.0 M 357.8 393.0 L 358.1 390.5 M 358.1 390.5 L 358.4 387.9 M 358.4 387.9 L 358.7 385.4 M 358.7 385.4 L 358.9 382.9 M 358.9 382.9 L 359.2 380.3 M 359.2 380.3 L 359.4 377.8 M 359.4 377.8 L 359.5 375.2 M 359.5 375.2 L 359.7 372.7 M 359.7 372.7 L 359.8 370.2 M 359.8 370.2 L 359.9 367.6 M 359.9 367.6 L 359.9 365.1 M 359.9 365.1 L 360.0 362.5 M 360.0 362.5 L 360.0 360.0 M 360.0 360.0 L 360.0 360.0 M 360.0 360.0 L 360.0 360.0 M 192.4 299.7 L 191.6 299.1 M 195.0 301.7 L 194.9 301.6 M 195.0 301.7 L 197.5 303.6 M 192.4 299.7 L 194.9 301.6 M 177.2 287.1 L 176.4 286.4 M 174.6 284.8 L 173.6 283.8 M 174.6 284.8 L 176.4 286.4 M 172.1 282.5 L 170.8 281.3 M 169.6 280.1 L 168.1 278.8 M 169.6 280.1 L 170.8 281.3 M 172.1 282.5 L 173.6 283.8 M 187.3 295.7 L 185.3 294.0 M 182.3 291.5 L 182.2 291.4 M 179.7 289.3 L 179.3 288.9 M 179.7 289.3 L 182.2 291.4 M 182.3 291.5 L 184.8 293.6 M 184.8 293.6 L 185.3 294.0 M 189.9 297.7 L 188.4 296.5 M 189.9 297.7 L 191.6 299.1 M 187.3 295.7 L 188.4 296.5 M 177.2 287.1 L 179.3 288.9 M 116.2 209.4 L 115.4 207.7 M 115.4 207.7 L 114.3 205.1 M 113.7 203.9 L 113.1 202.6 M 113.7 203.9 L 114.3 205.1 M 111.2 197.8 L 111.0 197.5 M 113.1 202.6 L 112.1 200.0 M 111.2 197.8 L 112.1 200.0 M 156.9 267.3 L 155.7 266.1 M 154.3 264.6 L 153.4 263.5 M 154.3 264.6 L 155.7 266.1 M 151.8 261.7 L 151.1 261.0 M 149.3 258.8 L 148.9 258.4 M 149.3 258.8 L 151.1 261.0 M 151.8 261.7 L 153.4 263.5 M 136.6 242.8 L 135.0 240.7 M 134.0 239.3 L 133.2 238.1 M 134.0 239.3 L 135.0 240.7 M 146.7 255.8 L 144.7 253.4 M 141.6 249.5 L 140.7 248.3 M 144.2 252.7 L 142.7 250.8 M 144.2 252.7 L 144.7 253.4 M 141.6 249.5 L 142.7 250.8 M 148.9 258.4 L 146.8 255.9 M 146.7 255.8 L 146.8 255.9 M 139.1 246.2 L 138.7 245.7 M 139.1 246.2 L 140.7 248.3 M 138.7 245.7 L 136.8 243.2 M 136.6 242.8 L 136.8 243.2 M 167.0 277.7 L 165.5 276.2 M 164.5 275.2 L 163.0 273.7 M 164.5 275.2 L 165.5 276.2 M 162.0 272.6 L 160.5 271.1 M 159.4 270.0 L 158.1 268.6 M 159.4 270.0 L 160.5 271.1 M 162.0 272.6 L 163.0 273.7 M 167.0 277.7 L 168.1 278.8 M 156.9 267.3 L 158.1 268.6 M 131.5 235.6 L 131.5 235.6 M 131.5 235.6 L 129.8 233.0 M 131.5 235.6 L 133.2 238.1 M 128.9 231.8 L 128.1 230.5 M 128.9 231.8 L 129.8 233.0 M 128.1 230.5 L 126.5 228.0 M 126.4 227.8 L 125.0 225.4 M 123.9 223.6 L 123.5 222.9 M 123.9 223.6 L 125.0 225.4 M 121.3 219.1 L 120.6 217.8 M 123.5 222.9 L 122.0 220.4 M 121.3 219.1 L 122.0 220.4 M 126.4 227.8 L 126.5 228.0 M 120.6 217.8 L 119.2 215.3 M 118.8 214.4 L 117.9 212.7 M 118.8 214.4 L 119.2 215.3 M 117.9 212.7 L 116.7 210.2 M 116.2 209.4 L 116.7 210.2 M 222.9 320.5 L 221.0 319.4 M 225.4 322.0 L 225.3 321.9 M 225.4 322.0 L 228.0 323.5 M 222.9 320.5 L 225.3 321.9 M 230.5 324.9 L 229.7 324.5 M 230.5 324.9 L 233.0 326.3 M 235.6 327.7 L 234.3 327.0 M 235.6 327.7 L 238.1 329.0 M 233.0 326.3 L 234.3 327.0 M 228.0 323.5 L 229.7 324.5 M 261.0 339.7 L 260.9 339.7 M 261.0 339.7 L 263.5 340.8 M 268.6 342.7 L 267.2 342.2 M 263.5 340.8 L 266.1 341.8 M 266.1 341.8 L 267.2 342.2 M 276.2 345.5 L 274.1 344.8 M 276.2 345.5 L 278.8 346.4 M 268.6 342.7 L 271.1 343.7 M 271.1 343.7 L 273.7 344.6 M 273.7 344.6 L 274.1 344.8 M 240.7 330.3 L 239.1 329.5 M 240.7 330.3 L 243.2 331.6 M 245.7 332.9 L 244.1 332.1 M 245.7 332.9 L 248.3 334.1 M 243.2 331.6 L 244.1 332.1 M 250.8 335.3 L 249.4 334.6 M 250.8 335.3 L 253.4 336.4 M 255.9 337.5 L 255.0 337.1 M 255.9 337.5 L 258.4 338.6 M 253.4 336.4 L 255.0 337.1 M 248.3 334.1 L 249.4 334.6 M 238.1 329.0 L 239.1 329.5 M 258.4 338.6 L 260.9 339.7 M 207.7 310.8 L 205.4 309.2 M 217.8 317.4 L 216.9 316.8 M 215.3 315.8 L 212.9 314.3 M 215.3 315.8 L 216.9 316.8 M 210.2 312.5 L 209.1 311.8 M 210.2 312.5 L 212.7 314.2 M 207.7 310.8 L 209.1 311.8 M 212.7 314.2 L 212.9 314.3 M 202.6 307.3 L 201.8 306.7 M 200.0 305.4 L 198.3 304.1 M 200.0 305.4 L 201.8 306.7 M 202.6 307.3 L 205.1 309.0 M 205.1 309.0 L 205.4 309.2 M 197.5 303.6 L 198.3 304.1 M 217.8 317.4 L 220.4 319.0 M 220.4 319.0 L 221.0 319.4 M 291.4 350.3 L 289.7 349.8 M 291.4 350.3 L 294.0 351.0 M 294.0 351.0 L 296.5 351.7 M 296.5 351.7 L 299.1 352.4 M 283.8 348.1 L 281.5 347.3 M 278.8 346.4 L 281.3 347.2 M 281.3 347.2 L 281.5 347.3 M 283.8 348.1 L 286.4 348.8 M 286.4 348.8 L 288.9 349.6 M 288.9 349.6 L 289.7 349.8 M 301.6 353.0 L 299.1 352.4 M 301.6 353.0 L 304.1 353.6 M 299.1 352.4 L 299.1 352.4 M 304.1 353.6 L 306.7 354.2 M 306.7 354.2 L 309.2 354.7 M 311.8 355.2 L 310.3 354.9 M 311.8 355.2 L 314.3 355.7 M 314.3 355.7 L 316.8 356.2 M 316.8 356.2 L 319.4 356.6 M 309.2 354.7 L 310.3 354.9 M 319.4 356.6 L 321.9 357.0 M 321.9 357.0 L 324.5 357.4 M 327.0 357.8 L 324.8 357.5 M 327.0 357.8 L 329.5 358.1 M 324.5 357.4 L 324.8 357.5 M 329.5 358.1 L 332.1 358.4 M 332.1 358.4 L 334.6 358.7 M 334.6 358.7 L 337.1 358.9 M 337.1 358.9 L 339.7 359.2 M 339.7 359.2 L 342.2 359.4 M 342.2 359.4 L 344.8 359.5 M 344.8 359.5 L 347.3 359.7 M 347.3 359.7 L 349.8 359.8 M 349.8 359.8 L 352.4 359.9 M 352.4 359.9 L 354.9 359.9 M 354.9 359.9 L 357.5 360.0 M 357.5 360.0 L 360.0 360.0 M 360.0 360.0 L 360.0 360.0 M 360.0 360.0 L 360.0 357.5 M 360.0 357.5 L 359.9 354.9 M 359.9 354.9 L 359.9 352.4 M 359.9 352.4 L 359.8 349.8 M 359.8 349.8 L 359.7 347.3 M 359.7 347.3 L 359.5 344.8 M 359.5 344.8 L 359.4 342.2 M 359.4 342.2 L 359.2 339.7 M 359.2 339.7 L 358.9 337.1 M 358.9 337.1 L 358.7 334.6 M 358.7 334.6 L 358.4 332.1 M 358.4 332.1 L 358.1 329.5 M 358.1 329.5 L 357.8 327.0 M 357.5 324.8 L 357.4 324.5 M 357.5 324.8 L 357.8 327.0 M 357.4 324.5 L 357.0 321.9 M 357.0 321.9 L 356.6 319.4 M 356.6 319.4 L 356.2 316.8 M 356.2 316.8 L 355.7 314.3 M 354.9 310.3 L 354.7 309.2 M 355.7 314.3 L 355.2 311.8 M 354.9 310.3 L 355.2 311.8 M 354.7 309.2 L 354.2 306.7 M 354.2 306.7 L 353.6 304.1 M 353.6 304.1 L 353.0 301.6 M 352.4 299.1 L 352.4 299.1 M 352.4 299.1 L 353.0 301.6 M 349.8 289.7 L 349.6 288.9 M 352.4 299.1 L 351.7 296.5 M 351.7 296.5 L 351.0 294.0 M 351.0 294.0 L 350.3 291.4 M 349.8 289.7 L 350.3 291.4 M 349.6 288.9 L 348.8 286.4 M 348.8 286.4 L 348.1 283.8 M 347.3 281.5 L 347.2 281.3 M 347.3 281.5 L 348.1 283.8 M 347.2 281.3 L 346.4 278.8 M 339.7 260.9 L 338.6 258.4 M 344.8 274.1 L 344.6 273.7 M 346.4 278.8 L 345.5 276.2 M 344.8 274.1 L 345.5 276.2 M 344.6 273.7 L 343.7 271.1 M 343.7 271.1 L 342.7 268.6 M 342.2 267.2 L 341.8 266.1 M 342.2 267.2 L 342.7 268.6 M 341.8 266.1 L 340.8 263.5 M 340.8 263.5 L 339.7 261.0 M 339.7 260.9 L 339.7 261.0 M 338.6 258.4 L 337.5 255.9 M 337.1 255.0 L 336.4 253.4 M 337.1 255.0 L 337.5 255.9 M 334.6 249.4 L 334.1 248.3 M 336.4 253.4 L 335.3 250.8 M 334.6 249.4 L 335.3 250.8 M 329.5 239.1 L 329.0 238.1 M 334.1 248.3 L 332.9 245.7 M 332.1 244.1 L 331.6 243.2 M 332.1 244.1 L 332.9 245.7 M 331.6 243.2 L 330.3 240.7 M 329.5 239.1 L 330.3 240.7 M 319.4 221.0 L 319.0 220.4 M 319.0 220.4 L 317.4 217.8 M 314.3 212.9 L 314.2 212.7 M 316.8 216.9 L 315.8 215.3 M 316.8 216.9 L 317.4 217.8 M 314.3 212.9 L 315.8 215.3 M 314.2 212.7 L 312.5 210.2 M 311.8 209.1 L 310.8 207.7 M 311.8 209.1 L 312.5 210.2 M 309.2 205.4 L 309.0 205.1 M 309.0 205.1 L 307.3 202.6 M 304.1 198.3 L 303.6 197.5 M 306.7 201.8 L 305.4 200.0 M 306.7 201.8 L 307.3 202.6 M 304.1 198.3 L 305.4 200.0 M 309.2 205.4 L 310.8 207.7 M 329.0 238.1 L 327.7 235.6 M 327.0 234.3 L 326.3 233.0 M 327.0 234.3 L 327.7 235.6 M 324.5 229.7 L 323.5 228.0 M 326.3 233.0 L 324.9 230.5 M 324.5 229.7 L 324.9 230.5 M 323.5 228.0 L 322.0 225.4 M 321.9 225.3 L 320.5 222.9 M 321.9 225.3 L 322.0 225.4 M 319.4 221.0 L 320.5 222.9 M 111.0 197.5 L 110.1 195.0 M 110.1 195.0 L 109.1 192.4 M 108.6 191.0 L 108.3 189.9 M 108.6 191.0 L 109.1 192.4 M 108.3 189.9 L 107.4 187.3 M 106.1 182.8 L 105.9 182.3 M 105.9 182.3 L 105.3 179.7 M 105.3 179.7 L 104.7 177.2 M 107.4 187.3 L 106.7 184.8 M 106.1 182.8 L 106.7 184.8 M 104.7 177.2 L 104.1 174.6 M 104.1 174.6 L 103.6 172.1 M 103.6 171.7 L 103.2 169.6 M 103.6 171.7 L 103.6 172.1 M 103.2 169.6 L 102.8 167.0 M 102.8 167.0 L 102.5 164.5 M 102.5 164.5 L 102.3 162.0 M 102.3 162.0 L 102.2 159.4 M 102.2 159.4 L 102.1 156.9 M 102.1 156.9 L 102.1 154.3 M 102.1 154.3 L 102.1 151.8 M 102.1 151.8 L 102.3 149.3 M 102.3 149.3 L 102.5 146.7 M 102.5 146.7 L 102.9 144.2 M 102.9 144.2 L 103.3 141.6 M 103.3 141.6 L 103.6 140.5 M 103.6 140.5 L 103.9 139.1 M 103.9 139.1 L 104.5 136.6 M 104.5 136.6 L 105.3 134.0 M 105.3 134.0 L 106.1 132.0 M 106.1 132.0 L 106.3 131.5 M 106.3 131.5 L 107.4 128.9 M 107.4 128.9 L 108.6 126.5 M 108.6 126.5 L 108.7 126.4 M 108.7 126.4 L 110.2 123.9 M 110.2 123.9 L 111.2 122.4 M 111.2 122.4 L 111.9 121.3 M 111.9 121.3 L 113.7 119.0 M 113.7 119.0 L 113.9 118.8 M 113.9 118.8 L 116.2 116.3 M 116.2 116.3 L 116.2 116.2 M 116.2 116.2 L 116.3 116.2 M 116.3 116.2 L 116.2 116.2 M 116.2 116.2 L 116.2 116.2 M 116.2 116.2 L 118.8 113.9 M 118.8 113.9 L 119.0 113.7 M 119.0 113.7 L 121.3 111.9 M 121.3 111.9 L 122.4 111.2 M 122.4 111.2 L 123.9 110.2 M 123.9 110.2 L 126.4 108.7 M 126.4 108.7 L 126.5 108.6 M 126.5 108.6 L 128.9 107.4 M 128.9 107.4 L 131.5 106.3 M 131.5 106.3 L 132.0 106.1 M 132.0 106.1 L 134.0 105.3 M 134.0 105.3 L 136.6 104.5 M 136.6 104.5 L 139.1 103.9 M 139.1 103.9 L 140.5 103.6 M 140.5 103.6 L 141.6 103.3 M 141.6 103.3 L 144.2 102.9 M 144.2 102.9 L 146.7 102.5 M 146.7 102.5 L 149.3 102.3 M 149.3 102.3 L 151.8 102.1 M 151.8 102.1 L 154.3 102.1 M 154.3 102.1 L 156.9 102.1 M 156.9 102.1 L 159.4 102.2 M 159.4 102.2 L 162.0 102.3 M 162.0 102.3 L 164.5 102.5 M 164.5 102.5 L 167.0 102.8 M 172.1 103.6 L 171.7 103.6 M 167.0 102.8 L 169.6 103.2 M 169.6 103.2 L 171.7 103.6 M 172.1 103.6 L 174.6 104.1 M 174.6 104.1 L 177.2 104.7 M 184.8 106.7 L 182.8 106.1 M 184.8 106.7 L 187.3 107.4 M 192.4 109.1 L 191.0 108.6 M 187.3 107.4 L 189.9 108.3 M 189.9 108.3 L 191.0 108.6 M 192.4 109.1 L 195.0 110.1 M 195.0 110.1 L 197.5 111.0 M 177.2 104.7 L 179.7 105.3 M 179.7 105.3 L 182.3 105.9 M 182.3 105.9 L 182.8 106.1 M 278.8 168.1 L 277.7 167.0 M 268.6 158.1 L 267.3 156.9 M 273.7 163.0 L 272.6 162.0 M 276.2 165.5 L 275.2 164.5 M 276.2 165.5 L 277.7 167.0 M 273.7 163.0 L 275.2 164.5 M 271.1 160.5 L 270.0 159.4 M 271.1 160.5 L 272.6 162.0 M 268.6 158.1 L 270.0 159.4 M 210.2 116.7 L 209.4 116.2 M 210.2 116.7 L 212.7 117.9 M 215.3 119.2 L 214.4 118.8 M 215.3 119.2 L 217.8 120.6 M 212.7 117.9 L 214.4 118.8 M 228.0 126.5 L 227.8 126.4 M 238.1 133.2 L 235.6 131.5 M 233.0 129.8 L 231.8 128.9 M 228.0 126.5 L 230.5 128.1 M 230.5 128.1 L 231.8 128.9 M 233.0 129.8 L 235.6 131.5 M 235.6 131.5 L 235.6 131.5 M 220.4 122.0 L 219.1 121.3 M 220.4 122.0 L 222.9 123.5 M 225.4 125.0 L 223.6 123.9 M 225.4 125.0 L 227.8 126.4 M 222.9 123.5 L 223.6 123.9 M 217.8 120.6 L 219.1 121.3 M 255.9 146.8 L 255.8 146.7 M 255.9 146.8 L 258.4 148.9 M 243.2 136.8 L 242.8 136.6 M 248.3 140.7 L 246.2 139.1 M 243.2 136.8 L 245.7 138.7 M 245.7 138.7 L 246.2 139.1 M 253.4 144.7 L 252.7 144.2 M 250.8 142.7 L 249.5 141.6 M 250.8 142.7 L 252.7 144.2 M 253.4 144.7 L 255.8 146.7 M 248.3 140.7 L 249.5 141.6 M 263.5 153.4 L 261.7 151.8 M 266.1 155.7 L 264.6 154.3 M 266.1 155.7 L 267.3 156.9 M 263.5 153.4 L 264.6 154.3 M 261.0 151.1 L 258.8 149.3 M 261.0 151.1 L 261.7 151.8 M 258.4 148.9 L 258.8 149.3 M 240.7 135.0 L 239.3 134.0 M 240.7 135.0 L 242.8 136.6 M 238.1 133.2 L 239.3 134.0 M 299.1 191.6 L 297.7 189.9 M 296.5 188.4 L 295.7 187.3 M 296.5 188.4 L 297.7 189.9 M 288.9 179.3 L 287.1 177.2 M 294.0 185.3 L 293.6 184.8 M 293.6 184.8 L 291.5 182.3 M 294.0 185.3 L 295.7 187.3 M 291.4 182.2 L 289.3 179.7 M 291.4 182.2 L 291.5 182.3 M 288.9 179.3 L 289.3 179.7 M 303.6 197.5 L 301.7 195.0 M 301.6 194.9 L 299.7 192.4 M 301.6 194.9 L 301.7 195.0 M 299.1 191.6 L 299.7 192.4 M 283.8 173.6 L 282.5 172.1 M 286.4 176.4 L 284.8 174.6 M 286.4 176.4 L 287.1 177.2 M 283.8 173.6 L 284.8 174.6 M 281.3 170.8 L 280.1 169.6 M 281.3 170.8 L 282.5 172.1 M 278.8 168.1 L 280.1 169.6 M 200.0 112.1 L 197.8 111.2 M 200.0 112.1 L 202.6 113.1 M 205.1 114.3 L 203.9 113.7 M 205.1 114.3 L 207.7 115.4 M 202.6 113.1 L 203.9 113.7 M 197.5 111.0 L 197.8 111.2 M 207.7 115.4 L 209.4 116.2 M 360.0 360.0 L 360.0 360.0 M 360.0 360.0 L 362.5 360.0 M 362.5 360.0 L 365.1 359.9 M 365.1 359.9 L 367.6 359.9 M 367.6 359.9 L 370.2 359.8 M 370.2 359.8 L 372.7 359.7 M 372.7 359.7 L 375.2 359.5 M 375.2 359.5 L 377.8 359.4 M 377.8 359.4 L 380.3 359.2 M 380.3 359.2 L 382.9 358.9 M 382.9 358.9 L 385.4 358.7 M 385.4 358.7 L 387.9 358.4 M 387.9 358.4 L 390.5 358.1 M 390.5 358.1 L 393.0 357.8 M 393.0 357.8 L 395.2 357.5 M 395.2 357.5 L 395.5 357.4 M 395.5 357.4 L 398.1 357.0 M 398.1 357.0 L 400.6 356.6 M 400.6 356.6 L 403.2 356.2 M 403.2 356.2 L 405.7 355.7 M 405.7 355.7 L 408.2 355.2 M 408.2 355.2 L 409.8 354.9 M 409.8 354.9 L 410.8 354.7 M 410.8 354.7 L 413.3 354.2 M 413.3 354.2 L 415.9 353.6 M 415.9 353.6 L 418.4 353.0 M 418.4 353.0 L 420.9 352.4 M 420.9 352.4 L 421.0 352.4 M 421.0 352.4 L 423.5 351.8 M 423.5 351.8 L 426.0 351.1 M 426.0 351.1 L 428.6 350.4 M 428.6 350.4 L 430.5 349.8 M 430.5 349.8 L 431.1 349.7 M 431.1 349.7 L 433.6 348.9 M 433.6 348.9 L 436.2 348.1 M 436.2 348.1 L 438.7 347.3 M 438.7 347.3 L 438.8 347.3 M 438.8 347.3 L 441.2 346.5 M 441.2 346.5 L 443.8 345.7 M 443.8 345.7 L 446.3 344.8 M 446.3 344.8 L 446.4 344.8 M 446.4 344.8 L 448.9 343.9 M 448.9 343.9 L 451.4 343.0 M 451.4 343.0 L 453.4 342.2 M 453.4 342.2 L 453.9 342.0 M 453.9 342.0 L 456.5 341.0 M 456.5 341.0 L 459.0 340.1 M 459.0 340.1 L 459.9 339.7 M 459.9 339.7 L 461.6 339.0 M 461.6 339.0 L 464.1 338.0 M 464.1 338.0 L 466.1 337.1 M 466.1 337.1 L 466.6 336.9 M 466.6 336.9 L 469.2 335.8 M 469.2 335.8 L 471.7 334.7 M 471.7 334.7 L 471.9 334.6 M 471.9 334.6 L 474.3 333.6 M 474.3 333.6 L 476.8 332.4 M 476.8 332.4 L 477.5 332.1 M 477.5 332.1 L 479.3 331.2 M 479.3 331.2 L 481.9 330.0 M 481.9 330.0 L 482.8 329.5 M 482.8 329.5 L 484.4 328.8 M 484.4 328.8 L 487.0 327.5 M 487.0 327.5 L 488.0 327.0 M 488.0 327.0 L 489.5 326.2 M 489.5 326.2 L 492.0 324.9 M 492.0 324.9 L 492.9 324.5 M 492.9 324.5 L 494.6 323.6 M 494.6 323.6 L 497.1 322.2 M 497.1 322.2 L 497.7 321.9 M 497.7 321.9 L 499.6 320.9 M 499.6 320.9 L 502.2 319.5 M 502.2 319.5 L 502.4 319.4 M 502.4 319.4 L 504.7 318.1 M 504.7 318.1 L 506.9 316.8 M 506.9 316.8 L 507.3 316.6 M 507.3 316.6 L 509.8 315.2 M 509.8 315.2 L 511.4 314.3 M 511.4 314.3 L 512.3 313.7 M 512.3 313.7 L 514.9 312.2 M 514.9 312.2 L 515.7 311.8 M 515.7 311.8 L 517.4 310.7 M 517.4 310.7 L 519.9 309.2 M 519.9 309.2 L 520.0 309.2 M 520.0 309.2 L 522.5 307.6 M 522.5 307.6 L 524.1 306.7 M 524.1 306.7 L 525.0 306.1 M 525.0 306.1 L 527.6 304.5 M 527.6 304.5 L 528.1 304.1 M 528.1 304.1 L 530.1 302.9 M 530.1 302.9 L 532.1 301.6 M 532.1 301.6 L 532.7 301.3 M 532.7 301.3 L 535.2 299.6 M 535.2 299.6 L 536.0 299.1 M 536.0 299.1 L 537.7 298.0 M 537.7 298.0 L 539.9 296.5 M 539.9 296.5 L 540.3 296.3 M 540.3 296.3 L 542.8 294.6 M 542.8 294.6 L 543.7 294.0 M 543.7 294.0 L 545.4 292.9 M 545.4 292.9 L 547.5 291.4 M 547.5 291.4 L 547.9 291.1 M 547.9 291.1 L 550.4 289.4 M 550.4 289.4 L 551.1 288.9 M 551.1 288.9 L 553.0 287.6 M 553.0 287.6 L 554.8 286.4 M 554.8 286.4 L 555.5 285.9 M 555.5 285.9 L 558.0 284.1 M 558.0 284.1 L 558.4 283.8 M 558.4 283.8 L 560.6 282.3 M 560.6 282.3 L 562.0 281.3 M 562.0 281.3 L 563.1 280.4 M 563.1 280.4 L 565.5 278.8 M 565.5 278.8 L 565.7 278.6 M 565.7 278.6 L 568.2 276.8 M 568.2 276.8 L 569.0 276.2 M 569.0 276.2 L 570.7 274.9 M 570.7 274.9 L 572.4 273.7 M 572.4 273.7 L 573.3 273.0 M 573.3 273.0 L 575.8 271.1 M 575.8 271.1 L 575.8 271.1 M 575.8 271.1 L 578.4 269.2 M 578.4 269.2 L 579.2 268.6 M 579.2 268.6 L 580.9 267.3 M 580.9 267.3 L 582.5 266.1 M 582.5 266.1 L 583.4 265.4 M 583.4 265.4 L 585.9 263.5 M 585.9 263.5 L 586.0 263.4 M 586.0 263.4 L 588.5 261.5 M 588.5 261.5 L 589.2 261.0 M 589.2 261.0 L 591.1 259.5 M 591.1 259.5 L 592.4 258.4 M 592.4 258.4 L 593.6 257.5 M 593.6 257.5 L 595.7 255.9 M 595.7 255.9 L 596.1 255.5 M 596.1 255.5 L 598.7 253.5 M 598.7 253.5 L 598.9 253.4 M 598.9 253.4 L 601.2 251.5 M 601.2 251.5 L 602.1 250.8 M 602.1 250.8 L 603.8 249.5 M 603.8 249.5 L 605.3 248.3 M 605.3 248.3 L 606.3 247.4 M 606.3 247.4 L 608.4 245.7 M 608.4 245.7 L 608.8 245.4 M 608.8 245.4 L 611.4 243.3 M 611.4 243.3 L 611.5 243.2 M 611.5 243.2 L 613.9 241.3 M 613.9 241.3 L 614.7 240.7 M 614.7 240.7 L 616.4 239.2 M 616.4 239.2 L 617.8 238.1 M 617.8 238.1 L 619.0 237.1 M 619.0 237.1 L 620.8 235.6 M 620.8 235.6 L 621.5 235.0 M 621.5 235.0 L 623.9 233.0 M 623.9 233.0 L 624.1 232.9 M 624.1 232.9 L 626.6 230.8 M 626.6 230.8 L 626.9 230.5 M 626.9 230.5 L 629.1 228.7 M 629.1 228.7 L 630.0 228.0 M 630.0 228.0 L 631.7 226.5 M 631.7 226.5 L 633.0 225.4 M 633.0 225.4 L 634.2 224.4 M 634.2 224.4 L 636.0 222.9 M 636.0 222.9 L 636.8 222.3 M 636.8 222.3 L 639.0 220.4 M 639.0 220.4 L 639.3 220.1 M 639.3 220.1 L 641.8 217.9 M 641.8 217.9 L 642.0 217.8 M 642.0 217.8 L 644.4 215.8 M 644.4 215.8 L 644.9 215.3 M 644.9 215.3 L 646.9 213.6 M 646.9 213.6 L 647.9 212.7 M 647.9 212.7 L 649.5 211.4 M 649.5 211.4 L 650.8 210.2 M 650.8 210.2 L 652.0 209.2 M 652.0 209.2 L 653.8 207.7 M 653.8 207.7 L 654.5 207.0 M 654.5 207.0 L 656.7 205.1 M 656.7 205.1 L 657.1 204.8 M 657.1 204.8 L 659.6 202.6 M 659.6 202.6 L 659.6 202.6 M 659.6 202.6 L 662.1 200.4 M 662.1 200.4 L 662.5 200.0 M 662.5 200.0 L 664.7 198.1 M 664.7 198.1 L 665.4 197.5 M 665.4 197.5 L 667.2 195.9 M 667.2 195.9 L 668.3 195.0 M 668.3 195.0 L 669.8 193.7 M 669.8 193.7 L 671.2 192.4 M 671.2 192.4 L 672.3 191.4 M 672.3 191.4 L 674.0 189.9 M 674.0 189.9 L 674.8 189.2 M 674.8 189.2 L 676.9 187.3 M 676.9 187.3 L 677.4 186.9 M 677.4 186.9 L 679.7 184.8 M 679.7 184.8 L 679.9 184.6 M 679.9 184.6 L 682.5 182.4 M 682.5 182.4 L 682.6 182.3 M 682.6 182.3 L 685.0 180.1" stroke="green" stroke-width="2" fill="none"/>
+  <path id="prefig_cubic_implicit-line1" stroke="blue" stroke-width="2" fill="none" d="M 35.0 197.5 L 41.5 191.0 L 48.0 184.5 L 54.5 178.0 L 61.0 171.5 L 67.5 165.0 L 74.0 158.5 L 80.5 152.0 L 87.0 145.5 L 93.5 139.0 L 100.0 132.5 L 106.5 126.0 L 113.0 119.5 L 119.5 113.0 L 126.0 106.5 L 132.5 100.0 L 139.0 93.5 L 145.5 87.0 L 152.0 80.5 L 158.5 74.0 L 165.0 67.5 L 171.5 61.0 L 178.0 54.5 L 184.5 48.0 L 191.0 41.5 L 197.5 35.0 L 204.0 28.5 L 210.5 22.0 L 217.0 15.5 L 223.5 9.0 L 230.0 2.5 L 236.5 -4.0 L 243.0 -10.5 L 249.5 -17.0 L 256.0 -23.5 L 262.5 -30.0 L 269.0 -36.5 L 275.5 -43.0 L 282.0 -49.5 L 288.5 -56.0 L 295.0 -62.5 L 301.5 -69.0 L 308.0 -75.5 L 314.5 -82.0 L 321.0 -88.5 L 327.5 -95.0 L 334.0 -101.5 L 340.5 -108.0 L 347.0 -114.5 L 353.5 -121.0 L 360.0 -127.5 L 366.5 -134.0 L 373.0 -140.5 L 379.5 -147.0 L 386.0 -153.5 L 392.5 -160.0 L 399.0 -166.5 L 405.5 -173.0 L 412.0 -179.5 L 418.5 -186.0 L 425.0 -192.5 L 431.5 -199.0 L 438.0 -205.5 L 444.5 -212.0 L 451.0 -218.5 L 457.5 -225.0 L 464.0 -231.5 L 470.5 -238.0 L 477.0 -244.5 L 483.5 -251.0 L 490.0 -257.5 L 496.5 -264.0 L 503.0 -270.5 L 509.5 -277.0 L 516.0 -283.5 L 522.5 -290.0 L 529.0 -296.5 L 535.5 -303.0 L 542.0 -309.5 L 548.5 -316.0 L 555.0 -322.5 L 561.5 -329.0 L 568.0 -335.5 L 574.5 -342.0 L 581.0 -348.5 L 587.5 -355.0 L 594.0 -361.5 L 600.5 -368.0 L 607.0 -374.5 L 613.5 -381.0 L 620.0 -387.5 L 626.5 -394.0 L 633.0 -400.5 L 639.5 -407.0 L 646.0 -413.5 L 652.5 -420.0 L 659.0 -426.5 L 665.5 -433.0 L 672.0 -439.5 L 678.5 -446.0 L 685.0 -452.5" clip-path="url(#prefig_cubic_implicit-__clipPath-1)"/>
+  <path id="prefig_cubic_implicit-line2" stroke="red" stroke-width="2" fill="none" d="M 35.0 -30.0 L 41.5 -24.8 L 48.0 -19.6 L 54.5 -14.4 L 61.0 -9.2 L 67.5 -4.0 L 74.0 1.2 L 80.5 6.4 L 87.0 11.6 L 93.5 16.8 L 100.0 22.0 L 106.5 27.2 L 113.0 32.4 L 119.5 37.6 L 126.0 42.8 L 132.5 48.0 L 139.0 53.2 L 145.5 58.4 L 152.0 63.6 L 158.5 68.8 L 165.0 74.0 L 171.5 79.2 L 178.0 84.4 L 184.5 89.6 L 191.0 94.8 L 197.5 100.0 L 204.0 105.2 L 210.5 110.4 L 217.0 115.6 L 223.5 120.8 L 230.0 126.0 L 236.5 131.2 L 243.0 136.4 L 249.5 141.6 L 256.0 146.8 L 262.5 152.0 L 269.0 157.2 L 275.5 162.4 L 282.0 167.6 L 288.5 172.8 L 295.0 178.0 L 301.5 183.2 L 308.0 188.4 L 314.5 193.6 L 321.0 198.8 L 327.5 204.0 L 334.0 209.2 L 340.5 214.4 L 347.0 219.6 L 353.5 224.8 L 360.0 230.0 L 366.5 235.2 L 373.0 240.4 L 379.5 245.6 L 386.0 250.8 L 392.5 256.0 L 399.0 261.2 L 405.5 266.4 L 412.0 271.6 L 418.5 276.8 L 425.0 282.0 L 431.5 287.2 L 438.0 292.4 L 444.5 297.6 L 451.0 302.8 L 457.5 308.0 L 464.0 313.2 L 470.5 318.4 L 477.0 323.6 L 483.5 328.8 L 490.0 334.0 L 496.5 339.2 L 503.0 344.4 L 509.5 349.6 L 516.0 354.8 L 522.5 360.0 L 529.0 365.2 L 535.5 370.4 L 542.0 375.6 L 548.5 380.8 L 555.0 386.0 L 561.5 391.2 L 568.0 396.4 L 574.5 401.6 L 581.0 406.8 L 587.5 412.0 L 594.0 417.2 L 600.5 422.4 L 607.0 427.6 L 613.5 432.8 L 620.0 438.0 L 626.5 443.2 L 633.0 448.4 L 639.5 453.6 L 646.0 458.8 L 652.5 464.0 L 659.0 469.2 L 665.5 474.4 L 672.0 479.6 L 678.5 484.8 L 685.0 490.0" clip-path="url(#prefig_cubic_implicit-__clipPath-1)"/>
+  <path id="prefig_cubic_implicit-line3" stroke="orange" stroke-width="2" fill="none" d="M 35.0 116.2 L 41.5 124.4 L 48.0 132.5 L 54.5 140.6 L 61.0 148.8 L 67.5 156.9 L 74.0 165.0 L 80.5 173.1 L 87.0 181.3 L 93.5 189.4 L 100.0 197.5 L 106.5 205.6 L 113.0 213.7 L 119.5 221.9 L 126.0 230.0 L 132.5 238.1 L 139.0 246.2 L 145.5 254.4 L 152.0 262.5 L 158.5 270.6 L 165.0 278.8 L 171.5 286.9 L 178.0 295.0 L 184.5 303.1 L 191.0 311.2 L 197.5 319.4 L 204.0 327.5 L 210.5 335.6 L 217.0 343.8 L 223.5 351.9 L 230.0 360.0 L 236.5 368.1 L 243.0 376.2 L 249.5 384.4 L 256.0 392.5 L 262.5 400.6 L 269.0 408.8 L 275.5 416.9 L 282.0 425.0 L 288.5 433.1 L 295.0 441.2 L 301.5 449.4 L 308.0 457.5 L 314.5 465.6 L 321.0 473.8 L 327.5 481.9 L 334.0 490.0 L 340.5 498.1 L 347.0 506.2 L 353.5 514.4 L 360.0 522.5 L 366.5 530.6 L 373.0 538.8 L 379.5 546.9 L 386.0 555.0 L 392.5 563.1 L 399.0 571.2 L 405.5 579.4 L 412.0 587.5 L 418.5 595.6 L 425.0 603.8 L 431.5 611.9 L 438.0 620.0 L 444.5 628.1 L 451.0 636.2 L 457.5 644.4 L 464.0 652.5 L 470.5 660.6 L 477.0 668.8 L 483.5 676.9 L 490.0 685.0 L 496.5 693.1 L 503.0 701.2 L 509.5 709.4 L 516.0 717.5 L 522.5 725.6 L 529.0 733.7 L 535.5 741.9 L 542.0 750.0 L 548.5 758.1 L 555.0 766.2 L 561.5 774.4 L 568.0 782.5 L 574.5 790.6 L 581.0 798.8 L 587.5 806.9 L 594.0 815.0 L 600.5 823.1 L 607.0 831.2 L 613.5 839.4 L 620.0 847.5 L 626.5 855.6 L 633.0 863.8 L 639.5 871.9 L 646.0 880.0 L 652.5 888.1 L 659.0 896.2 L 665.5 904.4 L 672.0 912.5 L 678.5 920.6 L 685.0 928.8" clip-path="url(#prefig_cubic_implicit-__clipPath-1)"/>
+  <g id="prefig_cubic_implicit-__g-0">
+    <g id="prefig_cubic_implicit-__label-26" transform="translate(111.2,111.2) translate(-95.5,-18.1)">
+      <g id="prefig_cubic_implicit-__g-30">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="95.456px" height="18.096px" role="img" focusable="false" viewBox="0 -750 5273.8 1000" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-I-1D45D" d="M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-39" d="M352 287Q304 211 232 211Q154 211 104 270T44 396Q42 412 42 436V444Q42 537 111 606Q171 666 243 666Q245 666 249 666T257 665H261Q273 665 286 663T323 651T370 619T413 560Q456 472 456 334Q456 194 396 97Q361 41 312 10T208 -22Q147 -22 108 7T68 93T121 149Q143 149 158 135T173 96Q173 78 164 65T148 49T135 44L131 43Q131 41 138 37T164 27T206 22H212Q272 22 313 86Q352 142 352 280V287ZM244 248Q292 248 321 297T351 430Q351 508 343 542Q341 552 337 562T323 588T293 615T246 625Q208 625 181 598Q160 576 154 546T147 441Q147 358 152 329T172 282Q197 248 244 248Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-28-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="13" data-semantic-children="2,12" data-semantic-content="3" data-semantic-speech="p 1 equals left parenthesis negative 9 comma 9 right parenthesis">
+              <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="13" data-semantic-speech="p 1">
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="2" data-semantic-speech="p" data-semantic-prefix="Base">
+                  <use data-c="1D45D" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-I-1D45D"/>
+                </g>
+                <g data-mml-node="TeXAtom" transform="translate(536,-150) scale(0.707)" data-mjx-texclass="ORD">
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="texclass:ORD" data-semantic-speech="1" data-semantic-prefix="Subscript">
+                    <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-31"/>
+                  </g>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="13" data-semantic-operator="relseq,=" data-semantic-speech="equals" transform="translate(1217.3,0)">
+                <use data-c="3D" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-3D"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="11" data-semantic-content="4,9" data-semantic-parent="13" data-semantic-speech="left parenthesis negative 9 comma 9 right parenthesis" transform="translate(2273.1,0)">
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="4" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                  <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-28"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="11" data-semantic-children="10,7,8" data-semantic-content="7" data-semantic-parent="12" data-semantic-speech="negative 9 comma 9" transform="translate(389,0)">
+                  <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="10" data-semantic-children="6" data-semantic-content="5" data-semantic-parent="11" data-semantic-speech="negative 9">
+                    <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="5" data-semantic-parent="10" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                      <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-2212"/>
+                    </g>
+                    <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-parent="10" data-semantic-speech="9" transform="translate(778,0)">
+                      <use data-c="39" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-39"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="11" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                    <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-2C"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="8" data-semantic-parent="11" data-semantic-speech="9" transform="translate(1722.7,0)">
+                    <use data-c="39" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-39"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                  <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-28-TEX-N-29"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="116.2" cy="116.2" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <g id="prefig_cubic_implicit-__g-1">
+    <g id="prefig_cubic_implicit-__label-27" transform="translate(256.7,138.3) translate(0.0,-18.1)">
+      <g id="prefig_cubic_implicit-__g-31">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="95.456px" height="18.096px" role="img" focusable="false" viewBox="0 -750 5273.8 1000" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-I-1D45D" d="M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="prefig_cubic_implicit-MJX-29-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="13" data-semantic-children="2,12" data-semantic-content="3" data-semantic-speech="p 2 equals left parenthesis negative 4 comma 8 right parenthesis">
+              <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="13" data-semantic-speech="p 2">
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="2" data-semantic-speech="p" data-semantic-prefix="Base">
+                  <use data-c="1D45D" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-I-1D45D"/>
+                </g>
+                <g data-mml-node="TeXAtom" transform="translate(536,-150) scale(0.707)" data-mjx-texclass="ORD">
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="texclass:ORD" data-semantic-speech="2" data-semantic-prefix="Subscript">
+                    <use data-c="32" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-32"/>
+                  </g>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="13" data-semantic-operator="relseq,=" data-semantic-speech="equals" transform="translate(1217.3,0)">
+                <use data-c="3D" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-3D"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="11" data-semantic-content="4,9" data-semantic-parent="13" data-semantic-speech="left parenthesis negative 4 comma 8 right parenthesis" transform="translate(2273.1,0)">
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="4" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                  <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-28"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="11" data-semantic-children="10,7,8" data-semantic-content="7" data-semantic-parent="12" data-semantic-speech="negative 4 comma 8" transform="translate(389,0)">
+                  <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="10" data-semantic-children="6" data-semantic-content="5" data-semantic-parent="11" data-semantic-speech="negative 4">
+                    <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="5" data-semantic-parent="10" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                      <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-2212"/>
+                    </g>
+                    <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-parent="10" data-semantic-speech="4" transform="translate(778,0)">
+                      <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-34"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="11" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                    <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-2C"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="8" data-semantic-parent="11" data-semantic-speech="8" transform="translate(1722.7,0)">
+                    <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-38"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                  <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-29-TEX-N-29"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="251.7" cy="143.3" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <g id="prefig_cubic_implicit-__g-2">
+    <g id="prefig_cubic_implicit-__label-28" transform="translate(148.3,246.7) translate(0.0,-18.1)">
+      <g id="prefig_cubic_implicit-__g-32">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="95.456px" height="18.096px" role="img" focusable="false" viewBox="0 -750 5273.8 1000" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-I-1D45D" d="M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="prefig_cubic_implicit-MJX-30-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="13" data-semantic-children="2,12" data-semantic-content="3" data-semantic-speech="p 3 equals left parenthesis negative 8 comma 4 right parenthesis">
+              <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="13" data-semantic-speech="p 3">
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="2" data-semantic-speech="p" data-semantic-prefix="Base">
+                  <use data-c="1D45D" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-I-1D45D"/>
+                </g>
+                <g data-mml-node="TeXAtom" transform="translate(536,-150) scale(0.707)" data-mjx-texclass="ORD">
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="texclass:ORD" data-semantic-speech="3" data-semantic-prefix="Subscript">
+                    <use data-c="33" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-33"/>
+                  </g>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="3" data-semantic-parent="13" data-semantic-operator="relseq,=" data-semantic-speech="equals" transform="translate(1217.3,0)">
+                <use data-c="3D" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-3D"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="12" data-semantic-children="11" data-semantic-content="4,9" data-semantic-parent="13" data-semantic-speech="left parenthesis negative 8 comma 4 right parenthesis" transform="translate(2273.1,0)">
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="4" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                  <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-28"/>
+                </g>
+                <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="11" data-semantic-children="10,7,8" data-semantic-content="7" data-semantic-parent="12" data-semantic-speech="negative 8 comma 4" transform="translate(389,0)">
+                  <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="10" data-semantic-children="6" data-semantic-content="5" data-semantic-parent="11" data-semantic-speech="negative 8">
+                    <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="5" data-semantic-parent="10" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                      <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-2212"/>
+                    </g>
+                    <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-parent="10" data-semantic-speech="8" transform="translate(778,0)">
+                      <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-38"/>
+                    </g>
+                  </g>
+                  <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="7" data-semantic-parent="11" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                    <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-2C"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="8" data-semantic-parent="11" data-semantic-speech="4" transform="translate(1722.7,0)">
+                    <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-34"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="9" data-semantic-parent="12" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                  <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-30-TEX-N-29"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="143.3" cy="251.7" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <circle id="prefig_cubic_implicit-__circle-0" cx="161.4" cy="71.1" r="4" stroke="black" stroke-width="2" fill="red"/>
+  <circle id="prefig_cubic_implicit-__circle-1" cx="71.1" cy="161.4" r="4" stroke="black" stroke-width="2" fill="red"/>
+  <g id="prefig_cubic_implicit-__g-3" transform="translate(681.0,39.0) translate(-157.9,-0.0) scale(0.9,0.9)">
+    <rect x="0" y="0" width="175.40800000000002" height="113.08000000000001" stroke="black" fill="white" fill-opacity="0.9"/>
+    <g id="prefig_cubic_implicit-legend-label-0" transform="translate(39.0,5.0)">
+      <g id="prefig_cubic_implicit-__g-33">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="118.608px" height="18.792px" role="img" focusable="false" viewBox="0 -833.2 6553.1 1038.2" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="prefig_cubic_implicit-MJX-31-TEX-N-2062" d=""/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="15" data-semantic-children="11,14" data-semantic-content="7" data-semantic-speech="x cubed minus y cubed equals 18 x y">
+              <g data-mml-node="mrow" data-semantic-type="infixop" data-semantic-role="subtraction" data-semantic-id="11" data-semantic-children="2,6" data-semantic-content="3" data-semantic-parent="15" data-semantic-speech="x cubed minus y cubed">
+                <g data-mml-node="msup" data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="11" data-semantic-speech="x cubed">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="2" data-semantic-speech="x" data-semantic-prefix="Base">
+                    <use data-c="1D465" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-I-1D465"/>
+                  </g>
+                  <g data-mml-node="mn" transform="translate(605,363) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="1" data-semantic-parent="2" data-semantic-speech="3" data-semantic-prefix="Exponent">
+                    <use data-c="33" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-33"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="3" data-semantic-parent="11" data-semantic-operator="infixop,−" data-semantic-speech="minus" transform="translate(1230.8,0)">
+                  <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-2212"/>
+                </g>
+                <g data-mml-node="msup" data-semantic-type="superscript" data-semantic-role="latinletter" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="11" data-semantic-speech="y cubed" transform="translate(2231,0)">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="4" data-semantic-parent="6" data-semantic-speech="y" data-semantic-prefix="Base">
+                    <use data-c="1D466" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-I-1D466"/>
+                  </g>
+                  <g data-mml-node="mn" transform="translate(523,363) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="5" data-semantic-parent="6" data-semantic-speech="3" data-semantic-prefix="Exponent">
+                    <use data-c="33" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-33"/>
+                  </g>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="7" data-semantic-parent="15" data-semantic-operator="relseq,=" data-semantic-speech="equals" transform="translate(3435.3,0)">
+                <use data-c="3D" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-3D"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:simple;clearspeak:unit" data-semantic-id="14" data-semantic-children="8,9,10" data-semantic-content="12,13" data-semantic-parent="15" data-semantic-speech="18 x y" transform="translate(4491.1,0)">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="8" data-semantic-parent="14" data-semantic-speech="18">
+                  <use data-c="31" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-31"/>
+                  <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-38" transform="translate(500,0)"/>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="12" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1000,0)">
+                  <use data-c="2062" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-2062"/>
+                </g>
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="9" data-semantic-parent="14" data-semantic-speech="x" transform="translate(1000,0)">
+                  <use data-c="1D465" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-I-1D465"/>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-id="13" data-semantic-parent="14" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1572,0)">
+                  <use data-c="2062" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-N-2062"/>
+                </g>
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="10" data-semantic-parent="14" data-semantic-speech="y" transform="translate(1572,0)">
+                  <use data-c="1D466" xlink:href="#prefig_cubic_implicit-MJX-31-TEX-I-1D466"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <line stroke="green" x1="29" y1="14.396" x2="5" y2="14.396" stroke-width="2"/>
+    <g id="prefig_cubic_implicit-legend-label-1" transform="translate(39.0,33.8)">
+      <g id="prefig_cubic_implicit-__g-34">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="13.6">Tangent at</text>
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="54.312px" height="18.096px" role="img" focusable="false" viewBox="0 -750 3000.7 1000" x="77.1" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-32-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-32-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-32-TEX-N-39" d="M352 287Q304 211 232 211Q154 211 104 270T44 396Q42 412 42 436V444Q42 537 111 606Q171 666 243 666Q245 666 249 666T257 665H261Q273 665 286 663T323 651T370 619T413 560Q456 472 456 334Q456 194 396 97Q361 41 312 10T208 -22Q147 -22 108 7T68 93T121 149Q143 149 158 135T173 96Q173 78 164 65T148 49T135 44L131 43Q131 41 138 37T164 27T206 22H212Q272 22 313 86Q352 142 352 280V287ZM244 248Q292 248 321 297T351 430Q351 508 343 542Q341 552 337 562T323 588T293 615T246 625Q208 625 181 598Q160 576 154 546T147 441Q147 358 152 329T172 282Q197 248 244 248Z"/>
+            <path id="prefig_cubic_implicit-MJX-32-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-32-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="8" data-semantic-children="7" data-semantic-content="0,5" data-semantic-speech="left parenthesis negative 9 comma 9 right parenthesis">
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-28"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="7" data-semantic-children="6,3,4" data-semantic-content="3" data-semantic-parent="8" data-semantic-speech="negative 9 comma 9" transform="translate(389,0)">
+                <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-children="2" data-semantic-content="1" data-semantic-parent="7" data-semantic-speech="negative 9">
+                  <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="1" data-semantic-parent="6" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                    <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-2212"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="2" data-semantic-parent="6" data-semantic-speech="9" transform="translate(778,0)">
+                    <use data-c="39" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-39"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="7" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                  <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-2C"/>
+                </g>
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="4" data-semantic-parent="7" data-semantic-speech="9" transform="translate(1722.7,0)">
+                  <use data-c="39" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-39"/>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-32-TEX-N-29"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <line stroke="blue" x1="29" y1="42.84" x2="5" y2="42.84" stroke-width="2"/>
+    <g id="prefig_cubic_implicit-legend-label-2" transform="translate(39.0,61.9)">
+      <g id="prefig_cubic_implicit-__g-35">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="13.6">Tangent at</text>
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="54.312px" height="18.096px" role="img" focusable="false" viewBox="0 -750 3000.7 1000" x="77.1" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="prefig_cubic_implicit-MJX-33-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="8" data-semantic-children="7" data-semantic-content="0,5" data-semantic-speech="left parenthesis negative 4 comma 8 right parenthesis">
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-28"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="7" data-semantic-children="6,3,4" data-semantic-content="3" data-semantic-parent="8" data-semantic-speech="negative 4 comma 8" transform="translate(389,0)">
+                <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-children="2" data-semantic-content="1" data-semantic-parent="7" data-semantic-speech="negative 4">
+                  <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="1" data-semantic-parent="6" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                    <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-2212"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="2" data-semantic-parent="6" data-semantic-speech="4" transform="translate(778,0)">
+                    <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-34"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="7" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                  <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-2C"/>
+                </g>
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="4" data-semantic-parent="7" data-semantic-speech="8" transform="translate(1722.7,0)">
+                  <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-38"/>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-33-TEX-N-29"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <line stroke="red" x1="29" y1="70.936" x2="5" y2="70.936" stroke-width="2"/>
+    <g id="prefig_cubic_implicit-legend-label-3" transform="translate(39.0,90.0)">
+      <g id="prefig_cubic_implicit-__g-36">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="13.6">Tangent at</text>
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="54.312px" height="18.096px" role="img" focusable="false" viewBox="0 -750 3000.7 1000" x="77.1" y="0.0">
+          <defs>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"/>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"/>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+            <path id="prefig_cubic_implicit-MJX-34-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="8" data-semantic-children="7" data-semantic-content="0,5" data-semantic-speech="left parenthesis negative 8 comma 4 right parenthesis">
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="0" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                <use data-c="28" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-28"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="punctuated" data-semantic-role="sequence" data-semantic-id="7" data-semantic-children="6,3,4" data-semantic-content="3" data-semantic-parent="8" data-semantic-speech="negative 8 comma 4" transform="translate(389,0)">
+                <g data-mml-node="mrow" data-semantic-type="prefixop" data-semantic-role="negative" data-semantic-annotation="clearspeak:simple" data-semantic-id="6" data-semantic-children="2" data-semantic-content="1" data-semantic-parent="7" data-semantic-speech="negative 8">
+                  <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="subtraction" data-semantic-id="1" data-semantic-parent="6" data-semantic-operator="prefixop,−" data-semantic-speech="minus">
+                    <use data-c="2212" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-2212"/>
+                  </g>
+                  <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="2" data-semantic-parent="6" data-semantic-speech="8" transform="translate(778,0)">
+                    <use data-c="38" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-38"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="comma" data-semantic-id="3" data-semantic-parent="7" data-semantic-operator="punctuated" data-semantic-speech="comma" transform="translate(1278,0)">
+                  <use data-c="2C" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-2C"/>
+                </g>
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="4" data-semantic-parent="7" data-semantic-speech="4" transform="translate(1722.7,0)">
+                  <use data-c="34" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-34"/>
+                </g>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="8" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(2611.7,0)">
+                <use data-c="29" xlink:href="#prefig_cubic_implicit-MJX-34-TEX-N-29"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <line stroke="orange" x1="29" y1="99.03200000000001" x2="5" y2="99.03200000000001" stroke-width="2"/>
+  </g>
+</svg>
