@@ -1639,6 +1639,51 @@ var ptx_lunr_docs = [
   "body": "  For points on the curve near the point , estimate the value of for .   "
 },
 {
+  "id": "activities-23",
+  "level": "1",
+  "url": "activities-23.html",
+  "type": "Worksheet",
+  "number": "3.21",
+  "title": "Related Rate Problems",
+  "body": " Related Rate Problems   Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of \\(0.03\\frac{\\text{cm}}{\\text{s}}\\).  At what rate is the area of the circle increasing when the radius is 33 cm?     Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of \\(30\\frac{\\text{ft}^{3}}{\\text{min}}\\). It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is \\(19\\) feet high?     Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of 0.2 radians per second.  How fast is the spot of light moving on the wall when the angle is \\(\\frac{\\pi}{4}\\) radians?     Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius \\(R\\) and length \\(L\\), when the water has a depth of \\(h\\), the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?    "
+},
+{
+  "id": "change-in-area-for-a-circle",
+  "level": "2",
+  "url": "activities-23.html#change-in-area-for-a-circle",
+  "type": "Worksheet Exercise",
+  "number": "3.21.1",
+  "title": "Change in Area for a Circle.",
+  "body": " Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of \\(0.03\\frac{\\text{cm}}{\\text{s}}\\).  At what rate is the area of the circle increasing when the radius is 33 cm?   "
+},
+{
+  "id": "dumping-gravel",
+  "level": "2",
+  "url": "activities-23.html#dumping-gravel",
+  "type": "Worksheet Exercise",
+  "number": "3.21.2",
+  "title": "Dumping Gravel.",
+  "body": " Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of \\(30\\frac{\\text{ft}^{3}}{\\text{min}}\\). It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is \\(19\\) feet high?   "
+},
+{
+  "id": "speed-of-a-moving-spotlight",
+  "level": "2",
+  "url": "activities-23.html#speed-of-a-moving-spotlight",
+  "type": "Worksheet Exercise",
+  "number": "3.21.3",
+  "title": "Speed of a Moving Spotlight.",
+  "body": " Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of 0.2 radians per second.  How fast is the spot of light moving on the wall when the angle is \\(\\frac{\\pi}{4}\\) radians?   "
+},
+{
+  "id": "filling-a-horizontal-cylindrical-tank",
+  "level": "2",
+  "url": "activities-23.html#filling-a-horizontal-cylindrical-tank",
+  "type": "Worksheet Exercise",
+  "number": "3.21.4",
+  "title": "Filling a Horizontal Cylindrical Tank.",
+  "body": " Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius \\(R\\) and length \\(L\\), when the water has a depth of \\(h\\), the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
