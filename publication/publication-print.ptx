@@ -61,7 +61,7 @@
     <!-- Worksheet headers and footers are children of that worksheet    -->
     <!-- element, each taking @left, @center, and @right whose values are -->
     <!-- the text to place in that position.  For example:               -->
-      <worksheet margin="0.75in">
+      <worksheet margin="0.5in">
         <first-page-header left="Name: __________" right="Date: __________"/>
         <first-page-footer center="Page 1"/>
         <running-header left="Worksheet"/>

@@ -7,7 +7,6 @@
                 </p>
                 <p>
                         The halls are wide enough that fitting around the corner isn't the problem. The trouble is that the new person doesn't slow down to go around corners! (At least the new person remembers to swing wide and hug the outside wall!)
-                </p>
                 <ul>
                         <li>
                                 <p>
@@ -25,6 +24,7 @@
                                 </p>
                         </li>
                 </ul>
+                </p>
             </introduction>
             <exercise workspace="6in">
                     <statement>
@@ -131,7 +131,9 @@
                             </p>
                     </statement>
                     <answer>
+                            <p>
                                     As <m>y</m> decreases in magnitude, <m>\di{y}/\di{t}</m> also decreases, becoming more negative.
+                            </p>
                     </answer>
             </exercise>
             <exercise workspace="2in">
