@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig_Elvis-figure" width="610" height="510" viewBox="0 0 610 510">
+  <defs>
+    <clipPath id="prefig_Elvis-__clipPath-0">
+      <rect x="5.0" y="5.0" width="600.0" height="500.0"/>
+    </clipPath>
+    <clipPath id="prefig_Elvis-__clipPath-1">
+      <rect x="5.0" y="5.0" width="600.0" height="500.0"/>
+    </clipPath>
+    <marker id="prefig_Elvis-arrow-head-end-1_None_24_60-black" markerWidth="4.5" markerHeight="4.0" markerUnits="userSpaceOnUse" orient="auto" refX="3.3" refY="2.0">
+      <path d="M 4.5 2.0L 0.0 4.0L 0.9 2.5L 0.9 1.5L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="prefig_Elvis-arrow-head-end-1_None_24_60-black-outline" markerWidth="8.5" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto" refX="5.3" refY="4.0">
+      <path d="M 7.3 5.8 L 2.8 7.8 A 2 2 0 0 1 0.0 6.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 7.3 2.2 A 2 2 0 0 1 7.3 5.8 Z" fill="white" stroke="none"/>
+    </marker>
+    <marker id="prefig_Elvis-arrow-head-start-1_None_24_60-black" markerWidth="4.5" markerHeight="4.0" markerUnits="userSpaceOnUse" orient="auto" refX="1.2000000000000002" refY="2.0">
+      <g transform="rotate(180, 2.25, 2.0)">
+        <path d="M 4.5 2.0L 0.0 4.0L 0.9 2.5L 0.9 1.5L 0.0 0.0Z" fill="black" stroke="none"/>
+      </g>
+    </marker>
+    <marker id="prefig_Elvis-arrow-head-start-1_None_24_60-black-outline" markerWidth="8.5" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto" refX="3.2" refY="4.0">
+      <g transform="rotate(180, 4.25, 4.0)">
+        <path d="M 7.3 5.8 L 2.8 7.8 A 2 2 0 0 1 0.0 6.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 7.3 2.2 A 2 2 0 0 1 7.3 5.8 Z" fill="white" stroke="none"/>
+      </g>
+    </marker>
+  </defs>
+  <line id="prefig_Elvis-__line-0" x1="55.0" y1="455.0" x2="455.0" y2="455.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="prefig_Elvis-__line-1" x1="455.0" y1="455.0" x2="555.0" y2="105.0" stroke="black" stroke-width="2" fill="none"/>
+  <g id="prefig_Elvis-__line-2">
+    <g transform="translate(55.0,480.0) rotate(0.0)">
+      <g id="prefig_Elvis-__label-0" transform="translate(250.0,-4.0) translate(-16.6,-12.5)">
+        <g id="prefig_Elvis-__g-5">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="33.176px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1833 688" x="0.0" y="0.0">
+            <defs>
+              <path id="prefig_Elvis-MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+              <path id="prefig_Elvis-MJX-2-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+              <path id="prefig_Elvis-MJX-2-TEX-N-6D" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-annotation="clearspeak:unit" data-semantic-id="3" data-semantic-children="0,1" data-semantic-collapsed="(3 (c 2) 0 1)" data-semantic-speech="10 m">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="3" data-semantic-speech="10">
+                  <use data-c="31" xlink:href="#prefig_Elvis-MJX-2-TEX-N-31"/>
+                  <use data-c="30" xlink:href="#prefig_Elvis-MJX-2-TEX-N-30" transform="translate(500,0)"/>
+                </g>
+                <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="latinletter" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="1" data-semantic-parent="3" data-semantic-speech="m" transform="translate(1000,0)">
+                  <use data-c="6D" xlink:href="#prefig_Elvis-MJX-2-TEX-N-6D"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <line x1="56.2" y1="480.0" x2="553.8" y2="480.0" stroke="black" stroke-width="1" fill="none" marker-end="url(#prefig_Elvis-arrow-head-end-1_None_24_60-black)" marker-start="url(#prefig_Elvis-arrow-head-start-1_None_24_60-black)"/>
+  </g>
+  <g id="prefig_Elvis-__line-3">
+    <g transform="translate(455.0,455.0) rotate(0.0)">
+      <g id="prefig_Elvis-__label-1" transform="translate(50.0,4.0) translate(-5.2,-0.0)">
+        <g id="prefig_Elvis-__g-6">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+            <defs>
+              <path id="prefig_Elvis-MJX-3-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math">
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                  <use data-c="1D465" xlink:href="#prefig_Elvis-MJX-3-TEX-I-1D465"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <line x1="455.0" y1="455.0" x2="555.0" y2="455.0" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  </g>
+  <g id="prefig_Elvis-__line-4">
+    <g transform="translate(555.0,455.0) rotate(-90.0)">
+      <g id="prefig_Elvis-__label-2" transform="translate(179.0,4.0) rotate(90.0) translate(0.0,-0.0)">
+        <g id="prefig_Elvis-__g-7">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.632px" role="img" focusable="false" viewBox="0 -676 1333 698" x="0.0" y="0.0">
+            <defs>
+              <path id="prefig_Elvis-MJX-4-TEX-N-37" d="M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z"/>
+              <path id="prefig_Elvis-MJX-4-TEX-N-6D" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z"/>
+            </defs>
+            <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+              <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-annotation="clearspeak:unit" data-semantic-id="3" data-semantic-children="0,1" data-semantic-collapsed="(3 (c 2) 0 1)" data-semantic-speech="7 m">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="3" data-semantic-speech="7">
+                  <use data-c="37" xlink:href="#prefig_Elvis-MJX-4-TEX-N-37"/>
+                </g>
+                <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="latinletter" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="1" data-semantic-parent="3" data-semantic-speech="m" transform="translate(500,0)">
+                  <use data-c="6D" xlink:href="#prefig_Elvis-MJX-4-TEX-N-6D"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <line x1="555.0" y1="455.0" x2="555.0" y2="105.0" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  </g>
+  <g id="prefig_Elvis-__g-0">
+    <g id="prefig_Elvis-__label-3" transform="translate(483.0,432.9) translate(0.0,-12.9)">
+      <g id="prefig_Elvis-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="8.488px" height="12.944px" role="img" focusable="false" viewBox="0 -705 469 715" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_Elvis-MJX-5-TEX-I-1D703" d="M35 200Q35 302 74 415T180 610T319 704Q320 704 327 704T339 705Q393 701 423 656Q462 596 462 495Q462 380 417 261T302 66T168 -10H161Q125 -10 99 10T60 63T41 130T35 200ZM383 566Q383 668 330 668Q294 668 260 623T204 521T170 421T157 371Q206 370 254 370L351 371Q352 372 359 404T375 484T383 566ZM113 132Q113 26 166 26Q181 26 198 36T239 74T287 161T335 307L340 324H145Q145 321 136 286T120 208T113 132Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="theta">
+                <use data-c="1D703" xlink:href="#prefig_Elvis-MJX-5-TEX-I-1D703"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <path stroke="black" stroke-width="2" fill="none" d="M 463.2 426.2 L 463.6 426.3 L 464.0 426.4 L 464.4 426.5 L 464.7 426.6 L 465.1 426.7 L 465.5 426.9 L 465.8 427.0 L 466.2 427.2 L 466.5 427.3 L 466.9 427.5 L 467.2 427.6 L 467.6 427.8 L 467.9 427.9 L 468.3 428.1 L 468.6 428.3 L 469.0 428.5 L 469.3 428.6 L 469.7 428.8 L 470.0 429.0 L 470.3 429.2 L 470.7 429.4 L 471.0 429.6 L 471.3 429.8 L 471.7 430.0 L 472.0 430.3 L 472.3 430.5 L 472.6 430.7 L 472.9 430.9 L 473.2 431.2 L 473.5 431.4 L 473.8 431.7 L 474.1 431.9 L 474.4 432.1 L 474.7 432.4 L 475.0 432.7 L 475.3 432.9 L 475.6 433.2 L 475.9 433.5 L 476.1 433.7 L 476.4 434.0 L 476.7 434.3 L 477.0 434.6 L 477.2 434.8 L 477.5 435.1 L 477.7 435.4 L 478.0 435.7 L 478.2 436.0 L 478.5 436.3 L 478.7 436.6 L 479.0 436.9 L 479.2 437.2 L 479.4 437.6 L 479.6 437.9 L 479.9 438.2 L 480.1 438.5 L 480.3 438.8 L 480.5 439.2 L 480.7 439.5 L 480.9 439.8 L 481.1 440.2 L 481.3 440.5 L 481.5 440.9 L 481.6 441.2 L 481.8 441.5 L 482.0 441.9 L 482.1 442.2 L 482.3 442.6 L 482.5 442.9 L 482.6 443.3 L 482.8 443.7 L 482.9 444.0 L 483.1 444.4 L 483.2 444.7 L 483.3 445.1 L 483.4 445.5 L 483.6 445.8 L 483.7 446.2 L 483.8 446.6 L 483.9 447.0 L 484.0 447.3 L 484.1 447.7 L 484.2 448.1 L 484.3 448.5 L 484.4 448.8 L 484.4 449.2 L 484.5 449.6 L 484.6 450.0 L 484.6 450.4 L 484.7 450.7 L 484.7 451.1 L 484.8 451.5 L 484.8 451.9 L 484.9 452.3 L 484.9 452.7 L 484.9 453.1 L 485.0 453.4 L 485.0 453.8 L 485.0 454.2 L 485.0 454.6 L 485.0 455.0"/>
+  </g>
+  <g id="prefig_Elvis-__g-1">
+    <g id="prefig_Elvis-__label-4" transform="translate(50.0,460.0) translate(-13.8,-0.0)">
+      <g id="prefig_Elvis-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="13.832px" height="12.304px" role="img" focusable="false" viewBox="0 -680 764 680" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_Elvis-MJX-6-TEX-I-1D438" d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper E">
+                <use data-c="1D438" xlink:href="#prefig_Elvis-MJX-6-TEX-I-1D438"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="55.0" cy="455.0" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <g id="prefig_Elvis-__g-2">
+    <g id="prefig_Elvis-__label-5" transform="translate(450.0,450.0) translate(-11.7,-13.2)">
+      <g id="prefig_Elvis-__g-10">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="11.672px" height="13.160px" role="img" focusable="false" viewBox="0 -705 645 727" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_Elvis-MJX-7-TEX-I-1D446" d="M308 24Q367 24 416 76T466 197Q466 260 414 284Q308 311 278 321T236 341Q176 383 176 462Q176 523 208 573T273 648Q302 673 343 688T407 704H418H425Q521 704 564 640Q565 640 577 653T603 682T623 704Q624 704 627 704T632 705Q645 705 645 698T617 577T585 459T569 456Q549 456 549 465Q549 471 550 475Q550 478 551 494T553 520Q553 554 544 579T526 616T501 641Q465 662 419 662Q362 662 313 616T263 510Q263 480 278 458T319 427Q323 425 389 408T456 390Q490 379 522 342T554 242Q554 216 546 186Q541 164 528 137T492 78T426 18T332 -20Q320 -22 298 -22Q199 -22 144 33L134 44L106 13Q83 -14 78 -18T65 -22Q52 -22 52 -14Q52 -11 110 221Q112 227 130 227H143Q149 221 149 216Q149 214 148 207T144 186T142 153Q144 114 160 87T203 47T255 29T308 24Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper S">
+                <use data-c="1D446" xlink:href="#prefig_Elvis-MJX-7-TEX-I-1D446"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="455.0" cy="455.0" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <g id="prefig_Elvis-__g-3">
+    <g id="prefig_Elvis-__label-6" transform="translate(560.0,460.0) translate(0.0,-0.0)">
+      <g id="prefig_Elvis-__g-11">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.384px" width="13.736px" height="12.744px" role="img" focusable="false" viewBox="0 -683 759 704" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_Elvis-MJX-8-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper R">
+                <use data-c="1D445" xlink:href="#prefig_Elvis-MJX-8-TEX-I-1D445"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="555.0" cy="455.0" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <g id="prefig_Elvis-__g-4">
+    <g id="prefig_Elvis-__label-7" transform="translate(560.0,100.0) translate(0.0,-12.4)">
+      <g id="prefig_Elvis-__g-12">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="13.736px" height="12.360px" role="img" focusable="false" viewBox="0 -683 759 683" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig_Elvis-MJX-9-TEX-I-1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper B">
+                <use data-c="1D435" xlink:href="#prefig_Elvis-MJX-9-TEX-I-1D435"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <circle cx="555.0" cy="105.0" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+</svg>
