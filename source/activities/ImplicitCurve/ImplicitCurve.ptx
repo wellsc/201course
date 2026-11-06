@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>More Implicit Curves</title>
+<p>
+  In the equation <m>x^{3}-y^{3}=18 x y</m>, <m>y</m> is an implicitly
+  function of <m>x</m> (except at <m>(0,0)</m>). The graph of
+  <m>x^{3}-y^{3}=18 x y</m> is shown in <xref ref="fig_cubic_implicit"/>.
+</p>
+<figure xml:id="fig_cubic_implicit" >
+        <caption>An Implicit Curve</caption>
+        <image width="50%">
+                <description>
+                        <p>
+                                        A grid from -12 to 12 in each direction with the graph of the curve defined by <m>x^{3}-y^{3}=18xy</m>, with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.
+                        </p>
+                </description>
+                <xi:include href="./CubicImplicit.xml"/>
+        </image>
+</figure>
+<exercise>
+        <statement>
+                <p>
+        Verify that <m>(-9,9)</m>, <m>(-4,8)</m>, and <m>(-8,4)</m> are on the curve.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                        Calculate the derivative of <m>y</m> implicitly. That is, find <m>\frac{\di{y}}{\di{x}}</m> for the curve.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                        Find the equations of the tangent lines to the curve for each of the three given points.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                                Find the points where the tangent line at <m>(-9,9)</m> intersects each of the other two tangent lines.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                        Find the coordinates of any points where there is a horizontal tangent line.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                        Find the coordinates of any points where there is a vertical tangent line.
+                </p>
+        </statement>
+</exercise>
+<exercise>
+        <statement>
+                <p>
+                        For points on the curve near the point <m>(-9,9)</m>, estimate the value of <m>y</m> for <m>x=-8.9</m>.
+                </p>
+        </statement>
+</exercise>
+</worksheet>

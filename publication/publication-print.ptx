@@ -76,5 +76,6 @@
   <page>
     <geometry>letterpaper,margin=0.75in,headheight=0.25in,includefoot</geometry>
   </page>
+  <worksheet formatted="yes" />
 </latex>
 </publication>

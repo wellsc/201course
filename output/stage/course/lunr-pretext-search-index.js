@@ -1558,6 +1558,87 @@ var ptx_lunr_docs = [
   "body": "  Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .   "
 },
 {
+  "id": "activities-22",
+  "level": "1",
+  "url": "activities-22.html",
+  "type": "Worksheet",
+  "number": "3.20",
+  "title": "More Implicit Curves",
+  "body": " More Implicit Curves  In the equation , is an implicitly function of (except at ). The graph of is shown in .   An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})          Verify that , , and are on the curve.      Calculate the derivative of implicitly. That is, find for the curve.      Find the equations of the tangent lines to the curve for each of the three given points.      Find the points where the tangent line at intersects each of the other two tangent lines.      Find the coordinates of any points where there is a horizontal tangent line.      Find the coordinates of any points where there is a vertical tangent line.      For points on the curve near the point , estimate the value of for .    "
+},
+{
+  "id": "fig_cubic_implicit",
+  "level": "2",
+  "url": "activities-22.html#fig_cubic_implicit",
+  "type": "Figure",
+  "number": "57",
+  "title": "",
+  "body": " An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})       "
+},
+{
+  "id": "activities-22-4",
+  "level": "2",
+  "url": "activities-22.html#activities-22-4",
+  "type": "Worksheet Exercise",
+  "number": "3.20.1",
+  "title": "",
+  "body": "  Verify that , , and are on the curve.   "
+},
+{
+  "id": "activities-22-5",
+  "level": "2",
+  "url": "activities-22.html#activities-22-5",
+  "type": "Worksheet Exercise",
+  "number": "3.20.2",
+  "title": "",
+  "body": "  Calculate the derivative of implicitly. That is, find for the curve.   "
+},
+{
+  "id": "activities-22-6",
+  "level": "2",
+  "url": "activities-22.html#activities-22-6",
+  "type": "Worksheet Exercise",
+  "number": "3.20.3",
+  "title": "",
+  "body": "  Find the equations of the tangent lines to the curve for each of the three given points.   "
+},
+{
+  "id": "activities-22-7",
+  "level": "2",
+  "url": "activities-22.html#activities-22-7",
+  "type": "Worksheet Exercise",
+  "number": "3.20.4",
+  "title": "",
+  "body": "  Find the points where the tangent line at intersects each of the other two tangent lines.   "
+},
+{
+  "id": "activities-22-8",
+  "level": "2",
+  "url": "activities-22.html#activities-22-8",
+  "type": "Worksheet Exercise",
+  "number": "3.20.5",
+  "title": "",
+  "body": "  Find the coordinates of any points where there is a horizontal tangent line.   "
+},
+{
+  "id": "activities-22-9",
+  "level": "2",
+  "url": "activities-22.html#activities-22-9",
+  "type": "Worksheet Exercise",
+  "number": "3.20.6",
+  "title": "",
+  "body": "  Find the coordinates of any points where there is a vertical tangent line.   "
+},
+{
+  "id": "activities-22-10",
+  "level": "2",
+  "url": "activities-22.html#activities-22-10",
+  "type": "Worksheet Exercise",
+  "number": "3.20.7",
+  "title": "",
+  "body": "  For points on the curve near the point , estimate the value of for .   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
@@ -1580,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "57",
+  "number": "58",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1598,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "58",
+  "number": "59",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1607,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "59",
+  "number": "60",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1616,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "60",
+  "number": "61",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1625,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "61",
+  "number": "62",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
@@ -1643,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-2",
   "type": "Theorem",
-  "number": "62",
+  "number": "63",
   "title": "Constant Functions.",
   "body": " Constant Functions   For any constant, ,   "
 },
@@ -1652,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-3",
   "type": "Theorem",
-  "number": "63",
+  "number": "64",
   "title": "Power Functions.",
   "body": " Power Functions   For any constant, ,    "
 },
@@ -1661,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-4",
   "type": "Theorem",
-  "number": "64",
+  "number": "65",
   "title": "Sine.",
   "body": " Sine       "
 },
@@ -1670,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-5",
   "type": "Theorem",
-  "number": "65",
+  "number": "66",
   "title": "Cosine.",
   "body": " Cosine       "
 },
@@ -1679,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-6",
   "type": "Theorem",
-  "number": "66",
+  "number": "67",
   "title": "Natural Exponential.",
   "body": " Natural Exponential       "
 },
@@ -1697,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-2",
   "type": "Theorem",
-  "number": "67",
+  "number": "68",
   "title": "Constant Multiple.",
   "body": " Constant Multiple   For any constant and any differentiable function ,    "
 },
@@ -1706,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-3",
   "type": "Theorem",
-  "number": "68",
+  "number": "69",
   "title": "Sums and Differences.",
   "body": " Sums and Differences   For any differentiable functions and ,   "
 },
@@ -1715,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-4",
   "type": "Theorem",
-  "number": "69",
+  "number": "70",
   "title": "Products.",
   "body": " Products   For any differentiable functions and ,    "
 },
@@ -1724,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-5",
   "type": "Theorem",
-  "number": "70",
+  "number": "71",
   "title": "Quotients.",
   "body": " Quotients   For any differentiable functions and , for any where ,   "
 },
@@ -1733,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-6",
   "type": "Theorem",
-  "number": "71",
+  "number": "72",
   "title": "Compositions.",
   "body": " Compositions   For any differentiable functions and ,    "
 },
@@ -1760,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "72",
+  "number": "73",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -1769,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "73",
+  "number": "74",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },

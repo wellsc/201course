@@ -162,6 +162,7 @@
 <page>
     <geometry>margin=0.4in,includeheadfoot</geometry>
   </page>
+  <worksheet formatted="no"/>
   <!-- Replace the <latex> tag above with the one below to try these-->
   <!--
     <latex

@@ -1,0 +1,16 @@
+<p>
+  In the equation <m>x^{3}-y^{3}=18 x y</m>, <m>y</m> is an implicitly
+  function of <m>x</m> (except at <m>(0,0)</m>). The graph of
+  <m>x^{3}-y^{3}=18 x y</m> is shown in <xref ref="implicitCubic"/>
+</p>
+
+<p>
+  Verify that <m>(-9,9)</m>, <m>(-4,8)</m>, and <m>(-8,4)</m> are on the
+  curve. Calculate the derivative of <m>y</m> implicitly. That is, find
+  <m>\sdd{y}{x}</m> for the curve. Find the equations of the tangent
+  lines to the curve for each of the three given points. Find the
+  coordinates of any points where there is a horizontal tangent line.
+  Find the coordinates of any points where there is a vertical tangent
+  line. For points on the curve near the point <m>(-9,9)</m>, estimate
+  the value of <m>y</m> for <m>x=-8.9</m>.
+</p>
