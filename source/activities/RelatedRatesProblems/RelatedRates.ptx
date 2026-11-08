@@ -8,11 +8,11 @@
         <p>
           A circle is increasing in size over time in such a way that
           its radius is increasing at a rate of
-          \(0.03\frac{\text{cm}}{\text{s}}\).
+          <m>0.03\frac{\text{cm}}{\text{s}}</m>.
         </p>
         <p>
           At what rate is the area of the circle increasing when the
-          radius is 33 cm?
+                        radius is <m>33\text{cm}</m>?
         </p>
       		</statement>
 	</exercise>
@@ -21,13 +21,13 @@
 		<statement>
         <p>
           Gravel is being dumped from a conveyor belt into a pile at a
-          rate of \(30\frac{\text{ft}^{3}}{\text{min}}\). It forms a
+          rate of <m>30\frac{\text{ft}^{3}}{\text{min}}</m>. It forms a
           pile in the shape of a right circular cone whose base diameter
           and height are always equal.
         </p>
         <p>
           How fast is the height of the pile increasing when the pile is
-          \(19\) feet high?
+          <m>19</m> feet high?
         </p>
       		</statement>
 	</exercise>
@@ -37,11 +37,11 @@
         <p>
           A spotlight is shining on a wall. The spotlight is 10 feet
           from the wall and the angle between the spotlight and the
-          ground is increasing at a rate of 0.2 radians per second.
+                ground is increasing at a rate of <m>0.2</m> radians per second.
         </p>
         <p>
           How fast is the spot of light moving on the wall when the
-          angle is \(\frac{\pi}{4}\) radians?
+          angle is <m>\frac{\pi}{4}</m> radians?
         </p>
       		</statement>
 	</exercise>
@@ -54,8 +54,8 @@
           a radius of 4 feet and a length of 10 feet.
         </p>
         <p>
-          In a horizontal tank with radius \(R\) and length \(L\), when
-          the water has a depth of \(h\), the volume of water in the
+          In a horizontal tank with radius <m>R</m> and length <m>L</m>, when
+          the water has a depth of <m>h</m>, the volume of water in the
           tank is given by 
          <md>
                  <mrow>
