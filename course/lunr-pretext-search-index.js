@@ -1684,6 +1684,60 @@ var ptx_lunr_docs = [
   "body": " Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius and length , when the water has a depth of , the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?   "
 },
 {
+  "id": "goal",
+  "level": "1",
+  "url": "goal.html",
+  "type": "Worksheet",
+  "number": "3.22",
+  "title": "Optimization Problems",
+  "body": " Optimization Problems    A rectangular beam is to be cut from a cylindrical log of radius 30 cm. The strength , of the beam is given by the formula where is the width of the beam, is the height, and is a positive constant. Find the dimensions that should be used to create the beam of greatest strength.      A rectangular box with a square bottom and closed top is to be made from two materials. The material for the bottom and sides costs $0.005 per square centimeter and the material for the top costs $0.007 per square centimeter. If you are willing to spend $15 on the box, what is the largest volume it can contain?      A wire of length 20 cm is to be cut into two pieces; one is to be bent into the shape of a square, the other bent into the shape of an equilateral triangle. What is the largest combined area the two shapes can enclose? What is the smallest?      A soup can in the shape of a right circular cylinder is to be made from two materials. The material for the sides costs $0.0015 per square centimeter and the material for the two lids costs $0.0027 per square centimeter. The can must have a volume of 250 cubic centimeters. Find the dimensions of the can which minimize the cost of the can. Some suggestions:     Draw the can and label the dimensions.      Find the cost of the lids and the cost of the sides surface area is key here.      Determine a total cost function as a function of one variable.      Minimize the total cost.       According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)    "
+},
+{
+  "id": "goal-2",
+  "level": "2",
+  "url": "goal.html#goal-2",
+  "type": "Worksheet Exercise",
+  "number": "3.22.1",
+  "title": "",
+  "body": "  A rectangular beam is to be cut from a cylindrical log of radius 30 cm. The strength , of the beam is given by the formula where is the width of the beam, is the height, and is a positive constant. Find the dimensions that should be used to create the beam of greatest strength.   "
+},
+{
+  "id": "goal-3",
+  "level": "2",
+  "url": "goal.html#goal-3",
+  "type": "Worksheet Exercise",
+  "number": "3.22.2",
+  "title": "",
+  "body": "  A rectangular box with a square bottom and closed top is to be made from two materials. The material for the bottom and sides costs $0.005 per square centimeter and the material for the top costs $0.007 per square centimeter. If you are willing to spend $15 on the box, what is the largest volume it can contain?   "
+},
+{
+  "id": "goal-4",
+  "level": "2",
+  "url": "goal.html#goal-4",
+  "type": "Worksheet Exercise",
+  "number": "3.22.3",
+  "title": "",
+  "body": "  A wire of length 20 cm is to be cut into two pieces; one is to be bent into the shape of a square, the other bent into the shape of an equilateral triangle. What is the largest combined area the two shapes can enclose? What is the smallest?   "
+},
+{
+  "id": "goal-5",
+  "level": "2",
+  "url": "goal.html#goal-5",
+  "type": "Worksheet Exercise",
+  "number": "3.22.4",
+  "title": "",
+  "body": "  A soup can in the shape of a right circular cylinder is to be made from two materials. The material for the sides costs $0.0015 per square centimeter and the material for the two lids costs $0.0027 per square centimeter. The can must have a volume of 250 cubic centimeters. Find the dimensions of the can which minimize the cost of the can. Some suggestions:     Draw the can and label the dimensions.      Find the cost of the lids and the cost of the sides surface area is key here.      Determine a total cost function as a function of one variable.      Minimize the total cost.    "
+},
+{
+  "id": "goal-6",
+  "level": "2",
+  "url": "goal.html#goal-6",
+  "type": "Worksheet Exercise",
+  "number": "3.22.5",
+  "title": "",
+  "body": "  According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)   "
+},
+{
   "id": "handouts-2",
   "level": "1",
   "url": "handouts-2.html",
