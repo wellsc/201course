@@ -53,6 +53,7 @@
       <xi:include href="./activities/LadderNewGuy/LadderNewGuy.ptx"/>
       <xi:include href="./activities/ImplicitCurve/ImplicitCurve.ptx"/>
       <xi:include href="./activities/RelatedRatesProblems/RelatedRates.ptx"/>
+      <xi:include href="./activities/OptimizationProblems/OptimizationProblems.ptx"/>
 
     </chapter>
     <!--
