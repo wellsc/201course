@@ -1,0 +1,30 @@
+<diagram dimensions="(600,1000)" margins="15">
+  <definition>r(x)=25*x^3/864-25*x^2/72+59*x/54+2/3</definition>
+  <definition>P(t)=(r(t),t)</definition>
+  <definition>Q(t)=(-r(t),t)</definition>
+  <definition>h0=3</definition>
+  <definition>deltah=0.2</definition>
+  <definition>f(x)=h0-sqrt(r(h0)^2/9-x^2/9)</definition>
+  <definition>rad=((0,h0),(2*r(h0)/3,f(2*r(h0)/3)))</definition>
+  <coordinates bbox="(-3,-1,3,9)">
+    <parametric-curve function="P"
+                      domain="(0,8)"
+                      stroke="blue"/>
+    <parametric-curve function="Q"
+                      domain="(0,8)"
+                      stroke="blue"/>
+    <ellipse center="(0,0)" axes="(r(0),r(0)/3)" stroke="blue" />
+    <ellipse center="(0,8)" axes="(r(8),r(8)/3)" stroke="blue" />
+
+    <ellipse center="(0,h0-deltah)" axes="(r(h0),r(h0)/3)" fill="gray" stroke="black" opacity="0.4" />
+    <ellipse center="(0,h0)" axes="(r(h0),r(h0)/3)" fill="gray" stroke="black" opacity="0.8" />
+    <line endpoints="((r(h0)+0.2,h0),(r(h0)+0.4,h0))" />
+    <line endpoints="((r(h0)+0.2,h0-deltah),(r(h0)+0.4,h0-deltah))" />
+    <line endpoints="((r(h0)+0.3,h0-deltah),(r(h0)+0.3,h0))" arrows="2"/>
+    <label anchor="(r(h0)+0.5,h0-deltah/2)"><m>\Delta{}h</m></label>
+    <line endpoints="rad" arrows="1"><m>r\left(h\right)</m></line>
+    <line endpoints="((0,0),(0,h0))" arrows="2"><m>h</m></line>
+    
+  </coordinates>
+
+</diagram>
