@@ -1,0 +1,21 @@
+<diagram dimensions="(600,600)" margins="15">
+  <definition>C=(0,0)</definition>
+  <definition>r=(1125*sqrt(6)/pi)^(1/3)</definition>
+  <definition>start_angle=(3-2*sqrt(3))*pi/6</definition>
+  <definition>end_angle=(3+2*sqrt(3))*pi/6</definition>
+  <definition>start_point=r*(cos(start_angle),sin(start_angle))</definition>
+  <definition>end_point=r*(cos(end_angle),sin(end_angle))</definition>
+  
+  <coordinates bbox="(-(r+1),-(r+1),(r+1),(r+1))">
+    <path start="C" stroke="blue" thickness="5" closed="yes" >
+    <lineto point="start_point"/>
+    <arc center="C" radius="r" range="(start_angle, end_angle)"
+         degrees="no" />
+    <lineto point="C" />  
+    </path>
+    <!--
+    <line endpoints="(C,start_point)" thickness="0"><m>${round(r,6)}\text{cm}</m></line>
+    <angle-marker points="(start_point,C,end_point)" radius="40" arrow="yes"><m>\frac{2\pi}{\sqrt{3}}</m></angle-marker>
+    -->
+  </coordinates>
+</diagram>

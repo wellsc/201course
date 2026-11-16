@@ -26,6 +26,7 @@
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
   <latex-image-preamble>
+    \usepackage{siunitx}
     \usepackage{tikz, pgfplots}
     \usetikzlibrary{positioning,matrix,arrows}
     \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}

@@ -15,6 +15,11 @@
                         radius is <m>33\text{cm}</m>?
         </p>
       		</statement>
+                <answer>
+                        <p>
+                                <m>\left.\frac{\di{A}}{\di{t}}\right\rvert_{r=33\text{cm}} = 1.98\pi\text{cm}^{2}/\text{s}</m>.
+                        </p>
+                </answer>
 	</exercise>
       <exercise xml:id="dumping-gravel">
           <title>Dumping Gravel</title>
@@ -30,6 +35,11 @@
           <m>19</m> feet high?
         </p>
       		</statement>
+                <answer>
+                        <p>
+                                <m>\left.\frac{\di{h}}{\di{t}}\right\rvert_{h=19\text{ft}} = \frac{120}{361\pi}\text{ft}/\text{min}</m>.
+                        </p>
+                </answer>
 	</exercise>
       <exercise xml:id="speed-of-a-moving-spotlight">
           <title>Speed of a Moving Spotlight</title>
@@ -44,6 +54,11 @@
           angle is <m>\frac{\pi}{4}</m> radians?
         </p>
       		</statement>
+                <answer>
+                        <p>
+                                        Let <m>x</m> be the position of the spot. Then <m>\left.\frac{\di{x}}{\di{t}}\right\rvert_{\theta=\pi/4} = 4\text{ft}/\text{s}</m>.
+                        </p>
+                </answer>
 	</exercise>
       <exercise xml:id="filling-a-horizontal-cylindrical-tank">
           <title>Filling a Horizontal Cylindrical Tank</title>
