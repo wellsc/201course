@@ -1645,7 +1645,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.21",
   "title": "Related Rate Problems",
-  "body": " Related Rate Problems   Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?     Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?     Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?     Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius and length , when the water has a depth of , the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?    "
+  "body": " Related Rate Problems   Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?     .     Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?     .     Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?    Let be the position of the spot. Then .     Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius and length , when the water has a depth of , the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?    "
 },
 {
   "id": "change-in-area-for-a-circle",
@@ -1654,7 +1654,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.21.1",
   "title": "Change in Area for a Circle.",
-  "body": " Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?   "
+  "body": " Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?     .   "
 },
 {
   "id": "dumping-gravel",
@@ -1663,7 +1663,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.21.2",
   "title": "Dumping Gravel.",
-  "body": " Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?   "
+  "body": " Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?     .   "
 },
 {
   "id": "speed-of-a-moving-spotlight",
@@ -1672,7 +1672,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.21.3",
   "title": "Speed of a Moving Spotlight.",
-  "body": " Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?   "
+  "body": " Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?    Let be the position of the spot. Then .   "
 },
 {
   "id": "filling-a-horizontal-cylindrical-tank",
@@ -1736,6 +1736,24 @@ var ptx_lunr_docs = [
   "number": "3.22.5",
   "title": "",
   "body": "  According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)   "
+},
+{
+  "id": "activities-25",
+  "level": "1",
+  "url": "activities-25.html",
+  "type": "Worksheet",
+  "number": "3.23",
+  "title": "Blood Serum Concentration of a Drug",
+  "body": " Blood Serum Concentration of a Drug     For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let . Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.       "
+},
+{
+  "id": "activities-25-2-1",
+  "level": "2",
+  "url": "activities-25.html#activities-25-2-1",
+  "type": "Worksheet Exercise",
+  "number": "3.23.1",
+  "title": "",
+  "body": "  For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let . Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.     "
 },
 {
   "id": "handouts-2",
