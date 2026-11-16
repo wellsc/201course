@@ -72,7 +72,7 @@
     <!-- Worksheet headers and footers are children of that worksheet    -->
     <!-- element, each taking @left, @center, and @right whose values are -->
     <!-- the text to place in that position.  For example:               -->
-      <worksheet margin="0.5in">
+      <worksheet margin="0.75in">
         <first-page-header left="C. Wells, MTH 201" center="Name: ____________________" right="Date: ____________________"/>
         <first-page-footer center="Page 1"/>
         <running-header left="Worksheet"/>
@@ -160,7 +160,7 @@
   <!--   CLP, dyslexic-font, guide, texstyle.  Some are demos only.    -->
   <latex>
 <page>
-    <geometry>margin=0.4in,includeheadfoot</geometry>
+    <geometry>margin=0.5in,includeheadfoot</geometry>
   </page>
   <worksheet formatted="no"/>
   <!-- Replace the <latex> tag above with the one below to try these-->
