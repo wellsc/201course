@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Blood Serum Concentration of a Drug</title>
+
+  <page>
+          <exercise>
+            <introduction>
+                    <p>
+                            For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by <m>S(t)</m>, then 
+                            <m>S'(t)=-c\cdot S(t)</m> for some positive constant, <m>c</m>.
+                            </p>
+            </introduction>
+            <task>
+                    <statement>
+                            <p>
+                                            Let <m>S(t)=50\nexp{-0.4t}</m>. Calculate <m>S'(t)</m> and verify that it is a constant multiple of <m>S(t)</m>.
+                    </p>
+                    </statement>
+            </task>
+            <task>
+                    <introduction>
+                            <p>
+                                            For these questions, assume that the blood serum concentration, in µg per ml, is given by <m>S(t)=A\nexp{-kt}</m>, where <m>A</m> and <m>k</m> are positive constants and <m>t</m> is time in hours.
+                            </p>
+                    </introduction>
+                    <task>
+                    <statement>
+                            <p>
+                                           Calculate <m>S'(t)</m> and verify that it is a constant multiple of <m>S(t)</m>.
+                            </p>
+                    </statement>
+                    </task>
+                    <task>
+                            <statement>
+                                    <p>
+                                                    If the blood serum concentration of a particular drug at time <m>t=0</m> is <m>{0.75}\text{µg}/\text{ml}</m>, what can we conclude about the constants in <m>S(t)</m>?
+                                    </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                                    <p>
+                                                    If we also know that the blood serum concentration of the drug at time <m>t=20\text{hrs}</m> is <m>{0.375}\text{µg}/\text{ml}</m>, what can we conclude about the constants in <m>S(t)</m>?
+                                    </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                                    <p>
+                                                    Using both previous results, determine the formula for <m>S(t)</m> and find the rate, in <m>\text{µg}/\text{ml}</m> per hour, at which the drug is being eliminated at <m>t=5</m> hours.
+                                    </p>
+                            </statement>
+                    </task>
+            </task>
+          </exercise>
+
+  </page>
+</worksheet>
