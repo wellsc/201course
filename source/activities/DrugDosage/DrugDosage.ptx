@@ -14,7 +14,7 @@
             <task>
                     <statement>
                             <p>
-                                            Let <m>S(t)=50\nexp{-0.4t}</m>. Calculate <m>S'(t)</m> and verify that it is a constant multiple of <m>S(t)</m>.
+                                            Let <m>S(t)=50\nexp{-0.4t}</m> give the blood serum concentration, in µg per ml, where <m>t</m> is time in hours. Calculate <m>S'(t)</m> and verify that it is a constant multiple of <m>S(t)</m>.
                     </p>
                     </statement>
             </task>
