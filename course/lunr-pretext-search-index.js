@@ -1738,20 +1738,146 @@ var ptx_lunr_docs = [
   "body": "  According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)   "
 },
 {
-  "id": "activities-25",
+  "id": "decimals_and_sums",
   "level": "1",
-  "url": "activities-25.html",
+  "url": "decimals_and_sums.html",
   "type": "Worksheet",
   "number": "3.23",
+  "title": "Repeating Decimals and Summation",
+  "body": " Repeating Decimals and Summation   In this activity, we will answer the question Why is ? by using approximations and taking a limit, and we will develop notation and concepts that we will need for defining the definite integral of a function.     What do each of the first three s in mean?      What does the over-line in mean?      For notational ease, we will let be the approximation to that stops after digits past the decimal, so and , for example.  Note that      Express as a sum.      How would you express as a sum?     Note that each of the terms in our sums have the form where is some integer, for example,     Imagine a simple computer programming language where there is a function sum so that could be computed by sum(9\/10^k, k=1..4) . We call the index variable or just the index , and in this case, the lower summation limit (or just lower limit ) is and the upper limit is .     How would you express using the sum function?      How would you express using the sum function?     The mathematical notation for a sum such as we have just seen, called summation notation or sometimes sigma notation , uses a modified Greek capital (sigma), with the index variable and the lower limit placed below and the upper limit placed above (sometimes with the index variable repeated):     Express each of the above sums, and , using summation notation. That is, express and using summation notation.      Express using summation notation.    Note that , and, because for any non-zero , we adopt the convention that for a variable , .      What would the expression mean? Can you calculate the sum?      What would the expression mean? Can you calculate the sum?      What would the expression mean? Can you calculate the sum?    To make things a little easier to see for the next few steps in our process, we note that all the terms in our summations share a common factor of , so, We will let be defined so that , so, for example, , and to make a connection with something we did several weeks ago, we also note that where and .    Recall that for any , and for any positive integer , and so, as long as ,      Rewrite using and use that expression to rewrite .      Rewrite using and use that expression to rewrite .      Use to rewrite .      Let be any positive integer, and use to rewrite .      Let be any positive integer, and use the fact that to rewrite and simplify .     We are now set to explain why .    Note that . Using your result from , calculate .    "
+},
+{
+  "id": "decimals_and_sums-2-1",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "definite integral "
+},
+{
+  "id": "decimals_and_sums-3",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-3",
+  "type": "Worksheet Exercise",
+  "number": "3.23.1",
+  "title": "",
+  "body": "  What do each of the first three s in mean?   "
+},
+{
+  "id": "decimals_and_sums-4",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-4",
+  "type": "Worksheet Exercise",
+  "number": "3.23.2",
+  "title": "",
+  "body": "  What does the over-line in mean?   "
+},
+{
+  "id": "decimals_and_sums-5",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-5",
+  "type": "Worksheet Exercise",
+  "number": "3.23.3",
+  "title": "",
+  "body": "  For notational ease, we will let be the approximation to that stops after digits past the decimal, so and , for example.  Note that      Express as a sum.      How would you express as a sum?    "
+},
+{
+  "id": "decimals_and_sums-7",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-7",
+  "type": "Worksheet Exercise",
+  "number": "3.23.4",
+  "title": "",
+  "body": "  Imagine a simple computer programming language where there is a function sum so that could be computed by sum(9\/10^k, k=1..4) . We call the index variable or just the index , and in this case, the lower summation limit (or just lower limit ) is and the upper limit is .     How would you express using the sum function?      How would you express using the sum function?    "
+},
+{
+  "id": "decimals_and_sums-8",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "summation notation sigma notation "
+},
+{
+  "id": "decimals_and_sums-9",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-9",
+  "type": "Worksheet Exercise",
+  "number": "3.23.5",
+  "title": "",
+  "body": "  Express each of the above sums, and , using summation notation. That is, express and using summation notation.   "
+},
+{
+  "id": "decimals_and_sums-10",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-10",
+  "type": "Worksheet Exercise",
+  "number": "3.23.6",
+  "title": "",
+  "body": "  Express using summation notation.    Note that , and, because for any non-zero , we adopt the convention that for a variable , .   "
+},
+{
+  "id": "decimals_and_sums-11",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-11",
+  "type": "Worksheet Exercise",
+  "number": "3.23.7",
+  "title": "",
+  "body": "  What would the expression mean? Can you calculate the sum?   "
+},
+{
+  "id": "decimals_and_sums-12",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-12",
+  "type": "Worksheet Exercise",
+  "number": "3.23.8",
+  "title": "",
+  "body": "  What would the expression mean? Can you calculate the sum?   "
+},
+{
+  "id": "decimals_and_sums-13",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-13",
+  "type": "Worksheet Exercise",
+  "number": "3.23.9",
+  "title": "",
+  "body": "  What would the expression mean? Can you calculate the sum?   "
+},
+{
+  "id": "decimals_and_sums-15",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-15",
+  "type": "Worksheet Exercise",
+  "number": "3.23.10",
+  "title": "",
+  "body": "  Recall that for any , and for any positive integer , and so, as long as ,      Rewrite using and use that expression to rewrite .      Rewrite using and use that expression to rewrite .      Use to rewrite .      Let be any positive integer, and use to rewrite .      Let be any positive integer, and use the fact that to rewrite and simplify .    "
+},
+{
+  "id": "decimals_and_sums-17",
+  "level": "2",
+  "url": "decimals_and_sums.html#decimals_and_sums-17",
+  "type": "Worksheet Exercise",
+  "number": "3.23.11",
+  "title": "",
+  "body": "  Note that . Using your result from , calculate .   "
+},
+{
+  "id": "activities-26",
+  "level": "1",
+  "url": "activities-26.html",
+  "type": "Worksheet",
+  "number": "3.24",
   "title": "Blood Serum Concentration of a Drug",
   "body": " Blood Serum Concentration of a Drug     For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.       "
 },
 {
-  "id": "activities-25-2-1",
+  "id": "activities-26-2-1",
   "level": "2",
-  "url": "activities-25.html#activities-25-2-1",
+  "url": "activities-26.html#activities-26-2-1",
   "type": "Worksheet Exercise",
-  "number": "3.23.1",
+  "number": "3.24.1",
   "title": "",
   "body": "  For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.     "
 },
