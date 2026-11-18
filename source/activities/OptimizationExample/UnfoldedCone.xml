@@ -1,5 +1,7 @@
 <diagram dimensions="(600,600)" margins="15">
   <definition>C=(0,0)</definition>
+  <definition>thetaOpt=2*pi/sqrt(3)</definition>
+  <definition>thetaDiff=2*pi-thetaOpt</definition>
   <definition>r=(1125*sqrt(6)/pi)^(1/3)</definition>
   <definition>start_angle=(3-2*sqrt(3))*pi/6</definition>
   <definition>end_angle=(3+2*sqrt(3))*pi/6</definition>

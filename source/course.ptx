@@ -54,6 +54,7 @@
       <xi:include href="./activities/ImplicitCurve/ImplicitCurve.ptx"/>
       <xi:include href="./activities/RelatedRatesProblems/RelatedRates.ptx"/>
       <xi:include href="./activities/OptimizationProblems/OptimizationProblems.ptx"/>
+      <xi:include href="./activities/NineNinths/NineNinths.ptx"/>
       <xi:include href="./activities/DrugDosage/DrugDosage.ptx"/>
 
     </chapter>

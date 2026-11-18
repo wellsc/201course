@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="decimals_and_sums" xmlns:xi="http://www.w3.org/2001/XInclude" >
+  <title>Repeating Decimals and Summation</title>
+  <introduction>
+          <p>
+                          In this activity, we will answer the question <q>Why is <m>0.999\overline{9}=1</m>?</q> by using approximations and taking a limit, and we will develop notation and concepts that we will need for defining the <term>definite integral</term> of a function.
+          </p>
+  </introduction>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                          What do each of the first three <m>9</m>s in <m>0.999\overline{9}</m> mean?
+                  </p>
+          </statement>
+  </exercise>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                          What does the over-line in <m>0.999\overline{9}</m> mean?
+                  </p>
+          </statement>
+  </exercise>
+  <exercise>
+          <introduction>
+                  <p>
+                                  For notational ease, we will let <m>s_{n}</m> be the approximation to <m>0.999\overline{9}</m> that stops after <m>n</m> digits past the decimal, so <m>s_{4}=0.9999</m> and <m>s_{6}=0.999999</m>, for example.
+                  </p>
+                  <p>
+                                  Note that
+                          <md>
+                                  <mrow>
+                                          s_{4}&amp;=0.\!\!\overbrace{9999}^{4\text{ digits}}
+                                  </mrow>
+                                  <mrow>
+                                          &amp;=\frac{9}{10}+\frac{9}{100}+\frac{9}{1000}+\frac{9}{10000}
+                                  </mrow>
+                                  <mrow>
+                                                  &amp;=\frac{9}{10}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\frac{9}{10^{4}}.
+                                  </mrow>
+                          </md>
+                  </p>
+          </introduction>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                  Express <m>s_{8}=0.\!\overbrace{99999999}^{8\text{ digits}}</m> as a sum.
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                  How would you express <m>s_{24}=0.\!\overbrace{999\ldots99}^{24\text{ digits}}</m> as a sum?
+                          </p>
+                  </statement>
+          </task>
+  </exercise>
+  <p>
+          Note that each of the terms in our sums have the form <m>\frac{9}{10^{k}}</m> where <m>k</m> is some integer, for example,
+          <md>
+                  <mrow>
+                          s_{4}&amp;=\frac{9}{10}+\frac{9}{100}+\frac{9}{1000}+\frac{9}{10000}
+                  </mrow>
+                                  <mrow>
+                                                  &amp;=\frac{9}{10}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\frac{9}{10^{4}}.
+                                  </mrow>
+                                  <mrow>
+                                                  &amp;=\frac{9}{10^{1}}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\frac{9}{10^{4}}.
+                                  </mrow>
+          </md>
+  </p>
+  <exercise>
+          <introduction>
+                  <p>
+                                  Imagine a simple computer programming language where there is a function <c>sum</c> so that <m>\frac{9}{10^{1}}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\frac{9}{10^{4}}</m> could be computed by <c>sum(9/10^k, k=1..4)</c>. We call <m>k</m> the <term>index variable</term> or just the <term>index</term>, and in this case, the  <term>lower summation limit</term> (or just <term>lower limit</term>) is <m>1</m> and the <term>upper limit</term> is <m>4</m>.
+                  </p>
+          </introduction>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                  How would you express <m>s_{8}=0.\!\overbrace{99999999}^{8\text{ digits}}</m> using the <c>sum</c> function?
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                  How would you express <m>s_{24}=0.\!\overbrace{99\ldots9}^{24\text{ digits}}</m> using the <c>sum</c> function?
+                          </p>
+                  </statement>
+          </task>
+  </exercise>
+  <p>
+          The mathematical notation for a sum such as we have just seen, called <term>summation notation</term> or sometimes <term>sigma notation</term>, uses a modified Greek capital <m>\Sigma</m> (sigma), with the index variable and the lower limit placed below and the upper limit placed above (sometimes with the index variable repeated):
+          <md>
+                  <mrow>
+                          s_{4}&amp;=
+                          \frac{9}{10^{1}}+ \frac{9}{10^{2}}+ \frac{9}{10^{3}}+ \frac{9}{10^{4}}
+                  </mrow>
+                  <mrow>
+                                  &amp;=
+                          \sum_{k=1}^{k=4}\frac{9}{10^{k}}
+                          </mrow>
+                          <mrow>
+                                  &amp;=
+                          \sum_{k=1}^{4}\frac{9}{10^{k}}.
+                  </mrow>
+          </md>
+  </p>
+  <exercise workspace="0.5in">
+          <statement>
+                  <p>
+                          Express each of the above sums, <m>s_{8}</m> and <m>s_{24}</m>, using summation notation. That is, express <m>\left(\frac{9}{10}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\cdots+\frac{9}{10^{8}}\right)</m> and <m>\left(\frac{9}{10}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\cdots+\frac{9}{10^{24}}\right)</m> using summation notation.
+                  </p>
+          </statement>
+  </exercise>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                                  Express <m>1+x+x^{2}+x^{3}+x^{4}</m> using summation notation.
+                  </p>
+          </statement>
+          <hint>
+                  <p>
+                                  Note that <m>x^{1}=x</m>, and, because  <m>x^{0}=1</m> for any non-zero <m>x</m>, we adopt the convention that for a variable <m>x</m>, <m>x^{0}=1</m>.
+                  </p>
+          </hint>
+  </exercise>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                                  What would the expression <m>\sum_{j=1}^{4}\frac{1}{j}</m> mean? Can you calculate the sum?
+                  </p>
+          </statement>
+  </exercise>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                                  What would the expression <m>\sum_{k=1}^{4}\frac{k}{k+1}</m> mean? Can you calculate the sum?
+                  </p>
+          </statement>
+  </exercise>
+  <exercise workspace="0.2in">
+          <statement>
+                  <p>
+                          What would the expression <m>\sum_{k=-5}^{5}\frac{1}{k^{2}}</m> mean? Can you calculate the sum?
+                  </p>
+          </statement>
+  </exercise>
+  <p> To make things a little easier to see for the next few steps in our process, we note that all the terms in our summations <m>s_{n}</m> share a common factor of <m>\frac{9}{10}</m>, so, 
+          <md>
+                  <mrow>
+                          s_{4}&amp;=0.\!\!\overbrace{9999}^{4\text{ digits}}
+                  </mrow>
+                  <mrow>
+                                          &amp;=\frac{9}{10}+\frac{9}{10^{2}}+\frac{9}{10^{3}}+\frac{9}{10^{4}}.
+                  </mrow>
+                                  <mrow>
+                                                  &amp;=\frac{9}{10}\left(1+\frac{1}{10^{1}}+\frac{1}{10^{2}}+\frac{1}{10^{3}}\right)
+                                  </mrow>
+                                  <mrow>
+                                                  &amp;=\frac{9}{10}\left(\left(\frac{1}{10}\right)^{0}+\left(\frac{1}{10}\right)^{1}+\left(\frac{1}{10}\right)^{2}+\left(\frac{1}{10}\right)^{3}\right).
+                                  </mrow>
+          </md>
+                  We will let <m>T_{n}</m> be defined so that <m>s_{n}=\frac{9}{10}T_{n}</m>, so, for example, <m>T_{4}=\left(1+\frac{1}{10}+\left(\frac{1}{10}\right)^{2}+\left(\frac{1}{10}\right)^{3}\right)</m>,
+          and to make a connection with something we did several weeks ago, we also note that 
+          <md>
+                  <mrow>
+                          T_{4}&amp;=\left(\left(\frac{1}{10}\right)^{0}+\left(\frac{1}{10}\right)^{1}+\left(\frac{1}{10}\right)^{2}+\left(\frac{1}{10}\right)^{3}\right)
+                  </mrow>
+                  <mrow>
+          &amp;=\left(\left(1\right)^{3}\left(\frac{1}{10}\right)^{0}+\left(1\right)^{2}\left(\frac{1}{10}\right)^{1}+\left(1\right)^{1}\left(\frac{1}{10}\right)^{2}+\left(1\right)^{0}\left(\frac{1}{10}\right)^{3}\right).
+                  </mrow>
+                  <mrow>
+                                  &amp;=\left(x^{3}y^{0}+x^{2}y^{1}+x^{1}y^{2}+x^{0}y^{3}\right).
+                  </mrow>
+                  <mrow>
+                                  &amp;=\left(x^{3}+x^{2}y^{1}+x^{1}y^{2}+y^{3}\right),
+                  </mrow>
+          </md>
+                  where <m>x=1</m> and <m>y=\frac{1}{10}</m>.
+  </p>
+  <exercise>
+          <introduction>
+                  <p>
+                          Recall that for any <m>x,y</m>, and for any positive integer <m>N</m>, 
+                          <md>
+                                  <mrow>
+                                          (x-y)\sum_{k=0}^{N}\left(x^{N-k}y^{k}\right)&amp;=
+                                  (x-y)\left(x^{N}+x^{N-1}y+x^{N-2}y^{2}+\cdots+x^{2}y^{N-2}+xy^{N-1}+y^{N}\right)
+                                  </mrow>
+                                  <mrow>
+                                  &amp;=\left(x^{N+1}-y^{N+1}\right)
+                                  </mrow>
+                          </md>
+                                  and so, as long as <m>x\neq{}y</m>,
+                          <md>
+                                  <mrow>
+                                          \sum_{k=0}^{N}\left(x^{N-k}y^{k}\right)&amp;=
+                                  \left(x^{N}+x^{N-1}y+x^{N-2}y^{2}+\cdots+x^{2}y^{N-2}+xy^{N-1}+y^{N}\right)
+                                  </mrow>
+                                  <mrow number="yes" xml:id="finite_geom_xy">
+                                          &amp;=\frac{\left(x^{N+1}-y^{N+1}\right)}{x-y}
+                                  </mrow>
+                          </md>
+                  </p>
+          </introduction>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                          Rewrite <m>\left(x^{3}+x^{2}y+xy^{2}+y^{3}\right)</m> using <xref ref="finite_geom_xy"/> and use that expression to rewrite <m>T_{4}</m>.
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                          Rewrite <m>\left(x^{8}+x^{7}y+\cdots+xy^{7}+y^{8}\right)</m> using <xref ref="finite_geom_xy"/> and use that expression to rewrite <m>T_{8}</m>.
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                          Use <xref ref="finite_geom_xy"/> to rewrite <m>T_{24}</m>.
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in">
+                  <statement>
+                          <p>
+                                          Let <m>N</m> be any positive integer, and use <xref ref="finite_geom_xy"/> to rewrite <m>T_{N}</m>.
+                          </p>
+                  </statement>
+          </task>
+          <task workspace="0.3in" xml:id="task_simplify_sn">
+                  <statement>
+                          <p>
+                                          Let <m>N</m> be any positive integer, and use the fact that <m>s_{N}=\frac{9}{10}T_{N}</m> to rewrite and simplify <m>s_{N}</m>.
+                          </p>
+                  </statement>
+          </task>
+  </exercise>
+  <p>
+                  We are now set to explain why <m>0.99999\overline{9}=1</m>.
+  </p>
+  <exercise>
+          <statement>
+                  <p>
+                                  Note that <m>0.99999\overline{9}=\lim\limits_{N\to\infty}s_{N}</m>. Using your result from <xref ref="task_simplify_sn" text="type-local"/>, calculate <m>\lim\limits_{N\to\infty}s_{N}</m>.
+                  </p>
+          </statement>
+  </exercise>
+</worksheet>
