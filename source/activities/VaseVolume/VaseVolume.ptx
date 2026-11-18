@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="calculating-the-volume-of-a-vase">
+  <title>Calculating the Volume of a Vase</title>
+  <objectives xml:id="objective">
+    <title>Objectives</title>
+
+    <ul>
+            <li>
+                        <p>
+                                Estimate the volume of a (theoretical) vase by dividing the vase into small chunks and adding up their volumes. 
+                    </p>
+            </li>
+            <li>
+                        <p>
+                                Consider how a limit could be used to calculate the volume exactly.
+                    </p>
+            </li>
+    </ul>
+  </objectives>
+
+  <introduction xml:id="problem-description">
+    <title>Problem Description</title>
+    <p>
+      A vase has a height of 8 inches and a circular cross-section with
+                    the radius <m>r</m> (in inches) given by
+                    <md xml:id="eq_radius" number="yes">
+        r = \frac{25}{864}h^{3}-\frac{25}{72}{h}^{2}+\frac {59}{54}h+\frac{2}{3}.
+                            </md>
+                            where <m>h</m> is the height (in inches) above
+      the base, as shown below in <xref ref="gr_vase"/>.
+      </p>
+      <p>
+      Our goal in this activity is to find the volume of the vase.
+    </p>
+
+    <figure xml:id="gr_vase">
+      <caption>A vase with circular cross section.</caption>
+      <image width="50%">
+              <description>
+                      <p>
+                              A diagram showing a vase.
+                      </p>
+              </description>
+              <xi:include href="./vase.xml"/>
+      </image>
+    </figure>
+
+    <p>
+      Recall that the volume for a cylinder of (constant) radius
+      <m>R</m> and height <m>H</m> is given by <m>V=\pi R^2 H</m>.
+    </p>
+  </introduction>
+
+  <activity xml:id="activity">
+    <title>Activity</title>
+    <task xml:id="q_Max_Min_Vol">
+            <introduction>
+          <p>
+            Let's start by getting an upper and lower bound for the
+            volume of the vase:
+          </p>
+            </introduction>
+            <task>
+                    <introduction>
+                            <p>
+                            In this part we will obtain an upper limit for the volume of the vase.
+                            </p>
+                    </introduction>
+                    <task>
+                            <statement>
+                      <p>
+                        Where is the radius of the vase largest?
+                      </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                      <p>
+                        What is the radius at this point?
+                      </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                      <p>
+                        If the vase were a cylinder with this radius,
+                        what would the volume of the cylinder be?
+                      </p>
+                            </statement>
+                    </task>
+            </task>
+            <task>
+                    <introduction>
+                            <p>
+                            In this part we will obtain a lower limit for the volume of the vase.
+                            </p>
+                    </introduction>
+                    <task>
+                            <statement>
+                      <p>
+                        Where is the radius of the vase smallest?
+                      </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                      <p>
+                        What is the radius at this point?
+                      </p>
+                            </statement>
+                    </task>
+                    <task>
+                            <statement>
+                      <p>
+                        If the vase were a cylinder with this radius,
+                        what would the volume of the cylinder be?
+                      </p>
+                            </statement>
+                    </task>
+            </task>
+    </task>
+        <task>
+		<statement>
+          <p>
+            Calculate the radius of the vase at <m>h=0</m> (the base),
+            <m>h=2</m>, <m>h=4</m>, and <m>h=6</m>. Use the radius at
+            <m>h=0</m> as an estimate of the radius for the first two
+            inches of height, the radius at <m>h=2</m> as an estimate of
+            the radius for the next two inches of height, and so on. Add
+            up the volumes of these pieces to get an estimate of the
+            volume of the vase.
+          </p>
+        	</statement>
+</task>
+        <task>
+		<statement>
+          <p>
+            Calculate the radius of the vase at <m>h=8</m> (the top).
+            Use the radius at <m>h=2</m> as an estimate of the radius
+            for the first two inches of height, the radius at <m>h=4</m>
+            as an estimate of the radius for the next two inches of
+            height, and so on. Add up the volumes of these pieces to get
+            an estimate of the volume of the vase. How does this volume
+            compare to the volumes you found in <xref ref="q_Max_Min_Vol"/>?
+          </p>
+        	</statement>
+</task>
+        <task>
+		<statement>
+          <p>
+            Decide how can we improve on our estimate of the volume of
+            the vase and implement your plan.
+          </p>
+        	</statement>
+</task>
+        <task>
+		<statement>
+          <p>
+            How could we use a limit to calculate the volume of the vase
+            exactly?
+          </p>
+        	</statement>
+</task>
+  </activity>
+</worksheet>

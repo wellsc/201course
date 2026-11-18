@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="prefig_vase">
 <diagram dimensions="(600,1000)" margins="15">
   <definition>r(x)=25*x^3/864-25*x^2/72+59*x/54+2/3</definition>
   <definition>P(t)=(r(t),t)</definition>
@@ -28,3 +31,4 @@
   </coordinates>
 
 </diagram>
+</prefigure>
