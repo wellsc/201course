@@ -1414,11 +1414,29 @@ var ptx_lunr_docs = [
   "body": "  On the axes provided, sketch the graph of a single function , , that has all of the following characteristics, briefly explaining what each of the characteristic tells you about the graph.      is continuous;     ;     ;     ;     ;     for ;     ;     for ;     does not exist.     for ;     ;     for ;     is undefined;     for ;     ;     for ;     decreasing for ;     for ;     increasing for ;     for ;     for ;      A blank grid from -15 to 15 in the x direction and from -10 to 10 in the y direction. Gridlines are spaced one unit apart and tickmarks are every five units.           "
 },
 {
+  "id": "activities-20",
+  "level": "1",
+  "url": "activities-20.html",
+  "type": "Worksheet",
+  "number": "3.18",
+  "title": "Blood Serum Concentration of a Drug",
+  "body": " Blood Serum Concentration of a Drug     For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.       "
+},
+{
+  "id": "activities-20-2-1",
+  "level": "2",
+  "url": "activities-20.html#activities-20-2-1",
+  "type": "Worksheet Exercise",
+  "number": "3.18.1",
+  "title": "",
+  "body": "  For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.     "
+},
+{
   "id": "elvise",
   "level": "1",
   "url": "elvise.html",
   "type": "Worksheet",
-  "number": "3.18",
+  "number": "3.19",
   "title": "Get The Ball, Elvis!",
   "body": " Get The Ball, Elvis!   Tim Pennings, a mathematics professor, had a dog named Elvis (a Welsh Corgi), and Tim claims that Elvis seemed to know calculus. According to Tim, Elvis could solve optimization problems in particular, he could minimize the time it takes to fetch a ball that Tim throws into Lake Michigan for him.  In this activity, we will model and solve the optimization problem using calculus, and then analyze the problem to see if we can understand exactly how Elvis did it.  We will start with the following assumptions:  Elvis' running speed is 6.40 m\/s, and   Elvis' swimming speed is 1.90 m\/s.      A possible path for Elvis to follow.   A diagram of a possible path that Elvis might take.    E=(0,0)  R=(10,0)  B=(10,7)  S=(8,0)  d=(0,1\/2)     10\\text{m}  x  7\\text{m}  \\theta  E  S  R  B       The diagram in represents the basic set-up of the optimization problem. Elvis starts at the point marked The ball lands at the point marked The closest point on the shore to where the ball lands is marked (because we will use it as a reference point). After the ball is thrown, Elvis runs some distance (possibly zero meters) along the shore toward the reference point, and then swims directly toward the ball. (That is, runs some distance (possibly zero meters) along the shore toward the reference point, and then swims directly toward the ball. (That is, Elvis chooses the point labeled .)  Also, so that we are all using the same references, we will define to be the distance away from at which Elvis starts swimming. That is, is the distance between and .  We are also interested in the angle at which Elvis swims toward the ball, labeled as in the diagram.     Beginning with specific distances, find an optimal path, angle, and time, for Elvis to reach the ball. Then, experiment by varying the distances, solve the new problems, and generalize your results.  That is, eventually you want a complete generalization: Assuming that the ball lands at so that the nearest point on the shore is meters away from Elvis and the ball is meters away from the shore (where both and are constants ) predict the angle at which Elvis will swim toward the ball and verify your results.  Here is one way you might approach the problem:     Assume that the ball lands 7 meters out from a point 10 meters along the shore.  Develop a formula that gives the time for Elvis to reach the ball as a function of the distance from the reference point at which Elvis begins to swim.  Assign this function to the variable .      Graph . According to your graph, at approximately what distance, , from the reference point should Elvis start swimming to minimize the time require to reach the ball?  Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. How much time is required to reach the ball? Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. In particular,     what can you say about the value of at this point?      What can you say about the value of at this point?       Calculate the derivative of your time function, then use your answer to above to set up an equation for Maple to your answer to above to set up an equation for Maple to solve. Verify that your solution agrees with your answer to .      Find the time required for Elvis to swim to the ball if he follows the path you described.      Find the angle ( ) at which Elvis will have to swim to follow the path you determined. (Hint: It may be easier to see what is going on if you think about how the cosine of the angle is defined.)       Assume that the ball lands 7 meters out from a point 15 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.       Assume that the ball lands 7 meters out from a point 30 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.       Choose several more values for the starting distance between Tim and Elvis. For each, calculate the values of the optimal time, the distance (the distance away from Tim at which Elvis will start swimming), and the angle, at which Elvis will swim. Be systematic, and experiment until you find a pattern.      Assume that the ball lands 7 meters out from a point meters along the shore. (Here we are treating as a parameter . That is, is constant, but our results may depend on its value.) Based on the pattern you found:     predict the angle at which Elvis will swim toward the ball;      check your prediction with the values of that you already used. If necessary, modify your model and prediction so that it will work for every possible value of . (Your model and prediction may have to be conditional ; that is, you may have to say things like if is less than , or if the angle between Elvis and the ball is . ).       Assume that the ball lands meters out from a point meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.        (Extension) Re-solve the problem with Elvis' running speed, , and swimming speed, , as parameters.       (Extension) Have Elvis start some distance away from the shore, create a model, and solve. Verify that the previous situation is a limiting situation for when approaches zero.    "
 },
@@ -1436,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-3",
   "type": "Worksheet Exercise",
-  "number": "3.18.1",
+  "number": "3.19.1",
   "title": "",
   "body": "  Beginning with specific distances, find an optimal path, angle, and time, for Elvis to reach the ball. Then, experiment by varying the distances, solve the new problems, and generalize your results.  That is, eventually you want a complete generalization: Assuming that the ball lands at so that the nearest point on the shore is meters away from Elvis and the ball is meters away from the shore (where both and are constants ) predict the angle at which Elvis will swim toward the ball and verify your results.  Here is one way you might approach the problem:     Assume that the ball lands 7 meters out from a point 10 meters along the shore.  Develop a formula that gives the time for Elvis to reach the ball as a function of the distance from the reference point at which Elvis begins to swim.  Assign this function to the variable .      Graph . According to your graph, at approximately what distance, , from the reference point should Elvis start swimming to minimize the time require to reach the ball?  Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. How much time is required to reach the ball? Use calculus terms to describe the feature(s) of the graph that allow you to determine that the point you chose is in fact the minimum. In particular,     what can you say about the value of at this point?      What can you say about the value of at this point?       Calculate the derivative of your time function, then use your answer to above to set up an equation for Maple to your answer to above to set up an equation for Maple to solve. Verify that your solution agrees with your answer to .      Find the time required for Elvis to swim to the ball if he follows the path you described.      Find the angle ( ) at which Elvis will have to swim to follow the path you determined. (Hint: It may be easier to see what is going on if you think about how the cosine of the angle is defined.)    "
 },
@@ -1445,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-4",
   "type": "Worksheet Exercise",
-  "number": "3.18.2",
+  "number": "3.19.2",
   "title": "",
   "body": "  Assume that the ball lands 7 meters out from a point 15 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
 },
@@ -1454,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-5",
   "type": "Worksheet Exercise",
-  "number": "3.18.3",
+  "number": "3.19.3",
   "title": "",
   "body": "  Assume that the ball lands 7 meters out from a point 30 meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
 },
@@ -1463,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-6",
   "type": "Worksheet Exercise",
-  "number": "3.18.4",
+  "number": "3.19.4",
   "title": "",
   "body": "  Choose several more values for the starting distance between Tim and Elvis. For each, calculate the values of the optimal time, the distance (the distance away from Tim at which Elvis will start swimming), and the angle, at which Elvis will swim. Be systematic, and experiment until you find a pattern.   "
 },
@@ -1472,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-7",
   "type": "Worksheet Exercise",
-  "number": "3.18.5",
+  "number": "3.19.5",
   "title": "",
   "body": "  Assume that the ball lands 7 meters out from a point meters along the shore. (Here we are treating as a parameter . That is, is constant, but our results may depend on its value.) Based on the pattern you found:     predict the angle at which Elvis will swim toward the ball;      check your prediction with the values of that you already used. If necessary, modify your model and prediction so that it will work for every possible value of . (Your model and prediction may have to be conditional ; that is, you may have to say things like if is less than , or if the angle between Elvis and the ball is . ).    "
 },
@@ -1481,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-8",
   "type": "Worksheet Exercise",
-  "number": "3.18.6",
+  "number": "3.19.6",
   "title": "",
   "body": "  Assume that the ball lands meters out from a point meters along the shore.     Modify your time function to fit the new situation,      Determine where Elvis should enter the water to reach the ball most quickly, the ball most quickly,      Calculate the time it will take Elvis to reach the ball if he enters the water where you say he should, and      Determine the angle at which Elvis will swim toward the ball.    "
 },
@@ -1490,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-9",
   "type": "Worksheet Exercise",
-  "number": "3.18.7",
+  "number": "3.19.7",
   "title": "",
   "body": "   (Extension) Re-solve the problem with Elvis' running speed, , and swimming speed, , as parameters.   "
 },
@@ -1499,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "elvise.html#elvise-10",
   "type": "Worksheet Exercise",
-  "number": "3.18.8",
+  "number": "3.19.8",
   "title": "",
   "body": "   (Extension) Have Elvis start some distance away from the shore, create a model, and solve. Verify that the previous situation is a limiting situation for when approaches zero.   "
 },
@@ -1508,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ladder_new_person_wksht.html",
   "type": "Worksheet",
-  "number": "3.19",
+  "number": "3.20",
   "title": "More Ladders in Corners",
   "body": " More Ladders in Corners   Henry has to break in the new person in maintenance this week, and one of the things Henry has had to deal with is taking ladders around corners (again!).  The halls are wide enough that fitting around the corner isn't the problem. The trouble is that the new person doesn't slow down to go around corners! (At least the new person remembers to swing wide and hug the outside wall!)   The new person walks at a steady .    Henry has the new person leading the way with their ladder.    Assume that the ends of the ladder are always touching the two outer walls of the corner.        How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    We start by assigning variables and finding how they are related. Let be the distance (along the wall) that the new person is from the corner and let be how far Henry is (along the other wall of the outer corner) from the corner. Then, because the ladder is long, we know that   Next, we know that both and are (implicit) functions of time, . That is,   Using differentials and , know that , so we have and so We know since the new person is leading (so their distance from the wall is increasing), and we want to know . Solving for , we have So, to find the value of when , we need to know the value of when . Substituting into and solving, we get , so substituting for , , and , we get       How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    To find the value of when , we substitute into and get , so substituting for , , and , we get       What trend do you see in the value of as decreases? Does this make sense?    As decreases in magnitude, also decreases, becoming more negative.      Generalize by finding an expression that gives Henry's speed when Henry is at any distance, , from the wall.    Working from , we see that for any distance , we need to find the corresponding value of from , which gives us . Thus, for any ,       Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .    "
 },
@@ -1517,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-3",
   "type": "Worksheet Exercise",
-  "number": "3.19.1",
+  "number": "3.20.1",
   "title": "",
   "body": "  How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    We start by assigning variables and finding how they are related. Let be the distance (along the wall) that the new person is from the corner and let be how far Henry is (along the other wall of the outer corner) from the corner. Then, because the ladder is long, we know that   Next, we know that both and are (implicit) functions of time, . That is,   Using differentials and , know that , so we have and so We know since the new person is leading (so their distance from the wall is increasing), and we want to know . Solving for , we have So, to find the value of when , we need to know the value of when . Substituting into and solving, we get , so substituting for , , and , we get    "
 },
@@ -1526,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-4",
   "type": "Worksheet Exercise",
-  "number": "3.19.2",
+  "number": "3.20.2",
   "title": "",
   "body": "  How fast does Henry have to go to keep up with the new person when Henry is away from the corner?    To find the value of when , we substitute into and get , so substituting for , , and , we get    "
 },
@@ -1535,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-5",
   "type": "Worksheet Exercise",
-  "number": "3.19.3",
+  "number": "3.20.3",
   "title": "",
   "body": "  What trend do you see in the value of as decreases? Does this make sense?    As decreases in magnitude, also decreases, becoming more negative.   "
 },
@@ -1544,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-6",
   "type": "Worksheet Exercise",
-  "number": "3.19.4",
+  "number": "3.20.4",
   "title": "",
   "body": "  Generalize by finding an expression that gives Henry's speed when Henry is at any distance, , from the wall.    Working from , we see that for any distance , we need to find the corresponding value of from , which gives us . Thus, for any ,    "
 },
@@ -1553,90 +1571,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ladder_new_person_wksht.html#ladder_new_person_wksht-7",
   "type": "Worksheet Exercise",
-  "number": "3.19.5",
-  "title": "",
-  "body": "  Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .   "
-},
-{
-  "id": "activities-22",
-  "level": "1",
-  "url": "activities-22.html",
-  "type": "Worksheet",
-  "number": "3.20",
-  "title": "More Implicit Curves",
-  "body": " More Implicit Curves  In the equation , is an implicitly function of (except at ). The graph of is shown in .   An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})          Verify that , , and are on the curve.      Calculate the derivative of implicitly. That is, find for the curve.      Find the equations of the tangent lines to the curve for each of the three given points.      Find the points where the tangent line at intersects each of the other two tangent lines.      Find the coordinates of any points where there is a horizontal tangent line.      Find the coordinates of any points where there is a vertical tangent line.      For points on the curve near the point , estimate the value of for .    "
-},
-{
-  "id": "fig_cubic_implicit",
-  "level": "2",
-  "url": "activities-22.html#fig_cubic_implicit",
-  "type": "Figure",
-  "number": "57",
-  "title": "",
-  "body": " An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})       "
-},
-{
-  "id": "activities-22-4",
-  "level": "2",
-  "url": "activities-22.html#activities-22-4",
-  "type": "Worksheet Exercise",
-  "number": "3.20.1",
-  "title": "",
-  "body": "  Verify that , , and are on the curve.   "
-},
-{
-  "id": "activities-22-5",
-  "level": "2",
-  "url": "activities-22.html#activities-22-5",
-  "type": "Worksheet Exercise",
-  "number": "3.20.2",
-  "title": "",
-  "body": "  Calculate the derivative of implicitly. That is, find for the curve.   "
-},
-{
-  "id": "activities-22-6",
-  "level": "2",
-  "url": "activities-22.html#activities-22-6",
-  "type": "Worksheet Exercise",
-  "number": "3.20.3",
-  "title": "",
-  "body": "  Find the equations of the tangent lines to the curve for each of the three given points.   "
-},
-{
-  "id": "activities-22-7",
-  "level": "2",
-  "url": "activities-22.html#activities-22-7",
-  "type": "Worksheet Exercise",
-  "number": "3.20.4",
-  "title": "",
-  "body": "  Find the points where the tangent line at intersects each of the other two tangent lines.   "
-},
-{
-  "id": "activities-22-8",
-  "level": "2",
-  "url": "activities-22.html#activities-22-8",
-  "type": "Worksheet Exercise",
   "number": "3.20.5",
   "title": "",
-  "body": "  Find the coordinates of any points where there is a horizontal tangent line.   "
-},
-{
-  "id": "activities-22-9",
-  "level": "2",
-  "url": "activities-22.html#activities-22-9",
-  "type": "Worksheet Exercise",
-  "number": "3.20.6",
-  "title": "",
-  "body": "  Find the coordinates of any points where there is a vertical tangent line.   "
-},
-{
-  "id": "activities-22-10",
-  "level": "2",
-  "url": "activities-22.html#activities-22-10",
-  "type": "Worksheet Exercise",
-  "number": "3.20.7",
-  "title": "",
-  "body": "  For points on the curve near the point , estimate the value of for .   "
+  "body": "  Generalize further by making the other person's speed and the ladder length parameters . (That is, they can be any value but are treated as constants within the problem.)    Let be the length of the latter, and let the other person's speed be . Then we have   If we want to eliminate from the result, we can replace it with .   "
 },
 {
   "id": "activities-23",
@@ -1644,42 +1581,123 @@ var ptx_lunr_docs = [
   "url": "activities-23.html",
   "type": "Worksheet",
   "number": "3.21",
+  "title": "More Implicit Curves",
+  "body": " More Implicit Curves  In the equation , is an implicitly function of (except at ). The graph of is shown in .   An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})          Verify that , , and are on the curve.      Calculate the derivative of implicitly. That is, find for the curve.      Find the equations of the tangent lines to the curve for each of the three given points.      Find the points where the tangent line at intersects each of the other two tangent lines.      Find the coordinates of any points where there is a horizontal tangent line.      Find the coordinates of any points where there is a vertical tangent line.      For points on the curve near the point , estimate the value of for .    "
+},
+{
+  "id": "fig_cubic_implicit",
+  "level": "2",
+  "url": "activities-23.html#fig_cubic_implicit",
+  "type": "Figure",
+  "number": "57",
+  "title": "",
+  "body": " An Implicit Curve    A grid from -12 to 12 in each direction with the graph of the curve defined by , with points at negative nine comma nine, negative four comma eight, and negative eight comma four, as well as tangent lines to the curve at each of the points.     f(x,y)=x^3-18*x*y-y^3  p1 = (-9,9)  p2 = (-4,8)  p3 = (-8,4)  slope(x,y)=(x^2-6*y)\/(6*x+y^2)  l1(x)=slope(p1[0],p1[1])*(x-p1[0])+p1[1]  l2(x)=slope(p2[0],p2[1])*(x-p2[0])+p2[1]  l3(x)=slope(*p3)*(x-p3[0])+p3[1]  yv=6*2^(1\/3)  xv=-(yv*yv)\/6  v=(xv,yv)        p_{1}=(${p1[0]},${p1[1]})  p_{2}=(${p2[0]},${p2[1]})  p_{3}=(${p3[0]},${p3[1]})  x12=intersect((l1,l2),-7,(-8,-7))   x13=intersect((l1,l3),-11,(-12,-10))   x23=intersect((l2,l3),-24,(-25,-22))   x^3-y^3=18xy  Tangent at (${p1[0]},${p1[1]})  Tangent at (${p2[0]},${p2[1]})  Tangent at (${p3[0]},${p3[1]})       "
+},
+{
+  "id": "activities-23-4",
+  "level": "2",
+  "url": "activities-23.html#activities-23-4",
+  "type": "Worksheet Exercise",
+  "number": "3.21.1",
+  "title": "",
+  "body": "  Verify that , , and are on the curve.   "
+},
+{
+  "id": "activities-23-5",
+  "level": "2",
+  "url": "activities-23.html#activities-23-5",
+  "type": "Worksheet Exercise",
+  "number": "3.21.2",
+  "title": "",
+  "body": "  Calculate the derivative of implicitly. That is, find for the curve.   "
+},
+{
+  "id": "activities-23-6",
+  "level": "2",
+  "url": "activities-23.html#activities-23-6",
+  "type": "Worksheet Exercise",
+  "number": "3.21.3",
+  "title": "",
+  "body": "  Find the equations of the tangent lines to the curve for each of the three given points.   "
+},
+{
+  "id": "activities-23-7",
+  "level": "2",
+  "url": "activities-23.html#activities-23-7",
+  "type": "Worksheet Exercise",
+  "number": "3.21.4",
+  "title": "",
+  "body": "  Find the points where the tangent line at intersects each of the other two tangent lines.   "
+},
+{
+  "id": "activities-23-8",
+  "level": "2",
+  "url": "activities-23.html#activities-23-8",
+  "type": "Worksheet Exercise",
+  "number": "3.21.5",
+  "title": "",
+  "body": "  Find the coordinates of any points where there is a horizontal tangent line.   "
+},
+{
+  "id": "activities-23-9",
+  "level": "2",
+  "url": "activities-23.html#activities-23-9",
+  "type": "Worksheet Exercise",
+  "number": "3.21.6",
+  "title": "",
+  "body": "  Find the coordinates of any points where there is a vertical tangent line.   "
+},
+{
+  "id": "activities-23-10",
+  "level": "2",
+  "url": "activities-23.html#activities-23-10",
+  "type": "Worksheet Exercise",
+  "number": "3.21.7",
+  "title": "",
+  "body": "  For points on the curve near the point , estimate the value of for .   "
+},
+{
+  "id": "activities-24",
+  "level": "1",
+  "url": "activities-24.html",
+  "type": "Worksheet",
+  "number": "3.22",
   "title": "Related Rate Problems",
   "body": " Related Rate Problems   Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?     .     Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?     .     Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?    Let be the position of the spot. Then .     Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius and length , when the water has a depth of , the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?    "
 },
 {
   "id": "change-in-area-for-a-circle",
   "level": "2",
-  "url": "activities-23.html#change-in-area-for-a-circle",
+  "url": "activities-24.html#change-in-area-for-a-circle",
   "type": "Worksheet Exercise",
-  "number": "3.21.1",
+  "number": "3.22.1",
   "title": "Change in Area for a Circle.",
   "body": " Change in Area for a Circle   A circle is increasing in size over time in such a way that its radius is increasing at a rate of .  At what rate is the area of the circle increasing when the radius is ?     .   "
 },
 {
   "id": "dumping-gravel",
   "level": "2",
-  "url": "activities-23.html#dumping-gravel",
+  "url": "activities-24.html#dumping-gravel",
   "type": "Worksheet Exercise",
-  "number": "3.21.2",
+  "number": "3.22.2",
   "title": "Dumping Gravel.",
   "body": " Dumping Gravel   Gravel is being dumped from a conveyor belt into a pile at a rate of . It forms a pile in the shape of a right circular cone whose base diameter and height are always equal.  How fast is the height of the pile increasing when the pile is feet high?     .   "
 },
 {
   "id": "speed-of-a-moving-spotlight",
   "level": "2",
-  "url": "activities-23.html#speed-of-a-moving-spotlight",
+  "url": "activities-24.html#speed-of-a-moving-spotlight",
   "type": "Worksheet Exercise",
-  "number": "3.21.3",
+  "number": "3.22.3",
   "title": "Speed of a Moving Spotlight.",
   "body": " Speed of a Moving Spotlight   A spotlight is shining on a wall. The spotlight is 10 feet from the wall and the angle between the spotlight and the ground is increasing at a rate of radians per second.  How fast is the spot of light moving on the wall when the angle is radians?    Let be the position of the spot. Then .   "
 },
 {
   "id": "filling-a-horizontal-cylindrical-tank",
   "level": "2",
-  "url": "activities-23.html#filling-a-horizontal-cylindrical-tank",
+  "url": "activities-24.html#filling-a-horizontal-cylindrical-tank",
   "type": "Worksheet Exercise",
-  "number": "3.21.4",
+  "number": "3.22.4",
   "title": "Filling a Horizontal Cylindrical Tank.",
   "body": " Filling a Horizontal Cylindrical Tank   A cylindrical tank lies on its side, and it is being filled with water at a rate of 3 cubic feet per minute. The tank has a radius of 4 feet and a length of 10 feet.  In a horizontal tank with radius and length , when the water has a depth of , the volume of water in the tank is given by How fast is the water level rising when the water level is 2 feet deep?   "
 },
@@ -1688,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "goal.html",
   "type": "Worksheet",
-  "number": "3.22",
+  "number": "3.23",
   "title": "Optimization Problems",
   "body": " Optimization Problems    A rectangular beam is to be cut from a cylindrical log of radius 30 cm. The strength , of the beam is given by the formula where is the width of the beam, is the height, and is a positive constant. Find the dimensions that should be used to create the beam of greatest strength.      A rectangular box with a square bottom and closed top is to be made from two materials. The material for the bottom and sides costs $0.005 per square centimeter and the material for the top costs $0.007 per square centimeter. If you are willing to spend $15 on the box, what is the largest volume it can contain?      A wire of length 20 cm is to be cut into two pieces; one is to be bent into the shape of a square, the other bent into the shape of an equilateral triangle. What is the largest combined area the two shapes can enclose? What is the smallest?      A soup can in the shape of a right circular cylinder is to be made from two materials. The material for the sides costs $0.0015 per square centimeter and the material for the two lids costs $0.0027 per square centimeter. The can must have a volume of 250 cubic centimeters. Find the dimensions of the can which minimize the cost of the can. Some suggestions:     Draw the can and label the dimensions.      Find the cost of the lids and the cost of the sides surface area is key here.      Determine a total cost function as a function of one variable.      Minimize the total cost.       According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)    "
 },
@@ -1697,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "goal.html#goal-2",
   "type": "Worksheet Exercise",
-  "number": "3.22.1",
+  "number": "3.23.1",
   "title": "",
   "body": "  A rectangular beam is to be cut from a cylindrical log of radius 30 cm. The strength , of the beam is given by the formula where is the width of the beam, is the height, and is a positive constant. Find the dimensions that should be used to create the beam of greatest strength.   "
 },
@@ -1706,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "goal.html#goal-3",
   "type": "Worksheet Exercise",
-  "number": "3.22.2",
+  "number": "3.23.2",
   "title": "",
   "body": "  A rectangular box with a square bottom and closed top is to be made from two materials. The material for the bottom and sides costs $0.005 per square centimeter and the material for the top costs $0.007 per square centimeter. If you are willing to spend $15 on the box, what is the largest volume it can contain?   "
 },
@@ -1715,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "goal.html#goal-4",
   "type": "Worksheet Exercise",
-  "number": "3.22.3",
+  "number": "3.23.3",
   "title": "",
   "body": "  A wire of length 20 cm is to be cut into two pieces; one is to be bent into the shape of a square, the other bent into the shape of an equilateral triangle. What is the largest combined area the two shapes can enclose? What is the smallest?   "
 },
@@ -1724,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "goal.html#goal-5",
   "type": "Worksheet Exercise",
-  "number": "3.22.4",
+  "number": "3.23.4",
   "title": "",
   "body": "  A soup can in the shape of a right circular cylinder is to be made from two materials. The material for the sides costs $0.0015 per square centimeter and the material for the two lids costs $0.0027 per square centimeter. The can must have a volume of 250 cubic centimeters. Find the dimensions of the can which minimize the cost of the can. Some suggestions:     Draw the can and label the dimensions.      Find the cost of the lids and the cost of the sides surface area is key here.      Determine a total cost function as a function of one variable.      Minimize the total cost.    "
 },
@@ -1733,16 +1751,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "goal.html#goal-6",
   "type": "Worksheet Exercise",
-  "number": "3.22.5",
+  "number": "3.23.5",
   "title": "",
   "body": "  According to postal regulations, the girth plus the length of a parcel sent by mail may not exceed 108 in. What is the largest possible volume of a rectangular parcel with a square end that can be sent by mail? (Note: Girth is the perimeter of the square end.)   "
+},
+{
+  "id": "calculating-the-volume-of-a-vase",
+  "level": "1",
+  "url": "calculating-the-volume-of-a-vase.html",
+  "type": "Worksheet",
+  "number": "3.24",
+  "title": "Calculating the Volume of a Vase",
+  "body": " Calculating the Volume of a Vase   Objectives    Estimate the volume of a (theoretical) vase by dividing the vase into small chunks and adding up their volumes.    Consider how a limit could be used to calculate the volume exactly.      Problem Description  A vase has a height of 8 inches and a circular cross-section with the radius (in inches) given by where is the height (in inches) above the base, as shown below in .  Our goal in this activity is to find the volume of the vase.   A vase with circular cross section.    A diagram showing a vase.     r(x)=25*x^3\/864-25*x^2\/72+59*x\/54+2\/3  P(t)=(r(t),t)  Q(t)=(-r(t),t)  h0=3  deltah=0.2  f(x)=h0-sqrt(r(h0)^2\/9-x^2\/9)  rad=((0,h0),(2*r(h0)\/3,f(2*r(h0)\/3)))            \\Delta{}h  r\\left(h\\right)  h       Recall that the volume for a cylinder of (constant) radius and height is given by .    Activity    Let's start by getting an upper and lower bound for the volume of the vase:     In this part we will obtain an upper limit for the volume of the vase.     Where is the radius of the vase largest?      What is the radius at this point?      If the vase were a cylinder with this radius, what would the volume of the cylinder be?       In this part we will obtain a lower limit for the volume of the vase.     Where is the radius of the vase smallest?      What is the radius at this point?      If the vase were a cylinder with this radius, what would the volume of the cylinder be?        Calculate the radius of the vase at (the base), , , and . Use the radius at as an estimate of the radius for the first two inches of height, the radius at as an estimate of the radius for the next two inches of height, and so on. Add up the volumes of these pieces to get an estimate of the volume of the vase.      Calculate the radius of the vase at (the top). Use the radius at as an estimate of the radius for the first two inches of height, the radius at as an estimate of the radius for the next two inches of height, and so on. Add up the volumes of these pieces to get an estimate of the volume of the vase. How does this volume compare to the volumes you found in ?      Decide how can we improve on our estimate of the volume of the vase and implement your plan.      How could we use a limit to calculate the volume of the vase exactly?     "
+},
+{
+  "id": "objective",
+  "level": "2",
+  "url": "calculating-the-volume-of-a-vase.html#objective",
+  "type": "Objectives",
+  "number": "3.24",
+  "title": "Objectives",
+  "body": " Objectives    Estimate the volume of a (theoretical) vase by dividing the vase into small chunks and adding up their volumes.    Consider how a limit could be used to calculate the volume exactly.    "
+},
+{
+  "id": "gr_vase",
+  "level": "2",
+  "url": "calculating-the-volume-of-a-vase.html#gr_vase",
+  "type": "Figure",
+  "number": "58",
+  "title": "",
+  "body": " A vase with circular cross section.    A diagram showing a vase.     r(x)=25*x^3\/864-25*x^2\/72+59*x\/54+2\/3  P(t)=(r(t),t)  Q(t)=(-r(t),t)  h0=3  deltah=0.2  f(x)=h0-sqrt(r(h0)^2\/9-x^2\/9)  rad=((0,h0),(2*r(h0)\/3,f(2*r(h0)\/3)))            \\Delta{}h  r\\left(h\\right)  h      "
+},
+{
+  "id": "activity",
+  "level": "2",
+  "url": "calculating-the-volume-of-a-vase.html#activity",
+  "type": "Activity",
+  "number": "59",
+  "title": "Activity.",
+  "body": " Activity    Let's start by getting an upper and lower bound for the volume of the vase:     In this part we will obtain an upper limit for the volume of the vase.     Where is the radius of the vase largest?      What is the radius at this point?      If the vase were a cylinder with this radius, what would the volume of the cylinder be?       In this part we will obtain a lower limit for the volume of the vase.     Where is the radius of the vase smallest?      What is the radius at this point?      If the vase were a cylinder with this radius, what would the volume of the cylinder be?        Calculate the radius of the vase at (the base), , , and . Use the radius at as an estimate of the radius for the first two inches of height, the radius at as an estimate of the radius for the next two inches of height, and so on. Add up the volumes of these pieces to get an estimate of the volume of the vase.      Calculate the radius of the vase at (the top). Use the radius at as an estimate of the radius for the first two inches of height, the radius at as an estimate of the radius for the next two inches of height, and so on. Add up the volumes of these pieces to get an estimate of the volume of the vase. How does this volume compare to the volumes you found in ?      Decide how can we improve on our estimate of the volume of the vase and implement your plan.      How could we use a limit to calculate the volume of the vase exactly?    "
 },
 {
   "id": "decimals_and_sums",
   "level": "1",
   "url": "decimals_and_sums.html",
   "type": "Worksheet",
-  "number": "3.23",
+  "number": "3.25",
   "title": "Repeating Decimals and Summation",
   "body": " Repeating Decimals and Summation   In this activity, we will answer the question Why is ? by using approximations and taking a limit, and we will develop notation and concepts that we will need for defining the definite integral of a function.     What do each of the first three s in mean?      What does the over-line in mean?      For notational ease, we will let be the approximation to that stops after digits past the decimal, so and , for example.  Note that      Express as a sum.      How would you express as a sum?     Note that each of the terms in our sums have the form where is some integer, for example,     Imagine a simple computer programming language where there is a function sum so that could be computed by sum(9\/10^k, k=1..4) . We call the index variable or just the index , and in this case, the lower summation limit (or just lower limit ) is and the upper limit is .     How would you express using the sum function?      How would you express using the sum function?     The mathematical notation for a sum such as we have just seen, called summation notation or sometimes sigma notation , uses a modified Greek capital (sigma), with the index variable and the lower limit placed below and the upper limit placed above (sometimes with the index variable repeated):     Express each of the above sums, and , using summation notation. That is, express and using summation notation.      Express using summation notation.    Note that , and, because for any non-zero , we adopt the convention that for a variable , .      What would the expression mean? Can you calculate the sum?      What would the expression mean? Can you calculate the sum?      What would the expression mean? Can you calculate the sum?    To make things a little easier to see for the next few steps in our process, we note that all the terms in our summations share a common factor of , so, We will let be defined so that , so, for example, , and to make a connection with something we did several weeks ago, we also note that where and .    Recall that for any , and for any positive integer , and so, as long as ,      Rewrite using and use that expression to rewrite .      Rewrite using and use that expression to rewrite .      Use to rewrite .      Let be any positive integer, and use to rewrite .      Let be any positive integer, and use the fact that to rewrite and simplify .     We are now set to explain why .    Note that . Using your result from , calculate .    "
 },
@@ -1760,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-3",
   "type": "Worksheet Exercise",
-  "number": "3.23.1",
+  "number": "3.25.1",
   "title": "",
   "body": "  What do each of the first three s in mean?   "
 },
@@ -1769,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-4",
   "type": "Worksheet Exercise",
-  "number": "3.23.2",
+  "number": "3.25.2",
   "title": "",
   "body": "  What does the over-line in mean?   "
 },
@@ -1778,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-5",
   "type": "Worksheet Exercise",
-  "number": "3.23.3",
+  "number": "3.25.3",
   "title": "",
   "body": "  For notational ease, we will let be the approximation to that stops after digits past the decimal, so and , for example.  Note that      Express as a sum.      How would you express as a sum?    "
 },
@@ -1787,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-7",
   "type": "Worksheet Exercise",
-  "number": "3.23.4",
+  "number": "3.25.4",
   "title": "",
   "body": "  Imagine a simple computer programming language where there is a function sum so that could be computed by sum(9\/10^k, k=1..4) . We call the index variable or just the index , and in this case, the lower summation limit (or just lower limit ) is and the upper limit is .     How would you express using the sum function?      How would you express using the sum function?    "
 },
@@ -1805,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-9",
   "type": "Worksheet Exercise",
-  "number": "3.23.5",
+  "number": "3.25.5",
   "title": "",
   "body": "  Express each of the above sums, and , using summation notation. That is, express and using summation notation.   "
 },
@@ -1814,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-10",
   "type": "Worksheet Exercise",
-  "number": "3.23.6",
+  "number": "3.25.6",
   "title": "",
   "body": "  Express using summation notation.    Note that , and, because for any non-zero , we adopt the convention that for a variable , .   "
 },
@@ -1823,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-11",
   "type": "Worksheet Exercise",
-  "number": "3.23.7",
+  "number": "3.25.7",
   "title": "",
   "body": "  What would the expression mean? Can you calculate the sum?   "
 },
@@ -1832,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-12",
   "type": "Worksheet Exercise",
-  "number": "3.23.8",
+  "number": "3.25.8",
   "title": "",
   "body": "  What would the expression mean? Can you calculate the sum?   "
 },
@@ -1841,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-13",
   "type": "Worksheet Exercise",
-  "number": "3.23.9",
+  "number": "3.25.9",
   "title": "",
   "body": "  What would the expression mean? Can you calculate the sum?   "
 },
@@ -1850,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-15",
   "type": "Worksheet Exercise",
-  "number": "3.23.10",
+  "number": "3.25.10",
   "title": "",
   "body": "  Recall that for any , and for any positive integer , and so, as long as ,      Rewrite using and use that expression to rewrite .      Rewrite using and use that expression to rewrite .      Use to rewrite .      Let be any positive integer, and use to rewrite .      Let be any positive integer, and use the fact that to rewrite and simplify .    "
 },
@@ -1859,27 +1913,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "decimals_and_sums.html#decimals_and_sums-17",
   "type": "Worksheet Exercise",
-  "number": "3.23.11",
+  "number": "3.25.11",
   "title": "",
   "body": "  Note that . Using your result from , calculate .   "
-},
-{
-  "id": "activities-26",
-  "level": "1",
-  "url": "activities-26.html",
-  "type": "Worksheet",
-  "number": "3.24",
-  "title": "Blood Serum Concentration of a Drug",
-  "body": " Blood Serum Concentration of a Drug     For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.       "
-},
-{
-  "id": "activities-26-2-1",
-  "level": "2",
-  "url": "activities-26.html#activities-26-2-1",
-  "type": "Worksheet Exercise",
-  "number": "3.24.1",
-  "title": "",
-  "body": "  For many drugs (specifically those exhibiting first order pharmacokinetics), including most SSRIs, rate of elimination of the drug from the body is proportional to the blood serum concentration of the drug. That is, if the blood serum concentration, as a function of time, is given by , then for some positive constant, .     Let give the blood serum concentration, in µg per ml, where is time in hours. Calculate and verify that it is a constant multiple of .      For these questions, assume that the blood serum concentration, in µg per ml, is given by , where and are positive constants and is time in hours.     Calculate and verify that it is a constant multiple of .      If the blood serum concentration of a particular drug at time is , what can we conclude about the constants in ?      If we also know that the blood serum concentration of the drug at time is , what can we conclude about the constants in ?      Using both previous results, determine the formula for and find the rate, in per hour, at which the drug is being eliminated at hours.     "
 },
 {
   "id": "handouts-2",
@@ -1904,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#example_deriv_const_four",
   "type": "Example",
-  "number": "58",
+  "number": "60",
   "title": "",
   "body": "  Let . That is, no matter what value of we input into , the output will be . Then the derivative of is given by For every value of , . One way to think about this is that in the limit , the numerator is  , while the denominator is approaching  . This means that the expression is identical with except when . Thus,    "
 },
@@ -1922,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_of_constants",
   "type": "Theorem",
-  "number": "59",
+  "number": "61",
   "title": "Derivatives of Constant Functions.",
   "body": " Derivatives of Constant Functions   For any constant value , if (for all values of ), then .    The proof is identical to with replaced by .   "
 },
@@ -1931,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_derivs_powers_of_x",
   "type": "Theorem",
-  "number": "60",
+  "number": "62",
   "title": "Derivatives of Powers of <span class=\"process-math\">\\(x\\)<\/span>.",
   "body": " Derivatives of Powers of   For any non-zero real number , if , then .    We will examine three cases: when is a positive rational number, when is a negative rational number, and when is irrational.   Positive Rational  Let where is positive and rational, then there are positive integers, and so that , and thus . Then     Negative Rational  Let where is negative and rational, then there are positive integers, and so that , and thus . Then   At this point, our limit is the same as in the positive rational case except for the factor , and so making the same algebraic manipulations, we have     Irrational  We now examine the case where is not rational. We cannot calculate this derivative directly, but have to use the fact that the rational numbers are dense in the real numbers. Essentially, this means that there must be a sequence or rational numbers, so that .  We can then define function , and note that , and by continuity,     "
 },
@@ -1940,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#thm_deriv_sums_and_constant_multiples",
   "type": "Theorem",
-  "number": "61",
+  "number": "63",
   "title": "Sums and Constant Multiples of Derivatives.",
   "body": " Sums and Constant Multiples of Derivatives   Let and be any functions that have derivatives on a shared domain, and let and be any (constant) real numbers. Then    "
 },
@@ -1949,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handouts-3.html#handouts-3-8",
   "type": "Checkpoint",
-  "number": "62",
+  "number": "64",
   "title": "",
   "body": "  Find the derivative of .     .   "
 },
@@ -1967,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-2",
   "type": "Theorem",
-  "number": "63",
+  "number": "65",
   "title": "Constant Functions.",
   "body": " Constant Functions   For any constant, ,   "
 },
@@ -1976,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-3",
   "type": "Theorem",
-  "number": "64",
+  "number": "66",
   "title": "Power Functions.",
   "body": " Power Functions   For any constant, ,    "
 },
@@ -1985,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-4",
   "type": "Theorem",
-  "number": "65",
+  "number": "67",
   "title": "Sine.",
   "body": " Sine       "
 },
@@ -1994,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-5",
   "type": "Theorem",
-  "number": "66",
+  "number": "68",
   "title": "Cosine.",
   "body": " Cosine       "
 },
@@ -2003,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_basic.html#deriv_basic-6",
   "type": "Theorem",
-  "number": "67",
+  "number": "69",
   "title": "Natural Exponential.",
   "body": " Natural Exponential       "
 },
@@ -2021,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-2",
   "type": "Theorem",
-  "number": "68",
+  "number": "70",
   "title": "Constant Multiple.",
   "body": " Constant Multiple   For any constant and any differentiable function ,    "
 },
@@ -2030,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-3",
   "type": "Theorem",
-  "number": "69",
+  "number": "71",
   "title": "Sums and Differences.",
   "body": " Sums and Differences   For any differentiable functions and ,   "
 },
@@ -2039,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-4",
   "type": "Theorem",
-  "number": "70",
+  "number": "72",
   "title": "Products.",
   "body": " Products   For any differentiable functions and ,    "
 },
@@ -2048,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-5",
   "type": "Theorem",
-  "number": "71",
+  "number": "73",
   "title": "Quotients.",
   "body": " Quotients   For any differentiable functions and , for any where ,   "
 },
@@ -2057,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_combinations.html#deriv_combinations-6",
   "type": "Theorem",
-  "number": "72",
+  "number": "74",
   "title": "Compositions.",
   "body": " Compositions   For any differentiable functions and ,    "
 },
@@ -2084,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-2",
   "type": "Example",
-  "number": "73",
+  "number": "75",
   "title": "The Derivative of <span class=\"process-math\">\\(\\tan(x)\\)<\/span>.",
   "body": " The Derivative of   Let consider . Then    "
 },
@@ -2093,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "deriv_shortcuts-5.html#deriv_shortcuts-5-3",
   "type": "Example",
-  "number": "74",
+  "number": "76",
   "title": "The Derivative of <span class=\"process-math\">\\(\\sec(x)\\)<\/span>.",
   "body": " The Derivative of   Let . Then    "
 },
