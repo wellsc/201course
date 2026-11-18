@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is the publication file for a newly generated PreTeXt book.     -->
+<!-- By changing the values of attributes here, you can change how        -->
+<!-- the output looks and functions.  For the complete documentation      -->
+<!-- of publication-file options, see                                     -->
+<!-- https://pretextbook.org/doc/guide/html/publisher-file-reference.html -->
+
+<!-- Commented settings below illustrate some possible changes you can    -->
+<!-- make from the default values.  Unless a comment says otherwise, the  -->
+<!-- value shown in a commented entry is PreTeXt's default, and the       -->
+<!-- comment above it lists the other values you may use.                 -->
 
 <publication>
     <common>
@@ -7,23 +18,23 @@
     <!-- The default depends on the type of document.                     -->
       <chunking level="3" />
 
+    <!-- Depth of the table of contents, from 0 through 6.  A value of 0 -->
+    <!-- means no table of contents.  The default depends on the type of -->
+    <!-- document and the conversion.                                    -->
+      <!-- -->
+      <tableofcontents level="3" />
+
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project).  Each attribute takes "yes" or "no", and every one of     -->
     <!-- them defaults to "yes".  The entries below are a plausible example, -->
     <!-- not the defaults.                                                   -->
-        <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-        <exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />
-      <exercise-worksheet statement="yes" hint="yes" answer="no" solution="no" />
+            <!--<exercise-inline statement="yes" hint="yes" answer="no" solution="no" />-->
+            <!--<exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />-->
+            <!--<exercise-worksheet statement="yes" hint="yes" answer="no" solution="no" />-->
       <!--<exercise-reading statement="yes" hint="yes" answer="no" solution="no" />-->
       <!--<exercise-project statement="yes" hint="yes" answer="yes" solution="yes" />-->
-
-    <!-- Depth of the table of contents, from 0 through 6.  A value of 0 -->
-    <!-- means no table of contents.  The default depends on the type of -->
-    <!-- document and the conversion.                                    -->
-      <!-- -->
-      <tableofcontents level="3" />
 
     <!-- Style of fill-in-the-blanks.  Each attribute may be "underline", -->
     <!-- "box", or "shade".  Defaults are shown.                          -->
@@ -61,21 +72,110 @@
     <!-- Worksheet headers and footers are children of that worksheet    -->
     <!-- element, each taking @left, @center, and @right whose values are -->
     <!-- the text to place in that position.  For example:               -->
-      <worksheet margin="0.5in">
-        <first-page-header left="Name: __________" right="Date: __________"/>
+      <worksheet margin="0.75in" formatted="yes">
+        <first-page-header left="C. Wells, MTH 201" center="Name: ____________________" right="Date: ____________________"/>
         <first-page-footer center="Page 1"/>
         <running-header left="Worksheet"/>
         <running-footer center="continued"/>
       </worksheet>
     </common>
 
-    <html print='no'>
-            <css theme='default-modern'/>
-    </html>
+  <!-- Set where generated assets will be created.  The directory is -->
+  <!-- relative to the main source PreTeXt file.  The companion      -->
+  <!-- external directory is a fact of your source and is declared   -->
+  <!-- with directories/@external inside docinfo, not here.          -->
+  <source>
+    <!-- Path to the folder holding generated assets, relative to -->
+    <!-- your main source file.                                   -->
+    <directories generated="../generated-assets" />
+
+    <!-- Set which marked elements are included in this version.  The value -->
+    <!-- is a space-separated list of component names of your own choosing. -->
+    <!-- See
+    https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
+    <!-- In this example, we include the w1s components from the sample activity to show solutions. -->
+      <version include="w1s"/>
+
+    <!-- Optional source files are named by attributes on the source     -->
+    <!-- element itself, as filenames relative to the file holding your  -->
+    <!-- "pretext" element.  @customizations points to a file of         -->
+    <!-- "custom" elements; @private-solutions points to a file of       -->
+    <!-- hint/answer/solution meant for limited distribution.  As in:    -->
+    <!--
+      <source customizations="customizations.xml"
+              private-solutions="private-solutions.xml">
+    -->
+  </source>
+
+  <numbering>
+    <!-- The divisions element describes the numbering of divisions.   -->
+    <!-- @level is the deepest division that gets a number, 0 through  -->
+    <!-- 6 (chapter, section, subsection, and so on); it is also the   -->
+    <!-- maximum for every level below.  The default depends on the    -->
+    <!-- document type.  @chapter-start gives the number of the first  -->
+    <!-- chapter (not available with structural parts).                -->
+    <!-- @part-structure is "decorative" (the default) or              -->
+    <!-- "structural"; the latter restarts chapter numbering within    -->
+    <!-- each part.  Parts only matter if your book has them.          -->
+      <divisions level="4"/>
+
+    <!-- How many levels deep the numbering of these items runs.  Values -->
+    <!-- may not exceed the divisions @level above.  Defaults depend on  -->
+    <!-- the type of document.                                           -->
+      <blocks level="0" />
+      <equations level="0" />
+      <footnotes level="0" />
+
+    <!-- By default the "blocks" sequence above also numbers project-like  -->
+    <!-- items, figure-like items (figure/table/listing/list), inline      -->
+    <!-- exercises, and open problems.  Set @distinct="yes" (the default   -->
+    <!-- is "no") to give one of these groups its own independent sequence -->
+    <!-- of serial numbers, in which case its own @level applies.  While a -->
+    <!-- group shares the blocks count, its @level is ignored, which is    -->
+    <!-- why the "projects" entry below has no effect as written.          -->
+      <projects level="0" />
+      <!--<figures distinct="no" level="0" />-->
+      <!--<exercises distinct="no" level="0" />-->
+      <!--<openproblems distinct="no" level="0" />-->
+  </numbering>
+
+  <!-- LaTeX (and therefore PDF) specific options.                     -->
+  <!-- @print is "no" (an electronic PDF, the default) or "yes" (a PDF -->
+  <!--   set up for printing).                                         -->
+  <!-- @sides is "one" or "two"; the default follows @print.           -->
+  <!-- @open-odd applies only to one-sided output and keeps its page   -->
+  <!--   numbers in sync with the two-sided version; it is "no" (the   -->
+  <!--   default), "add-blanks", or "skip-pages".                      -->
+  <!-- @pageref is "yes" or "no", controlling whether page numbers     -->
+  <!--   appear in cross-references; the default follows @print.       -->
+  <!-- @font-size is 8, 9, 10, 11, 12, 14, 17, or 20 points; the       -->
+  <!--   default is 10.                                                -->
+  <!-- @draft is "no" (the default) or "yes" for LaTeX draft mode.     -->
+  <!-- @snapshot is "no" (the default) or "yes" to record the LaTeX    -->
+  <!--   packages in use.                                              -->
+  <!-- @link-highlight is "none" (the default) or "underline" to       -->
+  <!--   underline hyperlinks in the PDF.                              -->
+  <!-- @latex-style selects one of a few provided styles: AIM, chaos,  -->
+  <!--   CLP, dyslexic-font, guide, texstyle.  Some are demos only.    -->
 <latex print="yes">
   <page>
     <geometry>letterpaper,margin=0.75in,headheight=0.25in,includefoot</geometry>
+  <!--
+    <latex
+          print="no"
+          sides="one"
+          open-odd="no"
+          pageref="no"
+          font-size="10"
+          draft="no"
+          snapshot="no"
+          link-highlight="none"
+          latex-style="dyslexic-font"
+      >
+  -->
   </page>
-  <worksheet formatted="yes" />
 </latex>
+    <html print='no'>
+            <css theme='default-modern'/>
+    </html>
 </publication>

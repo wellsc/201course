@@ -9,8 +9,8 @@
     <target name="web" format="html" source='course.ptx'>
                         <stringparams author.tools="no" />
                 </target>
-                <target name="print" format="pdf" source="course.ptx" 
-                        publication="publication-print.ptx"  output-filename="course.pdf"/>
+                <target name="print" format="pdf" source='course.ptx' publication="publication-print.ptx" >
+                </target>
 
                 <target name="draft-web" format="html" source='course.ptx'>
                         <stringparams author.tools="yes" />
