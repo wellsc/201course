@@ -2420,6 +2420,60 @@ var ptx_lunr_docs = [
   "number": "5.2.4",
   "title": "Computation and Patterns.",
   "body": " Computation and Patterns   In this problem, you will calculate several derivatives (using shortcuts) and look for patterns in the derivatives.    Squares of Functions    Calculate the derivative of in two ways: first by using the pattern for derivatives of directly, and then using the fact that .    From the power rule, . Writing where , we can use the product rule,       Calculate the derivative of using the fact that .    Let , then       Calculate the derivative of using the fact that .           Let be a differentiable function (with derivative ) and calculate the derivative of .  Compare this result to your previous calculations.    Applying the pattern for products with , we get   If we let , we get , and if we let , we get .      Cubes of Functions    Calculate the derivative of using your previous work and the fact that .    Let and . Then       Calculate the derivative of using your previous work and the fact that .    Let and . Then       Let be a differentiable function (with derivative ) and calculate the derivative of .  Compare this result to your previous calculations.       It's easy to see that this is the same as for . It takes a little more work to see that , which is the same as what we got earlier.     "
+},
+{
+  "id": "progress_check_3",
+  "level": "1",
+  "url": "progress_check_3.html",
+  "type": "Worksheet",
+  "number": "5.3",
+  "title": "Progress Check 3",
+  "body": " Progress Check 3    Maximizing the Volume of a Box   A manufacturer is making boxes by cutting equal sized squares, size by , out of the four corners of a rectangular sheets of cardboard, folding up the sides, and taping them in place.   A Rectangular Sheet with Corners to be Cut Out    A diagram of a 30 by 48 rectangle with squares of size x by x cut out of each corner.     length=48  width=30  x=3  P=( (-length\/2,-width\/2), (-length\/2,width\/2), (length\/2,width\/2), (length\/2,-width\/2) )   ${length}  ${width}  ${length}  ${width}  x  ✂  x  x  x  x  x  x  x          Find a formula for the volume of the resulting box as a function of .      Find the value of that maximizes the volume of the box.      Determine the dimensions and volume of the optimal box.        Melting Ice Sheet   A sheet of ice is melting in such a way that the radius is decreasing at a rate of .     How fast is the area of the circle decreasing when the area of the circle is ?      How fast is the area of the circle decreasing when the area of the circle is ?      As time goes on, is the area decreasing more quickly, less quickly, or at a constant rate? Explain how you know.        Limits and Indeterminate Forms   For each of the following limits:   determine if the limit has an indeterminate form or not, and if it does, state what that form is (such as , , etc.);    evaluate the limit exactly\/analytically. (That is, not by using approximations or graphs.)                    Rewrite as                          Rewrite as              Make a hypothesis (you do not need to verify it!) about where is a positive integer.        Limits, Continuity, and Differentiability   The definitions of function, continuity, and differentiability can lead to some strange and unexpected situations. (For an extreme example, there is a strange function known as Thomae's function that is continuous at for every irrational , and discontinuous at for every irrational .)  In this problem, we explore some functions that are a little strange, but not horribly strange.     We saw in class that . Thus, has a removable discontinuity . Define the function by      Explain why is continuous for all real .      Calculate .      Can be repaired ? That is, is it possible to choose a value, , so that is a continuous function?         Tangent and Radial Lines of a Circle   For this problem, we will consider the circle centered at the origin with radius . The equation defining this circle is which implicitly defines as a function of (except at ).   The Circle with Radius 5 Centered at the Origin    The circle with radius 5 centered at the origin with the segment from the origin to the point (3,4) shown.     radius=5  P=(3,4)  C=(0,0)    ${radius}  (${C[0]},${C[1]})  (${P[0]},${P[1]})  x^{2}+y^{2}=25          Verify that is on the circle.      Find the equation of the tangent line to the circle at the point .      Find the equation of the radial line to the point . That is, the line through the center, , and the point .      Explain how you can tell from the equations of the two lines (without graphing!) that they are perpendicular.      Repeat for an unspecified point on the circle.      "
+},
+{
+  "id": "pc3_cut_out_box",
+  "level": "2",
+  "url": "progress_check_3.html#pc3_cut_out_box",
+  "type": "Worksheet Exercise",
+  "number": "5.3.1",
+  "title": "Maximizing the Volume of a Box.",
+  "body": " Maximizing the Volume of a Box   A manufacturer is making boxes by cutting equal sized squares, size by , out of the four corners of a rectangular sheets of cardboard, folding up the sides, and taping them in place.   A Rectangular Sheet with Corners to be Cut Out    A diagram of a 30 by 48 rectangle with squares of size x by x cut out of each corner.     length=48  width=30  x=3  P=( (-length\/2,-width\/2), (-length\/2,width\/2), (length\/2,width\/2), (length\/2,-width\/2) )   ${length}  ${width}  ${length}  ${width}  x  ✂  x  x  x  x  x  x  x          Find a formula for the volume of the resulting box as a function of .      Find the value of that maximizes the volume of the box.      Determine the dimensions and volume of the optimal box.    "
+},
+{
+  "id": "pc3_ice_sheet",
+  "level": "2",
+  "url": "progress_check_3.html#pc3_ice_sheet",
+  "type": "Worksheet Exercise",
+  "number": "5.3.2",
+  "title": "Melting Ice Sheet.",
+  "body": " Melting Ice Sheet   A sheet of ice is melting in such a way that the radius is decreasing at a rate of .     How fast is the area of the circle decreasing when the area of the circle is ?      How fast is the area of the circle decreasing when the area of the circle is ?      As time goes on, is the area decreasing more quickly, less quickly, or at a constant rate? Explain how you know.    "
+},
+{
+  "id": "pc3_lhopital",
+  "level": "2",
+  "url": "progress_check_3.html#pc3_lhopital",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3",
+  "title": "Limits and Indeterminate Forms.",
+  "body": " Limits and Indeterminate Forms   For each of the following limits:   determine if the limit has an indeterminate form or not, and if it does, state what that form is (such as , , etc.);    evaluate the limit exactly\/analytically. (That is, not by using approximations or graphs.)                    Rewrite as                          Rewrite as              Make a hypothesis (you do not need to verify it!) about where is a positive integer.    "
+},
+{
+  "id": "pc3_continuity",
+  "level": "2",
+  "url": "progress_check_3.html#pc3_continuity",
+  "type": "Worksheet Exercise",
+  "number": "5.3.4",
+  "title": "Limits, Continuity, and Differentiability.",
+  "body": " Limits, Continuity, and Differentiability   The definitions of function, continuity, and differentiability can lead to some strange and unexpected situations. (For an extreme example, there is a strange function known as Thomae's function that is continuous at for every irrational , and discontinuous at for every irrational .)  In this problem, we explore some functions that are a little strange, but not horribly strange.     We saw in class that . Thus, has a removable discontinuity . Define the function by      Explain why is continuous for all real .      Calculate .      Can be repaired ? That is, is it possible to choose a value, , so that is a continuous function?     "
+},
+{
+  "id": "pc3_implicit_circle",
+  "level": "2",
+  "url": "progress_check_3.html#pc3_implicit_circle",
+  "type": "Worksheet Exercise",
+  "number": "5.3.5",
+  "title": "Tangent and Radial Lines of a Circle.",
+  "body": " Tangent and Radial Lines of a Circle   For this problem, we will consider the circle centered at the origin with radius . The equation defining this circle is which implicitly defines as a function of (except at ).   The Circle with Radius 5 Centered at the Origin    The circle with radius 5 centered at the origin with the segment from the origin to the point (3,4) shown.     radius=5  P=(3,4)  C=(0,0)    ${radius}  (${C[0]},${C[1]})  (${P[0]},${P[1]})  x^{2}+y^{2}=25          Verify that is on the circle.      Find the equation of the tangent line to the circle at the point .      Find the equation of the radial line to the point . That is, the line through the center, , and the point .      Explain how you can tell from the equations of the two lines (without graphing!) that they are perpendicular.      Repeat for an unspecified point on the circle.    "
 }
 ]
 
