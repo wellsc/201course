@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet margin="0.5in" bottom="0.75in" xml:id="progress_check_3" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Progress Check 3</title>
+        <page>
+        <exercise workspace="0.5in" xml:id="pc3_cut_out_box">
+                <title>Maximizing the Volume of a Box</title>
+                <introduction>
+                        <p>
+                                A manufacturer is making boxes by cutting equal sized squares, size <m>x</m> by <m>x</m>, out of the four corners of a <m>30\text{cm}\times48\text{cm}</m> rectangular sheets of cardboard, folding up the sides, and taping them in place.
+                        </p>
+                        <figure xml:id="fig_pc3_cut_box">
+                                <caption>A Rectangular Sheet with Corners to be Cut Out</caption>
+                                <image width="50%">
+                                        <description>
+                                                <p>A diagram of a 30 by 48 rectangle with squares of size x by x cut out of each corner.</p>
+                                        </description>
+                                        <xi:include href="./cut_box.xml"/>
+                                </image>
+                        </figure>
+                </introduction>
+                <task>
+                        <statement>
+                        <p>
+                                        Find a formula for the volume of the resulting box as a function of <m>x</m>.
+                        </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                        <p>
+                                        Find the value of <m>x</m> that maximizes the volume of the box.
+                        </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                        <p>
+                                        Determine the dimensions and volume of the optimal box.
+                        </p>
+                        </statement>
+                </task>
+        </exercise>
+        </page>
+        <page>
+        <exercise workspace="0.5in" xml:id="pc3_ice_sheet">
+                <title>Melting Ice Sheet</title>
+                <introduction>
+                        <p>
+                                        A sheet of ice is melting in such a way that the radius is decreasing at a rate of <m>2\text{cm}/\text{hr}</m>.
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                                How fast is the area of the circle decreasing when the area of the circle is <m>300\text{cm}^{2}</m>?
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                                How fast is the area of the circle decreasing when the area of the circle is <m>500\text{cm}^{2}</m>?
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        As time goes on, is the area decreasing more quickly, less quickly, or at a constant rate? Explain how you know.
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        </page>
+        <page>
+        <exercise workspace="0.5in" xml:id="pc3_lhopital">
+                <title>Limits and Indeterminate Forms</title>
+                <introduction>
+                        <p>
+                                For each of the following limits:
+                                <ul>
+                                        <li>
+                                                <p>
+                                                        determine if the limit has an indeterminate form or not, and if it does, state what that form is (such as <q><m>\frac{0}{0}</m></q>, <q><m>\frac{+\infty}{-\infty}</m></q>, etc.);
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>
+                                                        evaluate the limit exactly/analytically. (That is, not by using approximations or graphs.)
+                                                </p>
+                                        </li>
+                                </ul>
+                        </p>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                        <m>
+                                                \lim\limits_{x\to 0}\nexp{-1/x^{2}}=
+                                        </m>
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        <m>
+                                                \lim\limits_{x\to 0}\frac{\nexp{-1/x^{2}}}{x}=
+                                        </m>
+                                </p>
+                        </statement>
+                        <hint>
+                                <p>
+                                                Rewrite as <m> \lim\limits_{x\to 0}\frac{\nexp{-1/x^{2}}}{x}=\lim\limits_{x\to 0}\frac{x^{-1}}{\nexp{\left(x^{-2}\right)}} </m>
+                                </p>
+                        </hint>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        <m>
+                                                \lim\limits_{x\to 0}\frac{\cos(x)-1}{x^2}=
+                                        </m>
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        <m>
+                                                \lim\limits_{x\to{}0}\frac{x\cos(x)-\sin(x)}{x^{2}}
+                                        </m>
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        <m>
+                                                \lim\limits_{x\to{}0^{+}}x\ln(x)=
+                                        </m>
+                                </p>
+                        </statement>
+                        <hint>
+                                <p>
+                                        Rewrite as <m> \lim\limits_{x\to{}0^{+}}x\ln(x)=\lim\limits_{x\to{}0^{+}}\frac{\ln(x)}{x^{-1}} </m>
+                                </p>
+                        </hint>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        <m> \lim\limits_{x\to{}0^{+}}x\big(\ln(x)\big)^{2}= </m>
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                        Make a hypothesis (you do not need to verify it!) about
+                                        <m>
+                                                \lim\limits_{x\to{}0^{+}}x\left(\ln(x)\right)^{n},
+                                        </m>
+                                                where <m>n</m> is a positive integer.
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        </page>
+        <page>
+        <exercise workspace="0.5in" xml:id="pc3_continuity">
+                <title>Limits, Continuity, and Differentiability</title>
+                <introduction>
+                        <p>
+                                        The definitions of function, continuity, and differentiability can lead to some strange and unexpected situations. (For an extreme example, there is a strange function known as <term>Thomae's function</term> that is continuous at <m>x=a</m> for every irrational <m>a</m>, and discontinuous  at <m>x=a</m> for every irrational <m>a</m>.)
+                        </p>
+                        <p>
+                                In this problem, we explore some functions that are a little strange, but not horribly strange.
+                        </p>
+                </introduction>
+                <task>
+                        <introduction>
+                                <p>
+                                                We saw in class that <m>\lim\limits_{x\to 0}\frac{\sin(x)}{x}=1</m>. Thus, <m>\sin(x)/x</m> has a <term>removable discontinuity</term>.
+                                        Define the function <m>s(x)</m> by
+                                        <md>
+                                                s(x)=\begin{cases}
+                                                \frac{\sin(x)}{x} &amp; x\neq 0 \\
+                                                1                 &amp; x=0.
+                                                \end{cases}
+                                        </md>
+                                </p>
+                        </introduction>
+                        <task>
+                                <statement>
+                                <p>
+                                                Explain why <m>s(x)</m> is continuous for all real <m>x</m>.
+                                </p>
+                                </statement>
+                        </task>
+                        <task>
+                                <statement>
+                                <p>
+                                                Calculate <m>\frac{\di{}}{\di{x}}s(x)</m>.
+                                </p>
+                                </statement>
+                        </task>
+                        <task>
+                                <statement>
+                                <p>
+                                        Can <m>\frac{\di{}}{\di{x}}s(x)</m> be <q>repaired</q>? That is, is it possible to choose a value, <m>\ell</m>, so that 
+                                        <md>
+                                                f(x)=\begin{cases}
+                                                s'(x)&amp; x\neq 0 \\
+                                                \ell                 &amp; x=0
+                                                \end{cases}
+                                        </md>
+                                        is a continuous function?
+
+                                </p>
+                                </statement>
+                        </task>
+                </task>
+        </exercise>
+        </page>
+        <page>
+        <exercise workspace="1.0in" xml:id="pc3_implicit_circle">
+                <title>Tangent and Radial Lines of a Circle</title>
+                <introduction>
+                        <p>
+                                For this problem, we will consider the circle centered at the origin with radius <m>5</m>. The equation defining this circle is
+                                <md>x^{2}+y^{2}=25</md>
+                                        which implicitly defines <m>y</m> as a function of <m>x</m> (except at <m>x=\pm 5</m>).
+                        </p>
+                        <figure xml:id="fig_pc3_implicit_circle">
+                                <caption>The Circle with Radius 5 Centered at the Origin</caption>
+                                <image width="50%">
+                                        <description>
+                                                <p>The circle with radius 5 centered at the origin with the segment from the origin to the point (3,4) shown.</p>
+                                        </description>
+                                        <xi:include href="./implicit_circle.xml"/>
+                                </image>
+                        </figure>
+                </introduction>
+                <task>
+                        <statement>
+                                <p>
+                                                Verify that <m>(3,-4)</m> is on the circle.
+                                </p>
+                        </statement>
+                </task>
+                <task xml:id="pc3_task_tangent_line">
+                        <statement>
+                                <p>
+                                                Find the equation of the tangent line to the circle at the point <m>(3,-4)</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task xml:id="pc3_task_radial_line">
+                        <statement>
+                                <p>
+                                                Find the equation of the <em>radial</em> line to the point <m>(3,-4)</m>. That is, the line through the center, <m>(0,0)</m>, and the point <m>(3,-4)</m>.
+                                </p>
+                        </statement>
+                </task>
+                <task xml:id="pc3_task_radial_tangent">
+                        <statement>
+                                <p>
+                                        Explain how you can tell from the equations of the two lines (without graphing!) that they are perpendicular.
+                                </p>
+                        </statement>
+                </task>
+                <task>
+                        <statement>
+                                <p>
+                                                Repeat <xref ref="pc3_task_tangent_line,pc3_task_radial_line,pc3_task_radial_tangent"/> for an unspecified point <m>(a,b)</m> on the circle.
+                                </p>
+                        </statement>
+                </task>
+        </exercise>
+        </page>
+</worksheet>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="prefig_pc3_cut_box">
+<diagram dimensions="(600,400)" margins="25">
+  <definition>length=48</definition>
+  <definition>width=30</definition>
+  <definition>x=3</definition>
+  <definition>
+    P=(
+    (-length/2,-width/2),
+    (-length/2,width/2),
+    (length/2,width/2),
+    (length/2,-width/2)
+    )</definition>
+  <coordinates bbox="(-0.6*length,-0.6*width,0.6*length,0.6*width)">
+    <line endpoints="(P[0],P[3])" alignment="s"><m>${length}</m></line>
+    <line endpoints="(P[0],P[1])" alignment="n"><m>${width}</m></line>
+    <line endpoints="(P[1],P[2])" alignment="n"><m>${length}</m></line>
+    <line endpoints="(P[2],P[3])" alignment="n"><m>${width}</m></line>
+      <line endpoints="(P[0]+(x,0),P[0]+(x,x))" 
+            rotate="90" 
+            alignment="s" 
+            offset="(0,-5)"
+             dash="4 4" ><m>x</m></line>
+      <line endpoints="(P[0]+(0,x),P[0]+(x,x))" 
+            alignment="s"  thickness="0" ><m>✂</m></line>
+      <line endpoints="(P[0]+(0,x),P[0]+(x,x))" 
+            alignment="n"  dash="4 4" ><m>x</m></line>
+      
+      <line endpoints="(P[1]+(x,0),P[1]+(x,-x))" 
+            rotate="-90" 
+            alignment="n" 
+            offset="(0,5)"
+             dash="4 4"><m>x</m></line>
+      <line endpoints="(P[1]+(x,-x),P[1]+(0,-x))" 
+            alignment="n"
+             dash="4 4" ><m>x</m></line>
+    
+      <line endpoints="(P[2]+(-x,0),P[2]+(-x,-x))" 
+            rotate="-90" 
+            alignment="s" 
+            offset="(0,-5)"
+             dash="4 4"><m>x</m></line>
+      <line endpoints="(P[2]+(-x,-x),P[2]+(0,-x))" 
+            alignment="s"
+             dash="4 4" ><m>x</m></line>
+
+      <line endpoints="(P[3]+(-x,0),P[3]+(-x,x))" 
+            rotate="-90" 
+            alignment="n" 
+            offset="(0,5)"
+             dash="4 4"><m>x</m></line>
+
+      <line endpoints="(P[3]+(-x,x),P[3]+(0,x))" 
+            alignment="n"
+             dash="4 4" ><m>x</m></line>
+
+  </coordinates>
+
+</diagram>
+</prefigure>

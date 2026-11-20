@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prefigure xmlns="https://prefigure.org" label="prefig_pc3_implicit_circle">
+<diagram dimensions="(600,600)" margins="15">
+  <definition>radius=5</definition>
+  <definition>P=(3,4)</definition>
+  <definition>C=(0,0)</definition>
+  
+  <coordinates bbox="(-6,-6,6,6)">
+    <circle center="C" radius="radius"/>
+    <line endpoints="(C,P)" dash="4 4"><m>${radius}</m></line>
+
+    <point p="C" fill="black" alignment="sw"><m>(${C[0]},${C[1]})</m></point>
+    <point p="P" fill="black"><m>(${P[0]},${P[1]})</m></point>
+    <label anchor="(5*cos(11*pi/12),5*sin(11*pi/12))" alignment="e"><m>x^{2}+y^{2}=25</m></label>
+  </coordinates>
+
+</diagram>
+</prefigure>
