@@ -25,6 +25,11 @@
                                         Find a formula for the volume of the resulting box as a function of <m>x</m>.
                         </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <md>v=x(48-2x)(30-2x)</md>
+                                </p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -32,6 +37,50 @@
                                         Find the value of <m>x</m> that maximizes the volume of the box.
                         </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <m>x=6</m>.
+                                </p>
+                        </answer>
+                        <solution>
+                                <p>
+                                                First, we note that the domain of <m>V</m> is <m>0\le x\le 15</m>.
+                                </p>
+                                <p>
+                                                Next, we will calculate <m>\frac{\di{V}}{\di{x}}</m> and determine critical values by finding where the derivative is undefined or zero.
+                                                <md>
+                                                        <mrow>
+                                                                V&amp;=x(48-2x)(30-2x)
+                                                        </mrow>
+                                                        <mrow>
+                                                                        &amp;=4x^{3}-156x^{2}+1440x
+                                                        </mrow>
+                                                </md>
+                                                so
+                                                <md>
+                                                        <mrow>
+                                                                \frac{\di{V}}{\di{x}}&amp;=12x^{2}-312x+1440
+                                                        </mrow>
+                                                        <mrow>
+                                                                        &amp;=12(x^{2}-26x+120)
+                                                        </mrow>
+                                                        <mrow>
+                                                                        &amp;=12(x-6)(x-20).
+                                                        </mrow>
+                                                </md>
+                                                Thus, the derivative is defined for all <m>x</m>, and the derivative is zero at <m>x=6</m> and <m>x=20</m>. The only critical value in our domain is <m>x=6</m>. Evaluating <m>V</m> at the critical point and at the end points of our domain we have
+                                                <md>
+                                                        <mrow>
+                                                                \left.V\right\rvert_{x=0}&amp;=0
+                                                                &amp;
+                                                                \left.V\right\rvert_{x=6}&amp;=3240
+                                                                &amp;
+                                                                \left.V\right\rvert_{x=15}&amp;=0
+                                                        </mrow>
+                                                </md>
+                                                        so the maximum occurs at <m>x=6</m>.
+                                </p>
+                        </solution>
                 </task>
                 <task>
                         <statement>
@@ -39,6 +88,11 @@
                                         Determine the dimensions and volume of the optimal box.
                         </p>
                         </statement>
+                        <answer>
+                                <p>
+                                                The box will have dimensions <m>36\text{cm}\times18\text{cm}\times6\text{cm}</m> and a volume of <m>3240\text{cm}^{3}</m>.
+                                </p>
+                        </answer>
                 </task>
         </exercise>
         </page>
@@ -56,6 +110,19 @@
                                                 How fast is the area of the circle decreasing when the area of the circle is <m>300\text{cm}^{2}</m>?
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <md>
+                                                <mrow>
+                                                \left.\frac{\di{A}}{\di{t}}\right\rvert_{A=300}
+                                                        &amp;=-4\sqrt{300\pi}
+                                                </mrow>
+                                                <mrow>
+                                                                &amp;\approx -122.799205\text{cm}^{2}/\text{s}
+                                                </mrow>
+                                        </md>
+                                </p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -63,6 +130,19 @@
                                                 How fast is the area of the circle decreasing when the area of the circle is <m>500\text{cm}^{2}</m>?
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        <md>
+                                                <mrow>
+                                                \left.\frac{\di{A}}{\di{t}}\right\rvert_{A=500}
+                                                        &amp;=-4\sqrt{500\pi}
+                                                </mrow>
+                                                <mrow>
+                                                                &amp;\approx -158.5330919\text{cm}^{2}/\text{s}
+                                                </mrow>
+                                        </md>
+                                </p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -70,6 +150,11 @@
                                         As time goes on, is the area decreasing more quickly, less quickly, or at a constant rate? Explain how you know.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>
+                                        The area decreases more slowly over time.
+                                </p>
+                        </answer>
                 </task>
         </exercise>
         </page>
@@ -101,6 +186,9 @@
                                         </m>
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>0</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -115,6 +203,9 @@
                                                 Rewrite as <m> \lim\limits_{x\to 0}\frac{\nexp{-1/x^{2}}}{x}=\lim\limits_{x\to 0}\frac{x^{-1}}{\nexp{\left(x^{-2}\right)}} </m>
                                 </p>
                         </hint>
+                        <answer>
+                                <p><m>0</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -124,6 +215,9 @@
                                         </m>
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>-\frac{1}{2}</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -133,6 +227,9 @@
                                         </m>
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>0</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -147,6 +244,9 @@
                                         Rewrite as <m> \lim\limits_{x\to{}0^{+}}x\ln(x)=\lim\limits_{x\to{}0^{+}}\frac{\ln(x)}{x^{-1}} </m>
                                 </p>
                         </hint>
+                        <answer>
+                                <p><m>0</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -154,6 +254,9 @@
                                         <m> \lim\limits_{x\to{}0^{+}}x\big(\ln(x)\big)^{2}= </m>
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>0</m></p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -205,6 +308,17 @@
                                                 Calculate <m>\frac{\di{}}{\di{x}}s(x)</m>.
                                 </p>
                                 </statement>
+                                <answer>
+                                        <p>
+                                                <md>
+                                                        <mrow>
+                                                                \frac{\di{}}{\di{x}}s(x)
+                                                                &amp;=
+                                                                \frac{x\cos(x)-sin(x)}{x^{2}}
+                                                        </mrow>
+                                                </md>
+                                        </p>
+                                </answer>
                         </task>
                         <task>
                                 <statement>
@@ -220,6 +334,9 @@
 
                                 </p>
                                 </statement>
+                                <answer>
+                                        <p>Yes. Let <m>\ell =0</m>.</p>
+                                </answer>
                         </task>
                 </task>
         </exercise>
@@ -256,6 +373,9 @@
                                                 Find the equation of the tangent line to the circle at the point <m>(3,-4)</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>y=\frac{3}{4}(x-3)-4</m>.</p>
+                        </answer>
                 </task>
                 <task xml:id="pc3_task_radial_line">
                         <statement>
@@ -263,6 +383,9 @@
                                                 Find the equation of the <em>radial</em> line to the point <m>(3,-4)</m>. That is, the line through the center, <m>(0,0)</m>, and the point <m>(3,-4)</m>.
                                 </p>
                         </statement>
+                        <answer>
+                                <p><m>y=\frac{-4}{3}x</m>.</p>
+                        </answer>
                 </task>
                 <task xml:id="pc3_task_radial_tangent">
                         <statement>
@@ -270,6 +393,9 @@
                                         Explain how you can tell from the equations of the two lines (without graphing!) that they are perpendicular.
                                 </p>
                         </statement>
+                        <answer>
+                                <p>The product of the slopes is <m>-1</m>.</p>
+                        </answer>
                 </task>
                 <task>
                         <statement>
@@ -278,6 +404,11 @@
                                 </p>
                         </statement>
                 </task>
+                <answer>
+                        <p>
+                                        The tangent line will have equation <m>y=\frac{-a}{b}(x-a)+b</m> and the radial line will have equation <m>y=\frac{b}{a}x</m>.
+                        </p>
+                </answer>
         </exercise>
         </page>
 </worksheet>
